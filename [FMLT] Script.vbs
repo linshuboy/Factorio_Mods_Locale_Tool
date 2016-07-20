@@ -503,20 +503,43 @@ Class Multilanguage_Echo
     End Function
 
     Public Sub Print(ByRef intType, ByVal strEcho)
-        Dim intTmp
+        Dim intLen, intPos(1), strChar, intTmp
         If intType >= 1 Then
             'Left align with levels
+            strEcho = Replace(strEcho, vbCrlf, vbLf)
+            strEcho = Replace(strEcho, vbCr, vbLf)
             strEcho = Space(3*(intType-1)) & ">> " & _
-                Replace(strEcho, vbLf, vbCrLf & Space(3*intType))
+                Replace(strEcho, vbLf, vbLf & Space(3*intType))
+            intPos(1) = 1
+            Do While intPos(1) <= Len(strEcho)
+                strChar = Mid(strEcho, intPos(1), 1)
+                intTmp = LenW(strChar)
+                If strChar = vbTab Then intTmp = 5
+                If strChar = vbLf Then
+                    intPos(0) = intPos(1) + 1
+                    intPos(1) = intPos(0) + 3*intType
+                    intLen = 3*intType
+                ElseIf intLen + intTmp > intWidth Then
+                    strEcho = Left(strEcho, intPos(1)-1) & vbLf & _
+                        Space(3*intType) & Mid(strEcho, intPos(1))
+                    intPos(0) = intPos(1) + 3*intType + 1
+                    intPos(1) = intPos(0) + 3*intType
+                    intLen = 3*intType
+                Else
+                    intLen = intLen + intTmp
+                    intPos(1) = intPos(1) + 1
+                End If
+            Loop
+            strEcho = Replace(strEcho, vbLf, vbCrlf)
         ElseIf intType = 0 Then
             'Center align
-            intTmp = intWidth - LenW(strEcho)
-            If intTmp < 0 Then intTmp = 0
-            strEcho = Space(Int(intTmp/2)) & strEcho
+            intLen = intWidth - LenW(strEcho)
+            If intLen < 0 Then intLen = 0
+            strEcho = Space(Int(intLen/2)) & strEcho
         ElseIf intType = -1 Then
             'Fill a row
-            If LenW(strEcho) > 0 Then strEcho = Left(String(_
-                Int(intWidth/LenW(strEcho))+1, strEcho), intWidth)
+            If LenW(strEcho) > 0 Then strEcho = _
+                Left(String(Int(intWidth/LenW(strEcho))+1, strEcho), intWidth)
         End If
         Wscript.Echo strEcho
         objOutput.WriteLine strEcho
@@ -524,8 +547,12 @@ Class Multilanguage_Echo
 
     Private Function LenW(ByRef strText)
         Dim i, intReturn
-        For i = 1 To LenB(strText)
-            If AscB(MidB(strText, i, 1)) > 0 Then intReturn = intReturn + 1
+        For i = 2 To LenB(strText) Step 2
+            If AscB(MidB(strText, i, 1)) > 0 Then
+                intReturn = intReturn + 2
+            Else
+                intReturn = intReturn + 1
+            End If
         Next
         LenW = intReturn
     End Function
@@ -1145,7 +1172,7 @@ Class JSON_Advanced
             strSep = ", "
             arrText(0) = "["
         End If
-        For Each varEle In arrData      'Only method without error for empty array
+        For Each varEle In arrData
             Redim Preserve arrText(2 * i + 2)
             arrText(2 * i + 1) = EncodeVariant(varEle, intFormat, intLayer + 1)
             arrText(2 * i + 2) = strSep
