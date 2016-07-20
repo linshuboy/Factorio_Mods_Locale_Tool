@@ -1,0 +1,2 @@
+# Factorio_Mods_Locale_Tool
+Factorio_Mods_Locale
