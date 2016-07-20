@@ -1,0 +1,11 @@
+{
+	"name": "Reinforced-Walls",
+	"version": "0.1.4",
+	"factorio_version": "0.13",
+	"title": "Steel Reinforced Walls",
+	"author": "Michael Cowgill (ChurchOrganist)",
+	"contact": "jmcowgill@gmail.com",
+	"homepage": "https://github.com/ChurchOrganist/Factorio-Reinforced-Walls",
+	"description": "Gives reinforced steel walls after researching Walls, Military 2, and Concrete",
+	"dependencies": ["base >= 0.13.0"]
+}

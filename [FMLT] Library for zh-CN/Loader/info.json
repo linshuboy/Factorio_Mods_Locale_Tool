@@ -1,0 +1,10 @@
+{
+	"name": "Loader",
+	"version": "0.0.1",
+	"title": "Loader Enabler",
+	"author": "LiteralTester",
+	"contact": "",
+	"homepage": "",
+	"description": "Mod that adds the hidden loaders to the tech tree",
+	"factorio_version": "0.13"
+}

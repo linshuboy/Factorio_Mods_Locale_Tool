@@ -1,0 +1,10 @@
+{
+	"name": "yi_railway",
+	"title": "Yuoki Industries - Railways",
+	"version": "0.3.10",
+	"date": "2016-07-06",
+	"author": "Yuoki Tani",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13"],
+	"description": "decorative railway mod"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "hardcorio",
+	"version": "2.2.215",
+	"date": "2016-07-15",
+	"title": "Hardcorio:SC2",
+	"author": "Stx3, maroder",
+	"dependencies": ["base"],
+	"description": "Stx3 version is hardcorio_2.2.8. Remake by maroder. Experimental version 11.07.2016",
+	"factorio_version": "0.13"
+}

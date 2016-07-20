@@ -1,0 +1,11 @@
+{
+	"name": "FactorioExtended-Machines",
+	"version": "0.1.9",
+	"factorio_version": "0.13",
+	"date": "2016-07-4",
+	"title": "FactorioExtended-Machines",
+	"author": "Nath Gamer",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
+	"description": "Extended Factorio",
+	"dependencies": ["base", "FactorioExtended-Core >= 0.1.9"]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "CarLightFix",
+	"version": "0.0.1",
+	"title": "Car Light Fix 0.0.1",
+	"author": "Grootie",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "This mod fixes the lights on the car.",
+	"factorio_version": "0.13"
+}

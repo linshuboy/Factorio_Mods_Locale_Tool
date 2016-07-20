@@ -1,0 +1,10 @@
+{
+	"name": "AutoPvP",
+	"version": "1.0.4",
+	"title": "AutoPvP",
+	"author": "BinbinHfr",
+	"description": "Automatic PvP mod to help you setting up PvP maps and fights, with automatic force creation and settings, random player placement and resources allocation.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=28413",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

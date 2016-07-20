@@ -1,0 +1,11 @@
+{
+	"name": "steinios_logistic_sensor",
+	"version": "0.0.2",
+	"title": "steinios logistic sensor",
+	"author": "steinio",
+	"contact": "steinio @ https://forums.factorio.com/",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=26040",
+	"description": "Additional EvoGUI Sensor which shows the amount of all and free logistic and construction bots.",
+	"dependencies": ["base >= 0.12.11", "EvoGUI >= 0.4.16"],
+	"factorio_version": "0.13"
+}

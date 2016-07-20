@@ -1,0 +1,8 @@
+{
+	"name": "eco-trees",
+	"version": "0.0.2",
+	"title": "Eco Trees",
+	"author": "Laige",
+	"dependencies": ["base >= 0.12.0", "? Treefarm-Lite", "? Treefarm-Caffeine-Addon", "? AlienPlant", "? CORE-DyTech-Core", "? Cursed-Exp"],
+	"description": "Trees will absoreb 10x more Pollution."
+}

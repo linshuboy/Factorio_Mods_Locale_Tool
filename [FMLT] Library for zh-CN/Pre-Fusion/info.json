@@ -1,0 +1,11 @@
+{
+	"name": "Pre-Fusion",
+	"version": "0.0.3",
+	"title": "Pre-Fusion",
+	"author": "Ranakastrasz",
+	"contact": "~",
+	"homepage": "",
+	"description": "增加太阳能电池板的输出.",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

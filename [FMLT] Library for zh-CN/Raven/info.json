@@ -1,0 +1,10 @@
+{
+	"name": "Raven",
+	"version": "0.0.3",
+	"date": "2016-07-06",
+	"title": "Raven",
+	"author": "maroder",
+	"dependencies": ["base"],
+	"description": "Flying vecicle like airplane. You need to achieve a certain speed for take off.",
+	"factorio_version": "0.13"
+}

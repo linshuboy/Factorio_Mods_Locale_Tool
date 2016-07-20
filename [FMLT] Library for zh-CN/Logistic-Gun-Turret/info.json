@@ -1,0 +1,8 @@
+{
+	"name": "Logistic-Gun-Turret",
+	"version": "0.1.2",
+	"title": "Logistic Gun Turret",
+	"author": "Bl4ckmail",
+	"dependencies": ["base >= 0.12.20"],
+	"description": "This mod adds a Logistick Gun Turret"
+}

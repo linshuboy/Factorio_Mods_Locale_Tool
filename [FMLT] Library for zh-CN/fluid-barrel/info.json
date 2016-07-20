@@ -1,0 +1,9 @@
+{
+	"name": "fluid-barrel",
+	"version": "1.1.1",
+	"title": "Fluid Barrel",
+	"author": "Firegrenade. Minor updates by Mr. Zero, YukiHyou & updated to 0.13 (with hebrew & russian) by JoCKeRiL",
+	"factorio_version": "0.13",
+	"dependencies": ["base"],
+	"description": "Allows for all fluids to be added to barrels and transported as an item."
+}

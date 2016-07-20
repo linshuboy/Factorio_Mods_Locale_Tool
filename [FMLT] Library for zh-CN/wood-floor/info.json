@@ -1,0 +1,9 @@
+{
+	"name": "wood-floor",
+	"version": "1.0.0",
+	"title": "Wood Floor",
+	"author": "Simdezimon",
+	"dependencies": ["base"],
+	"description": "Wood can be used to create paths that increase the walking speed by 20%.",
+	"factorio_version": "0.13"
+}

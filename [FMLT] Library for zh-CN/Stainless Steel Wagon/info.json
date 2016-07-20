@@ -1,0 +1,10 @@
+{
+	"name": "Stainless Steel Wagon",
+	"version": "1.0.1",
+	"title": "Stainless Steel Wagon",
+	"author": "Rseding91",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "A Stainless Steel wagon.",
+	"factorio_version": "0.13"
+}

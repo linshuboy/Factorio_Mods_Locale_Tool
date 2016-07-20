@@ -1,0 +1,10 @@
+{
+	"name": "DeathChest",
+	"version": "0.13.1",
+	"factorio_version": "0.13",
+	"title": "DeathChest",
+	"author": "Zinal",
+	"contact": "",
+	"homepage": "",
+	"description": "Spawn a chest upon death containing all your stuff"
+}

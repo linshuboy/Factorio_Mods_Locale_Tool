@@ -1,0 +1,11 @@
+{
+	"name": "andrew-modules",
+	"version": "0.13.4",
+	"title": "Andrew's Modules",
+	"author": "Andrew",
+	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
+	"homepage": "http://games-mods.weebly.com",
+	"description": "Add 2 new types of Modules and more Modules from base game. requires Andrew's Library to work",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0", "andrew-library >= 0.13.4"]
+}

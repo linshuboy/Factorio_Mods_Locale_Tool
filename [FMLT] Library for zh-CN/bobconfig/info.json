@@ -1,0 +1,11 @@
+{
+	"name": "bobconfig",
+	"version": "0.13.1",
+	"factorio_version": "0.13",
+	"title": "Bob's Config mod",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "http://www.destructivality.com",
+	"description": "This mod allows you to change the settings of Bob's mods.",
+	"dependencies": ["base >= 0.13.0"]
+}

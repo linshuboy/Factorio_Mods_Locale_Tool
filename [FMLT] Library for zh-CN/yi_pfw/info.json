@@ -1,0 +1,9 @@
+{
+	"name": "yi_pfw",
+	"version": "0.0.7",
+	"date": "2016-02-11",
+	"title": "Yuoki Industries - Profit from War",
+	"author": "Yuoki Tani",
+	"dependencies": ["base >= 0.12", "Yuoki >= 0.2.41", "yi_engines >= 0.1.8"],
+	"description": "get rich from trade with death"
+}

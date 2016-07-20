@@ -1,0 +1,9 @@
+{
+	"name": "BurnTheWood",
+	"version": "1.0.0",
+	"title": "BurnTheWood",
+	"author": "enkindle",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "Burn wood to make coal."
+}

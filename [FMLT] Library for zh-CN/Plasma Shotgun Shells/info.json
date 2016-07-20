@@ -1,0 +1,10 @@
+{
+	"name": "Plasma Shotgun Shells",
+	"author": "Rseding91",
+	"version": "1.0.2",
+	"title": "Plasma Shotgun Shells",
+	"homepage": "",
+	"description": "Plasma shotgun shells.",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

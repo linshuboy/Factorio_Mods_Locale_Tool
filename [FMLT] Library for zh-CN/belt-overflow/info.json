@@ -1,0 +1,11 @@
+{
+	"name": "belt-overflow",
+	"version": "0.13.0",
+	"title": "Belt Overflow",
+	"author": "Sparr",
+	"homepage": "http://github.com/sparr/factorio-mod-belt-overflow",
+	"contact": "sparr0@gmail.com",
+	"description": "Causes full belts to overflow at the end.",
+	"dependencies": ["base >= 0.12.33"],
+	"factorio_version": "0.13"
+}

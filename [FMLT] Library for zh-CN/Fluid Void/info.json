@@ -1,0 +1,10 @@
+{
+	"name": "Fluid Void",
+	"version": "1.0.3",
+	"title": "Fluid Void",
+	"author": "Rseding91",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "A pipe to void fluids.",
+	"factorio_version": "0.13"
+}

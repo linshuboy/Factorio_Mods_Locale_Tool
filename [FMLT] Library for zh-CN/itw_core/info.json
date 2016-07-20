@@ -1,0 +1,11 @@
+{
+	"name": "itw_core",
+	"version": "2.22.0",
+	"factorio_version": "0.13",
+	"title": "Invent the World - Core",
+	"author": "abregado",
+	"contact": "ben@inventtheworld.com.au",
+	"homepage": "http://www.inventtheworld.com.au",
+	"description": "Core of all ITWs mods",
+	"dependencies": ["base >= 0.13.0"]
+}

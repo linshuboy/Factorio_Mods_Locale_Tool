@@ -1,0 +1,11 @@
+{
+	"name": "bobores",
+	"version": "0.13.1",
+	"factorio_version": "0.13",
+	"title": "Bob's Ores",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "http://www.destructivality.com",
+	"description": "Adds some useful ores.",
+	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0"]
+}

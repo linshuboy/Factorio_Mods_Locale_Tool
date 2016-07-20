@@ -1,0 +1,9 @@
+{
+	"name": "Higheroilminimum",
+	"version": "1.0.2",
+	"factorio_version": "0.13.0",
+	"title": "Higher oil minimum",
+	"author": "Carch",
+	"homepage": "",
+	"description": "raises the minimal production of an oil field to 25%"
+}

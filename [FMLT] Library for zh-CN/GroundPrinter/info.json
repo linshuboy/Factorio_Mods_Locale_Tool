@@ -1,0 +1,10 @@
+{
+	"name": "GroundPrinter",
+	"author": "BinbinHfr",
+	"version": "1.0.4",
+	"title": "Ground Printer",
+	"description": "A printer to display larg texts and graphics on the ground. A handy way to personalize your map!",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24355",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

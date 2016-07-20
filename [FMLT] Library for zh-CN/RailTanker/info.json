@@ -1,0 +1,10 @@
+{
+	"name": "RailTanker",
+	"version": "1.3.32",
+	"factorio_version": "0.13",
+	"title": "Rail Tanker",
+	"author": "James O'Farrell, Choumiko",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=6847",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Adds an rail tanker (rail tank car) for transporting liquids"
+}

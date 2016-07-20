@@ -1,0 +1,10 @@
+{
+	"name": "MoreLight",
+	"version": "1.1.1",
+	"factorio_version": "0.13",
+	"title": "MoreLight",
+	"author": "James O'Farrell",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "Gives the player more light.(uploaded temporarily until original mod author uploads)"
+}

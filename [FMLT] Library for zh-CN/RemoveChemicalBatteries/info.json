@@ -1,0 +1,11 @@
+{
+	"name": "RemoveChemicalBatteries",
+	"version": "0.13.01",
+	"title": "Remove Chemical Batteries",
+	"author": "DRY411S",
+	"homepage": "https://github.com/DRY411S/Remove-Chemical-Batteries",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=15698",
+	"description": "Prevents batteries from being made in chemical plants. But only if you have also enabled the AddAssemblerBatteries Mod, so you always have a way of making batteries.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.00", "AddAssemblerBatteries >= 0.13.00"]
+}

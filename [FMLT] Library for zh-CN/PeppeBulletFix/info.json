@@ -1,0 +1,11 @@
+{
+	"name": "PeppeBulletFix",
+	"version": "0.13.3",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13", "? Nucular >= 0.2.0", "? UraniumPower >= 0.6.4"],
+	"title": "Peppe Bullet Speed Upgrade Fix",
+	"author": "Peppe",
+	"contact": "",
+	"homepage": "https://github.com/Peppe-KSP/",
+	"description": "Fix all bullet weapons/turrets.  Slower rate of fire, more damage, same DPS.  All speed upgrades provide a benefit."
+}

@@ -1,0 +1,10 @@
+{
+	"name": "yi_engines",
+	"title": "Yuoki (行业)Industries - (发动机)Engines",
+	"version": "0.3.17",
+	"date": "2016-07-16",
+	"author": "Yuoki Tani",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13", "Yuoki >= 0.3.52"],
+	"description": "(不稳定的实验内容)instable experimental stuff"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "diffuse-resources",
+	"version": "0.0.3",
+	"factorio_version": "0.13",
+	"title": "Diffuse Resources",
+	"author": "Eric Stansifer",
+	"description": "Changes resources (stone, coal, iron, copper) to be mixed and thinly scattered everywhere",
+	"dependencies": ["base"]
+}

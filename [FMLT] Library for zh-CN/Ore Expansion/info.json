@@ -1,0 +1,10 @@
+{
+	"name": "Ore Expansion",
+	"version": "1.0.3",
+	"title": "Ore Expansion",
+	"author": "Rseding91",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "Ore density increases the further you go from the start zone.",
+	"factorio_version": "0.13"
+}

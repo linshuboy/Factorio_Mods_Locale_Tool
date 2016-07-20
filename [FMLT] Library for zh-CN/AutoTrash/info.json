@@ -1,0 +1,10 @@
+{
+	"name": "AutoTrash",
+	"version": "0.1.5",
+	"factorio_version": "0.13",
+	"title": "Auto Trash",
+	"author": "Choumiko",
+	"homepage": "",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Keeps your inventory clean of certain items"
+}

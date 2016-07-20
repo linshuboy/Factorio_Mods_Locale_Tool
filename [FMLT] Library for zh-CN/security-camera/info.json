@@ -1,0 +1,11 @@
+{
+	"name": "security-camera",
+	"version": "0.2.2",
+	"title": "Security cameras",
+	"author": "Loren1350",
+	"contact": "Schmendrick on the Factorio forums",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=14798",
+	"description": "Adds a security camera for monitoring (very) small areas.",
+	"factorio_version": "0.13",
+	"dependencies": ["base"]
+}

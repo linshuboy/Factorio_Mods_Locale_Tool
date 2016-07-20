@@ -1,0 +1,9 @@
+{
+	"name": "StackSize",
+	"version": "1.0.1",
+	"title": "JohnRipley's Stacksize mod",
+	"author": "John Ripley",
+	"homepage": "",
+	"description": "Changes all stacksizes ingame to set amount(Configurable in mod folder)",
+	"factorio_version": "0.13"
+}

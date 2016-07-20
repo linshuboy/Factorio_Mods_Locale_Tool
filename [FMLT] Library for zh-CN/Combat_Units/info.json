@@ -1,0 +1,10 @@
+{
+	"name": "Combat_Units",
+	"author": "Klonan",
+	"version": "0.1.3",
+	"title": "Combat Units",
+	"homepage": "",
+	"description": "Lets you craft combat units, they will automatically launch, defend your base and attack enemy units. They are not intelligent, but they are powerful.",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "ModuleInserter",
+	"version": "0.2.0",
+	"factorio_version": "0.13",
+	"title": "Module Inserter",
+	"author": "Choumiko",
+	"homepage": "",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Mass insert modules into machines with pocket bots"
+}

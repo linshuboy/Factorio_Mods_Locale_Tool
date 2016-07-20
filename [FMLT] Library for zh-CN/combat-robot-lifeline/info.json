@@ -1,0 +1,11 @@
+{
+	"name": "combat-robot-lifeline",
+	"version": "0.13.1",
+	"title": "Combat Robot Lifeline",
+	"author": "DaCyclops",
+	"homepage": "",
+	"contact": "dacyclops@dacyclops.com",
+	"description": "Extends the poor Combat Robots Time-To-Live... Let them live their life!",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Personal_Spawns",
+	"version": "0.13.1",
+	"factorio_version": "0.13",
+	"title": "Personal Spawns",
+	"author": "Zinal",
+	"contact": "",
+	"homepage": "",
+	"description": "A mod to allow players to each set their own spawn point",
+	"dependencies": ["base >= 0.13.1"]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "moweather",
+	"version": "0.3.90",
+	"title": "Moweather",
+	"author": "Ludsoe",
+	"contact": "",
+	"homepage": "",
+	"description": "Adds weather to factorio",
+	"dependencies": ["base", "? motoolbar"],
+	"factorio_version": "0.13"
+}

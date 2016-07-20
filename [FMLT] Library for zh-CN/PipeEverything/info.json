@@ -1,0 +1,9 @@
+{
+	"name": "PipeEverything",
+	"version": "0.0.9",
+	"title": "PipeEverything",
+	"author": "Swadius",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Shunts all solid items into a fluid like substance allowing the logistic network to be composed of pipes. Hopefully more FPS friendly."
+}

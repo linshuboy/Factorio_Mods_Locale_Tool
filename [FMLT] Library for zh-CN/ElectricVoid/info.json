@@ -1,0 +1,10 @@
+{
+	"name": "ElectricVoid",
+	"version": "1.0.7",
+	"title": "Electric Void",
+	"author": "BinbinHfr",
+	"description": "Adds 3 objects, to test the capacity of your electrical network : a huge consumer, a huge producer and an equalizer.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=23735",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

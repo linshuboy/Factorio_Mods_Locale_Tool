@@ -1,0 +1,10 @@
+{
+	"name": "WagonCapacityColor",
+	"version": "1.0.1",
+	"title": "Wagon Capacity Color",
+	"author": "BinbinHfr",
+	"description": "Change the color of the wagon, whether it's empty (green) or partially filled (red).",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=27749",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

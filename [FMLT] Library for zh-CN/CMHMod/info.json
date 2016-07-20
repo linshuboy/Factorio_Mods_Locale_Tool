@@ -1,0 +1,11 @@
+{
+	"name": "CMHMod",
+	"version": "0.2.1",
+	"factorio_version": "0.13",
+	"title": "CMHMod - Rebalancing Bob's Mods",
+	"author": "CMH",
+	"contact": "",
+	"homepage": "",
+	"description": "Making use of the highest tiers of Bob's mods right to the end game. Introduces more 'advanced recipes' for the classic choice between higher production yields vs simplicity. Please report any bugs to forums.factorio.com and search for CMHMod (any CMHMod thread will do).",
+	"dependencies": ["base >= 0.13.0", "bobplates >= 0.13.0", "bobelectronics >= 0.13.0", "bobpower >= 0.13.0", "bobores >= 0.13.0", "boblibrary >= 0.13.0", "? bobmodules >= 0.13.0", "? bobtech >= 0.13.0", "? bobwarfare >= 0.13.00", "? bobconfig >= 0.13.0"]
+}

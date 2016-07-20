@@ -1,0 +1,11 @@
+{
+	"name": "Extra-Virtual-Signals",
+	"version": "1.1.0",
+	"factorio_version": "0.13",
+	"title": "Extra Virtual Signals",
+	"author": "Chocki",
+	"homepage": "",
+	"contact": "Chocki",
+	"description": "Adds extra virtual signals for easy refrence.",
+	"dependencies": ["base >= 0.13.0"]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Piano_Player",
+	"version": "0.1.2",
+	"title": "Piano player",
+	"author": "Klonan",
+	"homepage": "",
+	"description": "Adds a Piano player",
+	"factorio_version": "0.13"
+}

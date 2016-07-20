@@ -1,0 +1,11 @@
+{
+	"name": "Robo-Charge",
+	"version": "0.3.3",
+	"title": "Robot Charging Station",
+	"author": "",
+	"contact": "",
+	"homepage": "",
+	"description": "Mod that adds a new pole/tower that can recharge 4 robots(2 x 2), though they can't dock with it.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

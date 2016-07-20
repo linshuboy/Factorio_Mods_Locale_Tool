@@ -1,0 +1,11 @@
+{
+	"name": "bobtechsave",
+	"version": "0.13.0",
+	"factorio_version": "0.13",
+	"title": "Bob's Research Progress Saver",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "http://www.destructivality.com",
+	"description": "A mod to keep track of partially researched technologies.",
+	"dependencies": ["base >= 0.13.0"]
+}

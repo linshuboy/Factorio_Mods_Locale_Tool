@@ -1,0 +1,10 @@
+{
+	"name": "Yuoki",
+	"version": "0.3.57",
+	"date": "2016-07-15",
+	"title": "Yuoki Industries",
+	"author": "Yuoki Tani",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13"],
+	"description": "Various Things, related to Energy, Transformations"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Natural_Evolution_Buildings",
+	"version": "6.1.0",
+	"title": "Natural Evolution Buildings",
+	"author": "TheSAguy",
+	"contact": "vvwmisc@hotmail.com",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=91&t=13562&p",
+	"description": "Add some very useful buildings to combat the Enemy threat, as changed by N.E. Enemies and Expansion. Part of the N.E. Mods, but can be used as Standalone. Please visit home page for more details.",
+	"dependencies": ["base >= 0.13", "? bobenemies", "? EvoGUI"],
+	"factorio_version": "0.13"
+}

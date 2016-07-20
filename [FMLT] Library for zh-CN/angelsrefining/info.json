@@ -1,0 +1,11 @@
+{
+	"name": "angelsrefining",
+	"version": "0.2.5",
+	"factorio_version": "0.13",
+	"title": "[AM] Angel's Refining",
+	"author": "Arch666Angel",
+	"contact": "",
+	"homepage": "",
+	"description": "With AngelsInfiniteOres it adds ore refining to the game. Compound ores have to be refined before you are able to smelt and cast them into plates.",
+	"dependencies": ["base >= 0.13.0", "? angelssmelting >= 0.1.0", "? bobplates >= 0.13.1", "? bobconfig >= 0.13.0", "? bobores >= 0.13.0", "? Yuoki >= 0.2.40", "? UraniumPower >= 0.6.4", "? Nucular >= 0.2.0"]
+}

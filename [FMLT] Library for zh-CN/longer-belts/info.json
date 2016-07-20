@@ -1,0 +1,11 @@
+{
+	"name": "longer-belts",
+	"version": "1.0.0",
+	"title": "Longer (Underground) Belts",
+	"author": "Loren1350",
+	"contact": "Schmendrick on the Factorio forums",
+	"homepage": "",
+	"description": "Extends underground belt distance based on their speed.",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

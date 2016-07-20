@@ -1,0 +1,11 @@
+{
+	"name": "KP-clock",
+	"version": "0.13.403",
+	"factorio_version": "0.13.4",
+	"title": "KP Clock",
+	"description": "Game clock for Factorio",
+	"author": "KruParker",
+	"contact": "kruparker.spam@gmail.com",
+	"homepage": "",
+	"dependencies": ["base"]
+}

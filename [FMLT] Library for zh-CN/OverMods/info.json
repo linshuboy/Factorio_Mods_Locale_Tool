@@ -1,0 +1,9 @@
+{
+	"name": "OverMods",
+	"version": "0.0.5",
+	"title": "OverMods",
+	"author": "OvermindDL1",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13"],
+	"description": "A variety of extra utilities designed to complement Bobs Mods primarily via scripting, but are entirely and generically useful without Bobs Mods."
+}

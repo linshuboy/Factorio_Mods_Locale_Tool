@@ -1,0 +1,11 @@
+{
+	"name": "Red Alerts",
+	"version": "1.1.0",
+	"factorio_version": "0.13",
+	"title": "Red Alerts",
+	"author": "Supercheese",
+	"contibutors": "daydev",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=92&t=19579",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "增加了一些有用的警告如功率低和结构破坏，宣布由伊娃的声音从命令与征服系列游戏或清音音色."
+}

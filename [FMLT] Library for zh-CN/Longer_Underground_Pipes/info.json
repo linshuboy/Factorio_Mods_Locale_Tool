@@ -1,0 +1,9 @@
+{
+	"name": "Longer_Underground_Pipes",
+	"version": "0.0.2",
+	"title": "Longer Underground Pipes",
+	"author": "Swadius",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Longer Underground Pipes! Adds 2x, 4x, 10x, and 25x long underground pipes."
+}

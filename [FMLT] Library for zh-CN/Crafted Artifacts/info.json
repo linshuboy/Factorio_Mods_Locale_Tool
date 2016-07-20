@@ -1,0 +1,10 @@
+{
+	"name": "Crafted Artifacts",
+	"version": "2.0.0",
+	"title": "Crafted Artifacts",
+	"author": "GotLag",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=14258",
+	"description": "Provides resources and recipes for crafting alien artifacts.",
+	"dependencies": ["? GDIW >= 0.13.1"],
+	"factorio_version": "0.13"
+}

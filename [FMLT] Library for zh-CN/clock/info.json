@@ -1,0 +1,11 @@
+{
+	"name": "clock",
+	"version": "0.13.0",
+	"factorio_version": "0.13",
+	"title": "Clock",
+	"author": "Dentatus and Bobingabout",
+	"contact": "Private",
+	"homepage": "NA",
+	"description": "Adds a clock",
+	"dependencies": ["base >= 0.13.0"]
+}

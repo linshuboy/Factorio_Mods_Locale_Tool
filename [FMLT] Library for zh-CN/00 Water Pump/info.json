@@ -1,0 +1,11 @@
+{
+	"name": "00 Water Pump",
+	"version": "0.0.2",
+	"title": "00 Water Pump",
+	"author": "M",
+	"contact": "https://github.com/mophydeen",
+	"homepage": "https://github.com/mophydeen",
+	"description": "Electric 1x1 water pump.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

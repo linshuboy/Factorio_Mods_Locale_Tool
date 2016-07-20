@@ -1,0 +1,10 @@
+{
+	"name": "ExtendoReach",
+	"version": "0.0.2",
+	"title": "Extendo-Reach",
+	"author": "ntm",
+	"homepage": "",
+	"description": "When you just need to reach the top-shelf, it's the the Extendo-Reach Exoskeletal Robotic Grabber Arm. Each one will extend your reach by 4 units. Still can't reach that can of tomatoes? Use a grabber arm with your grabber arm! It's grabbers all-the-way-down at Extendo-Reach.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

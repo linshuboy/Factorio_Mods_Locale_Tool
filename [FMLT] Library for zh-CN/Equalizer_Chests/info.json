@@ -1,0 +1,11 @@
+{
+	"name": "Equalizer_Chests",
+	"version": "1.2.0",
+	"title": "(均衡箱)Equalizer Chests",
+	"author": "Boogieman14",
+	"contact": "Boogieman14 on the Factorio forums",
+	"homepage": "",
+	"description": "(提供箱子，这将直接均衡临箱之间的内容。)Provides chests that will equalize their contents between direct neightbours.",
+	"dependencies": ["base >= 0.13.0"],
+	"factorio_version": "0.13"
+}

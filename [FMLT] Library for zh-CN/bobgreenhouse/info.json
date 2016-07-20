@@ -1,0 +1,11 @@
+{
+	"name": "bobgreenhouse",
+	"version": "0.13.2",
+	"factorio_version": "0.13",
+	"title": "Bob's Greenhouse mod",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
+	"description": "It's a greenhouse, it makes wood.",
+	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobplates >= 0.13.0"]
+}

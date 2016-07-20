@@ -1,0 +1,10 @@
+{
+	"name": "noRocks",
+	"title": "noRocks",
+	"version": "0.0.2",
+	"date": "2015-6-31",
+	"author": "captncraig",
+	"dependencies": ["base >= 0.13"],
+	"factorio_version": "0.13",
+	"description": "Removes rocks and trees as they spawn"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Artifact Retexture",
+	"version": "2.0.0",
+	"title": "Artifact Retexture",
+	"author": "GotLag",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=14258",
+	"description": "Renames and retextures alien artifacts into advanced processing units.",
+	"factorio_version": "0.13"
+}

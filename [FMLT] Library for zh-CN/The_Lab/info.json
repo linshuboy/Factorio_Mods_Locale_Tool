@@ -1,0 +1,10 @@
+{
+	"name": "The_Lab",
+	"author": "Klonan",
+	"version": "0.1.0",
+	"title": "The Lab",
+	"homepage": "",
+	"description": "Adds lab tiles and a tool for making lab areas",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

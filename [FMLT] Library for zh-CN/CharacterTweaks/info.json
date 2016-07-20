@@ -1,0 +1,9 @@
+{
+	"name": "CharacterTweaks",
+	"version": "1.0.0",
+	"title": "JohnRipley's CharacterTweaks",
+	"author": "John Ripley",
+	"homepage": "",
+	"description": "Player tweaks (inventory, running speed, reach, health, healthregen)",
+	"factorio_version": "0.13"
+}

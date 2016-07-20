@@ -1,0 +1,11 @@
+{
+	"name": "endless-resources",
+	"version": "0.3.0",
+	"factorio_version": "0.13",
+	"title": "Endless Resources",
+	"author": "LoSboccacc",
+	"contact": "dev@factorio.com",
+	"homepage": "http://factorio.com",
+	"description": "Turns all normal ores into infinite yields.",
+	"dependencies": ["base >= 0.13.0"]
+}

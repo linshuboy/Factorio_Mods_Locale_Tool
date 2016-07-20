@@ -1,0 +1,10 @@
+{
+	"name": "EfficienSee",
+	"version": "1.0.6",
+	"title": "EfficienSee : optimise your mega-factory !",
+	"author": "BinbinHfr",
+	"description": "Optimise your mega-factory efficiency ! Check your production rate per items and recipes, hunting for under or over production, and display production statistics per recipe with underemployed machines counts: useful to see where are the weak links in your production chain.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=29179",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

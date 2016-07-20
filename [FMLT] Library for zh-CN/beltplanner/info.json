@@ -1,0 +1,9 @@
+{
+	"name": "beltplanner",
+	"version": "0.9.1",
+	"title": "Automatic Belt Planner",
+	"author": "prg",
+	"homepage": "https://forums.factorio.com/viewtopic.php?t=26019",
+	"description": "Automatically places transport belt or pipe ghosts.",
+	"factorio_version": "0.13"
+}

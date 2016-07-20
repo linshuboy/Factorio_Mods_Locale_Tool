@@ -1,0 +1,9 @@
+{
+	"name": "FasterAssemblers",
+	"version": "1.0.0",
+	"title": "JohnRipley's fast assemblers and oil production",
+	"author": "John Ripley",
+	"homepage": "",
+	"description": "Assemblers, pumpjack and refinery speed multiplier",
+	"factorio_version": "0.13"
+}

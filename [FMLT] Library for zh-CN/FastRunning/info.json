@@ -1,0 +1,9 @@
+{
+	"name": "FastRunning",
+	"author": "easygoing",
+	"version": "1.0.0",
+	"title": "RunningFaster",
+	"description": "increase running speed",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

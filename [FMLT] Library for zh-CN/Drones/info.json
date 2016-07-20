@@ -1,0 +1,10 @@
+{
+	"name": "Drones",
+	"version": "1.0.14",
+	"title": "Drones",
+	"author": "BinbinHfr",
+	"description": "Eyes in the sky ! Monitor and pilot your factory with your smartphone.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=25026",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

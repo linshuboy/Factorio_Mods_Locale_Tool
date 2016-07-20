@@ -1,0 +1,11 @@
+{
+	"name": "blueprint-book-2",
+	"version": "0.13.0",
+	"title": "blueprint book 2",
+	"author": "Andrew",
+	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
+	"homepage": "http://games-mods.weebly.com",
+	"description": "Adds another level of blueprint book to the games. Blueprint book 2 has 60 slots.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Military_Research_5",
+	"author": "Klonan",
+	"version": "0.1.0",
+	"title": "Military Research 5",
+	"homepage": "",
+	"description": "Add another tier of Military research",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

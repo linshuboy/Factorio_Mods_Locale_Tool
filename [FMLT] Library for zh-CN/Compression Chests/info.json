@@ -1,0 +1,10 @@
+{
+	"name": "Compression Chests",
+	"version": "1.3.10",
+	"title": "Compression Chests",
+	"author": "Rseding91",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=4845&p=36922#p36922",
+	"dependencies": ["base"],
+	"description": "Store massive amounts of one item type in a single chest.",
+	"factorio_version": "0.13"
+}

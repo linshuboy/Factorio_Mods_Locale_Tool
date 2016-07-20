@@ -1,0 +1,11 @@
+{
+	"name": "RFM-transport",
+	"version": "0.9.3",
+	"factorio_version": "0.13",
+	"title": "Extended Range",
+	"author": "Nori",
+	"contact": "",
+	"homepage": "NA",
+	"description": "Longer range versions of all three belt types.",
+	"dependencies": ["base >= 0.13.1", "? boblogistics >= 0.12.7"]
+}

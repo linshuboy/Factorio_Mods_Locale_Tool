@@ -1,0 +1,72 @@
+{
+    "echo_setting": {
+        "default_language": "en",
+        "applied_language": "zh-CN",
+        "line_width": 80
+    },
+    "echo_text": {
+        "script_title": {
+            "en": "Factorio Mods Locale Tool",
+            "zh-CN": "异星工厂模组汉化工具 - Factorio Mods Locale Tool"
+        },
+        "script_author": {
+            "en": "Build.__1__  Coded by Mr.Jos  Email: sd7056333@163.com"
+        },
+        "script_setting": {
+            "en": "<__1__ __2__> <COMPLEMENT_ONLY=__3__> <UPDATE_LIBRARY=__4__>"
+        },
+        "library_1": {
+            "en": "Loaded library: __1__",
+            "zh-CN": "已加载文本库: __1__"
+        },
+        "library_2": {
+            "en": "< __1__ | __2__ | __3__ | __4__ >"
+        },
+        "library_3": {
+            "en": "< __1__ - __2__ >"
+        },
+        "tip_1": {
+            "en": "1. This script is a tool to translate the newly-updated mods by using the \ntext collected in loaded library, not mechanical translation.",
+            "zh-CN": "1. 该脚本是用文本库中搜集到的文本来翻译新更新的MOD，而不是机翻工具。"
+        },
+        "tip_2": {
+            "en": "2. The zip files or folders which may contain mods can be also dragged onto \nthis script directly to be identified and translated.",
+            "zh-CN": "2. 可能包含MOD的zip压缩包或文件夹也可以直接拖到这个脚本上，识别后即可翻译。"
+        },
+        "tip_3": {
+            "en": "3. If you translated or improved the text in mods, you could submit the \nrevised and tested [MOD].zip to the author of loaded library, by whom your \ncontribution would be shared easily. Here are the editable contents in mods: \n\t[MOD]\\info.json   -- \"title\" & \"description\"\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg",
+            "zh-CN": "3. 如果你翻译或改进了MOD里的文本，你可以把修订并测试后的[MOD].zip压缩包提交给\n文本库作者，这样就能够轻松地与其它玩家分享你的贡献。下面是MOD中可编辑的内容：\n\t[MOD]\\info.json   -- \"title\"(译名) & \"description\"(简介)\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg"
+        },
+        "scan_path_1": {
+            "en": "Scanning the path: __1__",
+            "zh-CN": "扫描路径: __1__"
+        },
+        "scan_path_2": {
+            "en": "No mod is found in the path.",
+            "zh-CN": "该路径下未发现MOD。"
+        },
+        "scan_path_3": {
+            "en": "The path does not exist.",
+            "zh-CN": "该路径不存在。"
+        },
+        "translating": {
+            "en": "Translating: __1__ __2__",
+            "zh-CN": "正在汉化: __1__ __2__"
+        },
+        "result_1": {
+            "en": "[__1__/__2__] __3__"
+        },
+        "result_2": {
+            "en": "[__1__/__2__] Completed, the translation rate is __3__ ",
+            "zh-CN": "[__1__/__2__] 汉化完成，汉化率为 __3__ "
+        },
+        "result_3": {
+            "en": "[__1__/__2__] No locale item needs to translate.",
+            "zh-CN": "[__1__/__2__] 未发现需要汉化条目。"
+        },
+        "stat": {
+            "en": "Finshed, a total of __1__ mod(s) have been transalted, taking __2__ seconds.",
+            "zh-CN": "完毕，共汉化了 __1__ 个MOD，耗时 __2__ 秒。"
+        }
+    }
+}

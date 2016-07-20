@@ -1,0 +1,8 @@
+{
+	"name": "dynamic-train-stop",
+	"version": "0.1.1",
+	"title": "Dynamic Train Stops",
+	"author": "Aladrius",
+	"description": "Train stop that renames itself based on circuit network input",
+	"factorio_version": "0.13"
+}

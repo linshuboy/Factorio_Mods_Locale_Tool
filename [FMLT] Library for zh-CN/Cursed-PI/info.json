@@ -1,0 +1,11 @@
+{
+	"name": "Cursed-PI",
+	"version": "0.2.3",
+	"title": "Cursed Programable Inserters",
+	"author": "L0771",
+	"contact": "http://www.factorioforums.com/forum/ucp.php?i=pm&mode=compose&u=923",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=14360",
+	"dependencies": ["base"],
+	"description": "Inserters programables via GUI. All possible convinations.",
+	"factorio_version": "0.13"
+}

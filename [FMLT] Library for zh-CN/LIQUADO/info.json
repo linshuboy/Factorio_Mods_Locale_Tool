@@ -1,0 +1,10 @@
+{
+	"name": "LIQUADO",
+	"author": "EinBerliner",
+	"version": "0.1.1",
+	"title": "LIQUADO",
+	"homepage": "",
+	"description": "Switch inputs",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

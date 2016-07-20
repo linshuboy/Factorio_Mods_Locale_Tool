@@ -1,0 +1,11 @@
+{
+	"name": "Agent Orange",
+	"version": "0.0.6",
+	"title": "Agent Orange",
+	"author": "Ranakastrasz",
+	"contact": "~",
+	"homepage": "",
+	"description": "Adds a lesser poison capsule for tree removal.",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

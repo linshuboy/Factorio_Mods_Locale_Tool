@@ -1,0 +1,11 @@
+{
+	"name": "Rename Trains",
+	"version": "0.2.0",
+	"factorio_version": "0.13",
+	"title": "Rename Trains",
+	"author": "Dr. Walrus",
+	"contact": "madmaster5000@gmail.com",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=23906",
+	"dependencies": ["base"],
+	"description": "This mod adds a small GUI that lets you easily rename trains and other buildings with backer names."
+}

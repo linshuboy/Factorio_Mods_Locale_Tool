@@ -1,0 +1,10 @@
+{
+	"name": "underground-mining",
+	"version": "0.1.1",
+	"title": "Underground Mining",
+	"author": "Loren1350",
+	"contact": "Schmendrick on the Factorio Forums",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=94&t=18908",
+	"description": "Adds underground mining.",
+	"dependencies": ["base >= 0.12.26"]
+}

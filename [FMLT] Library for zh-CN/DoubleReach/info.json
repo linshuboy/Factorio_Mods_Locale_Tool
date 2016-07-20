@@ -1,0 +1,10 @@
+{
+	"name": "DoubleReach",
+	"version": "0.13.1",
+	"title": "Double Reach",
+	"author": "Peppe",
+	"homepage": "",
+	"description": "Reach is now 12 tiles.  Vanilla reach is 6 tiles.  This is a modifed version of Long Reach by James Aguilar",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

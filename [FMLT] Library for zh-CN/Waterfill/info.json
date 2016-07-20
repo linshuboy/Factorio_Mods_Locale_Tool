@@ -1,0 +1,10 @@
+{
+	"name": "Waterfill",
+	"version": "0.1.0",
+	"factorio_version": "0.13",
+	"title": "Waterfill",
+	"author": "Master Riley",
+	"homepage": "http://masterriley.com",
+	"description": "Placable water",
+	"dependencies": []
+}

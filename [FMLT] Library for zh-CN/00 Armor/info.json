@@ -1,0 +1,11 @@
+{
+	"name": "00 Armor",
+	"version": "0.0.5",
+	"title": "00 Armor",
+	"author": "M",
+	"contact": "https://github.com/mophydeen",
+	"homepage": "https://github.com/mophydeen",
+	"description": "Adds a bigger armor and better equipment, crafted using multiple vanilla items.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

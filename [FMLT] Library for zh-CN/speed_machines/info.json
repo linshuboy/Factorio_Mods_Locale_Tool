@@ -1,0 +1,11 @@
+{
+	"name": "speed_machines",
+	"version": "0.0.2",
+	"title": "Speed Machines",
+	"author": "Necro9227",
+	"contact": "github.com/Necro9227/Speed-Machines",
+	"homepage": "github.com/Necro9227/Speed-Machines",
+	"description": "This mod has machines that push the limits of speeds itself and also including 2 new fuels by compressing coal",
+	"factorio_version": "0.13",
+	"dependencies": []
+}

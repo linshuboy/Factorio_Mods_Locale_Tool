@@ -1,0 +1,10 @@
+{
+	"name": "Larger Inventory",
+	"version": "1.0.1",
+	"title": "Larger Inventory",
+	"author": "Rseding91",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "Doubles the player's main inventory size.",
+	"factorio_version": "0.13"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "boblibrary",
+	"version": "0.13.1",
+	"factorio_version": "0.13",
+	"title": "Bob's Functions Library mod",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "http://www.destructivality.com",
+	"description": "Adds a series of useful functions used by Bob's Mods. These can easilly be used by other mods too.",
+	"dependencies": ["base >= 0.13.0"]
+}

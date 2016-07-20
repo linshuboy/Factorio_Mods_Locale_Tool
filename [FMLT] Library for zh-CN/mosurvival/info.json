@@ -1,0 +1,11 @@
+{
+	"name": "mosurvival",
+	"version": "0.1.42",
+	"title": "MoSurvival",
+	"author": "Ludsoe",
+	"contact": "",
+	"homepage": "",
+	"description": "Adds basic survival requirements to factorio.",
+	"dependencies": ["base", "? homeworld"],
+	"factorio_version": "0.13"
+}

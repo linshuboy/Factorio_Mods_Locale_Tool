@@ -1,0 +1,10 @@
+{
+	"name": "DayNightExtender",
+	"version": "1.1.6",
+	"title": "DayNightExtender",
+	"author": "Original: Dark - Updated: vizzy, mikenlott, binbinhfr",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=28822",
+	"description": "Increase the length of day and night cycle. Vanilla length is around 7 mins. The extender multiplies this by x4 to 28 mins. This multiplier is customizable in config.lua.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

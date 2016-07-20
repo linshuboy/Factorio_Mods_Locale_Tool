@@ -1,0 +1,10 @@
+{
+	"name": "CargoRocket",
+	"version": "1.0.6",
+	"title": "Cargo Rocket",
+	"author": "BinbinHfr",
+	"description": "Use your rockets as a cargo to quickly send a payload to a distant outpost.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26794",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

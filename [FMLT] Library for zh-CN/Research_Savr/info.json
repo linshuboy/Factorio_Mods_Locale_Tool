@@ -1,0 +1,10 @@
+{
+	"name": "Research_Savr",
+	"version": "1.0.0",
+	"title": "Research Savr",
+	"factorio_version": "0.13",
+	"author": "Afforess",
+	"homepage": "http://afforess.com",
+	"description": "Switch research and resume research from where you left off!",
+	"dependencies": []
+}

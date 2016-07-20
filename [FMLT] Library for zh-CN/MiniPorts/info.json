@@ -1,0 +1,11 @@
+{
+	"name": "MiniPorts",
+	"version": "0.2.2",
+	"title": "Mini Roboports",
+	"author": "master6545",
+	"contact": "",
+	"homepage": "",
+	"description": "Mod that adds smaller roboports to Factorio",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

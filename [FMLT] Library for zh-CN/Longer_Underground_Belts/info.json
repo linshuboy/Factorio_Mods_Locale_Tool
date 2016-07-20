@@ -1,0 +1,10 @@
+{
+	"name": "Longer_Underground_Belts",
+	"version": "0.1.1",
+	"title": "Longer Underground Belts",
+	"author": "mattj256",
+	"homepage": "",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Underground belts cover a larger distance.",
+	"factorio_version": "0.13"
+}

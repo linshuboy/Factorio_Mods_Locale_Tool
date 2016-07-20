@@ -1,0 +1,11 @@
+{
+	"name": "andrew-library",
+	"version": "0.13.5",
+	"title": "Andrew's Library",
+	"author": "Andrew",
+	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
+	"homepage": "http://games-mods.weebly.com",
+	"description": "Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

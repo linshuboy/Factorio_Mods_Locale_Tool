@@ -1,0 +1,10 @@
+{
+	"name": "Potato",
+	"author": "Wube Software",
+	"version": "1.0.0",
+	"title": "Potato",
+	"homepage": "www.factorio.com",
+	"description": "This mod adds a potato.",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

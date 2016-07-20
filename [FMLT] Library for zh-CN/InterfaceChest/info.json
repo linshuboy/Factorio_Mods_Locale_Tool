@@ -1,0 +1,11 @@
+{
+	"name": "InterfaceChest",
+	"version": "1.13.2",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13"],
+	"title": "Interface Chest",
+	"author": "Peppe",
+	"contact": "",
+	"homepage": "https://github.com/Peppe-KSP/InterfaceChest",
+	"description": "Slipstream chests to push/pull items to belts.  Chest connects to adjacent inventories to: Pull from adjacent inventory and push to belt or Pull from belt and push to adjacent inventory."
+}

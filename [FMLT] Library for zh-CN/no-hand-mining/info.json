@@ -1,0 +1,11 @@
+{
+	"name": "no-hand-mining",
+	"version": "0.13.0",
+	"title": "No Hand Mining",
+	"author": "Y.Petremann",
+	"contact": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=8976",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=8976",
+	"description": "You can no longer mine as a player, you are all dependent on mining-drill.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.12.11"]
+}

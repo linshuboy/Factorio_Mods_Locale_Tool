@@ -1,0 +1,10 @@
+{
+	"name": "Bio_Farm",
+	"version": "0.5.0",
+	"title": "Bio_Farm",
+	"author": "TheSAguy",
+	"contact": "vvwmisc@hotmail.com",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=17548",
+	"description": "Simple Wood Farm.",
+	"dependencies": ["base >= 0.12.20"]
+}

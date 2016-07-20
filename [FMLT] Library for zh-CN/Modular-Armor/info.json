@@ -1,0 +1,11 @@
+{
+	"name": "Modular-Armor",
+	"version": "0.2.1",
+	"title": "Modular Armor",
+	"author": "Ranakastrasz",
+	"contact": "~",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=14894&p=100866#p100866",
+	"description": "Alters Modular Armor and adds new Modules",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Smaller Beacons",
+	"version": "1.0.1",
+	"factorio_version": "0.13",
+	"title": "Smaller Beacons",
+	"author": "Doomquill",
+	"license": "https://opensource.org/licenses/MIT",
+	"contact": "No thanks",
+	"homepage": "TBD",
+	"description": "Basic Beacons become 2x2 instead of 3x3, per request of Arumba",
+	"dependencies": ["base >= 0.13"]
+}

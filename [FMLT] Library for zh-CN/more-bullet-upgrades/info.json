@@ -1,0 +1,11 @@
+{
+	"name": "more-bullet-upgrades",
+	"version": "0.1.0",
+	"title": "more bullet upgrades",
+	"author": "Jocker-IL",
+	"contact": "Jocker-IL@yahoo.com",
+	"homepage": "https://github.com/jocker-il",
+	"description": "Bullet upgrades mod addes upgrade levels 7 & 8 to bullet damage & speed, just to see if I can :)",
+	"factorio_version": "0.13",
+	"dependencies": []
+}

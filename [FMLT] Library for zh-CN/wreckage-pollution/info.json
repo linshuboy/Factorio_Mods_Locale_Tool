@@ -1,0 +1,11 @@
+{
+	"name": "wreckage-pollution",
+	"version": "0.13.0",
+	"title": "Wreckage Pollution",
+	"author": "Sparr",
+	"homepage": "http://github.com/sparr/factorio-mod-wreckage-pollution",
+	"contact": "sparr0@gmail.com",
+	"description": "Adds chemical spills and pollution from destroyed entities.",
+	"dependencies": ["base >= 0.13.0"],
+	"factorio_version": "0.13"
+}

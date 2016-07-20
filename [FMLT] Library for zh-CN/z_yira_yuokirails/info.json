@@ -1,0 +1,10 @@
+{
+	"name": "z_yira_yuokirails",
+	"title": "YIR - Yuoki-Industries-Railroads",
+	"version": "0.3.3",
+	"date": "2016-06-30",
+	"author": "Yuoki Tani",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13", "Yuoki >= 0.3.47", "yi_railway >= 0.3.9"],
+	"description": "adds Cargo-Waggons and Locomotives Yuoki-Railroads Themed"
+}

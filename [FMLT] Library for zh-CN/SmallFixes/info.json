@@ -1,0 +1,10 @@
+{
+	"name": "SmallFixes",
+	"version": "0.1.21",
+	"factorio_version": "0.13",
+	"title": "SmallFixes",
+	"author": "Choumiko",
+	"homepage": "",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "Small non game changing/breaking fixes"
+}

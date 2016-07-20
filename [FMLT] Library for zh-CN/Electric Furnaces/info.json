@@ -1,0 +1,9 @@
+{
+	"name": "Electric Furnaces",
+	"version": "2.0.0",
+	"title": "Electric Furnaces",
+	"author": "GotLag",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=13528",
+	"description": "Adds electric versions of the stone and steel furnaces, and an upgraded electric furnace.",
+	"factorio_version": "0.13"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "20x20ArmorMK2",
+	"author": "Neonit",
+	"version": "0.0.3",
+	"title": "对动力装甲MK2 20×20插槽",
+	"description": "这是一个动力装甲延伸MOD,使空间从10x10变成20x20.",
+	"homepage": "nothing here!",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "deforest-planner",
+	"version": "0.1.0",
+	"title": "Deforest Planner",
+	"author": "Jezza",
+	"description": "A great way to remove the pesky trees without deconstructing your own things.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13"]
+}

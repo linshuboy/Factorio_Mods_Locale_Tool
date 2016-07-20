@@ -1,0 +1,11 @@
+{
+	"name": "cheat-ms",
+	"version": "1.1.1",
+	"title": "Cheat Box for Mobile suit in FACTORIO",
+	"author": "Muneki",
+	"contact": "",
+	"homepage": "",
+	"dependencies": ["Mobile-suit >= 1.5.7", "cheat >= 1.1.0"],
+	"factorio_version": "0.13",
+	"description": "Produces all items of Mobile suit in FACTORIO without materials. Disposal all items of Mobile suit in FACTORIO."
+}
