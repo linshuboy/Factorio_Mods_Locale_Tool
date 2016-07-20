@@ -1,2 +1,8 @@
-# Factorio_Mods_Locale_Tool
-Factorio_Mods_Locale
+# 异星工厂汉化库发布版
+这是项目的主分支,
+也是工具开发的终点,
+此分支不允许直接修改,
+只接受管理员的提交,
+其他翻译作者请直接去fork-->dev分支
+提交汉化同样提交到dev-->分支
+本文件除外
