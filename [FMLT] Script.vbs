@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 262  'Update date: 2016.07.19
+CONST SCRIPT_VERSION = 268  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -80,8 +80,8 @@ Class Main
         Set FSO = CreateObject("Scripting.FileSystemObject")
         Set MT = New MODs_Translator
         strPath = FSO.GetParentFolderName(WScript.ScriptFullName)
-        Call MT.Load_Library(FSO.BuildPath(strPath, NAME_LIBRARY), _
-            SCRIPT_VERSION, Array(COMPLEMENT_ONLY, UPDATE_LIBRARY))
+        Call MT.Load_Library(strPath, SCRIPT_VERSION, _
+            Array(NAME_LIBRARY, COMPLEMENT_ONLY, UPDATE_LIBRARY))
         If Wscript.Arguments.Count = 0 Then
             Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")))
         Else
@@ -120,59 +120,50 @@ Class MODs_Translator
         Set ML = New Multilanguage_Echo
     End Sub
 
-    Public Sub Load_Library(ByRef strPath_Lib, ByRef intVer, ByRef arrOpt)
-        Dim objFolder, objFile, objFile_Info, objFile_Echo, dicInfo, dicEcho
+    Public Sub Load_Library(ByRef strPath_Work, ByRef intVer, ByRef arrOpt)
+        Dim objFolder, arrFiles, objFile_Echo, dicInfo, dicEcho
         strLocale = Empty
-        Set objFolder_Lib_Root = Nothing
-        If Not FZ.FolderExists(objFolder, strPath_Lib, Null, False) Then
-            MsgBox strPath_Lib & vbCrlf & vbCrlf & _
+        If Not FZ.FolderExists(objFolder, strPath_Work, arrOpt(0), False) Then
+            MsgBox objFolder.Self.Path & vbCrlf & vbCrlf & _
                 " does not exist.", 48, "Script Loading Error"
             WScript.Quit
-        ElseIf Not FZ.FileExists(objFile_Info, objFolder, NAME_LibInfo) Then
-            For Each objFile In objFolder.Items
-                If Not objFile.IsFolder Then
-                    '[skip line]
-                ElseIf FZ.FileExists(objFile_Info, objFile.GetFolder, NAME_LibInfo) Then
-                    Exit For
-                End If
-            Next
         End If
-
-        If objFile_Info Is Nothing Then
+        Set arrFiles = Locate_Files(objFolder, NAME_LibInfo, False)
+        If arrFiles.Count = 0 Then
             '[skip line]
-        ElseIf Not Valid_JSON(dicInfo, FZ.Read(objFile_Info)) Then
+        ElseIf Not Valid_JSON(dicInfo, FZ.Read(arrFiles(0))) Then
             '[skip line]
         Elseif Not dicInfo.Exists("locale") Then
             '[skip line]
         ElseIf LCase(dicInfo("locale")) = "en" Then
             '[skip line]
-        ElseIf Not FZ.FileExists(objFile_Echo, objFile_Info.Parent, NAME_ScrEcho) Then
+        ElseIf Not FZ.FileExists(objFile_Echo, arrFiles(0).Parent, NAME_ScrEcho) Then
             '[skip line]
         ElseIf Not Valid_JSON(dicEcho, FZ.Read(objFile_Echo)) Then
             '[skip line]
-        ElseIf ML.Initialize(dicEcho, NAME_Log) Then
+        ElseIf ML.Initialize(dicEcho, strPath_Work, NAME_Log) Then
             strLocale = dicInfo("locale")
-            Set objFolder_Lib_Root = objFile_Info.Parent
+            Set objFolder_Lib_Root = arrFiles(0).Parent
             arrOptions = arrOpt
-            Echo_Title dicInfo, intVer, FZ.Name(strPath_Lib)
+            Echo_Title dicInfo, intVer
         End If
         If IsEmpty(strLocale) Then
             MsgBox "This locale library has mistakes: " & vbCrlf & _
-                vbCrlf & strPath_Lib, 48, "Script Loading Error"
+                vbCrlf & objFolder.Self.Path, 48, "Script Loading Error"
             WScript.Quit
         End If
     End Sub
 
-    Private Sub Echo_Title(ByRef dicInfo, ByRef intVer, ByRef strName_Lib)
+    Private Sub Echo_Title(ByRef dicInfo, ByRef intVer)
         Dim dicOrg, dicMem, strEcho
         ML.Print -1, "*"
         ML.Print 0, ML.Echo("script_title", Array())
         ML.Print 0, ML.Echo("script_author", Array(intVer))
         ML.Print 0, ML.Echo("script_setting", Array(_
             FormatDateTime(Date, 2), FormatDateTime(Time, 4), _
-            CStr(CBool(arrOptions(0))), CStr(CBool(arrOptions(1)))))
+            CStr(CBool(arrOptions(1))), CStr(CBool(arrOptions(2)))))
         ML.Print -1, "-"
-        ML.Print 0, ML.Echo("library_1", Array(strName_Lib))
+        ML.Print 0, ML.Echo("library_1", Array(arrOptions(0)))
         ML.Print 0, ML.Echo("library_2", Array(dicInfo("locale"), _
             dicInfo("name"), dicInfo("version"), dicInfo("update")))
         If dicInfo.Exists("organization") Then
@@ -199,90 +190,70 @@ Class MODs_Translator
     End Sub
 
     Public Sub Scan_Paths(ByRef arrPaths)
-        Dim i, objFolder, intCount, intCount_Total, sngTime
+        Dim i, objFolder, dicFiles, objFile, intCount, sngTime
         If IsEmpty(strLocale) Then
-            '[skip line]
-        ElseIf Not IsArray(arrPaths) Then
             '[skip line]
         Else
             sngTime = sngTime - Timer
             For i = 0 To UBound(arrPaths)
                 ML.Print 1, ML.Echo("scan_path_1", Array(arrPaths(i)))
-                If FZ.FolderExists(objFolder, arrPaths(i), Null, False) Then
-                    intCount = Locate_MOD(objFolder)
-                    If intCount = 0 Then
-                        ML.Print 2, ML.Echo("scan_path_2", Array())
-                    End If
-                    intCount_Total = intCount_Total + intCount
-                Else
+                If Not FZ.FolderExists(objFolder, arrPaths(i), Null, False) Then
                     ML.Print 2, ML.Echo("scan_path_3", Array())
+                Else
+                    Set dicFiles = Locate_Files(objFolder, "info.json", True)
+                    If dicFiles.Count = 0 Then
+                        ML.Print 2, ML.Echo("scan_path_2", Array())
+                    Else
+                        For Each objFile In dicFiles.Items
+                            intCount = intCount + Translate_Mod(objFile)
+                        Next
+                    End If
                 End If
             Next
             sngTime = sngTime + Timer
-            ML.Print 1, ML.Echo("stat", Array(Int2Str(intCount_Total, 1), _
+            ML.Print 1, ML.Echo("stat", Array(Int2Str(intCount, 1), _
                 FormatNumber(sngTime, 2, -1)))
         End If
     End Sub
 
-    Private Function Locate_MOD(ByRef objFolder)
-        Dim dicInfo, objFile, objFolder_Lib, intCount_mods, arrCount(1)
-        If Not FZ.FileExists(objFile, objFolder, "info.json") Then
-            '[skip line]
-        ElseIf Not Valid_JSON(dicInfo, FZ.Read(objFile)) Then
-            '[skip line]
-        ElseIf dicInfo("name") = "" Then
-            '[skip line]
-        Else
-            ML.Print 2, ML.Echo("translating", Array(dicInfo("name"), dicInfo("version")))
-            Call FZ.FolderExists(objFolder_Lib, objFolder_Lib_Root, _
-                dicInfo("name"), arrOptions(1))
-            Translate_Info objFolder, objFolder_Lib, dicInfo
-            Add_Arr arrCount, Translate_Locale(objFolder, objFolder_Lib)
-            Add_Arr arrCount, Translate_Script_Locale(objFolder, objFolder_Lib)
-            If arrCount(0) > 0 Then
-                ML.Print 3, ML.Echo("result_2", Array(_
-                    Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), _
-                    FormatPercent(arrCount(1)/arrCount(0), 1, -1, 0)))
-            Else
-                ML.Print 3, ML.Echo("result_3", Array(Int2Str(0, 3), Int2Str(0, 3)))
-            End If
-            If arrOptions(1) Then
-                If objFolder_Lib.Items.Count = 0 Then Call FZ.Delete(objFolder_Lib)
-            End If
-            intCount_mods = 1
-        End If
-        If intCount_mods = 0 Then
-            For Each objFile In objFolder.Items
-                If objFile.IsFolder Then
-                    intCount_mods = intCount_mods + Locate_MOD(objFile.GetFolder)
-                End If
-            Next
-        End If
-        Locate_MOD = intCount_mods
-    End Function
+    Private Function Translate_Mod(ByRef objFile_Info)
+        Dim objFile, objFolder_Lib, dicInfo(1), strItem, arrCount(1)
+        If Not Valid_JSON(dicInfo(0), FZ.Read(objFile_Info)) Then Exit Function
+        If Len(dicInfo(0)("name")) = 0 Then Exit Function
+        ML.Print 2, ML.Echo("translating", _
+            Array(dicInfo(0)("name"), dicInfo(0)("version"), dicInfo(0)("title")))
+        Call FZ.FolderExists(objFolder_Lib, objFolder_Lib_Root, _
+                dicInfo(0)("name"), arrOptions(2))
 
-    Private Sub Translate_Info(ByRef objFolder_Mod_Root, ByRef objFolder_Lib, _
-            ByRef dicInfo_inMod)
-        Dim objFile, dicInfo_inLib, strItem
-        If arrOptions(0) Then
+        If arrOptions(1) Then
             '[skip line]
-        ElseIf Not FZ.FileExists(objFile, objFolder_Lib, "info.json") Then
+        ElseIf Not FZ.FileExists(objFile, objFolder_Lib, FZ.Name(objFile_Info)) Then
             '[skip line]
-        ElseIf Not Valid_JSON(dicInfo_inLib, FZ.Read(objFile)) Then
+        ElseIf Not Valid_JSON(dicInfo(1), FZ.Read(objFile)) Then
             '[skip line]
         Else
             For Each strItem In Array("title", "description")
-                dicInfo_inMod(strItem) = dicInfo_inLib(strItem)
+                dicInfo(0)(strItem) = dicInfo(1)(strItem)
             Next
-            Call FZ.Write(objFolder_Mod_Root, "info.json", _
-                JA.EncodeJSON(dicInfo_inMod, 1))
+            Call FZ.Write(objFile_Info.Parent, FZ.Name(objFile_Info), _
+                JA.EncodeJSON(dicInfo(0), 1))
         End If
-        ML.Print 3, ML.Echo("result_1", Array("  *", "  *", "\info.json"))
-        If arrOptions(1) Then
-            Call FZ.FileExists(objFile, objFolder_Mod_Root, "info.json")
-            Call FZ.Copy(objFile, objFolder_Lib, True)
+        If arrOptions(2) Then
+            Call FZ.Copy(objFile_Info, objFolder_Lib, True)
         End If
-    End Sub
+        ML.Print 3, ML.Echo("result_1", Array("  #", "  #", "\" & FZ.Name(objFile_Info)))
+
+        Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, objFolder_Lib)
+        Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, objFolder_Lib)
+        If arrCount(0) = 0 Then
+            ML.Print 3, ML.Echo("result_3", Array(Int2Str(0, 3), Int2Str(0, 3)))
+        Else
+            ML.Print 3, ML.Echo("result_2", Array(_
+                Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), _
+                FormatPercent(arrCount(1)/arrCount(0), 1, -1, 0)))
+            Translate_Mod = 1
+        End If
+    End Function
 
     Private Function Translate_Locale(ByRef objFolder_Mod_Root, ByRef objFolder_Lib)
         Dim objFolder, objFolder_en, objFolder_Loc, objFile_en, objFile
@@ -296,7 +267,7 @@ Class MODs_Translator
             For Each objFile_en In objFolder_en.Items
                 If Not objFile_en.IsFolder Then
                     Set dicItems = Load_Items(objFile_en)
-                    If arrOptions(0) Then
+                    If arrOptions(1) Then
                         Update_Items dicItems, objFolder_Lib, FZ.Name(objFile_en)
                         Update_Items dicItems, objFolder_Loc, FZ.Name(objFile_en)
                     Else
@@ -308,7 +279,7 @@ Class MODs_Translator
                         Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
                         "\locale\" & strLocale & "\" & FZ.Name(objFile_en)))
                     Add_Arr arrCount, arrResult
-                    If arrOptions(1) Then
+                    If arrOptions(2) Then
                         Call FZ.FileExists(objFile, objFolder_Loc, FZ.Name(objFile_en))
                         Call FZ.Copy(objFile, objFolder_Lib, True)
                     End If
@@ -327,7 +298,7 @@ Class MODs_Translator
             '[skip line]
         Else
             Set dicItems = Load_Items(objFile)
-            If arrOptions(0) Then
+            If arrOptions(1) Then
                 Update_Items dicItems, objFolder_Lib, strLocale & ".cfg"
                 Update_Items dicItems, objFolder_Loc, strLocale & ".cfg"
             Else
@@ -339,7 +310,7 @@ Class MODs_Translator
                 Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
                 "\script-locale\" & strLocale & ".cfg"))
             Add_Arr arrCount, arrResult
-            If arrOptions(1) Then
+            If arrOptions(2) Then
                 Call FZ.FileExists(objFile, objFolder_Loc, strLocale & ".cfg")
                 Call FZ.Copy(objFile, objFolder_Lib, True)
             End If
@@ -422,6 +393,26 @@ Class MODs_Translator
         Write_Items = arrCount
     End Function
 
+    Private Function Locate_Files(ByRef objFolder_Root, ByRef strName_File, _
+            ByRef blnFindAll)
+        Dim arrReturn, objFile, objItem
+        Set arrReturn = CreateObject("Scripting.Dictionary")
+        If FZ.FileExists(objFile, objFolder_Root, strName_File) Then
+            arrReturn.Add arrReturn.Count, objFile
+        End If
+        If blnFindAll Then
+            For Each objItem In objFolder_Root.Items
+                If objItem.IsFolder Then
+                    For Each objFile In Locate_Files(objItem.GetFolder, _
+                            strName_File, blnFindAll).Items
+                        arrReturn.Add arrReturn.Count, objFile
+                    Next
+                End If
+            Next
+        End If
+        Set Locate_Files = arrReturn
+    End Function
+
     Private Function Text2Lines(ByRef strText)
         Dim Reg, objMatches, i, arrReturn()
         strText = Replace(strText, vbCrlf, vbLf)
@@ -469,7 +460,7 @@ Class Multilanguage_Echo
     
     Private dicText, strLang(1), intWidth, objOutput
 
-    Public Function Initialize(ByRef dicLocale, ByRef strName_Log)
+    Public Function Initialize(ByRef dicLocale, ByRef strPath, ByRef strName_Log)
         Set dicText = Nothing
         If Not dicLocale.Exists("echo_text") Then
             '[skip line]
@@ -490,8 +481,7 @@ Class Multilanguage_Echo
         If Not dicText Is Nothing Then
             Dim FSO
             Set FSO = CreateObject("Scripting.FileSystemObject")
-            Set objOutput = FSO.CreateTextFile(FSO.BuildPath(_
-                FSO.GetParentFolderName(WScript.ScriptFullName), strName_Log), True)
+            Set objOutput = FSO.CreateTextFile(FSO.BuildPath(strPath, strName_Log), True)
             Initialize = True
         End If
     End Function
@@ -513,20 +503,43 @@ Class Multilanguage_Echo
     End Function
 
     Public Sub Print(ByRef intType, ByVal strEcho)
-        Dim intTmp
+        Dim intLen, intPos(1), strChar, intTmp
         If intType >= 1 Then
             'Left align with levels
+            strEcho = Replace(strEcho, vbCrlf, vbLf)
+            strEcho = Replace(strEcho, vbCr, vbLf)
             strEcho = Space(3*(intType-1)) & ">> " & _
-                Replace(strEcho, vbLf, vbCrLf & Space(3*intType))
+                Replace(strEcho, vbLf, vbLf & Space(3*intType))
+            intPos(1) = 1
+            Do While intPos(1) <= Len(strEcho)
+                strChar = Mid(strEcho, intPos(1), 1)
+                intTmp = LenW(strChar)
+                If strChar = vbTab Then intTmp = 5
+                If strChar = vbLf Then
+                    intPos(0) = intPos(1) + 1
+                    intPos(1) = intPos(0) + 3*intType
+                    intLen = 3*intType
+                ElseIf intLen + intTmp > intWidth Then
+                    strEcho = Left(strEcho, intPos(1)-1) & vbLf & _
+                        Space(3*intType) & Mid(strEcho, intPos(1))
+                    intPos(0) = intPos(1) + 3*intType + 1
+                    intPos(1) = intPos(0) + 3*intType
+                    intLen = 3*intType
+                Else
+                    intLen = intLen + intTmp
+                    intPos(1) = intPos(1) + 1
+                End If
+            Loop
+            strEcho = Replace(strEcho, vbLf, vbCrlf)
         ElseIf intType = 0 Then
             'Center align
-            intTmp = intWidth - LenW(strEcho)
-            If intTmp < 0 Then intTmp = 0
-            strEcho = Space(Int(intTmp/2)) & strEcho
+            intLen = intWidth - LenW(strEcho)
+            If intLen < 0 Then intLen = 0
+            strEcho = Space(Int(intLen/2)) & strEcho
         ElseIf intType = -1 Then
             'Fill a row
-            If LenW(strEcho) > 0 Then strEcho = Left(String(_
-                Int(intWidth/LenW(strEcho))+1, strEcho), intWidth)
+            If LenW(strEcho) > 0 Then strEcho = _
+                Left(String(Int(intWidth/LenW(strEcho))+1, strEcho), intWidth)
         End If
         Wscript.Echo strEcho
         objOutput.WriteLine strEcho
@@ -534,8 +547,12 @@ Class Multilanguage_Echo
 
     Private Function LenW(ByRef strText)
         Dim i, intReturn
-        For i = 1 To LenB(strText)
-            If AscB(MidB(strText, i, 1)) > 0 Then intReturn = intReturn + 1
+        For i = 2 To LenB(strText) Step 2
+            If AscB(MidB(strText, i, 1)) > 0 Then
+                intReturn = intReturn + 2
+            Else
+                intReturn = intReturn + 1
+            End If
         Next
         LenW = intReturn
     End Function
@@ -1155,7 +1172,7 @@ Class JSON_Advanced
             strSep = ", "
             arrText(0) = "["
         End If
-        For Each varEle In arrData      'Only method without error for empty array
+        For Each varEle In arrData
             Redim Preserve arrText(2 * i + 2)
             arrText(2 * i + 1) = EncodeVariant(varEle, intFormat, intLayer + 1)
             arrText(2 * i + 2) = strSep

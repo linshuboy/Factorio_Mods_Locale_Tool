@@ -1,9 +1,10 @@
 {
 	"name": "blueprint-string",
-	"version": "3.0.3",
+	"version": "2.3.1",
 	"title": "蓝图代码",
 	"author": "DaveMcW",
+	"contact": "",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?t=13651",
 	"description": "能够把蓝图转换为代码，让蓝图可以方便地跨存档使用或分享给其它玩家。",
-	"factorio_version": "0.13",
-	"dependencies": []
+	"dependencies": ["base >= 0.12.11"]
 }
