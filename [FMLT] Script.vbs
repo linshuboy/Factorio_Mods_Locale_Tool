@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 265  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 268  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -221,7 +221,7 @@ Class MODs_Translator
         If Not Valid_JSON(dicInfo(0), FZ.Read(objFile_Info)) Then Exit Function
         If Len(dicInfo(0)("name")) = 0 Then Exit Function
         ML.Print 2, ML.Echo("translating", _
-            Array(dicInfo(0)("name"), dicInfo(0)("version")))
+            Array(dicInfo(0)("name"), dicInfo(0)("version"), dicInfo(0)("title")))
         Call FZ.FolderExists(objFolder_Lib, objFolder_Lib_Root, _
                 dicInfo(0)("name"), arrOptions(2))
 
@@ -241,7 +241,7 @@ Class MODs_Translator
         If arrOptions(2) Then
             Call FZ.Copy(objFile_Info, objFolder_Lib, True)
         End If
-        ML.Print 3, ML.Echo("result_1", Array("  *", "  *", "\" & FZ.Name(objFile_Info)))
+        ML.Print 3, ML.Echo("result_1", Array("  #", "  #", "\" & FZ.Name(objFile_Info)))
 
         Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, objFolder_Lib)
         Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, objFolder_Lib)
