@@ -39,7 +39,7 @@
         },
         "scan_path_1": {
             "en": "Scanning the path: __1__",
-            "zh-CN": "扫描路径: __1__"
+            "zh-CN": "正在扫描路径: __1__"
         },
         "scan_path_2": {
             "en": "No mod is found in the path.",
