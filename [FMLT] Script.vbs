@@ -27,9 +27,11 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 271  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 275  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
+
+'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY AUTHORS!
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
 'The name of locale library in the same directory as this script, which is either 
@@ -76,15 +78,15 @@ Class Main
     End Sub
 
     Private Sub Main()
-        Dim FSO, MT
+        Dim FSO, MT, strPath
         Set FSO = CreateObject("Scripting.FileSystemObject")
         Set MT = New MODs_Translator
-        MT.Work_Path = FSO.GetParentFolderName(WScript.ScriptFullName)
-        Call MT.Load_Library(SCRIPT_VERSION, _
+        strPath = FSO.GetParentFolderName(WScript.ScriptFullName)
+        Call MT.Load_Library(strPath, SCRIPT_VERSION, _
             Array(NAME_LIBRARY, COMPLEMENT_ONLY, UPDATE_LIBRARY))
         If Wscript.Arguments.Count = 0 Then
-            Call MT.Scan_Paths(Array(FSO.BuildPath(MT.Work_Path, "mods")))
-            Call MT.Generate_Mods_List()
+            Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")))
+            Call MT.Generate_Mods_List(strPath)
         Else
             Call MT.Scan_Paths(Args_Array())
         End If
@@ -110,7 +112,6 @@ Class MODs_Translator
     Private NAME_LibInfo, NAME_ScrEcho, NAME_Log, NAME_List
     Private LABEL_DefGroup, LABEL_InvLine
     Private FZ, JA, ML, strLocale, objFolder_Lib_Root, arrOptions
-    Public Work_Path
 
     Private Sub Class_Initialize()
         NAME_LibInfo = "library-info.json"
@@ -124,15 +125,16 @@ Class MODs_Translator
         Set ML = New Multilanguage_Echo
     End Sub
 
-    Public Sub Load_Library(ByRef intVer, ByRef arrOpt)
+    Public Sub Load_Library(ByRef strPath_Work, ByRef intVer, ByRef arrOpt)
         Dim objFolder, arrFiles, objFile_Echo, dicInfo, dicEcho
         strLocale = Empty
-        If Not FZ.FolderExists(objFolder, Work_Path, arrOpt(0), False) Then
+        Set objFolder_Lib_Root = Nothing
+        If Not FZ.FolderExists(objFolder, strPath_Work, arrOpt(0), False) Then
             MsgBox objFolder.Self.Path & vbCrlf & vbCrlf & _
                 " does not exist.", 48, "Script Loading Error"
             WScript.Quit
         End If
-        Set arrFiles = Locate_Files(objFolder, NAME_LibInfo, False)
+        Set arrFiles = Locate_Files(objFolder, NAME_LibInfo, False, False)
         If arrFiles.Count = 0 Then
             '[skip line]
         ElseIf Not Valid_JSON(dicInfo, FZ.Read(arrFiles(0))) Then
@@ -145,7 +147,7 @@ Class MODs_Translator
             '[skip line]
         ElseIf Not Valid_JSON(dicEcho, FZ.Read(objFile_Echo)) Then
             '[skip line]
-        ElseIf ML.Initialize(dicEcho, Work_Path, NAME_Log) Then
+        ElseIf ML.Initialize(dicEcho, strPath_Work, NAME_Log) Then
             strLocale = dicInfo("locale")
             Set objFolder_Lib_Root = arrFiles(0).Parent
             arrOptions = arrOpt
@@ -202,7 +204,7 @@ Class MODs_Translator
             If Not FZ.FolderExists(objFolder, arrPaths(i), Null, False) Then
                 ML.Print 2, ML.Echo("scan_path_3", Array())
             Else
-                Set dicFiles = Locate_Files(objFolder, "info.json", True)
+                Set dicFiles = Locate_Files(objFolder, "info.json", True, True)
                 If dicFiles.Count = 0 Then
                     ML.Print 2, ML.Echo("scan_path_2", Array())
                 Else
@@ -217,12 +219,13 @@ Class MODs_Translator
             FormatNumber(sngTime, 2, -1)))
     End Sub
 
-    Public Sub Generate_Mods_List()
+    Public Sub Generate_Mods_List(ByRef strPath_Work)
         Dim sngTime, dicFiles, objFile, dicInfo, dicOutput, intCount, objFolder
         If IsEmpty(strLocale) Then Exit Sub
+        If Not FZ.FolderExists(objFolder, strPath_Work, Null, False) Then Exit Sub
         sngTime = sngTime - Timer
         ML.Print 1, ML.Echo("list_generating", Array(NAME_List))
-        Set dicFiles = Locate_Files(objFolder_Lib_Root, "info.json", True)
+        Set dicFiles = Locate_Files(objFolder_Lib_Root, "info.json", True, False)
         Set dicOutput = CreateObject("Scripting.Dictionary")
         For Each objFile In dicFiles.Items
             If Valid_JSON(dicInfo, FZ.Read(objFile)) Then
@@ -231,7 +234,6 @@ Class MODs_Translator
                 intCount = intCount + 1
             End If
         Next
-        Call FZ.FolderExists(objFolder, Work_Path, Null, False)
         Call FZ.Write(objFolder, NAME_List, Join(dicOutput.Items, vbCrlf))
         sngTime = sngTime + Timer
         ML.Print 1, ML.Echo("list_finish", Array(Int2Str(intCount, 1), _
@@ -240,7 +242,6 @@ Class MODs_Translator
 
     Private Function Translate_Mod(ByRef objFile_Info)
         Dim objFile, objFolder_Lib, dicInfo(1), strItem, arrCount(1)
-        If InStr(objFile_Info.Path, objFolder_Lib_Root.Path) > 0 Then Exit Function
         If Not Valid_JSON(dicInfo(0), FZ.Read(objFile_Info)) Then Exit Function
         If Len(dicInfo(0)("name")) = 0 Then Exit Function
         ML.Print 2, ML.Echo("translating", _
@@ -417,21 +418,30 @@ Class MODs_Translator
     End Function
 
     Private Function Locate_Files(ByRef objFolder_Root, ByRef strName_File, _
-            ByRef blnFindAll)
-        Dim arrReturn, objFile, objItem
+            ByRef blnScanSub, ByRef blnAvoidLib)
+        Dim arrReturn, blnExec, objFile, objItem
         Set arrReturn = CreateObject("Scripting.Dictionary")
-        If FZ.FileExists(objFile, objFolder_Root, strName_File) Then
-            arrReturn.Add arrReturn.Count, objFile
+        If Not blnAvoidLib Then
+            blnExec = True
+        ElseIf objFolder_Lib_Root Is Nothing Then
+            blnExec = True
+        ElseIf InStr(objFolder_Root.Self.Path, objFolder_Lib_Root.Self.Path) = 0 Then
+            blnExec = True
         End If
-        If blnFindAll Then
-            For Each objItem In objFolder_Root.Items
-                If objItem.IsFolder Then
-                    For Each objFile In Locate_Files(objItem.GetFolder, _
-                            strName_File, blnFindAll).Items
-                        arrReturn.Add arrReturn.Count, objFile
-                    Next
-                End If
-            Next
+        If blnExec Then
+            If FZ.FileExists(objFile, objFolder_Root, strName_File) Then
+                arrReturn.Add arrReturn.Count, objFile
+            End If
+            If blnScanSub Then
+                For Each objItem In objFolder_Root.Items
+                    If objItem.IsFolder Then
+                        For Each objFile In Locate_Files(objItem.GetFolder, _
+                                strName_File, blnScanSub, blnAvoidLib).Items
+                            arrReturn.Add arrReturn.Count, objFile
+                        Next
+                    End If
+                Next
+            End If
         End If
         Set Locate_Files = arrReturn
     End Function
