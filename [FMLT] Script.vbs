@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 270  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 271  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -221,7 +221,7 @@ Class MODs_Translator
         Dim sngTime, dicFiles, objFile, dicInfo, dicOutput, intCount, objFolder
         If IsEmpty(strLocale) Then Exit Sub
         sngTime = sngTime - Timer
-        ML.Print 1, ML.Echo("list_generating", Array())
+        ML.Print 1, ML.Echo("list_generating", Array(NAME_List))
         Set dicFiles = Locate_Files(objFolder_Lib_Root, "info.json", True)
         Set dicOutput = CreateObject("Scripting.Dictionary")
         For Each objFile In dicFiles.Items
@@ -240,6 +240,7 @@ Class MODs_Translator
 
     Private Function Translate_Mod(ByRef objFile_Info)
         Dim objFile, objFolder_Lib, dicInfo(1), strItem, arrCount(1)
+        If InStr(objFile_Info.Path, objFolder_Lib_Root.Path) > 0 Then Exit Function
         If Not Valid_JSON(dicInfo(0), FZ.Read(objFile_Info)) Then Exit Function
         If Len(dicInfo(0)("name")) = 0 Then Exit Function
         ML.Print 2, ML.Echo("translating", _

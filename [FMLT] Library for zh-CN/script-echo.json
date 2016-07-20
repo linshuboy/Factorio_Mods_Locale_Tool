@@ -69,8 +69,8 @@
             "zh-CN": "[__1__/__2__] 未发现需要汉化条目。"
         },
         "list_generating": {
-            "en": "Generating the list of mods in library with translated titles and \ndescriptions...",
-            "zh-CN": "正在生成文本库中的MOD列表（带译名和汉化简介）..."
+            "en": "Generating the list of mods in library with translated titles and \ndescriptions: __1__",
+            "zh-CN": "正在生成文本库中的MOD列表（带译名和汉化简介）: __1__"
         },
         "list_format": {
             "en": "==> __1__ | __2__\r\n\t__3__"
