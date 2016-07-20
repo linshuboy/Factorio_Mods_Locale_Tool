@@ -15,14 +15,14 @@
         "script_setting": {
             "en": "<__1__ __2__> <COMPLEMENT_ONLY=__3__> <UPDATE_LIBRARY=__4__>"
         },
-        "library_1": {
+        "library_name": {
             "en": "Loaded library: __1__",
             "zh-CN": "已加载文本库: __1__"
         },
-        "library_2": {
+        "library_info": {
             "en": "< __1__ | __2__ | __3__ | __4__ >"
         },
-        "library_3": {
+        "library_member": {
             "en": "< __1__ - __2__ >"
         },
         "tip_1": {
@@ -49,6 +49,10 @@
             "en": "The path does not exist.",
             "zh-CN": "该路径不存在。"
         },
+        "scan_path_finish": {
+            "en": "Finshed, a total of __1__ mod(s) have been transalted, taking __2__ seconds.",
+            "zh-CN": "完毕，共汉化了 __1__ 个MOD，耗时 __2__ 秒。"
+        },
         "translating": {
             "en": "Translating: __1__ __2__ <=> __3__",
             "zh-CN": "正在汉化: __1__ __2__ <=> __3__"
@@ -64,9 +68,16 @@
             "en": "[__1__/__2__] No locale item needs to translate.",
             "zh-CN": "[__1__/__2__] 未发现需要汉化条目。"
         },
-        "stat": {
-            "en": "Finshed, a total of __1__ mod(s) have been transalted, taking __2__ seconds.",
-            "zh-CN": "完毕，共汉化了 __1__ 个MOD，耗时 __2__ 秒。"
+        "list_generating": {
+            "en": "Generating the list of mods in library with translated titles and \ndescriptions: __1__",
+            "zh-CN": "正在生成文本库中的MOD列表（带译名和汉化简介）: __1__"
+        },
+        "list_format": {
+            "en": "==> __1__ | __2__\r\n\t__3__"
+        },
+        "list_finish": {
+            "en": "Finshed, a total of __1__ mod(s) have been listed, taking __2__ seconds.",
+            "zh-CN": "完毕，共列出了 __1__ 个MOD，耗时 __2__ 秒。"
         }
     }
 }
