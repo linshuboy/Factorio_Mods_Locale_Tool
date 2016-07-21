@@ -2,12 +2,12 @@
 	"name": "5dim_core",
 	"version": "0.13.1",
 	"factorio_version": "0.13",
-	"title": "5dim's Mod - (引擎)Core",
+	"title": "5dim's Mod - 引擎",
 	"title_original": "5dim's Mod - Core",
 	"author": "5Dim",
 	"contact": "mcguten.videos@gmail.com",
 	"homepage": "http://www.5dim.es",
-	"description": "(驱动5dim的所有MOD)Core of all 5dim's mod",
+	"description": "驱动5dim的所有MOD",
 	"description_original": "Core of all 5dim's mod",
 	"dependencies": ["base >= 0.13.0"]
 }
