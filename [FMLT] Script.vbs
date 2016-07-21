@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 280  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 281  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -86,7 +86,7 @@ Class Main
             Array(NAME_LIBRARY, COMPLEMENT_ONLY, UPDATE_LIBRARY))
         If Wscript.Arguments.Count = 0 Then
             Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")))
-            Call MT.Generate_Mods_List(strPath)
+            'Call MT.Generate_Mods_List(strPath)
         Else
             Call MT.Scan_Paths(Args_Array())
         End If
