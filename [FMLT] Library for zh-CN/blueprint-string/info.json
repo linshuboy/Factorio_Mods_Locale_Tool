@@ -1,10 +1,11 @@
 {
 	"name": "blueprint-string",
-	"version": "2.3.1",
+	"version": "3.0.3",
 	"title": "蓝图代码",
+	"title_original": "Blueprint String",
 	"author": "DaveMcW",
-	"contact": "",
-	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?t=13651",
 	"description": "能够把蓝图转换为代码，让蓝图可以方便地跨存档使用或分享给其它玩家。",
-	"dependencies": ["base >= 0.12.11"]
+	"description_original": "Converts text strings into blueprints",
+	"factorio_version": "0.13",
+	"dependencies": []
 }

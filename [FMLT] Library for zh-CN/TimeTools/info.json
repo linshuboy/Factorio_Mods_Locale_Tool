@@ -1,9 +1,11 @@
 {
 	"name": "TimeTools",
-	"version": "1.0.20",
+	"version": "1.0.21",
 	"title": "Time Tools",
+	"title_original": "Time Tools",
 	"author": "BinbinHfr",
 	"description": "Time tools : clock, daylight, game speed tweaks and clock combinators!",
+	"description_original": "Time tools : clock, daylight, game speed tweaks and clock combinators!",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=22822",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
