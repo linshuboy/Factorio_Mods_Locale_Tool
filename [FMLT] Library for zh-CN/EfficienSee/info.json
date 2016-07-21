@@ -1,9 +1,11 @@
 {
 	"name": "EfficienSee",
-	"version": "1.0.6",
-	"title": "EfficienSee : optimise your mega-factory !",
+	"version": "1.0.15",
+	"title": "可视生产效率：优化大生产！",
+	"title_original": "EfficienSee : optimise your mega-factory !",
 	"author": "BinbinHfr",
-	"description": "Optimise your mega-factory efficiency ! Check your production rate per items and recipes, hunting for under or over production, and display production statistics per recipe with underemployed machines counts: useful to see where are the weak links in your production chain.",
+	"description": "优化大型工厂生产效率！检查每个产品和配方的产量，找出产能不足和产能过剩，列出每个配方的供需统计和工厂运转情况，让你轻松地发现整个生产链中的薄弱环节。",
+	"description_original": "Optimise your mega-factory efficiency ! Check your production rate per items and recipes, hunting for under or over production, and display production statistics per recipe with underemployed machines counts: useful to see where are the weak links in your production chain.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=29179",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

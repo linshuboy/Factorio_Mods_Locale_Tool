@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 275  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 278  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -241,32 +241,14 @@ Class MODs_Translator
     End Sub
 
     Private Function Translate_Mod(ByRef objFile_Info)
-        Dim objFile, objFolder_Lib, dicInfo(1), strItem, arrCount(1)
-        If Not Valid_JSON(dicInfo(0), FZ.Read(objFile_Info)) Then Exit Function
-        If Len(dicInfo(0)("name")) = 0 Then Exit Function
+        Dim objFolder_Lib, dicInfo, arrCount(1)
+        If Not Valid_JSON(dicInfo, FZ.Read(objFile_Info)) Then Exit Function
+        If Len(dicInfo("name")) = 0 Then Exit Function
         ML.Print 2, ML.Echo("translating", _
-            Array(dicInfo(0)("name"), dicInfo(0)("version"), dicInfo(0)("title")))
+            Array(dicInfo("name"), dicInfo("version"), dicInfo("title")))
         Call FZ.FolderExists(objFolder_Lib, objFolder_Lib_Root, _
-                dicInfo(0)("name"), arrOptions(2))
-
-        If arrOptions(1) Then
-            '[skip line]
-        ElseIf Not FZ.FileExists(objFile, objFolder_Lib, FZ.Name(objFile_Info)) Then
-            '[skip line]
-        ElseIf Not Valid_JSON(dicInfo(1), FZ.Read(objFile)) Then
-            '[skip line]
-        Else
-            For Each strItem In Array("title", "description")
-                dicInfo(0)(strItem) = dicInfo(1)(strItem)
-            Next
-            Call FZ.Write(objFile_Info.Parent, FZ.Name(objFile_Info), _
-                JA.EncodeJSON(dicInfo(0), 1))
-        End If
-        If arrOptions(2) Then
-            Call FZ.Copy(objFile_Info, objFolder_Lib, True)
-        End If
-        ML.Print 3, ML.Echo("result_1", Array("  #", "  #", "\" & FZ.Name(objFile_Info)))
-
+                dicInfo("name"), arrOptions(2))
+        Add_Arr arrCount, Translate_Info(objFile_Info.Parent, objFolder_Lib, dicInfo)
         Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, objFolder_Lib)
         Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, objFolder_Lib)
         If arrCount(0) = 0 Then
@@ -277,6 +259,63 @@ Class MODs_Translator
                 FormatPercent(arrCount(1)/arrCount(0), 1, -1, 0)))
             Translate_Mod = 1
         End If
+    End Function
+
+    Private Function Translate_Info(ByRef objFolder_Mod_Root, ByRef objFolder_Lib, _
+            ByRef dicInfo_inMod)
+        Dim strKey, dicInfo_New, objFile, dicInfo_inLib, arrCount(1)
+        If arrOptions(1) Then
+            '[skip line]
+        ElseIf Not FZ.FileExists(objFile, objFolder_Lib, "info.json") Then
+            '[skip line]
+        ElseIf Not Valid_JSON(dicInfo_inLib, FZ.Read(objFile)) Then
+            dicInfo_inLib = Empty
+        End If
+        Set dicInfo_New = CreateObject("Scripting.Dictionary")
+        For Each strKey In dicInfo_inMod.Keys
+            Select Case strKey
+                Case "title"
+                    If IsEmpty(dicInfo_inLib) Then
+                        dicInfo_New("title") = dicInfo_inMod("title")
+                    Else
+                        dicInfo_New("title") = dicInfo_inLib("title")
+                    End If
+                    If Len(dicInfo_inMod("title_original")) > 0 Then
+                        dicInfo_New("title_original") = dicInfo_inMod("title_original")
+                    Else
+                        dicInfo_New("title_original") = dicInfo_inMod("title")
+                    End If
+                Case "title_original"
+                    '[skip line]
+                Case "description"
+                    If IsEmpty(dicInfo_inLib) Then
+                        dicInfo_New("description") = dicInfo_inMod("description")
+                    Else
+                        dicInfo_New("description") = dicInfo_inLib("description")
+                    End If
+                    If Len(dicInfo_inMod("description_original")) > 0 Then
+                        dicInfo_New("description_original") = _
+                            dicInfo_inMod("description_original")
+                    Else
+                        dicInfo_New("description_original") = dicInfo_inMod("description")
+                    End If
+                Case "description_original"
+                    '[skip line]
+                Case Else
+                    dicInfo_New(strKey) = dicInfo_inMod(strKey)
+            End Select
+        Next
+        Call FZ.Write(objFolder_Mod_Root, "info.json", JA.EncodeJSON(dicInfo_New, 1))
+        If arrOptions(2) Then
+            Call FZ.FileExists(objFile, objFolder_Mod_Root, "info.json")
+            Call FZ.Copy(objFile, objFolder_Lib, True)
+        End If
+        arrCount(0) = 2
+        arrCount(1) = - (dicInfo_New("title") <> dicInfo_New("title_original")) _
+            - (dicInfo_New("description") <> dicInfo_New("description_original"))
+        ML.Print 3, ML.Echo("result_1", _
+            Array(Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), "\info.json"))
+        Translate_Info = arrCount
     End Function
 
     Private Function Translate_Locale(ByRef objFolder_Mod_Root, ByRef objFolder_Lib)
@@ -299,14 +338,14 @@ Class MODs_Translator
                         Update_Items dicItems, objFolder_Lib, FZ.Name(objFile_en)
                     End If
                     arrResult = Write_Items(dicItems, objFolder_Loc, FZ.Name(objFile_en))
-                    ML.Print 3, ML.Echo("result_1", Array(_
-                        Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
-                        "\locale\" & strLocale & "\" & FZ.Name(objFile_en)))
-                    Add_Arr arrCount, arrResult
                     If arrOptions(2) Then
                         Call FZ.FileExists(objFile, objFolder_Loc, FZ.Name(objFile_en))
                         Call FZ.Copy(objFile, objFolder_Lib, True)
                     End If
+                    ML.Print 3, ML.Echo("result_1", Array(_
+                        Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
+                        "\locale\" & strLocale & "\" & FZ.Name(objFile_en)))
+                    Add_Arr arrCount, arrResult
                 End If
             Next
         End If
@@ -330,14 +369,14 @@ Class MODs_Translator
                 Update_Items dicItems, objFolder_Lib, strLocale & ".cfg"
             End If
             arrResult = Write_Items(dicItems, objFolder_Loc, strLocale & ".cfg")
-            ML.Print 3, ML.Echo("result_1", Array(_
-                Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
-                "\script-locale\" & strLocale & ".cfg"))
-            Add_Arr arrCount, arrResult
             If arrOptions(2) Then
                 Call FZ.FileExists(objFile, objFolder_Loc, strLocale & ".cfg")
                 Call FZ.Copy(objFile, objFolder_Lib, True)
             End If
+            ML.Print 3, ML.Echo("result_1", Array(_
+                Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
+                "\script-locale\" & strLocale & ".cfg"))
+            Add_Arr arrCount, arrResult
         End If
         Translate_Script_Locale = arrCount
     End Function
@@ -546,8 +585,11 @@ Class Multilanguage_Echo
             intPos(1) = 1
             Do While intPos(1) <= Len(strEcho)
                 strChar = Mid(strEcho, intPos(1), 1)
-                intTmp = LenW(strChar)
-                If strChar = vbTab Then intTmp = 5
+                If strChar = vbTab Then
+                    intTmp = 5
+                Else
+                    intTmp = LenW(strChar)
+                End If
                 If strChar = vbLf Then
                     intPos(0) = intPos(1) + 1
                     intPos(1) = intPos(0) + 3*intType
@@ -566,9 +608,9 @@ Class Multilanguage_Echo
             strEcho = Replace(strEcho, vbLf, vbCrlf)
         ElseIf intType = 0 Then
             'Center align
-            intLen = intWidth - LenW(strEcho)
-            If intLen < 0 Then intLen = 0
-            strEcho = Space(Int(intLen/2)) & strEcho
+            intTmp = intWidth - LenW(strEcho)
+            If intTmp < 0 Then intTmp = 0
+            strEcho = Space(Int(intTmp/2)) & strEcho
         ElseIf intType = -1 Then
             'Fill a row
             If LenW(strEcho) > 0 Then strEcho = _
