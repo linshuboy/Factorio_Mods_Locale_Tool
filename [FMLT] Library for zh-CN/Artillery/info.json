@@ -3,8 +3,10 @@
 	"name": "Artillery",
 	"version": "1.2.0",
 	"title": "Artillery",
+	"title_original": "Artillery",
 	"author": "Buhamut",
 	"contact": "",
 	"homepage": "",
-	"description": "Mod that adds an artillery piece to Factorio"
+	"description": "Mod that adds an artillery piece to Factorio",
+	"description_original": "Mod that adds an artillery piece to Factorio"
 }

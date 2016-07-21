@@ -2,10 +2,12 @@
 	"name": "Explosive Termites",
 	"version": "1.1.8",
 	"title": "Explosive Termites",
+	"title_original": "Explosive Termites",
 	"author": "Rseding91",
 	"contact": "Rseding91 on the Factorio forums",
 	"homepage": "",
 	"description": "Provides explosive termites for large scale deforestation.",
+	"description_original": "Provides explosive termites for large scale deforestation.",
 	"dependencies": ["base"],
 	"factorio_version": "0.13"
 }

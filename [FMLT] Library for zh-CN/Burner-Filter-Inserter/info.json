@@ -3,8 +3,10 @@
 	"version": "0.3.0",
 	"factorio_version": "0.13",
 	"title": "Burner-Filter-Inserter",
+	"title_original": "Burner-Filter-Inserter",
 	"author": "V453000",
 	"contact": "",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=25851",
-	"description": "Adds burner filter inserters with 1 filter from the start of the game."
+	"description": "Adds burner filter inserters with 1 filter from the start of the game.",
+	"description_original": "Adds burner filter inserters with 1 filter from the start of the game."
 }

@@ -2,9 +2,11 @@
 	"name": "ShevanSolar",
 	"version": "1.1.0",
 	"title": "Shevan Solar",
+	"title_original": "Shevan Solar",
 	"contact": "",
 	"author": "DracoKartu",
 	"homepage": "",
 	"description": "Adds higher tiers of solar panels and accumulators.",
+	"description_original": "Adds higher tiers of solar panels and accumulators.",
 	"factorio_version": "0.13"
 }

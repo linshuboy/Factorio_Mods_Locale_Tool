@@ -3,7 +3,9 @@
 	"author": "BinbinHfr",
 	"version": "1.0.18",
 	"title": "Mining Tools",
+	"title_original": "Mining Tools",
 	"description": "Tools to speed up your mining (pneumatic drills & fast mining drills), provide new resources (with dynamite or massive water injection) and even erase resources (with dynamite).",
+	"description_original": "Tools to speed up your mining (pneumatic drills & fast mining drills), provide new resources (with dynamite or massive water injection) and even erase resources (with dynamite).",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=23849",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0", "? dark-matter-replicators >= 0.5.0", "? Nucular >= 0.2.0", "? Thorium Mod >= 0.1.0", "? reactor >= 0.0.27", "? Crafted Artifacts >= 1.2.3", "? 5dim_ores >= 3.0.0", "? bobores >= 0.12.7"]

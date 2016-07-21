@@ -2,8 +2,10 @@
 	"name": "SmartDisplay",
 	"version": "1.0.10",
 	"title": "Smart Display",
+	"title_original": "Smart Display",
 	"author": "BinbinHfr",
 	"description": "A combinator that displays a signal from the circuit network, with formating options.",
+	"description_original": "A combinator that displays a signal from the circuit network, with formating options.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24720",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

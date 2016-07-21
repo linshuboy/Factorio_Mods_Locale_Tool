@@ -3,9 +3,11 @@
 	"version": "1.1.1",
 	"factorio_version": "0.13",
 	"title": "Marathon Mod",
+	"title_original": "Marathon Mod",
 	"author": "Benoit Girard & Afforess",
 	"contributors": ["Wulfson", "KeepOnDigging", "gheift"],
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=91&t=13567",
 	"description": "Increases the resource costs of most recipes causing a marathon game. The will require the players to scale a larger factory and use rail to reach the end game.",
+	"description_original": "Increases the resource costs of most recipes causing a marathon game. The will require the players to scale a larger factory and use rail to reach the end game.",
 	"dependencies": ["? bobassembly >= 0.12.7", "? bobconfig >= 0.12.2", "? bobelectronics >= 0.12.6", "? bobenemies >= 0.12.6", "? boblibrary >= 0.12.3", "? boblogistics >= 0.12.7", "? bobmining >= 0.12.3", "? bobmodules >= 0.12.9", "? bobores >= 0.12.7", "? bobplates >= 0.12.10", "? bobpower >= 0.12.6", "? bobtech >= 0.12.4", "? bobwarfare >= 0.12.9"]
 }

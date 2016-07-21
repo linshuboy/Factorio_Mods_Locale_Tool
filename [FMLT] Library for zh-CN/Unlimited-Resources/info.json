@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"factorio_version": "0.13.0",
 	"title": "Unlimited Resources",
+	"title_original": "Unlimited Resources",
 	"author": "Barry",
 	"homepage": "",
-	"description": "Unlimited resources"
+	"description": "Unlimited resources",
+	"description_original": "Unlimited resources"
 }

@@ -2,7 +2,9 @@
 	"name": "Tank Wagon",
 	"version": "1.0.0",
 	"title": "Tank Wagon",
+	"title_original": "Tank Wagon",
 	"author": "GotLag",
 	"description": "Adds tank wagons for transporting fluids by rail.",
+	"description_original": "Adds tank wagons for transporting fluids by rail.",
 	"factorio_version": "0.13"
 }

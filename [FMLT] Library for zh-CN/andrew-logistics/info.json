@@ -2,10 +2,12 @@
 	"name": "andrew-logistics",
 	"version": "0.13.4",
 	"title": "Andrew's Logistics",
+	"title_original": "Andrew's Logistics",
 	"author": "andrew",
 	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
 	"homepage": "http://games-mods.weebly.com",
 	"description": "Adds construction robot, logistic robot and 4 types of pipes to the game. requires Andrew's Library to work.",
+	"description_original": "Adds construction robot, logistic robot and 4 types of pipes to the game. requires Andrew's Library to work.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0", "andrew-library >=0.13.4"]
 }

@@ -4,9 +4,11 @@
 	"factorio_version": "0.13",
 	"date": "2016-07-4",
 	"title": "FactorioExtended-Core",
+	"title_original": "FactorioExtended-Core",
 	"author": "Nath Gamer",
 	"contributers": "bNarFProfCrazy",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
 	"description": "Extended Factorio",
+	"description_original": "Extended Factorio",
 	"dependencies": ["base"]
 }

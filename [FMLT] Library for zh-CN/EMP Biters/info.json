@@ -3,8 +3,10 @@
 	"version": "1.0.6",
 	"factorio_version": "0.13",
 	"title": "EMP Biters",
+	"title_original": "EMP Biters",
 	"author": "Supercheese",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=22294",
 	"dependencies": ["base >= 0.13.0", "? bobenemies >= 0.12.0", "? Natural_Evolution_Enemies >= 5.0.0", "? MAIN-DyTech-War >= 1.1.0", "? 5dim_battlefield >= 0.0.6"],
-	"description": "Think the enemies are too easy? Well, now they can disable your defenses with an EMP blast!"
+	"description": "Think the enemies are too easy? Well, now they can disable your defenses with an EMP blast!",
+	"description_original": "Think the enemies are too easy? Well, now they just might disable your defenses with an EMP blast!"
 }

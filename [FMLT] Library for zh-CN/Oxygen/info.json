@@ -1,10 +1,12 @@
 {
 	"name": "Oxygen",
 	"title": "Oxygen",
+	"title_original": "Oxygen",
 	"author": "Natha",
 	"version": "1.4.1",
 	"factorio_version": "0.13",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=9422",
 	"description": "The story tells, that the character lands on a alien planet. Why is there a human-friendly atmosphere with oxygen?",
+	"description_original": "The story tells, that the character lands on a alien planet. Why is there a human-friendly atmosphere with oxygen?",
 	"dependencies": ["? N.Tech-Chemistry", "? bobplates"]
 }

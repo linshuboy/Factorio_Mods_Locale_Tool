@@ -2,8 +2,10 @@
 	"name": "BigWoodenPowerPole",
 	"version": "0.0.3",
 	"title": "BigWoodenPowerPole",
+	"title_original": "BigWoodenPowerPole",
 	"author": "Klonan",
 	"homepage": "",
 	"description": "Power Pole made of Wood",
+	"description_original": "Power Pole made of Wood",
 	"factorio_version": "0.13"
 }

@@ -2,10 +2,12 @@
 	"name": "MagneticFloor",
 	"version": "0.1.1",
 	"title": "MagneticFloor",
+	"title_original": "MagneticFloor",
 	"author": "kiba",
 	"contact": "hackerkiba@gmail.com",
 	"homepage": "",
 	"description": "Go faster, with magnetic floors.",
+	"description_original": "Go faster, with magnetic floors.",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13.0"
 }

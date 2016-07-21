@@ -2,8 +2,10 @@
 	"name": "lifehack",
 	"version": "1.0.1",
 	"title": "lifehack",
+	"title_original": "lifehack",
 	"author": "Shadkillz",
 	"dependencies": ["base"],
 	"description": "Adds longer Underground Belts",
+	"description_original": "Adds longer Underground Belts",
 	"factorio_version": "0.13"
 }

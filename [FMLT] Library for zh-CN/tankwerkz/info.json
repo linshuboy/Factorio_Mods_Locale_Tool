@@ -2,9 +2,11 @@
 	"author": "thegreyman, vlczero",
 	"dependencies": ["base >= 0.13.0"],
 	"description": "Adds more tanks and tank related ammo",
+	"description_original": "Adds more tanks and tank related ammo",
 	"factorio_version": "0.13",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=120&t=14269",
 	"name": "tankwerkz",
 	"title": "Tankwerkz Ltd",
+	"title_original": "Tankwerkz Ltd",
 	"version": "0.6.0"
 }

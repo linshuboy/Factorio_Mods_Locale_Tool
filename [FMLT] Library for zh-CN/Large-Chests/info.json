@@ -2,10 +2,12 @@
 	"name": "Large-Chests",
 	"version": "0.0.11",
 	"title": "Large Chests",
+	"title_original": "Large Chests",
 	"author": "Ranakastrasz",
 	"contact": "~",
 	"homepage": "",
 	"description": "Adds dytech-like Larger chests, as well as altering recipes to make higher level chests all use lower level chests.",
+	"description_original": "Adds dytech-like Larger chests, as well as altering recipes to make higher level chests all use lower level chests.",
 	"dependencies": ["base"],
 	"factorio_version": "0.13"
 }

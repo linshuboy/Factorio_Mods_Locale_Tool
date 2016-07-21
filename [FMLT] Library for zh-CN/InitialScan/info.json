@@ -2,9 +2,11 @@
 	"name": "InitialScan",
 	"version": "0.1.4",
 	"title": "Initial Scan",
+	"title_original": "Initial Scan",
 	"author": "Klonan",
 	"contact": "",
 	"homepage": "",
 	"description": "This mod scans around the starting area when you start a new game",
+	"description_original": "This mod scans around the starting area when you start a new game",
 	"factorio_version": "0.13"
 }

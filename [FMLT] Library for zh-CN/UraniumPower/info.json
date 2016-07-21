@@ -2,10 +2,12 @@
 	"name": "UraniumPower",
 	"version": "0.6.4",
 	"title": "Uranium Power",
+	"title_original": "Uranium Power",
 	"author": "Fatmice(current), anshuy(current), Liquius(originator)",
 	"contact": "Fatmice",
 	"dependencies": ["base >= 0.13"],
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=64&t=9502",
 	"description": "Mod that adds Uranium Technologies to Factorio",
+	"description_original": "Mod that adds Uranium Technologies to Factorio",
 	"factorio_version": "0.13"
 }

@@ -2,9 +2,11 @@
 	"name": "BigDrill",
 	"version": "0.3.5",
 	"title": "Bucket Wheel Excavator",
+	"title_original": "Bucket Wheel Excavator",
 	"author": "Jorgen Re",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=12898",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13",
-	"description": "Adds a large Bucket Wheel Excavator, and a very fast ORE unloader."
+	"description": "Adds a large Bucket Wheel Excavator, and a very fast ORE unloader.",
+	"description_original": "Adds a large Bucket Wheel Excavator, and a very fast ORE unloader."
 }

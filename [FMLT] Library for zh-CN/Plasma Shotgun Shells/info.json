@@ -3,8 +3,10 @@
 	"author": "Rseding91",
 	"version": "1.0.2",
 	"title": "Plasma Shotgun Shells",
+	"title_original": "Plasma Shotgun Shells",
 	"homepage": "",
 	"description": "Plasma shotgun shells.",
+	"description_original": "Plasma shotgun shells.",
 	"dependencies": ["base"],
 	"factorio_version": "0.13"
 }

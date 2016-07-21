@@ -3,7 +3,9 @@
 	"version": "0.0.3",
 	"factorio_version": "0.13.00",
 	"title": "Better Infrastructure",
+	"title_original": "Better Infrastructure",
 	"author": "Emmote",
 	"description": "Applies a multiplier to the stack size of every item, the speed of every robot, inserter, belt, splitter, mining-type item and furnace in the game, the service area of roboports and the reach and service area of power poles. Hopefully also modded ones.",
+	"description_original": "Applies a multiplier to the stack size of every item, the speed of every robot, inserter, belt, splitter, mining-type item and furnace in the game, the service area of roboports and the reach and service area of power poles. Hopefully also modded ones.",
 	"dependencies": ["base >= 0.13.00"]
 }

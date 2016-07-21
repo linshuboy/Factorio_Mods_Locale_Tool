@@ -2,10 +2,12 @@
 	"name": "00 Bigger Stack Sizes",
 	"version": "0.0.1",
 	"title": "00 Bigger Stack Sizes",
+	"title_original": "00 Bigger Stack Sizes",
 	"author": "M",
 	"contact": "https://github.com/mophydeen",
 	"homepage": "https://github.com/mophydeen",
 	"description": "Bigger stack sizes.",
+	"description_original": "Bigger stack sizes.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
 }

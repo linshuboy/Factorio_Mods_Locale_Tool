@@ -3,9 +3,11 @@
 	"version": "1.0.0",
 	"factorio_version": "0.13",
 	"title": "AmmoBox",
+	"title_original": "AmmoBox",
 	"author": "Afforess",
 	"contributors": "Adil",
 	"homepage": "http://afforess.com",
 	"description": "Adds large ammo boxes, compacted ammo magazines for turrets, & Mk2 Gun Turret with logistics slots.",
+	"description_original": "Adds large ammo boxes, compacted ammo magazines for turrets, & Mk2 Gun Turret with logistics slots.",
 	"dependencies": []
 }

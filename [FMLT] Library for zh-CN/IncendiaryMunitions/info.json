@@ -3,7 +3,9 @@
 	"version": "0.2.0",
 	"factorio_version": "0.13",
 	"title": "Incendiary Munitions",
+	"title_original": "Incendiary Munitions",
 	"author": "daydev",
 	"description": "Adds incendiary rounds and shotgun shells as well as incendiary effects to explosive rockets and tank shells",
+	"description_original": "Adds incendiary rounds and shotgun shells as well as incendiary effects to explosive rockets and tank shells",
 	"dependencies": ["? AmmoBox >= 1.0.0"]
 }

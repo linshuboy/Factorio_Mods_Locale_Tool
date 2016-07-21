@@ -2,10 +2,12 @@
 	"name": "Upgrade",
 	"version": "1.0.1",
 	"title": "Upgrade",
+	"title_original": "Upgrade",
 	"author": "FlamingFox",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=20539",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=91&t=25381",
 	"description": "Ever wanted to repurpose your unused burner drills and furnaces? Now you can with Upgrade!",
+	"description_original": "Ever wanted to repurpose your unused burner drills and furnaces? Now you can with Upgrade!",
 	"factorio_version": "0.13",
 	"dependencies": ["base", "? boblogistics >= 0.12.0"]
 }

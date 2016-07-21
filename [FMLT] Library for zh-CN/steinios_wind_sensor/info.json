@@ -2,10 +2,12 @@
 	"name": "steinios_wind_sensor",
 	"version": "0.0.3",
 	"title": "steinios wind sensor",
+	"title_original": "steinios wind sensor",
 	"author": "steinio",
 	"contact": "steinio @ https://forums.factorio.com/",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=26033&p=164934#p164934",
 	"description": "Additional EvoGUI Sensor which shows the wind speed and direction.",
+	"description_original": "Additional EvoGUI Sensor which shows the wind speed and direction.",
 	"dependencies": ["base >= 0.13.0", "EvoGUI >= 0.4.102"],
 	"factorio_version": "0.13"
 }

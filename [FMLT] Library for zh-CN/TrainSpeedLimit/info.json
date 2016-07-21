@@ -3,7 +3,9 @@
 	"version": "1.0.5",
 	"factorio_version": "0.13",
 	"title": "Train Speed Limit",
+	"title_original": "Train Speed Limit",
 	"author": "IceDev",
 	"description": "Introduces speed limit signs for trains.",
+	"description_original": "Introduces speed limit signs for trains.",
 	"dependencies": ["base >= 0.13.0"]
 }
