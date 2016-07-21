@@ -1,3 +1,13 @@
 {
-"language-name": "English"
+	"title": "",
+	"title_original": "Expanded Tools",
+	"name": "expanded_tools",
+	"version": "1.0.2",
+	"factorio_version": "0.13",
+	"author": "Jarrod Pas",
+	"contact": "jarrodpas@gmail.com",
+	"homepage": "https://github.com/jpas/factorio-expanded-tools",
+	"description": "",
+	"description_original": "Adds higher tier tools.",
+	"dependencies": ["base >= 0.12.0"]
 }
