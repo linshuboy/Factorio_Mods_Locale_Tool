@@ -1,10 +1,12 @@
 {
 	"name": "z_yira_UP",
 	"title": "YIR - Uranium Power Trains",
+	"title_original": "YIR - Uranium Power Trains",
 	"version": "0.3.3",
 	"date": "2016-06-30",
 	"author": "UP by Fatmice, Gfx by Yuoki Tani",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13", "yi_railway >= 0.3.8"],
-	"description": "adds Cargo-Waggons and Locomotives Uranium-Power-Mod Themed"
+	"description": "adds Cargo-Waggons and Locomotives Uranium-Power-Mod Themed",
+	"description_original": "adds Cargo-Waggons and Locomotives Uranium-Power-Mod Themed"
 }

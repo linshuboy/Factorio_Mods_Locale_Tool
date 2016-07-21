@@ -2,8 +2,10 @@
 	"name": "Red_Assembling_Machine",
 	"version": "0.1.1",
 	"title": "Red Assembling Machine",
+	"title_original": "Red Assembling Machine",
 	"author": "Klonan",
 	"homepage": "",
 	"description": "Adds an Assembling machine which is the colour red",
+	"description_original": "Adds an Assembling machine which is the colour red",
 	"factorio_version": "0.13"
 }

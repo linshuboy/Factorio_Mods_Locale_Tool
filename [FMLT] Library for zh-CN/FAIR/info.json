@@ -2,10 +2,12 @@
 	"name": "FAIR",
 	"version": "0.0.1",
 	"title": "Fair Allocation of Independent Resources",
+	"title_original": "Fair Allocation of Independent Resources",
 	"author": "Afforess",
 	"contact": "afforess@gmail.com",
 	"homepage": "https://github.com/Afforess/FAIR",
 	"factorio_version": "0.13",
 	"description": "Fair Allocation of Independent Resources statistically analyzes resource allocation amounts and increases resource deposits to correct unfair map generation",
+	"description_original": "Fair Allocation of Independent Resources statistically analyzes resource allocation amounts and increases resource deposits to correct unfair map generation",
 	"dependencies": []
 }

@@ -2,9 +2,11 @@
 	"name": "concrete-edges",
 	"version": "1.0.0",
 	"title": "Concrete Edges",
+	"title_original": "Concrete Edges",
 	"author": "Mooncat",
 	"homepage": "",
 	"description": "Inspired by the new concrete tileset shown in FFF #120, this mod adds diagonal edges to concrete.",
+	"description_original": "Inspired by the new concrete tileset shown in FFF #120, this mod adds diagonal edges to concrete.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.3"]
 }

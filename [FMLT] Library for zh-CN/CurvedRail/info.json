@@ -2,8 +2,10 @@
 	"name": "CurvedRail",
 	"version": "1.0.0",
 	"title": "Curved Rail",
+	"title_original": "Curved Rail",
 	"author": "daniel34",
 	"dependencies": ["base >= 0.13"],
 	"factorio_version": "0.13",
-	"description": "Adds the curved rail item back into the crafting menu."
+	"description": "Adds the curved rail item back into the crafting menu.",
+	"description_original": "Adds the curved rail item back into the crafting menu."
 }

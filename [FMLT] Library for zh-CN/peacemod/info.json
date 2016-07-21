@@ -2,9 +2,11 @@
 	"name": "peacemod",
 	"version": "0.1.2",
 	"title": "Peace Mod",
+	"title_original": "Peace Mod",
 	"author": "Vachu",
 	"contact": "levachu@hotmail.com",
 	"description": "Completely removes enemies and allows alien artifacts to be mined instead.",
+	"description_original": "Completely removes enemies and allows alien artifacts to be mined instead.",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13.0"
 }

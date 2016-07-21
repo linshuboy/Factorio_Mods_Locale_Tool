@@ -3,7 +3,9 @@
 	"version": "0.0.8",
 	"factorio_version": "0.13",
 	"title": "Water Maze",
+	"title_original": "Water Maze",
 	"author": "Eric Stansifer",
 	"description": "Changes the initial land and water distribution",
+	"description_original": "Changes the initial land and water distribution",
 	"dependencies": ["base"]
 }

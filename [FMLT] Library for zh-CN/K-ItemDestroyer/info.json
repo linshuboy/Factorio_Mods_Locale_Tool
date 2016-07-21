@@ -3,6 +3,8 @@
 	"author": "ficolas, Kajanor",
 	"version": "1.2.0",
 	"title": "Item Destroyer",
+	"title_original": "Item Destroyer",
 	"description": "The item destroyer from the former F mod. It destroys the items you throw in using a black hole.",
+	"description_original": "The item destroyer from the former F mod. It destroys the items you throw in using a black hole.",
 	"factorio_version": "0.13"
 }

@@ -3,8 +3,10 @@
 	"version": "0.1.0",
 	"factorio_version": "0.13.2",
 	"title": "Spawn Pump",
+	"title_original": "Spawn Pump",
 	"author": "Barry",
 	"homepage": "https://github.com/MakuraYami/factorio-spawn-pump",
 	"description": "Create spawn & void pumps to test refinery setups",
+	"description_original": "Create spawn & void pumps to test refinery setups",
 	"dependencies": ["base >= 0.13.1"]
 }

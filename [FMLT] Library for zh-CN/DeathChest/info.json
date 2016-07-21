@@ -3,8 +3,10 @@
 	"version": "0.13.1",
 	"factorio_version": "0.13",
 	"title": "DeathChest",
+	"title_original": "DeathChest",
 	"author": "Zinal",
 	"contact": "",
 	"homepage": "",
-	"description": "Spawn a chest upon death containing all your stuff"
+	"description": "Spawn a chest upon death containing all your stuff",
+	"description_original": "Spawn a chest upon death containing all your stuff"
 }

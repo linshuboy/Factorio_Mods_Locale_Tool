@@ -2,9 +2,11 @@
 	"name": "cheat",
 	"version": "1.1.1",
 	"title": "Cheat Box",
+	"title_original": "Cheat Box",
 	"author": "Muneki",
 	"contact": "",
 	"homepage": "",
 	"factorio_version": "0.13",
-	"description": "Create raw resources. Produces all items without materials. Disposal items. Long distance (build, reach, pickup). New items"
+	"description": "Create raw resources. Produces all items without materials. Disposal items. Long distance (build, reach, pickup). New items",
+	"description_original": "Create raw resources. Produces all items without materials. Disposal items. Long distance (build, reach, pickup). New items"
 }

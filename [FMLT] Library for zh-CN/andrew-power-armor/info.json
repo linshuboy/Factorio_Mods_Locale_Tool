@@ -2,10 +2,12 @@
 	"name": "andrew-power-armor",
 	"version": "0.13.4",
 	"title": "Andrew's power armor",
+	"title_original": "Andrew's power armor",
 	"author": "Andrew",
 	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
 	"homepage": "http://games-mods.weebly.com",
 	"description": "Make armor items for warfare.",
+	"description_original": "Make armor items for warfare.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0", "andrew-library >= 0.13.4", "? andrew-modules >= 0.13.4"]
 }

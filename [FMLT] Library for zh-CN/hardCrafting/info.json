@@ -2,8 +2,10 @@
 	"name": "hardCrafting",
 	"version": "0.4.1",
 	"title": "Hard crafting",
+	"title_original": "Hard crafting",
 	"author": "judos",
 	"description": "Modifies vanilla crafting and smelting to be much trickier, you will need better planning and more clever setup",
+	"description_original": "Modifies vanilla crafting and smelting to be much trickier, you will need better planning and more clever setup",
 	"dependencies": ["base >= 0.13.0", "? Landfill >= 2.1.7", "? fluid-barrel >= 1.0.0", "? marathon >= 0.5.4", "? angelsinfiniteores >= 0.1.2", "? SmartTrains"],
 	"homepage": "https://github.com/judos/hardCrafting",
 	"factorio_version": "0.13"

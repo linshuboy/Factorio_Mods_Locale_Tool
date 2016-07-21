@@ -3,7 +3,9 @@
 	"author": "BinbinHfr",
 	"version": "1.0.3",
 	"title": "Armageddon",
+	"title_original": "Armageddon",
 	"description": "Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, etc...)",
+	"description_original": "Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, etc...)",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26910",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

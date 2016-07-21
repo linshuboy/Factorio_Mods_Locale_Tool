@@ -2,9 +2,11 @@
 	"name": "LogisticsMining",
 	"version": "1.0.3",
 	"title": "Logistics Mining",
+	"title_original": "Logistics Mining",
 	"factorio_version": "0.13",
 	"author": "Afforess",
 	"homepage": "http://afforess.com",
 	"description": "Logistics Mining",
+	"description_original": "Logistics Mining",
 	"dependencies": []
 }

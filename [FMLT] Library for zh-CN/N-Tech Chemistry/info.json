@@ -1,10 +1,12 @@
 {
 	"name": "N-Tech Chemistry",
 	"title": "N.Tech Chemistry",
+	"title_original": "N.Tech Chemistry",
 	"author": "Natha",
 	"version": "1.6.0",
 	"factorio_version": "0.13",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=14&t=9613",
 	"description": "Adds more fluids, gases and solid items to work with chemical processes.",
+	"description_original": "Adds more fluids, gases and solid items to work with chemical processes.",
 	"dependencies": ["? Treefarm-AC", "? mocombat", "? KS_Power", "? boblibrary"]
 }

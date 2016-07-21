@@ -2,10 +2,12 @@
 	"name": "00 Unlimited HP",
 	"version": "0.0.2",
 	"title": "00 Unlimited HP",
+	"title_original": "00 Unlimited HP",
 	"author": "M",
 	"contact": "https://github.com/mophydeen",
 	"homepage": "https://github.com/mophydeen",
 	"description": "Unlimited Health.",
+	"description_original": "Unlimited Health.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
 }

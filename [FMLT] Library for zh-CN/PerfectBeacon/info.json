@@ -3,7 +3,9 @@
 	"author": "easygoing",
 	"version": "1.0.0",
 	"title": "Perfect Beacon",
+	"title_original": "Perfect Beacon",
 	"description": "Beacon has greater range, 2x2 instead of 3x3 and a distribution-effectivity of 100%",
+	"description_original": "Beacon has greater range, 2x2 instead of 3x3 and a distribution-effectivity of 100%",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
 }

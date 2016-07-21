@@ -1,0 +1,12 @@
+{
+	"name": "test-mode",
+	"version": "0.13.1",
+	"title": "Test Mode",
+	"title_original": "Test Mode",
+	"author": "rk84",
+	"contact": "www.factorioforums.com",
+	"description": "Utility tool",
+	"description_original": "Utility tool",
+	"dependencies": ["base"],
+	"factorio_version": "0.13.x"
+}

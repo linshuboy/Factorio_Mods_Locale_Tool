@@ -2,10 +2,12 @@
 	"name": "LateUpgrades",
 	"version": "0.1.1",
 	"title": "Late Upgrades",
+	"title_original": "Late Upgrades",
 	"author": "msakuta",
 	"contact": "masahiro.sakuta@gmail.com",
 	"homepage": "",
 	"description": "Having useless alien artifacts and redundant production lines after all researches are completed? This mod lets you spend excess resources to upgrades, such as bullet damage, logistic robot speed and inserter stack size (and many more), up to level 25. Now you have means to put your surplus goods away other than rockets! (And there will be benefit if you're patient enough!)",
+	"description_original": "Having useless alien artifacts and redundant production lines after all researches are completed? This mod lets you spend excess resources to upgrades, such as bullet damage, logistic robot speed and inserter stack size (and many more), up to level 25. Now you have means to put your surplus goods away other than rockets! (And there will be benefit if you're patient enough!)",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13"
 }

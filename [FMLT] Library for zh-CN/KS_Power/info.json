@@ -2,8 +2,10 @@
 	"name": "KS_Power",
 	"version": "0.1.4",
 	"title": "KS Power",
+	"title_original": "KS Power",
 	"author": "Klonan",
 	"homepage": "",
 	"description": "Adds a range of different power producing options",
+	"description_original": "Adds a range of different power producing options",
 	"factorio_version": "0.13"
 }

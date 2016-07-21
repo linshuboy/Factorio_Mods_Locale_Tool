@@ -2,9 +2,11 @@
 	"name": "Item Collectors",
 	"version": "1.1.7",
 	"title": "Item Collectors",
+	"title_original": "Item Collectors",
 	"author": "Rseding91",
 	"homepage": "",
 	"dependencies": ["base >= 0.13"],
 	"description": "A chest that picks up items on the ground.",
+	"description_original": "A chest that picks up items on the ground.",
 	"factorio_version": "0.13"
 }

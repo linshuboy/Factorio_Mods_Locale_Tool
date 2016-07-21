@@ -2,8 +2,10 @@
 	"name": "EEMD",
 	"version": "0.1.5",
 	"title": "Epic electric mining drill mod",
+	"title_original": "Epic electric mining drill mod",
 	"author": "Lejving",
 	"description": "Adds a 'Epic electric mining drill' which basically is 7x7 electric mining drills condensed into one big.",
+	"description_original": "Adds a 'Epic electric mining drill' which basically is 7x7 electric mining drills condensed into one big.",
 	"homepage": "https://mods.factorio.com/mods/Lejving/EEMD/",
 	"factorio_version": "0.13"
 }

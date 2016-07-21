@@ -4,7 +4,9 @@
 	"version": "0.0.3",
 	"factorio_version": "0.13",
 	"title": "Bottleneck",
+	"title_original": "Bottleneck",
 	"homepage": "https://github.com/troelsbjerre/Bottleneck",
 	"description": "A tool for locating input starved machines.",
+	"description_original": "A tool for locating input starved machines.",
 	"dependencies": ["base >= 0.13.0"]
 }

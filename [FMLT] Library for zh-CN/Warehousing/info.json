@@ -3,9 +3,11 @@
 	"version": "0.0.10",
 	"factorio_version": "0.13",
 	"title": "Warehousing mod",
+	"title_original": "Warehousing Mod",
 	"author": "Anoyomouse",
 	"contact": "PM on the Factorio Forums",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=17295",
 	"description": "Warehousing that allows you to have large storage buildings. Store all the things!",
+	"description_original": "Warehousing that allows you to have large storage buildings. Store all the things! Storehouses by Hanniballo",
 	"dependencies": ["base >= 0.13.0"]
 }

@@ -3,8 +3,10 @@
 	"version": "0.1.21",
 	"factorio_version": "0.13",
 	"title": "SmallFixes",
+	"title_original": "SmallFixes",
 	"author": "Choumiko",
 	"homepage": "",
 	"dependencies": ["base >= 0.13.0"],
-	"description": "Small non game changing/breaking fixes"
+	"description": "Small non game changing/breaking fixes",
+	"description_original": "Small non game changing/breaking fixes"
 }

@@ -2,8 +2,10 @@
 	"name": "VehicleSnap",
 	"version": "1.1.0",
 	"title": "VehicleSnap",
+	"title_original": "VehicleSnap",
 	"author": "Zaflis",
 	"homepage": "",
 	"description": "Snaps movement angle when driving cars or tanks.",
+	"description_original": "Snaps movement angle when driving cars or tanks.",
 	"factorio_version": "0.13"
 }

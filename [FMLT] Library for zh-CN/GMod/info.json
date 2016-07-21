@@ -2,9 +2,11 @@
 	"name": "GMod",
 	"version": "0.3.0",
 	"title": "Glockshna's Bits N Bobs",
+	"title_original": "Glockshna's Bits N Bobs",
 	"author": "Glockshna",
 	"homepage": "ripme.xyz",
 	"factorio_version": "0.13",
 	"dependencies": ["base"],
-	"description": "A compilation of quality of life researches and additions without the overburden associated with other mods you can get these in."
+	"description": "A compilation of quality of life researches and additions without the overburden associated with other mods you can get these in.",
+	"description_original": "A compilation of quality of life researches and additions without the overburden associated with other mods you can get these in."
 }

@@ -3,7 +3,9 @@
 	"version": "1.0.10",
 	"factorio_version": "0.13",
 	"title": "Killkrogs Blueprint Manager",
+	"title_original": "Killkrogs Blueprint Manager",
 	"author": "Killkrog",
 	"description": "Adds ways to import/export and flip blueprints.",
+	"description_original": "Adds ways to import/export and flip blueprints.",
 	"dependencies": ["base >= 0.13.0"]
 }

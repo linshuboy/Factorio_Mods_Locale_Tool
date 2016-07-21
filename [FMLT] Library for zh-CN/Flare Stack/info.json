@@ -2,8 +2,10 @@
 	"name": "Flare Stack",
 	"version": "2.0.0",
 	"title": "Flare Stack",
+	"title_original": "Flare Stack",
 	"author": "GotLag",
 	"homepage": "",
 	"description": "Adds a flare stack to dispose of unwanted petroleum products.",
+	"description_original": "Adds a flare stack to dispose of unwanted petroleum products.",
 	"factorio_version": "0.13"
 }

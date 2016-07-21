@@ -2,8 +2,10 @@
 	"name": "Concrete_Lamppost",
 	"version": "0.1.1",
 	"title": "Concrete Lamppost",
+	"title_original": "Concrete Lamppost",
 	"author": "Klonan",
 	"homepage": "",
 	"description": "Adds a Lamppost made of Concrete",
+	"description_original": "Adds a Lamppost made of Concrete",
 	"factorio_version": "0.13"
 }

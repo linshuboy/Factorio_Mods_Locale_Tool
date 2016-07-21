@@ -2,9 +2,11 @@
 	"name": "Sane-Concrete",
 	"version": "1.0.0",
 	"title": "Sane Concrete",
+	"title_original": "Sane Concrete",
 	"author": "UntouchedWagons",
 	"homepage": "",
 	"dependencies": ["base"],
 	"description": "Makes concrete use iron sticks as rebar rather than iron ore.",
+	"description_original": "Makes concrete use iron sticks as rebar rather than iron ore.",
 	"factorio_version": "0.13"
 }

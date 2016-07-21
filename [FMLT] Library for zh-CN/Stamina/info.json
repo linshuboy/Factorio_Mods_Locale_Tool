@@ -2,10 +2,12 @@
 	"name": "Stamina",
 	"version": "1.0.0",
 	"title": "Stamina",
+	"title_original": "Stamina",
 	"author": "Loren1350",
 	"contact": "Schmendrick on the Factorio forums",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=91&t=14222",
 	"description": "Hand crafting stuff costs health. Keep some fish handy, and research Automation ASAP.",
+	"description_original": "Hand crafting stuff costs health. Keep some fish handy, and research Automation ASAP.",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13"
 }

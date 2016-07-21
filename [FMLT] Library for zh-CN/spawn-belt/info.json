@@ -3,8 +3,10 @@
 	"version": "1.0.0",
 	"factorio_version": "0.13.1",
 	"title": "Spawn Belt",
+	"title_original": "Spawn Belt",
 	"author": "Barry",
 	"homepage": "https://github.com/MakuraYami/spawn-belt",
 	"description": "Create spawn & void belts to test throughput",
+	"description_original": "Create spawn & void belts to test throughput",
 	"dependencies": ["base >= 0.13.1"]
 }

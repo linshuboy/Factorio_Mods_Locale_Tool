@@ -3,6 +3,8 @@
 	"author": "Natha",
 	"version": "1.0.1",
 	"title": "Power armor MK3",
+	"title_original": "Power armor MK3",
 	"factorio_version": "0.13",
-	"description": "Adds an expensive mk3 power armor with 20x20 module grid. Maybe there will be further equipment later."
+	"description": "Adds an expensive mk3 power armor with 20x20 module grid. Maybe there will be further equipment later.",
+	"description_original": "Adds an expensive mk3 power armor with 20x20 module grid. Maybe there will be further equipment later."
 }

@@ -2,9 +2,11 @@
 	"name": "Simple_Death_Messages",
 	"version": "0.0.2",
 	"title": "Simple Death Messages",
+	"title_original": "Simple Death Messages",
 	"author": "NoPantsMcDance",
 	"contact": "",
 	"homepage": "",
 	"description": "Tt points out your faults at the time you are most vulnerable",
+	"description_original": "Tt points out your faults at the time you are most vulnerable",
 	"factorio_version": "0.13"
 }

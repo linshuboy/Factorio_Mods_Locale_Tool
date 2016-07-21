@@ -3,8 +3,10 @@
 	"version": "1.0.7",
 	"factorio_version": "0.13",
 	"title": "Power And Armor",
+	"title_original": "Power And Armor",
 	"author": "Corvus Corax",
 	"contact": "",
 	"homepage": "",
-	"description": "Adds higher tier powerarmor and equipment"
+	"description": "Adds higher tier powerarmor and equipment",
+	"description_original": "Adds higher tier powerarmor and equipment"
 }

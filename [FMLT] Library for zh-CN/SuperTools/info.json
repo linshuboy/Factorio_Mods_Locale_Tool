@@ -2,8 +2,10 @@
 	"name": "SuperTools",
 	"version": "1.0.0",
 	"title": "JohnRipley's Supertools",
+	"title_original": "JohnRipley's Supertools",
 	"author": "John Ripley",
 	"homepage": "",
 	"description": "Change the Durability and speed for handheld tools",
+	"description_original": "Change the Durability and speed for handheld tools",
 	"factorio_version": "0.13"
 }

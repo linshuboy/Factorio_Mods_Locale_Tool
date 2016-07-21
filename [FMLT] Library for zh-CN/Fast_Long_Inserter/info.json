@@ -2,7 +2,9 @@
 	"name": "Fast_Long_Inserter",
 	"version": "0.0.4",
 	"title": "Fast Long Inserter Mod",
+	"title_original": "Fast Long Inserter Mod",
 	"author": "Maser",
 	"description": "Adds a fast long inserter that is unlocked with Logistics 2.",
+	"description_original": "Adds a fast long inserter that is unlocked with Logistics 2.",
 	"factorio_version": "0.13"
 }

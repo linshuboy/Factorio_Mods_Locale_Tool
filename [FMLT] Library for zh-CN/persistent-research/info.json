@@ -2,9 +2,11 @@
 	"name": "persistent-research",
 	"version": "1.1.0",
 	"title": "Persistent Research",
+	"title_original": "Persistent Research",
 	"author": "Loren1350",
 	"homepage": "Schmendrick on the Factorio forums",
 	"dependencies": ["base >= 0.13.0"],
 	"description": "Preserves partial progress when switching research goals.",
+	"description_original": "Preserves partial progress when switching research goals.",
 	"factorio_version": "0.13"
 }
