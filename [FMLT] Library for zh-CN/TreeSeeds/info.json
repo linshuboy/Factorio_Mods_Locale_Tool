@@ -2,7 +2,9 @@
 	"name": "TreeSeeds",
 	"version": "1.0.1",
 	"title": "JJtJJ's Tree Planting Mod",
+	"title_original": "JJtJJ's Tree Planting Mod",
 	"author": "JJtJJ",
 	"description": "Mod that allows you to plant trees from seeds",
+	"description_original": "Mod that allows you to plant trees from seeds",
 	"factorio_version": "0.13"
 }

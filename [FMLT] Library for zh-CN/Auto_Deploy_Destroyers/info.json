@@ -2,9 +2,11 @@
 	"name": "Auto_Deploy_Destroyers",
 	"version": "0.1.3",
 	"title": "Auto Deploy Destroyers",
+	"title_original": "Auto Deploy Destroyers",
 	"author": "slindenau",
 	"contact": "https://forums.factorio.com/ucp.php?i=pm&mode=compose&u=16823",
 	"homepage": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=16823",
 	"description": "Automatically deploys destroyer drones based on enemies around the player",
+	"description_original": "Automatically deploys destroyer drones based on enemies around the player",
 	"factorio_version": "0.13"
 }

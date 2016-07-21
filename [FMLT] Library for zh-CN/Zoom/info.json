@@ -2,8 +2,10 @@
 	"name": "Zoom",
 	"version": "1.0.1",
 	"title": "Zoom",
+	"title_original": "Zoom",
 	"author": "BinbinHfr",
 	"description": "Just 2 buttons to zoom extra wide or close, further than actual gui limits !",
+	"description_original": "Just 2 buttons to zoom extra wide or close, further than actual gui limits !",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=28639",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

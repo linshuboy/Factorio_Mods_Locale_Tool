@@ -3,8 +3,10 @@
 	"version": "0.0.3",
 	"factorio_version": "0.13",
 	"title": "Better Reachdistance and Builddistance",
+	"title_original": "Better Reachdistance and Builddistance",
 	"author": "Sebmium",
 	"homepage": "",
 	"dependencies": ["base >= 0.13.0"],
-	"description": "This Mod adds Technology for larger Reachdistance & Builddistance for Character."
+	"description": "This Mod adds Technology for larger Reachdistance & Builddistance for Character.",
+	"description_original": "This Mod adds Technology for larger Reachdistance & Builddistance for Character."
 }

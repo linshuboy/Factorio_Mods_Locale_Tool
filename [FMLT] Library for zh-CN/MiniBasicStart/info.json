@@ -3,7 +3,9 @@
 	"author": "Minizbot2012",
 	"version": "0.0.2",
 	"title": "Basic Starting Equipment",
+	"title_original": "Basic Starting Equipment",
 	"description": "This mod adds basic starting gear",
+	"description_original": "This mod adds basic starting gear",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
 }

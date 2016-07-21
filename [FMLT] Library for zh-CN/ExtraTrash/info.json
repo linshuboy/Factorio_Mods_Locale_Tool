@@ -2,10 +2,12 @@
 	"name": "ExtraTrash",
 	"version": "0.1.1",
 	"title": "Extra Trash Slots",
+	"title_original": "Extra Trash Slots",
 	"author": "master6545",
 	"contact": "",
 	"homepage": "",
 	"description": "Mod that adds more trash slots to Factorio",
+	"description_original": "Mod that adds more trash slots to Factorio",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
 }

@@ -2,9 +2,11 @@
 	"name": "electric_ghost_car",
 	"version": "0.13.4",
 	"title": "Electric Ghost Car",
+	"title_original": "Electric Ghost Car",
 	"author": "darkfrei",
 	"contact": "https://forums.factorio.com/ucp.php?i=pm&mode=compose&u=4551",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26657",
 	"description": "Fast electric car for your base only, but not for mining fields. It needs a lot of accumulators!",
+	"description_original": "Fast electric car for your base only, but not for mining fields. It needs a lot of accumulators!",
 	"factorio_version": "0.13"
 }

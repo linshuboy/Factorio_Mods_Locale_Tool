@@ -3,7 +3,9 @@
 	"author": "BinbinHfr",
 	"version": "1.0.12",
 	"title": "Water Well",
+	"title_original": "Water Well",
 	"description": "A water well pump, to pump water from the groundwater table.",
+	"description_original": "A water well pump, to pump water from the groundwater table.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=23297",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

@@ -4,8 +4,10 @@
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13"],
 	"title": "VoidChestInstant",
+	"title_original": "VoidChestInstant",
 	"author": "Buggi",
 	"contact": "",
 	"homepage": "https://www.youtube.com/channel/UChtObaxXd1H-8yeR9ABFvIw",
-	"description": "Makes a chest for destroying unwanted items... instantly!"
+	"description": "Makes a chest for destroying unwanted items... instantly!",
+	"description_original": "Makes a chest for destroying unwanted items... instantly!"
 }

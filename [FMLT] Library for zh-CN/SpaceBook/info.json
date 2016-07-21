@@ -2,8 +2,10 @@
 	"name": "SpaceBook",
 	"version": "1.0.13",
 	"title": "SpaceBook",
+	"title_original": "SpaceBook",
 	"author": "BinbinHfr",
 	"description": "Forces & players manager for multiplayer gaming and PvP.",
+	"description_original": "Forces & players manager for multiplayer gaming and PvP.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=25680",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0", "? TimeTools >= 1.0.12", "? AutoPvP"]

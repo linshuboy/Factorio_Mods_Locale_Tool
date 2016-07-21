@@ -3,8 +3,10 @@
 	"author": "osldgoth",
 	"version": "1.3.0",
 	"title": "Enhanced Map Colors",
+	"title_original": "Enhanced Map Colors",
 	"homepage": "",
 	"description": "Adds color to items on map/minimap for contrast. Aids map readability.",
+	"description_original": "Adds color to items on map/minimap for contrast. Aids map readability.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.00"]
 }

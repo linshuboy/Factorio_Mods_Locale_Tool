@@ -3,8 +3,10 @@
 	"version": "0.13.1",
 	"factorio_version": "0.13",
 	"title": "SP Respawn Mod",
+	"title_original": "SP Respawn Mod",
 	"author": "Zinal",
 	"contact": "",
 	"homepage": "",
-	"description": "Respawn in Single-player"
+	"description": "Respawn in Single-player",
+	"description_original": "Respawn in Single-player"
 }

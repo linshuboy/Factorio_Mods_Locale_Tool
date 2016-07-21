@@ -3,8 +3,10 @@
 	"version": "0.6.1",
 	"factorio_version": "0.13",
 	"title": "Dark Matter Replicators",
+	"title_original": "Dark Matter Replicators",
 	"author": "TempiDrachen (earlier versions by jamupsi)",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=120&t=14040",
 	"description": "Adds replicators which can produce items using only electricity.  The existence of this version of Replicators is not meant to be disrespectful in any way to darkshadow1809 or Doublespin.  Back when the replicators mod was first abandoned I made my own version based on my own preferences, and seeing what darkshadow1809 and Doublespin have done with the mod inspired me to make even more changes.",
+	"description_original": "Adds replicators which can produce items using only electricity.  The existence of this version of Replicators is not meant to be disrespectful in any way to darkshadow1809 or Doublespin.  Back when the replicators mod was first abandoned I made my own version based on my own preferences, and seeing what darkshadow1809 and Doublespin have done with the mod inspired me to make even more changes.",
 	"dependencies": ["? bobores >= 0.13.1", "? bobplates >= 0.13.2", "? bobelectronics >= 0.13.1", "? bobmodules >= 0.13.0", "? CORE-DyTech-Core >= 1.2.0", "? MAIN-DyTech-Machine >= 1.1.0", "? Yuoki >= 0.3.52", "? mopower >= 0.5.2", "? Treefarm-Lite >= 0.5.1", "? Treefarm-AC >= 0.2.3"]
 }

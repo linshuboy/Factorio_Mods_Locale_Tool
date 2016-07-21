@@ -3,9 +3,11 @@
 	"version": "0.3.1",
 	"factorio_version": "0.13",
 	"title": "[AM] Angel's Infinite Ores",
+	"title_original": "[AM] Angel's Infinite Ores",
 	"author": "Arch666Angel",
 	"contact": "",
 	"homepage": "",
 	"description": "Adds infinite ores and base for AngelsMods, best used with RSO mod to have infinite ores in the core of regular resources patches.",
+	"description_original": "Adds infinite ores and base for AngelsMods, best used with RSO mod to have infinite ores in the core of regular resources patches.",
 	"dependencies": ["base >= 0.13.0", "? angelsrefining >= 0.2.1", "? angelspetrochems >= 0.1.0", "? bobores >= 0.13.0", "? bobplates >= 0.13.0", "? Yuoki >= 0.2.40", "? UraniumPower >= 0.6.3", "? Nucular >= 0.2.0", "? angelsores-disablersomode >= 0.1.1", "? angelsores-disableinfiniteores >= 0.1.1"]
 }

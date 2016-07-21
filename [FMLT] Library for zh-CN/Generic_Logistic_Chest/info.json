@@ -2,9 +2,11 @@
 	"name": "Generic_Logistic_Chest",
 	"version": "0.2.1",
 	"title": "Generic Logistic Chest",
+	"title_original": "Generic Logistic Chest",
 	"author": "DedlySpyder",
 	"contact": "DedlySpyder@gmail.com",
 	"homepage": "",
 	"description": "Allows the player to make a special chest that can be turned into any of the base game logistic chests.",
+	"description_original": "Allows the player to make a special chest that can be turned into any of the base game logistic chests.",
 	"factorio_version": "0.13"
 }

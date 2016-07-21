@@ -2,8 +2,10 @@
 	"name": "Super_assembling_machine",
 	"version": "0.3.0",
 	"title": "Super Assembling Machine",
+	"title_original": "Super Assembling Machine",
 	"author": "BOFan80",
 	"description": "Super Assembling Machine ready for 0.13",
+	"description_original": "Super Assembling Machine ready for 0.13",
 	"factorio_version": "0.13",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=25049"
 }

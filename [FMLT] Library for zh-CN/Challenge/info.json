@@ -2,8 +2,10 @@
 	"name": "Challenge",
 	"version": "1.0.8",
 	"title": "Challenge",
+	"title_original": "Challenge",
 	"author": "BinbinHfr",
 	"description": "Define a challenge on a chosen map and try to complete it as fast as you can, or in a limited time. Publish it on the factorio forum (section Maps and Scenarios) to challenge other players, and see if someone can beat your personal record...",
+	"description_original": "Define a challenge on a chosen map and try to complete it as fast as you can, or in a limited time. Publish it on the factorio forum (section Maps and Scenarios) to challenge other players, and see if someone can beat your personal record...",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=26150",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

@@ -2,8 +2,10 @@
 	"name": "AlienEggs",
 	"author": "BinbinHfr",
 	"version": "1.0.5",
-	"title": "(异形蛋)Alien Eggs",
-	"description": "(发展你的异形蛋来获得想要的异形)Grow your own Alien eggs, to spawn Aliens where you want.",
+	"title": "异形蛋",
+	"title_original": "Alien Eggs",
+	"description": "发展你的异形蛋来获得想要的异形",
+	"description_original": "Grow your own Alien eggs, to spawn Aliens where you want.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=23995",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

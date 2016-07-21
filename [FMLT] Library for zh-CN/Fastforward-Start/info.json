@@ -2,10 +2,12 @@
 	"name": "Fastforward-Start",
 	"version": "0.0.5",
 	"title": "Skip first hour",
+	"title_original": "Skip first hour",
 	"author": "TehRoach",
 	"contact": "",
 	"homepage": "",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13"],
-	"description": "I cant be bothered with the hand mining/crafting first hour \n\n Increased starting equipment to remove hand mining stage of game and jump straight into using trains \n\n Hopefully enough items to get a small factory and power station running. \n\n Doesn't effect research, you will still need to do all of that."
+	"description": "I cant be bothered with the hand mining/crafting first hour \n\n Increased starting equipment to remove hand mining stage of game and jump straight into using trains \n\n Hopefully enough items to get a small factory and power station running. \n\n Doesn't effect research, you will still need to do all of that.",
+	"description_original": "I cant be bothered with the hand mining/crafting first hour \n\n Increased starting equipment to remove hand mining stage of game and jump straight into using trains \n\n Hopefully enough items to get a small factory and power station running. \n\n Doesn't effect research, you will still need to do all of that."
 }

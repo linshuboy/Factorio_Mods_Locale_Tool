@@ -3,8 +3,10 @@
 	"version": "1.4.15",
 	"factorio_version": "0.13",
 	"title": "Hazzard's Gravestones",
+	"title_original": "Hazzard's Gravestones",
 	"author": "Hazzard (maintained by jakimfett)",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=8744",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=14107",
-	"description": "Saves your inventory items inside a gravestone when you die."
+	"description": "Saves your inventory items inside a gravestone when you die.",
+	"description_original": "Saves your inventory items inside a gravestone when you die."
 }

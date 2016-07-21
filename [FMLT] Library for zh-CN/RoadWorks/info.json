@@ -1,9 +1,11 @@
 {
 	"title": "RoadWorks",
+	"title_original": "RoadWorks",
 	"name": "RoadWorks",
 	"version": "3.1.0",
 	"author": "JoCKeR-iL (https://forums.factorio.com/memberlist.php?mode=viewprofile&u=6027) using the original work of gmyx",
 	"description": "Expands vehicle travel with additional features.",
+	"description_original": "Expands vehicle travel with additional features.",
 	"homepage": "https://github.com/anoutsider/advanced-logistics-system",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13"]

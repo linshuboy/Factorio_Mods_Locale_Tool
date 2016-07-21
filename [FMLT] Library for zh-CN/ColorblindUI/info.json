@@ -2,9 +2,11 @@
 	"name": "ColorblindUI",
 	"version": "1.0.0",
 	"title": "Colorblind UI Enhancements",
+	"title_original": "Colorblind UI Enhancements",
 	"author": "Hobbyte",
 	"homepage": "http://www.factorioforums.com",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13",
-	"description": "Replaces color-coded ui elements with colorblind-friendly versions."
+	"description": "Replaces color-coded ui elements with colorblind-friendly versions.",
+	"description_original": "Replaces color-coded ui elements with colorblind-friendly versions."
 }

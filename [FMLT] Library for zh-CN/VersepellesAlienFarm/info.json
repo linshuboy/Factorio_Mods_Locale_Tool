@@ -2,9 +2,11 @@
 	"name": "VersepellesAlienFarm",
 	"version": "1.1.1",
 	"title": "Versepelles' Alien Farm",
+	"title_original": "Versepelles' Alien Farm",
 	"author": "Versepelles",
 	"contact": "stevenbrelsford@gmail.com",
 	"description": "Adds capsules to catch the native inhabitants and the necessary infrastructure to farm them.",
+	"description_original": "Adds capsules to catch the native inhabitants and the necessary infrastructure to farm them.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0", "? bobenemies >= 0.13.0"]
 }

@@ -2,7 +2,9 @@
 	"name": "Bergius_Process",
 	"version": "0.1.2",
 	"title": "Bergius Process",
+	"title_original": "Bergius Process",
 	"author": "Klonan",
 	"description": "Adds Bergius Process Oil production",
+	"description_original": "Adds Bergius Process Oil production",
 	"factorio_version": "0.13"
 }

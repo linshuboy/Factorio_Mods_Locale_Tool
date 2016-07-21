@@ -1,10 +1,12 @@
 {
 	"name": "Advanced-Electric",
 	"version": "0.1.1",
-	"title": "(先进的电)Advanced Electric",
+	"title": "先进的电",
+	"title_original": "Advanced Electric",
 	"contact": "",
 	"author": "Neomore and thurak126",
 	"homepage": "",
-	"description": "(增加了更高层次的太阳能电池板和蓄电池。)Adds higher tiers of solar panels and accumulators.",
+	"description": "增加了更高层次的太阳能电池板和蓄电池。",
+	"description_original": "Adds higher tiers of solar panels and accumulators.",
 	"factorio_version": "0.13"
 }

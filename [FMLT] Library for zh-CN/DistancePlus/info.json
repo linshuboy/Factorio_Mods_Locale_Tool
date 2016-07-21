@@ -3,8 +3,10 @@
 	"author": "yareczek and Tardan, updated by Codex",
 	"version": "0.13.2",
 	"title": "DistancePlus",
+	"title_original": "DistancePlus",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?t=3607",
 	"description": "The Mod adds longer distance versions of belts, pipes and electric poles.",
+	"description_original": "The Mod adds longer distance versions of belts, pipes and electric poles.",
 	"dependencies": ["base >= 0.13"],
 	"factorio_version": "0.13"
 }

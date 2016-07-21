@@ -3,8 +3,10 @@
 	"author": "keyboardhack",
 	"version": "1.1.0",
 	"title": "WaiTex",
+	"title_original": "WaiTex",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=144&t=13142",
 	"description": "HD textures for all vanilla items",
+	"description_original": "HD textures for all vanilla items",
 	"dependencies": ["base >= 0.13.00"],
 	"factorio_version": "0.13"
 }

@@ -3,8 +3,10 @@
 	"version": "0.0.2",
 	"factorio_version": "0.13",
 	"title": "Charcoal Burner",
+	"title_original": "Charcoal Burner",
 	"author": "Corvus Corax",
 	"contact": "",
 	"homepage": "",
-	"description": "Adds a way to turn your useless excess wood into charcoal"
+	"description": "Adds a way to turn your useless excess wood into charcoal",
+	"description_original": "Adds a way to turn your useless excess wood into charcoal"
 }

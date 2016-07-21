@@ -3,9 +3,11 @@
 	"version": "0.13.0",
 	"factorio_version": "0.13",
 	"title": "Bob's Assembly machines",
+	"title_original": "Bob's Assembling machines",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
 	"description": "Adds assembly machines 4, 5 and 6.",
+	"description_original": "Adds assembling machines 4, 5 and 6. And other machines too.",
 	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobplates >= 0.13.0"]
 }

@@ -2,8 +2,10 @@
 	"name": "BigBags",
 	"version": "1.0.12",
 	"title": "Big Bags",
+	"title_original": "Big Bags",
 	"author": "BinbinHfr",
 	"description": "Big bags everywhere ! (inventory, toolbelt, logistic slots, stacks...)",
+	"description_original": "Big bags everywhere ! (inventory, toolbelt, logistic slots, stacks...)",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=22921",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

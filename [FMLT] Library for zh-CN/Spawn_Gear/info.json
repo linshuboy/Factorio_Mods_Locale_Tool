@@ -2,9 +2,11 @@
 	"name": "Spawn_Gear",
 	"version": "0.1.6",
 	"title": "Spawn Gear",
+	"title_original": "Spawn Gear",
 	"author": "Klonan",
 	"contact": "",
 	"homepage": "",
 	"description": "When you spawn/respawn it give you some gear",
+	"description_original": "When you spawn/respawn it give you some gear",
 	"factorio_version": "0.13"
 }

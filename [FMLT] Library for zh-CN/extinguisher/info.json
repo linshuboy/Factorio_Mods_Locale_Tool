@@ -3,7 +3,9 @@
 	"author": "Devilwarriors",
 	"version": "0.1.4",
 	"title": "Fire extinguisher",
+	"title_original": "Fire extinguisher",
 	"homepage": "https://mods.factorio.com/mods/devilwarriors/extinguisher",
 	"description": "A fire extinguisher",
+	"description_original": "A fire extinguisher",
 	"factorio_version": "0.13"
 }

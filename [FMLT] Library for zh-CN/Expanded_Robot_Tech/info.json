@@ -4,8 +4,10 @@
 	"version": "0.4.1",
 	"contact": "natfrac42@gmail.com",
 	"title": "Expanded Robot Technology",
+	"title_original": "Expanded Robot Technology",
 	"homepage": "",
 	"description": "More technologies for the logistics system including robot speed, robot carrying capacity and character logistics slots.",
+	"description_original": "More technologies for the logistics system including robot speed, robot carrying capacity and character logistics slots.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.1"]
 }

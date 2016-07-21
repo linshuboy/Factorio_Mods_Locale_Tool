@@ -2,9 +2,11 @@
 	"name": "Fire_Mine",
 	"version": "0.1.2",
 	"title": "Fire Mine Mod",
+	"title_original": "Fire Mine Mod",
 	"author": "jason03272002",
 	"contact": "jason03272002@hotmail.com",
 	"homepage": "N/A",
 	"description": "You'll warm up to the idea",
+	"description_original": "You'll warm up to the idea",
 	"factorio_version": "0.13"
 }

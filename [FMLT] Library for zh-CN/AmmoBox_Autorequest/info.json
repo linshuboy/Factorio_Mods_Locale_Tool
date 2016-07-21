@@ -3,7 +3,9 @@
 	"version": "0.0.2",
 	"factorio_version": "0.13",
 	"title": "AmmoBox Autorequest Addon",
+	"title_original": "AmmoBox Autorequest Addon",
 	"author": "daydev",
 	"description": "Makes AmmoBox Turret Mk 2 (a.k.a. 'Logistic Turret') automatically request ammo on being built",
+	"description_original": "Makes AmmoBox Turret Mk 2 (a.k.a. 'Logistic Turret') automatically request ammo on being built",
 	"dependencies": ["AmmoBox >= 1.0.0"]
 }

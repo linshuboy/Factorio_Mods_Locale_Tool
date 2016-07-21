@@ -3,9 +3,11 @@
 	"version": "0.13.4",
 	"factorio_version": "0.13",
 	"title": "Bob's Warfare",
+	"title_original": "Bob's Warfare",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
 	"description": "Make things for warfare.",
+	"description_original": "Make things for warfare.",
 	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobplates >= 0.13.0", "? boblogistics >= 0.13.0", "? bobconfig >= 0.13.0", "? bobenemies >= 0.13.0"]
 }
