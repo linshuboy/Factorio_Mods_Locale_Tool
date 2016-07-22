@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 284  'Update date: 2016.07.22
+CONST SCRIPT_VERSION = 285  'Update date: 2016.07.22
 
 '----------------------------------- Options ------------------------------------
 
@@ -96,7 +96,7 @@ Class Main
         If Wscript.Arguments.Count = 0 Then
             Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")), _
                 Array(TEXT_PRIORITY, UPDATE_LIBRARY))
-            'Call MT.Generate_Mods_List(strPath)
+            Call MT.Generate_Mods_List(strPath)
         Else
             Call MT.Scan_Paths(Args_Array(), Array(TEXT_PRIORITY, UPDATE_LIBRARY))
         End If
@@ -224,17 +224,19 @@ Class MODs_Translator
     End Sub
 
     Public Sub Generate_Mods_List(ByRef strPath_Folder)
-        Dim sngTime, dicFiles, objFile, dicInfo, dicOutput, intCount, objFolder
+        Dim sngTime, dicFiles, objFile, dicInfo, dicOutput, intCount, objFolder, strDes
         If objFolder_Lib_Root Is Nothing Then Exit Sub
         If Not FZ.FolderExists(objFolder, strPath_Folder, Null, False) Then Exit Sub
         sngTime = sngTime - Timer
-        ML.Print 1, ML.Echo("list_generating", Array(NAME_List))
+        ML.Print 1, ML.Echo("list_generating", Array(objFolder.Self.Path, NAME_List))
         Set dicFiles = Locate_Files(objFolder_Lib_Root, "info.json", True, False)
         Set dicOutput = CreateObject("Scripting.Dictionary")
         For Each objFile In dicFiles.Items
             If Valid_JSON(dicInfo, FZ.Read(objFile)) Then
+                strDes = Replace(Replace(Replace(dicInfo("description"), _
+                    vbCr, ""), vbLf, ""), vbTab, "")
                 dicOutput.Add dicOutput.Count, ML.Echo("list_format", _
-                    Array(dicInfo("name"), dicInfo("title"), dicInfo("description")))
+                    Array(dicInfo("name"), dicInfo("title"), strDes))
                 intCount = intCount + 1
             End If
         Next

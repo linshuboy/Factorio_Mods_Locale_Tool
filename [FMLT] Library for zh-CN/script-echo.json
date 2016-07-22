@@ -65,11 +65,11 @@
             "zh-CN": "[__1__/__2__] 未发现需要汉化条目。"
         },
         "list_generating": {
-            "en": "Please wait a moment. Script is generating the list of mods in library with \ntranslated titles and descriptions: __1__",
-            "zh-CN": "请稍等，正在生成文本库中的MOD列表（带译名和汉化简介）: __1__"
+            "en": "Please wait a moment. Script is generating the list of mods in library with \ntranslated titles and descriptions: \n__1__\\__2__",
+            "zh-CN": "请稍等，正在生成文本库中的MOD列表（带译名和汉化简介）: \n__1__\\__2__"
         },
         "list_format": {
-            "en": "==> __1__ | __2__\r\n\t__3__"
+            "en": "* __1__ <=> __2__\r\n  __3__\r\n"
         },
         "list_finish": {
             "en": "Finshed, a total of __1__ mod(s) have been listed, taking __2__ seconds.",
