@@ -31,7 +31,7 @@ CONST SCRIPT_VERSION = 283  'Update date: 2016.07.22
 
 '----------------------------------- Options ------------------------------------
 
-'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY AUTHORS!
+'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY ADMINISTRATORS!
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
 '    This is the name of locale library in the same directory as this script, 
