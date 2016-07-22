@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 281  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 282  'Update date: 2016.07.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -448,7 +448,7 @@ Class MODs_Translator
     End Function
 
     Private Function Locate_Files(ByRef objFolder_Root, ByRef strName_File, _
-            ByRef blnScanSub, ByRef blnAvoidLib)
+            ByRef blnFindAll, ByRef blnAvoidLib)
         Dim arrReturn, blnExec, objFile, objItem
         Set arrReturn = CreateObject("Scripting.Dictionary")
         If Not blnAvoidLib Then
@@ -462,11 +462,13 @@ Class MODs_Translator
             If FZ.FileExists(objFile, objFolder_Root, strName_File) Then
                 arrReturn.Add arrReturn.Count, objFile
             End If
-            If blnScanSub Then
+            If Not blnFindAll And arrReturn.Count > 0 Then
+                '[skip line]
+            Else
                 For Each objItem In objFolder_Root.Items
                     If objItem.IsFolder Then
                         For Each objFile In Locate_Files(objItem.GetFolder, _
-                                strName_File, blnScanSub, blnAvoidLib).Items
+                                strName_File, blnFindAll, blnAvoidLib).Items
                             arrReturn.Add arrReturn.Count, objFile
                         Next
                     End If
