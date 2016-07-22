@@ -15,10 +15,6 @@
         "script_setting": {
             "en": "<__1__ __2__> <TEXT_PRIORITY=__3__> <UPDATE_LIBRARY=__4__>"
         },
-        "library_name": {
-            "en": "Loaded library: __1__",
-            "zh-CN": "已加载文本库: __1__"
-        },
         "library_info": {
             "en": "< __1__ | __2__ | __3__ | __4__ >"
         },
