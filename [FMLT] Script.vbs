@@ -27,24 +27,32 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 282  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 283  'Update date: 2016.07.22
 
 '----------------------------------- Options ------------------------------------
 
 'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY AUTHORS!
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
-'The name of locale library in the same directory as this script, which is either 
-'    a zip file or a folder with library-info.json & script-echo.json inside.
+'    This is the name of locale library in the same directory as this script, 
+'which is either a zip file or a folder with valid library-info.json & 
+'script-echo.json inside.
 
-CONST COMPLEMENT_ONLY = False
-'If True, only the untranslated items in mods will be rewrited and translated.
-'If False (default), all items will be updated except ones not exist in library.
+CONST TEXT_PRIORITY = False
+'    This setting is used to toggle the priority of the text source to translate 
+'each file in mods for some particular cases. The following uses zh-CN as an 
+'example of the locale language.
+'    If True, the priority is [zh-CN in mod]>>[library]>>[en in mod]. In this 
+'case, only the untranslated items in mods will be rewrited and translated, which 
+'is usually applied to auto-collect the translated texts in mods.
+'    If False (default), the priority is [library]>>[zh-CN in mod]>>[en in mod]. 
 
 CONST UPDATE_LIBRARY = False
-'If True, the newly-generated locale files will be copied back to library, which  
-'    is usually used to quickly collect translations in a large number of mods.
-'If False (default), the library will keep locked.
+'    This setting is used to toggle whether to copy the locale files back to the 
+'loaded library after translation.
+'    If True, the newly-generated locale files will be copied back to library, 
+'which is usually applied to auto-collect translations in a large number of mods.
+'    If False (default), the library will keep locked.
 
 '--------------------------------------------------------------------------------
 
@@ -83,7 +91,7 @@ Class Main
         Set MT = New MODs_Translator
         strPath = FSO.GetParentFolderName(WScript.ScriptFullName)
         Call MT.Load_Library(strPath, SCRIPT_VERSION, _
-            Array(NAME_LIBRARY, COMPLEMENT_ONLY, UPDATE_LIBRARY))
+            Array(NAME_LIBRARY, TEXT_PRIORITY, UPDATE_LIBRARY))
         If Wscript.Arguments.Count = 0 Then
             Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")))
             'Call MT.Generate_Mods_List(strPath)
@@ -200,13 +208,13 @@ Class MODs_Translator
         If IsEmpty(strLocale) Then Exit Sub
         sngTime = sngTime - Timer
         For i = 0 To UBound(arrPaths)
-            ML.Print 1, ML.Echo("scan_path_1", Array(arrPaths(i)))
+            ML.Print 1, ML.Echo("path_scanning", Array(arrPaths(i)))
             If Not FZ.FolderExists(objFolder, arrPaths(i), Null, False) Then
-                ML.Print 2, ML.Echo("scan_path_3", Array())
+                ML.Print 2, ML.Echo("path_not_exist", Array())
             Else
                 Set dicFiles = Locate_Files(objFolder, "info.json", True, True)
                 If dicFiles.Count = 0 Then
-                    ML.Print 2, ML.Echo("scan_path_2", Array())
+                    ML.Print 2, ML.Echo("path_no_mod", Array())
                 Else
                     For Each objFile In dicFiles.Items
                         intCount = intCount + Translate_Mod(objFile)
@@ -215,7 +223,7 @@ Class MODs_Translator
             End If
         Next
         sngTime = sngTime + Timer
-        ML.Print 1, ML.Echo("scan_path_finish", Array(Int2Str(intCount, 1), _
+        ML.Print 1, ML.Echo("path_finished", Array(Int2Str(intCount, 1), _
             FormatNumber(sngTime, 2, -1)))
     End Sub
 
@@ -244,17 +252,16 @@ Class MODs_Translator
         Dim objFolder_Lib, dicInfo, arrCount(1)
         If Not Valid_JSON(dicInfo, FZ.Read(objFile_Info)) Then Exit Function
         If Len(dicInfo("name")) = 0 Then Exit Function
-        ML.Print 2, ML.Echo("translating", _
-            Array(dicInfo("name"), dicInfo("version"), dicInfo("title")))
+        ML.Print 2, ML.Echo("trans_start", Array(dicInfo("name"), dicInfo("version")))
         Call FZ.FolderExists(objFolder_Lib, objFolder_Lib_Root, _
                 dicInfo("name"), arrOptions(2))
         Add_Arr arrCount, Translate_Info(objFile_Info.Parent, objFolder_Lib, dicInfo)
         Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, objFolder_Lib)
         Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, objFolder_Lib)
         If arrCount(0) = 0 Then
-            ML.Print 3, ML.Echo("result_3", Array(Int2Str(0, 3), Int2Str(0, 3)))
+            ML.Print 3, ML.Echo("trans_none", Array(Int2Str(0, 3), Int2Str(0, 3)))
         Else
-            ML.Print 3, ML.Echo("result_2", Array(_
+            ML.Print 3, ML.Echo("trans_finished", Array(_
                 Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), _
                 FormatPercent(arrCount(1)/arrCount(0), 1, -1, 0)))
             Translate_Mod = 1
@@ -298,7 +305,7 @@ Class MODs_Translator
         arrCount(0) = 2
         arrCount(1) = - (dicInfo_New("title") <> dicInfo_New("title_original")) _
             - (dicInfo_New("description") <> dicInfo_New("description_original"))
-        ML.Print 3, ML.Echo("result_1", _
+        ML.Print 3, ML.Echo("trans_file", _
             Array(Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), "\info.json"))
         Translate_Info = arrCount
     End Function
@@ -330,7 +337,7 @@ Class MODs_Translator
                         Call FZ.FileExists(objFile, objFolder_Loc, strName)
                         Call FZ.Copy(objFile, objFolder_Lib, True)
                     End If
-                    ML.Print 3, ML.Echo("result_1", Array(_
+                    ML.Print 3, ML.Echo("trans_file", Array(_
                         Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
                         "\locale\" & strLocale & "\" & strName))
                     Add_Arr arrCount, arrResult
@@ -363,7 +370,7 @@ Class MODs_Translator
                 Call FZ.FileExists(objFile, objFolder_Loc, strName)
                 Call FZ.Copy(objFile, objFolder_Lib, True)
             End If
-            ML.Print 3, ML.Echo("result_1", Array(_
+            ML.Print 3, ML.Echo("trans_file", Array(_
                 Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
                 "\script-locale\" & strName))
             Add_Arr arrCount, arrResult
