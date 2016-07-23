@@ -1,16 +1,22 @@
 {
     "locale": "zh-CN",
     "name": "异星工厂模组汉化文本库",
+<<<<<<< HEAD
     "version": "V2",
     "update": "2016-07-18",
+=======
+    "version": "V3",
+    "update": "2016-07-23",
+>>>>>>> dev
     "organization": {
         "name": "异星工厂吧",
         "homepage": "http://tieba.baidu.com/f?kw=factorio",
         "members": [
-            {"name": "LINtear", "contact": "QQ211398520"},
+            {"name": "Quiet95scholar", "contact": "QQ:211398520"},
             {"name": "Mr.Jos", "contact": "sd7056333@163.com"}
         ]
     },
+    "github": "https://github.com/Quiet95scholar/Factorio_Mods_Locale_Tool/",
     "license": "The MIT License (MIT)",
     "inheritance": "[异星工厂MOD汉化文本库]0.014 by LINtear"
 }

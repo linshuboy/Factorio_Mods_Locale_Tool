@@ -13,11 +13,7 @@
             "en": "Build.__1__  Coded by Mr.Jos  Email: sd7056333@163.com"
         },
         "script_setting": {
-            "en": "<__1__ __2__> <COMPLEMENT_ONLY=__3__> <UPDATE_LIBRARY=__4__>"
-        },
-        "library_name": {
-            "en": "Loaded library: __1__",
-            "zh-CN": "已加载文本库: __1__"
+            "en": "<__1__ __2__> <TEXT_PRIORITY=__3__> <UPDATE_LIBRARY=__4__>"
         },
         "library_info": {
             "en": "< __1__ | __2__ | __3__ | __4__ >"
@@ -37,43 +33,43 @@
             "en": "3. If you translated or improved the text in mods, you could submit the \nrevised and tested [MOD].zip to the author of loaded library, by whom your \ncontribution would be shared easily. Here are the editable contents in mods: \n\t[MOD]\\info.json   -- \"title\" & \"description\"\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg",
             "zh-CN": "3. 如果你翻译或改进了MOD里的文本，你可以把修订并测试后的[MOD].zip压缩包提交给文本库作者，这样就能够轻松地与其它玩家分享你的贡献。下面是MOD中可编辑的内容：\n\t[MOD]\\info.json   -- \"title\"(译名) & \"description\"(简介)\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg"
         },
-        "scan_path_1": {
+        "path_scanning": {
             "en": "Please wait a moment. Script is scanning this path: \n__1__",
             "zh-CN": "请稍等，正在扫描路径: \n__1__"
         },
-        "scan_path_2": {
+        "path_no_mod": {
             "en": "No mod is found in the path.",
             "zh-CN": "该路径下未发现MOD。"
         },
-        "scan_path_3": {
+        "path_not_exist": {
             "en": "The path does not exist.",
             "zh-CN": "该路径不存在。"
         },
-        "scan_path_finish": {
+        "path_finished": {
             "en": "Finshed, a total of __1__ mod(s) have been transalted, taking __2__ seconds.",
             "zh-CN": "完毕，共汉化了 __1__ 个MOD，耗时 __2__ 秒。"
         },
-        "translating": {
-            "en": "Translating: __1__ __2__ <=> __3__",
-            "zh-CN": "正在汉化: __1__ __2__ <=> __3__"
+        "trans_start": {
+            "en": "Translating: __1__ __2__",
+            "zh-CN": "正在汉化: __1__ __2__"
         },
-        "result_1": {
+        "trans_file": {
             "en": "[__1__/__2__] __3__"
         },
-        "result_2": {
+        "trans_finished": {
             "en": "[__1__/__2__] Completed, the translation rate is __3__ ",
             "zh-CN": "[__1__/__2__] 汉化完成，汉化率为 __3__ "
         },
-        "result_3": {
+        "trans_none": {
             "en": "[__1__/__2__] No locale item needs to translate.",
             "zh-CN": "[__1__/__2__] 未发现需要汉化条目。"
         },
         "list_generating": {
-            "en": "Please wait a moment. Script is generating the list of mods in library with \ntranslated titles and descriptions: __1__",
-            "zh-CN": "请稍等，正在生成文本库中的MOD列表（带译名和汉化简介）: __1__"
+            "en": "Please wait a moment. Script is generating the list of mods in library with \ntranslated titles and descriptions: \n__1__\\__2__",
+            "zh-CN": "请稍等，正在生成文本库中的MOD列表（带译名和汉化简介）: \n__1__\\__2__"
         },
         "list_format": {
-            "en": "==> __1__ | __2__\r\n\t__3__"
+            "en": "* __1__ <=> __2__\r\n  __3__\r\n"
         },
         "list_finish": {
             "en": "Finshed, a total of __1__ mod(s) have been listed, taking __2__ seconds.",

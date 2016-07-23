@@ -27,24 +27,32 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 280  'Update date: 2016.07.20
+CONST SCRIPT_VERSION = 285  'Update date: 2016.07.22
 
 '----------------------------------- Options ------------------------------------
 
-'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY AUTHORS!
+'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY ADMINISTRATORS!
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
-'The name of locale library in the same directory as this script, which is either 
-'    a zip file or a folder with library-info.json & script-echo.json inside.
+'    This is the name of locale library in the same directory as this script, 
+'which is either a zip file or a folder with valid library-info.json & 
+'script-echo.json inside.
 
-CONST COMPLEMENT_ONLY = False
-'If True, only the untranslated items in mods will be rewrited and translated.
-'If False (default), all items will be updated except ones not exist in library.
+CONST TEXT_PRIORITY = False
+'    This setting is used to toggle the priority of the text source to translate 
+'each file in mods for some particular cases. The following uses zh-CN as an 
+'example of the locale language.
+'    If True, the priority is [zh-CN in mod]>>[library]>>[en in mod]. In this 
+'case, only the untranslated items in mods will be rewrited and translated, which 
+'is usually applied to auto-collect the translated texts in mods.
+'    If False (default), the priority is [library]>>[zh-CN in mod]>>[en in mod]. 
 
 CONST UPDATE_LIBRARY = False
-'If True, the newly-generated locale files will be copied back to library, which  
-'    is usually used to quickly collect translations in a large number of mods.
-'If False (default), the library will keep locked.
+'    This setting is used to toggle whether to copy the locale files back to the 
+'loaded library after translation.
+'    If True, the newly-generated locale files will be copied back to library, 
+'which is usually applied to auto-collect translations in a large number of mods.
+'    If False (default), the library will keep locked.
 
 '--------------------------------------------------------------------------------
 
@@ -82,13 +90,15 @@ Class Main
         Set FSO = CreateObject("Scripting.FileSystemObject")
         Set MT = New MODs_Translator
         strPath = FSO.GetParentFolderName(WScript.ScriptFullName)
-        Call MT.Load_Library(strPath, SCRIPT_VERSION, _
-            Array(NAME_LIBRARY, COMPLEMENT_ONLY, UPDATE_LIBRARY))
+        Call MT.Load_Library(strPath, NAME_LIBRARY)
+        Call MT.Echo_Title(SCRIPT_VERSION, NAME_LIBRARY, _
+            Array(TEXT_PRIORITY, UPDATE_LIBRARY))
         If Wscript.Arguments.Count = 0 Then
-            Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")))
+            Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")), _
+                Array(TEXT_PRIORITY, UPDATE_LIBRARY))
             Call MT.Generate_Mods_List(strPath)
         Else
-            Call MT.Scan_Paths(Args_Array())
+            Call MT.Scan_Paths(Args_Array(), Array(TEXT_PRIORITY, UPDATE_LIBRARY))
         End If
     End Sub
 
@@ -111,7 +121,7 @@ Class MODs_Translator
 
     Private NAME_LibInfo, NAME_ScrEcho, NAME_Log, NAME_List
     Private LABEL_DefGroup, LABEL_InvLine
-    Private FZ, JA, ML, strLocale, objFolder_Lib_Root, arrOptions
+    Private FZ, JA, ML, strLocale, objFolder_Lib_Root, dicInfo_Lib
 
     Private Sub Class_Initialize()
         NAME_LibInfo = "library-info.json"
@@ -125,11 +135,10 @@ Class MODs_Translator
         Set ML = New Multilanguage_Echo
     End Sub
 
-    Public Sub Load_Library(ByRef strPath_Work, ByRef intVer, ByRef arrOpt)
-        Dim objFolder, arrFiles, objFile_Echo, dicInfo, dicEcho
-        strLocale = Empty
+    Public Sub Load_Library(ByRef strPath_Folder, ByRef strName_Lib)
+        Dim objFolder, arrFiles, objFile_Echo, dicEcho
         Set objFolder_Lib_Root = Nothing
-        If Not FZ.FolderExists(objFolder, strPath_Work, arrOpt(0), False) Then
+        If Not FZ.FolderExists(objFolder, strPath_Folder, strName_Lib, False) Then
             MsgBox objFolder.Self.Path & vbCrlf & vbCrlf & _
                 " does not exist.", 48, "Script Loading Error"
             WScript.Quit
@@ -137,43 +146,38 @@ Class MODs_Translator
         Set arrFiles = Locate_Files(objFolder, NAME_LibInfo, False, False)
         If arrFiles.Count = 0 Then
             '[skip line]
-        ElseIf Not Valid_JSON(dicInfo, FZ.Read(arrFiles(0))) Then
+        ElseIf Not Valid_JSON(dicInfo_Lib, FZ.Read(arrFiles(0))) Then
             '[skip line]
-        Elseif Not dicInfo.Exists("locale") Then
-            '[skip line]
-        ElseIf LCase(dicInfo("locale")) = "en" Then
+        ElseIf Len(dicInfo_Lib("locale")) = 0 Or LCase(dicInfo_Lib("locale")) = "en" Then
             '[skip line]
         ElseIf Not FZ.FileExists(objFile_Echo, arrFiles(0).Parent, NAME_ScrEcho) Then
             '[skip line]
         ElseIf Not Valid_JSON(dicEcho, FZ.Read(objFile_Echo)) Then
             '[skip line]
-        ElseIf ML.Initialize(dicEcho, strPath_Work, NAME_Log) Then
-            strLocale = dicInfo("locale")
+        ElseIf ML.Initialize(dicEcho, strPath_Folder, NAME_Log) Then
+            strLocale = dicInfo_Lib("locale")
             Set objFolder_Lib_Root = arrFiles(0).Parent
-            arrOptions = arrOpt
-            Echo_Title dicInfo, intVer
         End If
-        If IsEmpty(strLocale) Then
+        If objFolder_Lib_Root Is Nothing Then
             MsgBox "This locale library has mistakes: " & vbCrlf & _
                 vbCrlf & objFolder.Self.Path, 48, "Script Loading Error"
             WScript.Quit
         End If
     End Sub
 
-    Private Sub Echo_Title(ByRef dicInfo, ByRef intVer)
+    Public Sub Echo_Title(ByRef intVer, ByRef strName_Lib, ByRef arrOptions)
         Dim dicOrg, dicMem, strEcho
         ML.Print -1, "*"
         ML.Print 0, ML.Echo("script_title", Array())
         ML.Print 0, ML.Echo("script_author", Array(intVer))
         ML.Print 0, ML.Echo("script_setting", Array(_
             FormatDateTime(Date, 2), FormatDateTime(Time, 4), _
-            CStr(CBool(arrOptions(1))), CStr(CBool(arrOptions(2)))))
+            CStr(CBool(arrOptions(0))), CStr(CBool(arrOptions(1)))))
         ML.Print -1, "-"
-        ML.Print 0, ML.Echo("library_name", Array(arrOptions(0)))
-        ML.Print 0, ML.Echo("library_info", Array(dicInfo("locale"), _
-            dicInfo("name"), dicInfo("version"), dicInfo("update")))
-        If dicInfo.Exists("organization") Then
-            Set dicOrg = dicInfo("organization")
+        ML.Print 0, ML.Echo("library_info", Array(dicInfo_Lib("locale"), _
+            dicInfo_Lib("name"), dicInfo_Lib("version"), dicInfo_Lib("update")))
+        If dicInfo_Lib.Exists("organization") Then
+            Set dicOrg = dicInfo_Lib("organization")
             ML.Print 0, ML.Echo("library_member", _
                 Array(dicOrg("name"), dicOrg("homepage")))
             For Each dicMem In dicOrg("members")
@@ -195,42 +199,44 @@ Class MODs_Translator
         ML.Print -1, "*"
     End Sub
 
-    Public Sub Scan_Paths(ByRef arrPaths)
+    Public Sub Scan_Paths(ByRef arrPaths, ByRef arrOptions)
         Dim i, objFolder, dicFiles, objFile, intCount, sngTime
-        If IsEmpty(strLocale) Then Exit Sub
+        If objFolder_Lib_Root Is Nothing Then Exit Sub
         sngTime = sngTime - Timer
         For i = 0 To UBound(arrPaths)
-            ML.Print 1, ML.Echo("scan_path_1", Array(arrPaths(i)))
+            ML.Print 1, ML.Echo("path_scanning", Array(arrPaths(i)))
             If Not FZ.FolderExists(objFolder, arrPaths(i), Null, False) Then
-                ML.Print 2, ML.Echo("scan_path_3", Array())
+                ML.Print 2, ML.Echo("path_not_exist", Array())
             Else
                 Set dicFiles = Locate_Files(objFolder, "info.json", True, True)
                 If dicFiles.Count = 0 Then
-                    ML.Print 2, ML.Echo("scan_path_2", Array())
+                    ML.Print 2, ML.Echo("path_no_mod", Array())
                 Else
                     For Each objFile In dicFiles.Items
-                        intCount = intCount + Translate_Mod(objFile)
+                        intCount = intCount + Translate_Mod(objFile, arrOptions)
                     Next
                 End If
             End If
         Next
         sngTime = sngTime + Timer
-        ML.Print 1, ML.Echo("scan_path_finish", Array(Int2Str(intCount, 1), _
+        ML.Print 1, ML.Echo("path_finished", Array(Int2Str(intCount, 1), _
             FormatNumber(sngTime, 2, -1)))
     End Sub
 
-    Public Sub Generate_Mods_List(ByRef strPath_Work)
-        Dim sngTime, dicFiles, objFile, dicInfo, dicOutput, intCount, objFolder
-        If IsEmpty(strLocale) Then Exit Sub
-        If Not FZ.FolderExists(objFolder, strPath_Work, Null, False) Then Exit Sub
+    Public Sub Generate_Mods_List(ByRef strPath_Folder)
+        Dim sngTime, dicFiles, objFile, dicInfo, dicOutput, intCount, objFolder, strDes
+        If objFolder_Lib_Root Is Nothing Then Exit Sub
+        If Not FZ.FolderExists(objFolder, strPath_Folder, Null, False) Then Exit Sub
         sngTime = sngTime - Timer
-        ML.Print 1, ML.Echo("list_generating", Array(NAME_List))
+        ML.Print 1, ML.Echo("list_generating", Array(objFolder.Self.Path, NAME_List))
         Set dicFiles = Locate_Files(objFolder_Lib_Root, "info.json", True, False)
         Set dicOutput = CreateObject("Scripting.Dictionary")
         For Each objFile In dicFiles.Items
             If Valid_JSON(dicInfo, FZ.Read(objFile)) Then
+                strDes = Replace(Replace(Replace(dicInfo("description"), _
+                    vbCr, ""), vbLf, ""), vbTab, "")
                 dicOutput.Add dicOutput.Count, ML.Echo("list_format", _
-                    Array(dicInfo("name"), dicInfo("title"), dicInfo("description")))
+                    Array(dicInfo("name"), dicInfo("title"), strDes))
                 intCount = intCount + 1
             End If
         Next
@@ -240,21 +246,23 @@ Class MODs_Translator
             FormatNumber(sngTime, 2, -1)))
     End Sub
 
-    Private Function Translate_Mod(ByRef objFile_Info)
+    Private Function Translate_Mod(ByRef objFile_Info, ByRef arrOptions)
         Dim objFolder_Lib, dicInfo, arrCount(1)
         If Not Valid_JSON(dicInfo, FZ.Read(objFile_Info)) Then Exit Function
         If Len(dicInfo("name")) = 0 Then Exit Function
-        ML.Print 2, ML.Echo("translating", _
-            Array(dicInfo("name"), dicInfo("version"), dicInfo("title")))
+        ML.Print 2, ML.Echo("trans_start", Array(dicInfo("name"), dicInfo("version")))
         Call FZ.FolderExists(objFolder_Lib, objFolder_Lib_Root, _
-                dicInfo("name"), arrOptions(2))
-        Add_Arr arrCount, Translate_Info(objFile_Info.Parent, objFolder_Lib, dicInfo)
-        Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, objFolder_Lib)
-        Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, objFolder_Lib)
+                dicInfo("name"), arrOptions(1))
+        Add_Arr arrCount, Translate_Info(objFile_Info.Parent, _
+            objFolder_Lib, arrOptions, dicInfo)
+        Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, _
+            objFolder_Lib, arrOptions)
+        Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, _
+            objFolder_Lib, arrOptions)
         If arrCount(0) = 0 Then
-            ML.Print 3, ML.Echo("result_3", Array(Int2Str(0, 3), Int2Str(0, 3)))
+            ML.Print 3, ML.Echo("trans_none", Array(Int2Str(0, 3), Int2Str(0, 3)))
         Else
-            ML.Print 3, ML.Echo("result_2", Array(_
+            ML.Print 3, ML.Echo("trans_finished", Array(_
                 Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), _
                 FormatPercent(arrCount(1)/arrCount(0), 1, -1, 0)))
             Translate_Mod = 1
@@ -262,9 +270,9 @@ Class MODs_Translator
     End Function
 
     Private Function Translate_Info(ByRef objFolder_Mod_Root, ByRef objFolder_Lib, _
-            ByRef dicInfo_inMod)
+            ByRef arrOptions, ByRef dicInfo_inMod)
         Dim objFile, dicInfo_inLib, dicInfo_New, strKey, strKey_ori, arrCount(1)
-        If Not arrOptions(1) And FZ.FileExists(objFile, objFolder_Lib, "info.json") Then
+        If Not arrOptions(0) And FZ.FileExists(objFile, objFolder_Lib, "info.json") Then
             Call Valid_JSON(dicInfo_inLib, FZ.Read(objFile))
         Else
             Set dicInfo_inLib = CreateObject("Scripting.Dictionary")
@@ -291,19 +299,20 @@ Class MODs_Translator
             End Select
         Next
         Call FZ.Write(objFolder_Mod_Root, "info.json", JA.EncodeJSON(dicInfo_New, 1))
-        If arrOptions(2) Then
+        If arrOptions(1) Then
             Call FZ.FileExists(objFile, objFolder_Mod_Root, "info.json")
             Call FZ.Copy(objFile, objFolder_Lib, True)
         End If
         arrCount(0) = 2
         arrCount(1) = - (dicInfo_New("title") <> dicInfo_New("title_original")) _
             - (dicInfo_New("description") <> dicInfo_New("description_original"))
-        ML.Print 3, ML.Echo("result_1", _
+        ML.Print 3, ML.Echo("trans_file", _
             Array(Int2Str(arrCount(1), 3), Int2Str(arrCount(0), 3), "\info.json"))
         Translate_Info = arrCount
     End Function
 
-    Private Function Translate_Locale(ByRef objFolder_Mod_Root, ByRef objFolder_Lib)
+    Private Function Translate_Locale(ByRef objFolder_Mod_Root, ByRef objFolder_Lib, _
+            ByRef arrOptions)
         Dim objFolder, objFolder_en, objFolder_Loc, objFile_en, objFile
         Dim strName, dicItems, arrResult, arrCount(1)
         If Not FZ.FolderExists(objFolder, objFolder_Mod_Root, "locale", False) Then
@@ -318,7 +327,7 @@ Class MODs_Translator
                     '[skip line]
                 ElseIf LCase(Right(strName, 3)) = "cfg" Then
                     Set dicItems = Load_Items(objFile_en)
-                    If arrOptions(1) Then
+                    If arrOptions(0) Then
                         Update_Items dicItems, objFolder_Lib, strName
                         Update_Items dicItems, objFolder_Loc, strName
                     Else
@@ -326,11 +335,11 @@ Class MODs_Translator
                         Update_Items dicItems, objFolder_Lib, strName
                     End If
                     arrResult = Write_Items(dicItems, objFolder_Loc, strName)
-                    If arrOptions(2) Then
+                    If arrOptions(1) Then
                         Call FZ.FileExists(objFile, objFolder_Loc, strName)
                         Call FZ.Copy(objFile, objFolder_Lib, True)
                     End If
-                    ML.Print 3, ML.Echo("result_1", Array(_
+                    ML.Print 3, ML.Echo("trans_file", Array(_
                         Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
                         "\locale\" & strLocale & "\" & strName))
                     Add_Arr arrCount, arrResult
@@ -341,7 +350,7 @@ Class MODs_Translator
     End Function
 
     Private Function Translate_Script_Locale(ByRef objFolder_Mod_Root, _
-            ByRef objFolder_Lib)
+            ByRef objFolder_Lib, ByRef arrOptions)
         Dim objFolder_Loc, objFile, dicItems, strName, arrResult, arrCount(1)
         If Not FZ.FolderExists(objFolder_Loc, objFolder_Mod_Root, _
                 "script-locale", False) Then
@@ -351,7 +360,7 @@ Class MODs_Translator
         Else
             strName = strLocale & ".cfg"
             Set dicItems = Load_Items(objFile)
-            If arrOptions(1) Then
+            If arrOptions(0) Then
                 Update_Items dicItems, objFolder_Lib, strName
                 Update_Items dicItems, objFolder_Loc, strName
             Else
@@ -359,11 +368,11 @@ Class MODs_Translator
                 Update_Items dicItems, objFolder_Lib, strName
             End If
             arrResult = Write_Items(dicItems, objFolder_Loc, strName)
-            If arrOptions(2) Then
+            If arrOptions(1) Then
                 Call FZ.FileExists(objFile, objFolder_Loc, strName)
                 Call FZ.Copy(objFile, objFolder_Lib, True)
             End If
-            ML.Print 3, ML.Echo("result_1", Array(_
+            ML.Print 3, ML.Echo("trans_file", Array(_
                 Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
                 "\script-locale\" & strName))
             Add_Arr arrCount, arrResult
@@ -448,7 +457,7 @@ Class MODs_Translator
     End Function
 
     Private Function Locate_Files(ByRef objFolder_Root, ByRef strName_File, _
-            ByRef blnScanSub, ByRef blnAvoidLib)
+            ByRef blnFindAll, ByRef blnAvoidLib)
         Dim arrReturn, blnExec, objFile, objItem
         Set arrReturn = CreateObject("Scripting.Dictionary")
         If Not blnAvoidLib Then
@@ -462,11 +471,13 @@ Class MODs_Translator
             If FZ.FileExists(objFile, objFolder_Root, strName_File) Then
                 arrReturn.Add arrReturn.Count, objFile
             End If
-            If blnScanSub Then
+            If Not blnFindAll And arrReturn.Count > 0 Then
+                '[skip line]
+            Else
                 For Each objItem In objFolder_Root.Items
                     If objItem.IsFolder Then
                         For Each objFile In Locate_Files(objItem.GetFolder, _
-                                strName_File, blnScanSub, blnAvoidLib).Items
+                                strName_File, blnFindAll, blnAvoidLib).Items
                             arrReturn.Add arrReturn.Count, objFile
                         Next
                     End If
@@ -529,11 +540,11 @@ Class Multilanguage_Echo
             '[skip line]
         ElseIf Not dicLocale.Exists("echo_setting") Then
             '[skip line]
-        ElseIf Not dicLocale("echo_setting").Exists("default_language") Then
+        ElseIf Len(dicLocale("echo_setting")("default_language")) = 0 Then
             '[skip line]
-        ElseIf Not dicLocale("echo_setting").Exists("applied_language") Then
+        ElseIf Len(dicLocale("echo_setting")("applied_language")) = 0 Then
             '[skip line]
-        ElseIf Not dicLocale("echo_setting").Exists("line_width") Then
+        ElseIf Len(dicLocale("echo_setting")("line_width")) = 0 Then
             '[skip line]
         Else
             strLang(0) = dicLocale("echo_setting")("default_language")
@@ -567,10 +578,10 @@ Class Multilanguage_Echo
 
     Public Sub Print(ByRef intType, ByVal strEcho)
         Dim intLen, intPos(1), strChar, intTmp
+        strEcho = Replace(strEcho, vbCrlf, vbLf)
+        strEcho = Replace(strEcho, vbCr, vbLf)
         If intType >= 1 Then
             'Left align with levels
-            strEcho = Replace(strEcho, vbCrlf, vbLf)
-            strEcho = Replace(strEcho, vbCr, vbLf)
             strEcho = Space(3*(intType-1)) & ">> " & _
                 Replace(strEcho, vbLf, vbLf & Space(3*intType))
             intPos(1) = 1
@@ -596,7 +607,6 @@ Class Multilanguage_Echo
                     intPos(1) = intPos(1) + 1
                 End If
             Loop
-            strEcho = Replace(strEcho, vbLf, vbCrlf)
         ElseIf intType = 0 Then
             'Center align
             intTmp = intWidth - LenW(strEcho)
@@ -607,6 +617,7 @@ Class Multilanguage_Echo
             If LenW(strEcho) > 0 Then strEcho = _
                 Left(String(Int(intWidth/LenW(strEcho))+1, strEcho), intWidth)
         End If
+        strEcho = Replace(strEcho, vbLf, vbCrlf)
         Wscript.Echo strEcho
         objOutput.WriteLine strEcho
     End Sub
