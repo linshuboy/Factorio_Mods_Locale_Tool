@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 285  'Update date: 2016.07.22
+CONST SCRIPT_VERSION = 286  'Update date: 2016.07.23
 
 '----------------------------------- Options ------------------------------------
 
@@ -86,34 +86,33 @@ Class Main
     End Sub
 
     Private Sub Main()
-        Dim FSO, MT, strPath
+        Dim FSO, MT, strPath_Cur, strPath_Lib, arrPaths, strPath, blnExec
         Set FSO = CreateObject("Scripting.FileSystemObject")
         Set MT = New MODs_Translator
-        strPath = FSO.GetParentFolderName(WScript.ScriptFullName)
-        Call MT.Load_Library(strPath, NAME_LIBRARY)
+        strPath_Cur = FSO.GetParentFolderName(WScript.ScriptFullName)
+        Call MT.Load_Library(strPath_Cur, NAME_LIBRARY)
         Call MT.Echo_Title(SCRIPT_VERSION, NAME_LIBRARY, _
             Array(TEXT_PRIORITY, UPDATE_LIBRARY))
         If Wscript.Arguments.Count = 0 Then
-            Call MT.Scan_Paths(Array(FSO.BuildPath(strPath, "mods")), _
+            Call MT.Scan_Paths(Array(FSO.BuildPath(strPath_Cur, "mods")), _
                 Array(TEXT_PRIORITY, UPDATE_LIBRARY))
-            Call MT.Generate_Mods_List(strPath)
         Else
-            Call MT.Scan_Paths(Args_Array(), Array(TEXT_PRIORITY, UPDATE_LIBRARY))
+            strPath_Lib = FSO.BuildPath(strPath_Cur, NAME_LIBRARY)
+            arrPaths = Array()
+            For Each strPath In Wscript.Arguments
+                If Left(strPath, Len(strPath_Lib)) = strPath_Lib Then
+                    blnExec = True
+                Else
+                    Redim Preserve arrPaths(UBound(arrPaths) + 1)
+                    arrPaths(UBound(arrPaths)) = strPath
+                End If
+            Next
+            If UBound(arrPaths) >= 0 Then
+                Call MT.Scan_Paths(arrPaths, Array(TEXT_PRIORITY, UPDATE_LIBRARY))
+            End If
+            If blnExec Then Call MT.Generate_Mods_List(strPath_Cur)
         End If
     End Sub
-
-    Private Function Args_Array()
-        Dim i, arrReturn
-        If Wscript.Arguments.Count = 0 Then
-            arrReturn = Array()
-        Else
-            Redim arrReturn(Wscript.Arguments.Count - 1)
-            For i = 0 To Wscript.Arguments.Count - 1
-                arrReturn(i) = Wscript.Arguments(i)
-            Next
-        End If
-        Args_Array = arrReturn
-    End Function
 
 End Class
 
@@ -195,7 +194,8 @@ Class MODs_Translator
         ML.Print -1, "-"
         ML.Print 1, ML.Echo("tip_1", Array())
         ML.Print 1, ML.Echo("tip_2", Array())
-        ML.Print 1, ML.Echo("tip_3", Array(strLocale))
+        ML.Print 1, ML.Echo("tip_3", Array(strName_Lib))
+        ML.Print 1, ML.Echo("tip_4", Array(strLocale))
         ML.Print -1, "*"
     End Sub
 

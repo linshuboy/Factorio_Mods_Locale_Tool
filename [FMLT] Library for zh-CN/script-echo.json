@@ -23,18 +23,22 @@
         },
         "tip_1": {
             "en": "1. This script is a tool to translate the newly-updated mods by using the \ntext collected in loaded library, not mechanical translation.",
-            "zh-CN": "1. 该脚本是用文本库中搜集到的文本来翻译新更新的MOD，而不是机翻工具。"
+            "zh-CN": "1. 该脚本是用文本库中搜集到的文本来翻译新更新的模组，而不是机翻工具。"
         },
         "tip_2": {
             "en": "2. The zip files or folders which may contain mods can be also dragged onto \nthis script directly to be identified and translated.",
-            "zh-CN": "2. 可能包含MOD的zip压缩包或文件夹也可以直接拖到这个脚本上，识别后即可翻译。"
+            "zh-CN": "2. 可能包含模组的zip压缩包或文件夹也可以直接拖到这个脚本上，识别后即可翻译。"
         },
         "tip_3": {
-            "en": "3. If you translated or improved the text in mods, you could submit the \nrevised and tested [MOD].zip to the author of loaded library, by whom your \ncontribution would be shared easily. Here are the editable contents in mods: \n\t[MOD]\\info.json   -- \"title\" & \"description\"\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg",
-            "zh-CN": "3. 如果你翻译或改进了MOD里的文本，你可以把修订并测试后的[MOD].zip压缩包提交给文本库作者，这样就能够轻松地与其它玩家分享你的贡献。下面是MOD中可编辑的内容：\n\t[MOD]\\info.json   -- \"title\"(译名) & \"description\"(简介)\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg"
+            "en": "3. A list of mods in library with translation would be generated, if you \ndraged the loaded library onto this script: __1__",
+            "zh-CN": "3. 脚本可以根据汉化文本库生成一个带翻译的模组列表，把文本库拖到这个脚本上就可以了: __1__"
+        },
+        "tip_4": {
+            "en": "4. If you translated or improved the text in mods, you could submit the \nrevised and tested [MOD].zip to the author of loaded library, by whom your \ncontribution would be shared easily. Here are the editable contents in mods: \n\t[MOD]\\info.json   -- \"title\" & \"description\"\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg",
+            "zh-CN": "4. 如果你翻译或改进了模组里的文本，你可以把修订并测试后的[MOD].zip压缩包提交给文本库作者，这样就能轻松地与其它玩家分享你的贡献。下面是模组中可编辑的内容: \n\t[MOD]\\info.json   -- \"title\"(译名) & \"description\"(简介)\n\t[MOD]\\locale\\__1__\\*.cfg\n\t[MOD]\\script-locale\\__1__.cfg"
         },
         "path_scanning": {
-            "en": "Please wait a moment. Script is scanning this path: \n__1__",
+            "en": "Please wait a moment, script is scanning this path: \n__1__",
             "zh-CN": "请稍等，正在扫描路径: \n__1__"
         },
         "path_no_mod": {
@@ -65,7 +69,7 @@
             "zh-CN": "[__1__/__2__] 未发现需要汉化条目。"
         },
         "list_generating": {
-            "en": "Please wait a moment. Script is generating the list of mods in library with \ntranslated titles and descriptions: \n__1__\\__2__",
+            "en": "Please wait a moment, script is generating the list of mods in library with \ntranslated titles and descriptions: \n__1__\\__2__",
             "zh-CN": "请稍等，正在生成文本库中的MOD列表（带译名和汉化简介）: \n__1__\\__2__"
         },
         "list_format": {
