@@ -1,0 +1,11 @@
+{
+	"name": "z_yira_3aus_cw10k",
+	"title": "YIR - Test-Cargo-Wagon 10K",
+	"title_original": "YIR - Test-Cargo-Wagon 10K",
+	"version": "0.0.1",
+	"date": "2015-12-13",
+	"author": "Yuoki Tani",
+	"dependencies": ["base >= 0.12", "yi_railway >= 0.0.5"],
+	"description": "adds a cargo-Waggon with 10.000 weight",
+	"description_original": "adds a cargo-Waggon with 10.000 weight"
+}
