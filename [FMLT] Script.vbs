@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 286  'Update date: 2016.07.23
+CONST SCRIPT_VERSION = 287  'Update date: 2016.07.24
 
 '----------------------------------- Options ------------------------------------
 
@@ -937,7 +937,7 @@ End Class
 
 Class Text_Encode
     'Author: Mr.Jos(sd7056333)
-    'Date: 2016/04/23
+    'Date: 2016/07/24
     'Website: http://blog.csdn.net/sd7056333
     'Description: 
     '   This is a class for identifying/reading/writing text files of various 
@@ -1115,12 +1115,16 @@ Class Text_Encode
     End Sub
     
     Private Function BinComp(ByRef strBin, ByRef arrHex)
-        Dim intComp, i
-        intComp = &HFF
-        For i = 0 To UBound(arrHex)
-            intComp = intComp And (AscB(MidB(strBin, i + 1, 1)) Eqv arrHex(i))
-        Next
-        BinComp = (intComp = &HFF)
+        Dim i
+        If LenB(strBin) >= UBound(arrHex) + 1 Then
+            BinComp = True
+            For i = 0 To UBound(arrHex)
+                If AscB(MidB(strBin, i + 1, 1)) <> arrHex(i) Then
+                    BinComp = False
+                    Exit Function
+                End If
+            Next
+        End If
     End Function
     
 End Class
