@@ -1,0 +1,12 @@
+{
+	"name": "specialized_refineries",
+	"version": "1.0.1",
+	"title": "Specialized Oil Refineries",
+	"title_original": "Specialized Oil Refineries",
+	"author": "Walter, Exclusive-IT.nl",
+	"contact": "https://forums.factorio.com/viewtopic.php?f=97&t=23441",
+	"homepage": "http://www.factoriomods.com/mods/specialized-oil-refineries-not-3-at-once",
+	"description": "Process crude oil into a single product in specialized refineries.",
+	"description_original": "Process crude oil into a single product in specialized refineries.",
+	"dependencies": ["base >= 0.12"]
+}

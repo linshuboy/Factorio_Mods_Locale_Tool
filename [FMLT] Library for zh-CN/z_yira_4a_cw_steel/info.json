@@ -1,0 +1,11 @@
+{
+	"name": "z_yira_4a_cw_steel",
+	"title": "YIR - Steel Cargo Waggon (L)",
+	"title_original": "YIR - Steel Cargo Waggon (L)",
+	"version": "0.0.1",
+	"date": "2015-12-26",
+	"author": "Yuoki Tani",
+	"dependencies": ["base >= 0.12", "yi_railway >= 0.0.5"],
+	"description": "adds a normal-size steel-cargo-Waggon",
+	"description_original": "adds a normal-size steel-cargo-Waggon"
+}

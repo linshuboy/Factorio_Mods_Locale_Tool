@@ -1,0 +1,11 @@
+{
+	"name": "z_yira_v100green",
+	"title": "YIR - DB V-100 Green",
+	"title_original": "YIR - DB V-100 Green",
+	"version": "0.0.1",
+	"date": "2015-12-13",
+	"author": "Yuoki Tani",
+	"dependencies": ["base >= 0.12", "yi_railway >= 0.0.5"],
+	"description": "adds the DB V-100 in Green as LSW-G-840",
+	"description_original": "adds the DB V-100 in Green as LSW-G-840"
+}
