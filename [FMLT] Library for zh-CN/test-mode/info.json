@@ -1,11 +1,11 @@
 {
 	"name": "test-mode",
 	"version": "0.13.1",
-	"title": "Test Mode",
+	"title": "测试模式 - 新手勿用",
 	"title_original": "Test Mode",
 	"author": "rk84",
 	"contact": "www.factorioforums.com",
-	"description": "Utility tool",
+	"description": "多用途游戏测试工具，高效布局研究辅助神器，新手勿用！",
 	"description_original": "Utility tool",
 	"dependencies": ["base"],
 	"factorio_version": "0.13.x"
