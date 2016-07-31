@@ -27,7 +27,7 @@
 '--------------------------------------------------------------------------------
 
 Option Explicit
-CONST SCRIPT_VERSION = 287  'Update date: 2016.07.24
+CONST SCRIPT_VERSION = 288  'Update date: 2016.07.31
 
 '----------------------------------- Options ------------------------------------
 
@@ -138,8 +138,8 @@ Class MODs_Translator
         Dim objFolder, arrFiles, objFile_Echo, dicEcho
         Set objFolder_Lib_Root = Nothing
         If Not FZ.FolderExists(objFolder, strPath_Folder, strName_Lib, False) Then
-            MsgBox objFolder.Self.Path & vbCrlf & vbCrlf & _
-                " does not exist.", 48, "Script Loading Error"
+            MsgBox Join(Array("The specified locale library does not exist: ", vbCrlf, _
+                vbCrlf, strPath_Folder, "\", strName_Lib), ""), 48, "Loading Error"
             WScript.Quit
         End If
         Set arrFiles = Locate_Files(objFolder, NAME_LibInfo, False, False)
@@ -158,8 +158,8 @@ Class MODs_Translator
             Set objFolder_Lib_Root = arrFiles(0).Parent
         End If
         If objFolder_Lib_Root Is Nothing Then
-            MsgBox "This locale library has mistakes: " & vbCrlf & _
-                vbCrlf & objFolder.Self.Path, 48, "Script Loading Error"
+            MsgBox Join(Array("The specified locale library has mistakes: ", vbCrlf, _
+                vbCrlf, strPath_Folder, "\", strName_Lib), ""), 48, "Loading Error"
             WScript.Quit
         End If
     End Sub
