@@ -1,0 +1,13 @@
+{
+	"name": "KX_Mod_Base",
+	"version": "0.1.3",
+	"title": "KX Mod - Base",
+	"title_original": "KX Mod - Base",
+	"author": "Kanimu & Xhilia",
+	"contact": "",
+	"homepage": "",
+	"dependencies": ["base >= 0.13.0"],
+	"description": "KX 모드 = 바닐라 업그레이드 모드",
+	"description_original": "KX 모드 = 바닐라 업그레이드 모드",
+	"factorio_version": "0.13"
+}

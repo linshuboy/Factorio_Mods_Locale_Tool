@@ -1,12 +1,12 @@
 {
 	"name": "TimeTools",
-	"version": "1.0.20",
+	"version": "1.0.21",
 	"title": "时间工具 - 居家必备",
-	"title_original": "Time Tools",
+	"title_original": "Time Tools (clock, daylight, game speed tweaks and clock combinators)",
 	"author": "BinbinHfr",
 	"description": "游戏时钟 + 昼夜/极昼切换 + 游戏速度切换 + 时钟信号发生器",
 	"description_original": "Time tools : clock, daylight, game speed tweaks and clock combinators!",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=22822",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.8"]
 }

@@ -1,12 +1,11 @@
 {
 	"name": "upgrade-planner",
-	"version": "1.1.12",
+	"version": "1.2.4",
 	"title": "Upgrade planner",
-	"title_original": "Upgrade planner",
-	"author": "malk0lm",
+	"title_original": "Upgrade Builder and Planner",
+	"author": "malk0lm & Klonan",
 	"description": "Automatically upgrade buildings with construction robots.",
-	"description_original": "Automatically upgrade buildings with construction robots.",
+	"description_original": "Automatically upgrade buildings by hand or with construction robots.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=14781",
-	"dependencies": ["base >= 0.13.6"],
 	"factorio_version": "0.13"
 }

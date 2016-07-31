@@ -1,13 +1,13 @@
 {
 	"name": "Natural_Evolution_Expansion",
-	"version": "6.0.5",
+	"version": "6.1.2",
 	"title": "Natural_Evolution_Expansion",
-	"title_original": "Natural_Evolution_Expansion",
+	"title_original": "Natural Evolution Expansion",
 	"author": "TheSAguy",
 	"contact": "vvwmisc@hotmail.com",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=91&t=13562&p",
 	"description": "All things Alien! Manages Evolution & Expansion",
-	"description_original": "All things Alien! Manages Evolution & Expansion",
+	"description_original": "Manages Evolution & Expansion. Expansion now comes in Phases: Peacefull to Armageddron. At each Phase the Expansion becomes largeer and tougher. Part of the N.E. Mods, but can be used as Standalone. Please visit home page for more details.",
 	"dependencies": ["base >= 0.13", "? EvoGUI"],
 	"factorio_version": "0.13"
 }

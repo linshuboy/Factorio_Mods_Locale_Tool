@@ -1,0 +1,13 @@
+{
+	"name": "Inserter_Stack_Size_Control",
+	"version": "1.0.0",
+	"factorio_version": "0.13",
+	"title": "Inserter Stack Size Control",
+	"title_original": "Inserter Stack Size Control",
+	"dependencies": ["base >= 0.13.0"],
+	"author": "Degraine",
+	"contact": "None",
+	"homepage": "None",
+	"description": "Splits stack size for normal and stack inserters into linked research branches.",
+	"description_original": "Splits stack size for normal and stack inserters into linked research branches."
+}

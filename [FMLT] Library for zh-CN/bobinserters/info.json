@@ -1,6 +1,6 @@
 {
 	"name": "bobinserters",
-	"version": "0.13.1",
+	"version": "0.13.3",
 	"factorio_version": "0.13",
 	"title": "Bob's Adjustable Inserters",
 	"title_original": "Bob's Adjustable Inserters",
@@ -8,6 +8,6 @@
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "Adds hotkeys to adjust inserter pickup and drop locations.",
-	"description_original": "Adds hotkeys to adjust inserter pickup and drop locations.",
+	"description_original": "Adds hotkeys and a GUI to adjust inserter pickup and drop locations.",
 	"dependencies": ["base >= 0.13.0"]
 }

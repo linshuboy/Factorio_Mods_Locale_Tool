@@ -1,0 +1,11 @@
+{
+	"name": "infinite_research",
+	"version": "0.0.1",
+	"factorio_version": "0.13",
+	"title": "Infinite Research",
+	"title_original": "Infinite Research",
+	"author": "originally by oktabyte, uploaded for 0.13 by nucleargen",
+	"description": "Adds 'unlimited' research",
+	"description_original": "Adds 'unlimited' research",
+	"dependencies": ["base >= 0.13"]
+}

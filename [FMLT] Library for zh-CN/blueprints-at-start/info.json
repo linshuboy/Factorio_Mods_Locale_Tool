@@ -1,0 +1,12 @@
+{
+	"name": "blueprints-at-start",
+	"version": "0.2.0",
+	"factorio_version": "0.13",
+	"title": "Start with blueprints",
+	"title_original": "Start with blueprints",
+	"author": "canidae",
+	"contact": "canidae@exent.net",
+	"homepage": "http://exent.net",
+	"description": "Gives you some few blueprints and a deconstruction planner at start of the game, making it easier to plan your base from the very beginning. You'll still have to place the parts manually (no construction bots), this is just a visual aid.",
+	"description_original": "Gives you some few blueprints and a deconstruction planner at start of the game, making it easier to plan your base from the very beginning. You'll still have to place the parts manually (no construction bots), this is just a visual aid."
+}

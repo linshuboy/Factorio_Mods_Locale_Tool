@@ -1,12 +1,12 @@
 {
 	"name": "ProgressiveRunning",
-	"version": "1.0.2",
+	"version": "1.0.6",
 	"title": "Progressive Running",
-	"title_original": "Progressive Running",
+	"title_original": "Progressive Running (accelerate progressively when starting running)",
 	"author": "BinbinHfr",
 	"description": "Accelerate progressively when starting running : useful when your max speed is high due to exoskeletons and concrete, and you want to position precisely your character.",
 	"description_original": "Accelerate progressively when starting running : useful when your max speed is high due to exoskeletons and concrete, and you want to position precisely your character.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=27553",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.8"]
 }

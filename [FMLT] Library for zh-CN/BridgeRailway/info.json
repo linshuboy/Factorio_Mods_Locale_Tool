@@ -1,0 +1,13 @@
+{
+	"name": "BridgeRailway",
+	"version": "2.0.2",
+	"title": "Bridge Railway",
+	"title_original": "Bridge Railway",
+	"author": "MrP123",
+	"contact": "https://github.com/MrP123",
+	"homepage": "https://github.com/MrP123/BridgeRailway",
+	"description": "A mod that adds rails which can be placed on water",
+	"description_original": "A mod that adds rails which can be placed on water",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

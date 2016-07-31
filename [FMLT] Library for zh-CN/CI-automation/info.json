@@ -1,0 +1,11 @@
+{
+	"name": "CI-automation",
+	"version": "0.1.0",
+	"factorio_version": "0.13",
+	"title": "Cartmen Automation Extension",
+	"title_original": "Cartmen Automation Extension",
+	"author": "Cartmen180",
+	"description": "More assemblers!",
+	"description_original": "More assemblers!",
+	"dependencies": ["base >= 0.13.0"]
+}

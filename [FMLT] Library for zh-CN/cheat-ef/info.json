@@ -1,0 +1,13 @@
+{
+	"name": "cheat-ef",
+	"version": "1.0.0",
+	"title": "Cheat Box for Revenge of the Earth federation",
+	"title_original": "Cheat Box for Revenge of the Earth federation",
+	"author": "Muneki",
+	"contact": "",
+	"homepage": "",
+	"dependencies": ["Earth-federation >= 1.0.0", "cheat >= 1.1.0"],
+	"factorio_version": "0.13",
+	"description": "Produces all items of Revenge of the Earth federation without materials. Disposal all items of Revenge of the Earth federation. New items.",
+	"description_original": "Produces all items of Revenge of the Earth federation without materials. Disposal all items of Revenge of the Earth federation. New items."
+}

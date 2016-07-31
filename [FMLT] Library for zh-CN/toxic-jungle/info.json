@@ -1,0 +1,11 @@
+{
+	"name": "toxic-jungle",
+	"version": "0.0.2",
+	"factorio_version": "0.13",
+	"title": "Toxic Jungle",
+	"title_original": "Toxic Jungle",
+	"author": "Azmarok. Port to 0.13: nucleargen",
+	"dependencies": ["base >= 0.12.0"],
+	"description": "Ultra-dense dense forests",
+	"description_original": "Ultra-dense dense forests"
+}
