@@ -1,0 +1,12 @@
+{
+	"name": "Resource-Conversions",
+	"version": "0.1.1",
+	"factorio_version": "0.13",
+	"title": "Resource Conversions",
+	"title_original": "Resource Conversions",
+	"author": "Master Riley",
+	"homepage": "http://masterriley.com",
+	"description": "Convert between resource types",
+	"description_original": "Convert between resource types",
+	"dependencies": ["base >= 0.13.0"]
+}

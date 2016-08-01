@@ -1,0 +1,12 @@
+{
+	"name": "rso-infinite",
+	"version": "1.13.0",
+	"factorio_version": "0.13",
+	"title": "Resource Spawner Overhaul - Infinite Vanilla Edition",
+	"title_original": "Resource Spawner Overhaul - Infinite Vanilla Edition",
+	"author": "BMeyerKC",
+	"contact": "Message me @ bmeyerkc@gmail.com",
+	"description": "Overhauls resource spawning system, optimized for infinite resources game mode. Vanilla",
+	"description_original": "Overhauls resource spawning system, optimized for infinite resources game mode. Vanilla",
+	"dependencies": ["base >= 0.13.0"]
+}

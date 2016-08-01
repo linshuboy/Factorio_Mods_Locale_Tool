@@ -1,0 +1,13 @@
+{
+	"name": "Factorio Directed by Michael Bay",
+	"version": "0.2.1",
+	"factorio_version": "0.13",
+	"title": "Factorio, Directed by Michael Bay",
+	"title_original": "Factorio, Directed by Michael Bay",
+	"author": "Dr. Walrus",
+	"contact": "http://michaelbay.com/contact/",
+	"homepage": "http://www.transformersmovie.com/",
+	"dependencies": ["base"],
+	"description": "With the All Spark gone, we cannot return life to our planet. And fate has yielded its reward: a new world to call home. We live among its people now, hiding in plain sight, but watching over them in secret, waiting, protecting. I have witnessed their capacity for courage, and though we are worlds apart, like us, there's more to them than meets the eye. I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars. We are here. We are waiting.",
+	"description_original": "With the All Spark gone, we cannot return life to our planet. And fate has yielded its reward: a new world to call home. We live among its people now, hiding in plain sight, but watching over them in secret, waiting, protecting. I have witnessed their capacity for courage, and though we are worlds apart, like us, there's more to them than meets the eye. I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars. We are here. We are waiting."
+}

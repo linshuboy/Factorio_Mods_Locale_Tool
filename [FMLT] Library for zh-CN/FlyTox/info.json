@@ -2,11 +2,11 @@
 	"name": "FlyTox",
 	"version": "1.0.2",
 	"title": "FlyTox",
-	"title_original": "FlyTox",
+	"title_original": "FlyTox (alien insecticide with diffusors)",
 	"author": "BinbinHfr",
 	"description": "A new technology with diffusers that continuously spray a modified solid insecticide that slowly kills aliens approaching it at long distance. Nice to have some of them close to your walls : it saves some laser energy...",
 	"description_original": "A new technology with diffusers that continuously spray a modified solid insecticide that slowly kills aliens approaching it at long distance. Nice to have some of them close to your walls : it saves some laser energy...",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=27852",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.8"]
 }

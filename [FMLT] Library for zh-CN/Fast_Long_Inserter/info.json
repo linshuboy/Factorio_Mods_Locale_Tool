@@ -1,10 +1,10 @@
 {
 	"name": "Fast_Long_Inserter",
 	"version": "0.0.4",
-	"title": "Fast Long Inserter Mod",
+	"title": "又快又长的机械臂",
 	"title_original": "Fast Long Inserter Mod",
 	"author": "Maser",
-	"description": "Adds a fast long inserter that is unlocked with Logistics 2.",
+	"description": "添加一个加快加长机械臂在解锁物流2后.",
 	"description_original": "Adds a fast long inserter that is unlocked with Logistics 2.",
 	"factorio_version": "0.13"
 }

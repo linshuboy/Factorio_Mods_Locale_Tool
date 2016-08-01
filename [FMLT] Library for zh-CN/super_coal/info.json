@@ -1,0 +1,13 @@
+{
+	"name": "super_coal",
+	"version": "0.1.1",
+	"title": "super_coal",
+	"title_original": "super_coal",
+	"author": "creepy_hauz",
+	"contact": "",
+	"homepage": "",
+	"description": "super_coal",
+	"description_original": "super_coal",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

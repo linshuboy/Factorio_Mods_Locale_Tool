@@ -1,6 +1,6 @@
 {
 	"name": "Big_Brother",
-	"version": "0.3.0",
+	"version": "0.3.2",
 	"title": "Big Brother",
 	"title_original": "Big Brother",
 	"author": "Afforess",
@@ -8,5 +8,5 @@
 	"description": "Big Brother - Research radar upgrades in amplification, efficiency, and surveillance capabilities. Create the ultimate surveillance state.",
 	"description_original": "Big Brother - Research radar upgrades in amplification, efficiency, and surveillance capabilities. Create the ultimate surveillance state.",
 	"factorio_version": "0.13",
-	"dependencies": []
+	"dependencies": ["base >= 0.13.10"]
 }

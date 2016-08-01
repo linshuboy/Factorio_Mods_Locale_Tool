@@ -1,0 +1,13 @@
+{
+	"name": "BukketMod",
+	"version": "0.1.5",
+	"factorio_version": "0.13",
+	"title": "BukketMod",
+	"title_original": "BukketMod",
+	"author": "Duane",
+	"contact": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=29531",
+	"description": "A small attempt at grand things. Adds a bit of everything.",
+	"description_original": "A small attempt at grand things. Adds a bit of everything.",
+	"dependencies": ["base >= 0.13.0"]
+}

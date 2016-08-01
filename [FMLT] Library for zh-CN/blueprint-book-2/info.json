@@ -1,6 +1,6 @@
 {
 	"name": "blueprint-book-2",
-	"version": "0.13.0",
+	"version": "0.13.1",
 	"title": "blueprint book 2",
 	"title_original": "blueprint book 2",
 	"author": "Andrew",
@@ -9,5 +9,5 @@
 	"description": "Adds another level of blueprint book to the games. Blueprint book 2 has 60 slots.",
 	"description_original": "Adds another level of blueprint book to the games. Blueprint book 2 has 60 slots.",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.0", "? andrew-library >= 0.13.4"]
 }

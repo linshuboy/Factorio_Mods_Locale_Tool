@@ -1,0 +1,13 @@
+{
+	"name": "WideChests",
+	"version": "0.1.0",
+	"factorio_version": "0.13",
+	"title": "Wide Chests",
+	"title_original": "Wide Chests",
+	"author": "Atria, Hurricane",
+	"contact": "",
+	"homepage": "",
+	"description": "",
+	"description_original": "",
+	"dependencies": ["base >= 0.13.0"]
+}

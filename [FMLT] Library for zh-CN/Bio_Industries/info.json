@@ -1,6 +1,6 @@
 {
 	"name": "Bio_Industries",
-	"version": "1.2.2",
+	"version": "1.2.8",
 	"title": "Bio Industries",
 	"title_original": "Bio Industries",
 	"author": "TheSAguy",
@@ -8,6 +8,6 @@
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=17548",
 	"description": "Bio Industries provides some useful buildings and items to the game. Bio Farm for growing trees. Bio-Garden to reduce pollution. New Wood Products. Bio Cannon to help with expansion. planting trees. fertilize terrain to help trees grow and more. You get additional functionality when you play with Natural Evolution Buildings. Please visit the homepage on the forums for more information and feedback.",
 	"description_original": "Bio Industries provides some useful buildings and items to the game. Bio Farm for growing trees. Bio-Garden to reduce pollution. New Wood Products. Bio Cannon to help with expansion. planting trees. fertilize terrain to help trees grow and more. You get additional functionality when you play with Natural Evolution Buildings. Please visit the homepage on the forums for more information and feedback.",
-	"dependencies": ["base >= 0.13"],
+	"dependencies": ["base >= 0.13", "? bobgreenhouse"],
 	"factorio_version": "0.13"
 }

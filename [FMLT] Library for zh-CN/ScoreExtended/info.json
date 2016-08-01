@@ -1,12 +1,12 @@
 {
 	"name": "ScoreExtended",
-	"version": "1.0.11",
+	"version": "1.0.13",
 	"title": "Score Extended",
-	"title_original": "Score Extended",
+	"title_original": "Score Extended (extension to original rocket score window)",
 	"author": "BinbinHfr",
 	"description": "Extension to original rocket score window. Display number of rockets and averages. Autohide the window after a delay. Autolaunch option.",
 	"description_original": "Extension to original rocket score window. Display number of rockets and averages. Autohide the window after a delay. Autolaunch option.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=26519",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.8"]
 }

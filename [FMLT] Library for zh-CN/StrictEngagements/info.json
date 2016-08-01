@@ -1,0 +1,13 @@
+{
+	"name": "StrictEngagements",
+	"version": "0.0.1",
+	"factorio_version": "0.13",
+	"title": "Strict Engagements",
+	"title_original": "Strict Engagements",
+	"author": "Nexela",
+	"contact": "",
+	"www": "",
+	"description": "No longer allowed to build items if you are too close to biters.",
+	"description_original": "No longer allowed to build items if you are too close to biters.",
+	"dependencies": ["base >= 0.13.10"]
+}

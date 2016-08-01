@@ -1,13 +1,13 @@
 {
 	"name": "speed_machines",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"title": "Speed Machines",
 	"title_original": "Speed Machines",
 	"author": "Necro9227",
 	"contact": "github.com/Necro9227/Speed-Machines",
 	"homepage": "github.com/Necro9227/Speed-Machines",
 	"description": "This mod has machines that push the limits of speeds itself and also including 2 new fuels by compressing coal",
-	"description_original": "This mod has machines that push the limits of speeds itself and also including 2 new fuels by compressing coal",
+	"description_original": "This mod adds machines that push the limits of speeds itself and also including 2 new fuels by compressing coal. Now including a way to reduce pollution",
 	"factorio_version": "0.13",
 	"dependencies": []
 }

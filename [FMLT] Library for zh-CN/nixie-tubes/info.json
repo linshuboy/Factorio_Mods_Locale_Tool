@@ -1,12 +1,10 @@
 {
 	"name": "nixie-tubes",
-	"version": "0.2.2",
+	"version": "0.2.5",
 	"factorio_version": "0.13",
 	"title": "Nixie Tubes",
 	"title_original": "Nixie Tubes",
-	"author": "GopherAtl",
-	"homepage": "http://google.com",
-	"contact": "gopheratl@gmail.com",
+	"author": "GopherAtl, justarandomgeek",
 	"description": "Adds nixie tubes, for displaying values from a connected circuit network.",
 	"description_original": "Adds nixie tubes, for displaying values from a connected circuit network.",
 	"dependencies": ["base >= 0.13.0"]
