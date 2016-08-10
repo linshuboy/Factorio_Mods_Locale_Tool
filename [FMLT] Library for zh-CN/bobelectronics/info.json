@@ -2,12 +2,12 @@
 	"name": "bobelectronics",
 	"version": "0.13.1",
 	"factorio_version": "0.13",
-	"title": "Bob's Electronics",
+	"title": "Bob之电子工业",
 	"title_original": "Bob's Electronics",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
-	"description": "Adds a whole new electronics production chain.",
+	"description": "增加了一些新的电子产业链.",
 	"description_original": "Adds a whole new electronics production chain.",
 	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobplates >= 0.13.0"]
 }
