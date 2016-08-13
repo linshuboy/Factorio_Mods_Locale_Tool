@@ -2,12 +2,12 @@
 	"name": "bobpower",
 	"version": "0.13.1",
 	"factorio_version": "0.13",
-	"title": "Bob's Power",
+	"title": "Bob之能源",
 	"title_original": "Bob's Power",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
-	"description": "Adds new power structures.",
+	"description": "新添了一些能源设备.",
 	"description_original": "Adds new power structures.",
 	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobplates >= 0.13.0"]
 }

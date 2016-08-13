@@ -2,12 +2,12 @@
 	"name": "bobplates",
 	"version": "0.13.2",
 	"factorio_version": "0.13",
-	"title": "Bob's Metals, Chemicals and Intermediates",
+	"title": "Bob之金属加工、化工和中间产品",
 	"title_original": "Bob's Metals, Chemicals and Intermediates",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
-	"description": "Smelt extra ores into plates, and make useful intermediate products.",
+	"description": "把额外的矿石冶炼成各种金属锭, 并且制造生产有用的中间产品.",
 	"description_original": "Smelt extra ores into plates, and make useful intermediate products.",
 	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobores >= 0.13.0", "? bobtech >= 0.13.0", "? bobenemies >= 0.13.0"]
 }
