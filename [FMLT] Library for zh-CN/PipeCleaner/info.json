@@ -1,0 +1,12 @@
+{
+	"name": "PipeCleaner",
+	"author": "Nexela",
+	"version": "1.0.1",
+	"factorio_version": "0.13",
+	"title": "Pipe cleaner",
+	"title_original": "Pipe cleaner",
+	"homepage": "https://github.com/Nexela/pipe-cleaner",
+	"description": "Easily clean the fluid out of your pipes when you make a boo-boo",
+	"description_original": "Easily clean the fluid out of your pipes when you make a boo-boo",
+	"dependencies": ["base >= 0.13.10"]
+}

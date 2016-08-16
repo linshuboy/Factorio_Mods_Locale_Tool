@@ -1,0 +1,12 @@
+{
+	"name": "auto deconstruct loot",
+	"version": "1.0.0",
+	"factorio_version": "0.13",
+	"title": "Auto deconstruct loot",
+	"title_original": "Auto deconstruct loot",
+	"author": "Alesque",
+	"contact": "",
+	"homepage": "",
+	"description": "Automatically marks loot for deconstruction. Usefull for other mods that add loot when aliens die like bob's mods.",
+	"description_original": "Automatically marks loot for deconstruction. Usefull for other mods that add loot when aliens die like bob's mods."
+}

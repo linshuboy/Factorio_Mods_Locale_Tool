@@ -1,0 +1,11 @@
+{
+	"name": "Biblerefine",
+	"version": "1.1.0",
+	"title": "bible Refining",
+	"title_original": "bible Refining",
+	"author": "Shadowcaster",
+	"factorio_version": "0.13",
+	"description": "Adds various chemical and material processes to increase ore->plate and oil->product ratios.",
+	"description_original": "Adds various chemical and material processes to increase ore->plate and oil->product ratios.",
+	"dependencies": ["base >= 0.13.13"]
+}

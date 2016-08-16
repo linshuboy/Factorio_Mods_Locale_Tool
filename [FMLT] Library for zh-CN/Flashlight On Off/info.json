@@ -1,0 +1,12 @@
+{
+	"name": "Flashlight On Off",
+	"version": "1.0.0",
+	"factorio_version": "0.13",
+	"title": "Flashlight On Off",
+	"title_original": "Flashlight On Off",
+	"author": "devilwarriors",
+	"contact": "",
+	"homepage": "",
+	"description": "Add a hotkey to toggle the flashlight on and off (default L)",
+	"description_original": "Add a hotkey to toggle the flashlight on and off (default L)"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "ZCS-Trash-Landfill",
+	"version": "0.13.15",
+	"factorio_version": "0.13",
+	"title": "Trash Landfill",
+	"title_original": "Trash Landfill",
+	"author": "zackman0010",
+	"description": "Adds a large landfill that disposes of trash at the cost of creating pollution",
+	"description_original": "Adds a large landfill that disposes of trash at the cost of creating pollution"
+}

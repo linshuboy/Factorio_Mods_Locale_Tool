@@ -1,0 +1,12 @@
+{
+	"name": "ctrlfrkbobconfig",
+	"version": "0.13.0",
+	"factorio_version": "0.13",
+	"title": "ctrlfrk's bob's config mod mod",
+	"title_original": "ctrlfrk's bob's config mod mod",
+	"author": "ctrlfrk",
+	"contact": "ctrlfrk@hotmail.com",
+	"description": "This mod changes bob's mods configs to work with ctrlfrk's bob's mod mods",
+	"description_original": "This mod changes bob's mods configs to work with ctrlfrk's bob's mod mods",
+	"dependencies": ["base >= 0.13.0", "bobconfig >= 0.13.0"]
+}

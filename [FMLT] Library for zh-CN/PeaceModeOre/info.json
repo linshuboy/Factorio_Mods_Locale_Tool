@@ -2,7 +2,7 @@
 	"name": "PeaceModeOre",
 	"title": "Peace Mode Ore",
 	"title_original": "Peace Mode Ore",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"date": "2016-06-29",
 	"author": "Emmote",
 	"dependencies": ["base >= 0.13.0"],

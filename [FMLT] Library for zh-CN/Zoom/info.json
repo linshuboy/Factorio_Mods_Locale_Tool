@@ -1,11 +1,11 @@
 {
 	"name": "Zoom",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"title": "Zoom",
-	"title_original": "Zoom (2 buttons to get an extra wide zoom)",
+	"title_original": "Zoom (2 buttons and hotkey to wide zoom)",
 	"author": "BinbinHfr",
 	"description": "Just 2 buttons to zoom extra wide or close, further than actual gui limits !",
-	"description_original": "Just 2 buttons to zoom extra wide or close, further than actual gui limits !",
+	"description_original": "Just 2 buttons to zoom extra wide or close, further than actual gui limits ! And a ALT-Z hotkey to direct zoom out.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=28639",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.8"]

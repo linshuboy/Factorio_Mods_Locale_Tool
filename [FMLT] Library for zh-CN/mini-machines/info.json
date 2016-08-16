@@ -1,0 +1,11 @@
+{
+	"name": "mini-machines",
+	"author": "Kryzeth",
+	"version": "1.2.1",
+	"title": "Mini Machines Mod",
+	"title_original": "Mini Machines Mod",
+	"description": "Miniature versions of assemblers, electric furnaces, etc",
+	"description_original": "Miniature versions of assemblers, electric furnaces, etc",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

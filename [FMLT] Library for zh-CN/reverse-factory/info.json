@@ -1,0 +1,11 @@
+{
+	"name": "reverse-factory",
+	"version": "2.0.2",
+	"factorio_version": "0.13",
+	"title": "Reverse Factory",
+	"title_original": "Reverse Factory",
+	"author": "Victor Ros",
+	"description": "Reverse Factory machine will uncraft nearly any item placed inside. Supports all modded items",
+	"description_original": "Reverse Factory machine will uncraft nearly any item placed inside. Supports all modded items",
+	"dependencies": ["base >= 0.13"]
+}

@@ -1,8 +1,8 @@
 {
 	"name": "Drones",
-	"version": "1.0.16",
+	"version": "1.0.17",
 	"title": "Drones",
-	"title_original": "Drones (remote monitoring and managing your factory from drones)",
+	"title_original": "Drones (remote monitor your factory from drones)",
 	"author": "BinbinHfr",
 	"description": "Eyes in the sky ! Monitor and pilot your factory with your smartphone.",
 	"description_original": "Eyes in the sky ! Monitor and pilot your factory with your smartphone. (or a way to have several cameras all around the map to give you alternate views and control on your factory)",

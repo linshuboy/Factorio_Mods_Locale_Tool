@@ -1,0 +1,11 @@
+{
+	"name": "Signposts",
+	"version": "0.0.2",
+	"factorio_version": "0.13",
+	"title": "Signposts",
+	"title_original": "Signposts",
+	"author": "IceDev",
+	"description": "Introduces signposts.",
+	"description_original": "Introduces signposts.",
+	"dependencies": ["base >= 0.13.0"]
+}

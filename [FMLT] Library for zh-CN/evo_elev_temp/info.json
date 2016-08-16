@@ -1,0 +1,12 @@
+{
+	"name": "evo_elev_temp",
+	"version": "0.0.1",
+	"title": "EvoGUI: Elevation and Temperature sensors",
+	"title_original": "EvoGUI: Elevation and Temperature sensors",
+	"author": "aubergine18",
+	"homepage": "",
+	"description": "Adds elevation and temperature sensors to EvoGUI. Note: Temperature does not change with time of day.",
+	"description_original": "Adds elevation and temperature sensors to EvoGUI. Note: Temperature does not change with time of day.",
+	"dependencies": ["base >= 0.13.0", "EvoGUI >= 0.4.102"],
+	"factorio_version": "0.13"
+}

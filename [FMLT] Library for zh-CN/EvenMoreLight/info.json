@@ -1,0 +1,12 @@
+{
+	"name": "EvenMoreLight",
+	"version": "0.0.1",
+	"factorio_version": "0.13",
+	"title": "EvenMoreLight",
+	"title_original": "EvenMoreLight",
+	"author": "Woetoo",
+	"homepage": "",
+	"dependencies": ["base", "MoreLight"],
+	"description": "Adds Cars, Trains and some other vehicles to MoreLight. Credits to JamesOFarrell, closteam and antisocialian.",
+	"description_original": "Adds Cars, Trains and some other vehicles to MoreLight. Credits to JamesOFarrell, closteam and antisocialian."
+}

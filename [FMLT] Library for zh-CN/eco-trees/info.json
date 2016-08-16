@@ -1,8 +1,11 @@
 {
 	"name": "eco-trees",
-	"version": "0.0.2",
+	"version": "0.0.5",
+	"factorio_version": "0.13",
 	"title": "Eco Trees",
+	"title_original": "Eco Trees",
 	"author": "Laige",
-	"dependencies": ["base >= 0.12.0", "? Treefarm-Lite", "? Treefarm-Caffeine-Addon", "? AlienPlant", "? CORE-DyTech-Core", "? Cursed-Exp"],
-	"description": "Trees will absoreb 10x more Pollution."
+	"dependencies": ["base >= 0.13.0", "? Treefarm-Lite", "? Treefarm-Caffeine-Addon", "? AlienPlant", "? CORE-DyTech-Core", "? Cursed-Exp", "? Treesaplings", "? Treeseeds"],
+	"description": "Trees will absoreb 10x more Pollution.",
+	"description_original": "Trees will absoreb 10x more Pollution."
 }

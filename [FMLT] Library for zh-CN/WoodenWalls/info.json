@@ -1,0 +1,13 @@
+{
+	"name": "WoodenWalls",
+	"version": "0.13.14",
+	"factorio_version": "0.13",
+	"title": "Wooden Walls",
+	"title_original": "Wooden Walls",
+	"author": "Flying KeTTe",
+	"contact": "",
+	"homepage": "",
+	"description": "Adds Wooden Walls to the game.",
+	"description_original": "Adds Wooden Walls to the game.",
+	"dependencies": ["base >= 0.13.0"]
+}

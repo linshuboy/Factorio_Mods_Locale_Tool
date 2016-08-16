@@ -1,0 +1,12 @@
+{
+	"name": "FixedLampTexture",
+	"version": "1.0.1",
+	"factorio_version": "0.13",
+	"title": "Fixed Lamp Texture",
+	"title_original": "Fixed Lamp Texture",
+	"author": "FearsomePhobia",
+	"homepage": "-",
+	"dependencies": ["base"],
+	"description": "The small lamp had received a new entity texture but the item texture remained the same as the old small lamp texture. This is a fix for that.",
+	"description_original": "The small lamp had received a new entity texture but the item texture remained the same as the old small lamp texture. This is a fix for that."
+}

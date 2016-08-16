@@ -1,0 +1,12 @@
+{
+	"name": "burn-the-world",
+	"version": "0.1.0",
+	"title": "Burn the World.",
+	"title_original": "Burn the World.",
+	"author": "Daid",
+	"description": "[Work in progress] Add fuel burning alternatives for all electric using parts. Allowing you to go 'off grid', by not using any electricity generation at all. The recepies for these fuel burning alternatives are slightly more complex then the normal recipies, so this is for advanced players.",
+	"description_original": "[Work in progress] Add fuel burning alternatives for all electric using parts. Allowing you to go 'off grid', by not using any electricity generation at all. The recepies for these fuel burning alternatives are slightly more complex then the normal recipies, so this is for advanced players.",
+	"homepage": "",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

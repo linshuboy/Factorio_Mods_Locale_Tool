@@ -1,12 +1,12 @@
 {
 	"name": "ModuleInserter",
-	"version": "0.2.0",
+	"version": "0.2.2",
 	"factorio_version": "0.13",
 	"title": "Module Inserter",
 	"title_original": "Module Inserter",
 	"author": "Choumiko",
 	"homepage": "",
-	"dependencies": ["base >= 0.13.0"],
+	"dependencies": ["base >= 0.13.12"],
 	"description": "Mass insert modules into machines with pocket bots",
 	"description_original": "Mass insert modules into machines with pocket bots"
 }

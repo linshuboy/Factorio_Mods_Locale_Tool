@@ -1,0 +1,12 @@
+{
+	"name": "Screenshot_Tool",
+	"author": "Klonan",
+	"version": "0.1.0",
+	"title": "Screenshot_tool",
+	"title_original": "Screenshot_tool",
+	"homepage": "",
+	"description": "Takes a screenshot of the selected are at 100% zoom",
+	"description_original": "Takes a screenshot of the selected are at 100% zoom",
+	"dependencies": ["base"],
+	"factorio_version": "0.13"
+}

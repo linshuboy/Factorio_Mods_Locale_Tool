@@ -1,0 +1,13 @@
+{
+	"name": "Tank Gun",
+	"version": "0.1.0",
+	"factorio_version": "0.13",
+	"title": "Tank Gun",
+	"title_original": "Tank Gun",
+	"author": "Dr. Walrus",
+	"contact": "madmaster5000@gmail.com",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "Not a gun from a tank, nor a gun for shooting tanks. This is a gun that shoots tanks.",
+	"description_original": "Not a gun from a tank, nor a gun for shooting tanks. This is a gun that shoots tanks."
+}
