@@ -1,0 +1,10 @@
+{
+	"name": "Wireless Networks",
+	"version": "0.2.0",
+	"title": "Wireless Networks",
+	"title_original": "Wireless Networks",
+	"author": "GotLag",
+	"description": "Adds wireless transmitter/receiver towers for long-distance circuit networks",
+	"description_original": "Adds wireless transmitter/receiver towers for long-distance circuit networks",
+	"factorio_version": "0.13"
+}

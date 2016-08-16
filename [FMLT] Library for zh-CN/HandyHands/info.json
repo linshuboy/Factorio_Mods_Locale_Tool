@@ -1,0 +1,12 @@
+{
+	"name": "HandyHands",
+	"version": "1.1.2",
+	"title": "HandyHands - Automatic handcrafting",
+	"title_original": "HandyHands - Automatic handcrafting",
+	"author": "Qon",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=16047",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30529",
+	"factorio_version": "0.13",
+	"description": "Automatically start handcrafting an item that is quickbar filtered that you have less than 1 stack of whenever your crafting queue is empty. Prioritises items in your cursor. Change settings with hotkeys. Don't forget to automate production of everything!",
+	"description_original": "Automatically start handcrafting an item that is quickbar filtered that you have less than 1 stack of whenever your crafting queue is empty. Prioritises items in your cursor. Change settings with hotkeys. Don't forget to automate production of everything!"
+}

@@ -2,12 +2,12 @@
 	"name": "bobtech",
 	"version": "0.13.0",
 	"factorio_version": "0.13",
-	"title": "Bob's Tech",
+	"title": "Bob之科学",
 	"title_original": "Bob's Tech",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
-	"description": "Adds some useful research.",
+	"description": "增加了很有用的一些研究.",
 	"description_original": "Adds some useful research.",
 	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobenemies >= 0.13.0"]
 }

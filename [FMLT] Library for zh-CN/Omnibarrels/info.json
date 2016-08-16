@@ -1,0 +1,11 @@
+{
+	"name": "Omnibarrels",
+	"version": "1.1.1",
+	"title": "Omnibarrels",
+	"title_original": "Omnibarrels",
+	"author": "GotLag",
+	"dependencies": ["base >= 0.13.13"],
+	"description": "Adds barrels for all fluids, modded or base.",
+	"description_original": "Adds barrels for all fluids, modded or base.",
+	"factorio_version": "0.13"
+}

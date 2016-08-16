@@ -1,0 +1,12 @@
+{
+	"name": "VersepellesChunkMarkers",
+	"version": "1.2.0",
+	"title": "Chunk Markers",
+	"title_original": "Chunk Markers",
+	"author": "Versepelles",
+	"contact": "stevenbrelsford@gmail.com",
+	"description": "Adds colored hazard concrete and rectangular marker tools to allow easy factory planning.",
+	"description_original": "Adds colored hazard concrete and rectangular marker tools to allow easy factory planning.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.15"]
+}

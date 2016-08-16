@@ -1,9 +1,9 @@
 {
 	"name": "Advanced_Personal_Defense",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"title": "先进的个人防卫",
 	"title_original": "Advanced Personal Defense",
-	"author": "David McDonough",
+	"author": "David McDonough and Adil",
 	"contact": "dave.m.mcdonough@gmail.com",
 	"homepage": "",
 	"description": "增加了个人激光炮塔的Mk2以及使用的弹药，而不是能量的贴身防守炮塔。",

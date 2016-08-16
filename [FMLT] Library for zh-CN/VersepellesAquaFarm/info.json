@@ -1,0 +1,12 @@
+{
+	"name": "VersepellesAquaFarm",
+	"version": "1.0.1",
+	"title": "Aquafarm",
+	"title_original": "Aquafarm",
+	"author": "Versepelles",
+	"contact": "stevenbrelsford@gmail.com",
+	"description": "Adds an aquafarm, which produces fish.",
+	"description_original": "Adds an aquafarm, which produces fish.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.15"]
+}

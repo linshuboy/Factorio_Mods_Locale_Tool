@@ -1,12 +1,11 @@
 {
 	"name": "AssemblyZero",
-	"version": "0.1.2",
+	"version": "0.1.9",
 	"factorio_version": "0.13",
 	"title": "Assembling Machine Zero",
 	"title_original": "Assembling Machine Zero",
-	"author": "raid",
-	"contact": "mod@hackmate.de",
-	"homepage": "https://github.com/r41d/AssemblyZero",
+	"author": "raid and sunny",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=30258",
 	"description": "Mod that adds an Assembling Machine 0 to Factorio. An Assembling Machine 0 is smaller than an Assembling Machine 1 and uses less energy but can only craft recipes with 1 ingredient.",
-	"description_original": "Mod that adds an Assembling Machine 0 to Factorio. An Assembling Machine 0 is smaller than an Assembling Machine 1 and uses less energy but can only craft recipes with 1 ingredient."
+	"description_original": "Adds smaller assembly variants using fewer ingredients and crafting quicker."
 }

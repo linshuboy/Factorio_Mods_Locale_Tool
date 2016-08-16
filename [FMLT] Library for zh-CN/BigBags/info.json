@@ -1,12 +1,13 @@
 {
 	"name": "BigBags",
-	"version": "1.0.15",
+	"version": "1.0.17",
 	"title": "Big Bags",
-	"title_original": "Big Bags (more space in your bags + pickstick for a longer arm)",
+	"title_original": "Big Bags (more space in bags +longer reach)",
 	"author": "BinbinHfr",
 	"description": "Big bags everywhere ! (inventory, toolbelt, logistic slots, stacks...)",
 	"description_original": "Big bags everywhere ! More space in inventory, toolbelt, logistic and trash slots, robots cargo size and speed, bigger stacks & pickstick to increase your picking distance...",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=22921",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.8"]
 }

@@ -1,0 +1,13 @@
+{
+	"name": "StickyNotes",
+	"version": "1.0.1",
+	"title": "Sticky Notes (notes and signs on the map)",
+	"title_original": "Sticky Notes (notes and signs on the map)",
+	"author": "BinbinHfr",
+	"description": "Stick notes (or signs) on the map, as a reminder for yourself, or a message for other players.",
+	"description_original": "Stick notes (or signs) on the map, as a reminder for yourself, or a message for other players.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30980",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.14"]
+}

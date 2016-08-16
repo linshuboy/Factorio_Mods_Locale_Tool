@@ -1,6 +1,6 @@
 {
 	"name": "andrew-library",
-	"version": "0.13.6",
+	"version": "0.13.7",
 	"title": "Andrew's Library",
 	"title_original": "Andrew's Library",
 	"author": "Andrew",
@@ -9,5 +9,5 @@
 	"description": "Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.",
 	"description_original": "Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.13.0", "? Factorissimo >= 0.1.5"]
 }

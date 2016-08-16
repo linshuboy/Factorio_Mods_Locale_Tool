@@ -1,0 +1,11 @@
+{
+	"name": "Biblebiters",
+	"version": "1.2.0",
+	"title": "Bible Biters",
+	"title_original": "Bible Biters",
+	"author": "Shadowcaster",
+	"factorio_version": "0.13",
+	"description": "Changes Biter expansion and evolution Behaviors",
+	"description_original": "Changes Biter expansion and evolution Behaviors",
+	"dependencies": ["base >= 0.13.13"]
+}

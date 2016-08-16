@@ -1,12 +1,13 @@
 {
 	"name": "CopySettingsTool",
-	"version": "1.0.1",
+	"version": "1.0.4",
 	"title": "Copy Settings Tool (area selection tool for copy-once/paste-multiple)",
-	"title_original": "Copy Settings Tool (area selection tool for copy-once/paste-multiple)",
+	"title_original": "Copy Settings Tool (paste-multiple settings at once)",
 	"author": "BinbinHfr",
 	"description": "This area selection tool is an extension of the classical copy-paste settings feature, that allows multiple paste on a group of objects.",
-	"description_original": "This area selection tool is an extension of the classical copy-paste settings feature, that allows multiple paste on a group of objects.",
+	"description_original": "This area selection tool is an extension of the classical copy-paste settings feature, that allows multiple paste on a group of objects in one operation, but also selectively wiping their settings.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30163",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.13"]
+	"dependencies": ["base >= 0.13.14"]
 }

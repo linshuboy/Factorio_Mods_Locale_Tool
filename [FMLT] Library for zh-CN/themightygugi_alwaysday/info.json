@@ -1,0 +1,11 @@
+{
+	"name": "themightygugi_alwaysday",
+	"version": "1.0.0",
+	"factorio_version": "0.13.0",
+	"dependencies": ["base >= 0.13.1"],
+	"title": "themightygugi Always Day",
+	"title_original": "themightygugi Always Day",
+	"author": "Themightygugi",
+	"description": "Your planet has two suns. It's always day time around here!",
+	"description_original": "Your planet has two suns. It's always day time around here!"
+}

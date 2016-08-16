@@ -1,8 +1,8 @@
 {
 	"name": "ScoreExtended",
-	"version": "1.0.13",
+	"version": "1.0.16",
 	"title": "Score Extended",
-	"title_original": "Score Extended (extension to original rocket score window)",
+	"title_original": "Score Extended (new rocket score window)",
 	"author": "BinbinHfr",
 	"description": "Extension to original rocket score window. Display number of rockets and averages. Autohide the window after a delay. Autolaunch option.",
 	"description_original": "Extension to original rocket score window. Display number of rockets and averages. Autohide the window after a delay. Autolaunch option.",

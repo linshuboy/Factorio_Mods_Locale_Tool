@@ -1,0 +1,12 @@
+{
+	"name": "Alchemy",
+	"version": "1.0.0",
+	"factorio_version": "0.13",
+	"title": "Alchemy",
+	"title_original": "Alchemy",
+	"author": "Anthony Dewstow",
+	"description": "Alchemy",
+	"description_original": "Alchemy",
+	"homepage": "http://AnthonyDewstow.info",
+	"dependencies": ["base >= 0.13.0"]
+}

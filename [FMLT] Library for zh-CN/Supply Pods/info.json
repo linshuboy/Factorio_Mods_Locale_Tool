@@ -1,0 +1,11 @@
+{
+	"name": "Supply Pods",
+	"version": "0.1.0",
+	"title": "Supply Pods",
+	"title_original": "Supply Pods",
+	"author": "thomasross",
+	"description": "Adds chests in place of some (randomly chosen) rocks with random items inside",
+	"description_original": "Adds chests in place of some (randomly chosen) rocks with random items inside",
+	"factorio_version": "0.13.0",
+	"dependencies": ["base >= 0.13.0"]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "HotCraft",
+	"version": "1.0.0",
+	"title": "HotCraft (directly handcraft items by hotkey)",
+	"title_original": "HotCraft (directly handcraft items by hotkey)",
+	"author": "BinbinHfr",
+	"description": "Directly handcraft items from your inventory or toolbelt by hotkey, without even browsing the recipes list: just grab a stack in your hand and use ALT-1, ALT-2 or ALT-3 to queue 1,5 or 10 more items for handcrafting.",
+	"description_original": "Directly handcraft items from your inventory or toolbelt by hotkey, without even browsing the recipes list: just grab a stack in your hand and use ALT-1, ALT-2 or ALT-3 to queue 1,5 or 10 more items for handcrafting.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30400",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.8"]
+}

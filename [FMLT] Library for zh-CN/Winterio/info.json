@@ -1,0 +1,12 @@
+{
+	"name": "Winterio",
+	"version": "1.0.0",
+	"factorio_version": "0.13.13",
+	"title": "Winterio",
+	"title_original": "Winterio",
+	"author": "AnonymoScoot",
+	"homepage": "https://github.com/AnonymoScoot/Winterio",
+	"description": "Adds winter theme to the game and makes a few (optional) balance changes",
+	"description_original": "Adds winter theme to the game and makes a few (optional) balance changes",
+	"dependencies": ["base >= 0.13.13"]
+}

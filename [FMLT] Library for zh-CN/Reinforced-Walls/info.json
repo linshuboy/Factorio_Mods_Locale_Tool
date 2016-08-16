@@ -1,6 +1,6 @@
 {
 	"name": "Reinforced-Walls",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"factorio_version": "0.13",
 	"title": "Steel Reinforced Walls",
 	"title_original": "Steel Reinforced Walls",
@@ -8,6 +8,6 @@
 	"contact": "jmcowgill@gmail.com",
 	"homepage": "https://github.com/ChurchOrganist/Factorio-Reinforced-Walls",
 	"description": "Gives reinforced steel walls after researching Walls, Military 2, and Concrete",
-	"description_original": "Gives reinforced steel walls after researching Walls, Military 2, and Concrete",
+	"description_original": "Gives various wall upgrades after the appropriate research.",
 	"dependencies": ["base >= 0.13.0"]
 }

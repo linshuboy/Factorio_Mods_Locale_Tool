@@ -1,0 +1,12 @@
+{
+	"name": "color-picker",
+	"version": "0.1.0",
+	"title": "Color Picker",
+	"title_original": "Color Picker",
+	"author": "Mooncat",
+	"homepage": "",
+	"description": "Adds a color picker GUI that can be used by other mods. But this mod itself doesn't do anything alone.",
+	"description_original": "Adds a color picker GUI that can be used by other mods. But this mod itself doesn't do anything alone.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.13"]
+}

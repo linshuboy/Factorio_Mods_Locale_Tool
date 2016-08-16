@@ -2,12 +2,12 @@
 	"name": "bobenemies",
 	"version": "0.13.1",
 	"factorio_version": "0.13",
-	"title": "Bob's Enemies",
+	"title": "Bob之敌人",
 	"title_original": "Bob's Enemies",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "http://www.destructivality.com",
-	"description": "Adds a few harder enemies.",
+	"description": "只是增加了很少的一部分敌人（才怪！）.",
 	"description_original": "Adds a few harder enemies.",
 	"dependencies": ["base >= 0.13.0", "? bobconfig >= 0.13.0"]
 }

@@ -1,0 +1,13 @@
+{
+	"name": "Biter-gun",
+	"version": "1.0.0",
+	"factorio_version": "0.13",
+	"title": "Biter gun",
+	"title_original": "Biter gun",
+	"author": "Mr Doomah",
+	"contact": "http://www.factorioforums.com/forum/memberlist.php?mode=viewprofile&u=7604",
+	"homepage": "",
+	"description": "A gun that shoots biters",
+	"description_original": "A gun that shoots biters",
+	"dependencies": ["base"]
+}

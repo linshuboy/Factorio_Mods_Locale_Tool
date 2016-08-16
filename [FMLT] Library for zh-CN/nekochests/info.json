@@ -1,0 +1,14 @@
+{
+	"name": "nekochests",
+	"version": "0.0.2",
+	"factorio_version": "0.13",
+	"title": "Neko's Chests",
+	"title_original": "Neko's Chests",
+	"author": "GreyNeko",
+	"contact": "GreyNeko210@gmail.com",
+	"webpage": "",
+	"changes": "Changed the width of the cat chest entity to fit the selection box and placement.",
+	"description": "Mod that adds two big chests, one of them has a green touch to it!",
+	"description_original": "Mod that adds two big chests, one of them has a green touch to it!",
+	"dependencies": ["base >= 0.13.0"]
+}

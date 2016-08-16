@@ -1,0 +1,13 @@
+{
+	"name": "OilPatchExhauster",
+	"version": "0.0.2",
+	"factorio_version": "0.13",
+	"title": "Oil Patch Exhauster",
+	"title_original": "Oil Patch Exhauster",
+	"author": "Apriori",
+	"contact": "-",
+	"homepage": "-",
+	"description": "Structure to exhaust depleted oil patches. Drains the remains of oil and destroys the patch. Looking for better graphics...",
+	"description_original": "Structure to exhaust depleted oil patches. Drains the remains of oil and destroys the patch. Looking for better graphics...",
+	"dependencies": ["base >= 0.13"]
+}

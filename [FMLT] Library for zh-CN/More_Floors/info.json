@@ -1,0 +1,12 @@
+{
+	"name": "More_Floors",
+	"author": "Tone",
+	"version": "1.0.2",
+	"title": "More_Floors",
+	"title_original": "More_Floors",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=30515",
+	"description": "Adds more floors to pretty up your factories",
+	"description_original": "Adds more floors to pretty up your factories",
+	"dependencies": ["base >= 0.13.00"],
+	"factorio_version": "0.13"
+}
