@@ -7,6 +7,6 @@
 	"author": "Yuoki Tani",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13"],
-	"description": "Various Things, related to Energy, Transformations",
+	"description": "adds more content like generators, ressource-transformations, machinery, turrets ...",
 	"description_original": "adds more content like generators, ressource-transformations, machinery, turrets ..."
 }
