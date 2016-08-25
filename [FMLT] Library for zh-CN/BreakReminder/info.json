@@ -1,0 +1,11 @@
+{
+	"name": "BreakReminder",
+	"version": "1.0.1",
+	"factorio_version": "0.13",
+	"title": "休息提醒",
+	"title_original": "Break Reminder",
+	"author": "supershadow899",
+	"description": "一个简单的模型，将提醒你休息后，设置一个时间，你可以指定加载一个保存。",
+	"description_original": "A simple mod that will remind you to take a break after a set amount of time that you can specify when loading a save.",
+	"dependencies": ["base >= 0.13.0"]
+}

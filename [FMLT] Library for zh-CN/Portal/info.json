@@ -1,0 +1,12 @@
+{
+	"name": "Portal",
+	"version": "1.0.1",
+	"factorio_version": "0.13",
+	"title": "传送门",
+	"title_original": "Portal moving",
+	"author": "Apriori",
+	"contact": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=31071",
+	"description": "增加了新的设备传送的景象。很好用的缩放国防部-你会看到进一步，并进一步跳。",
+	"description_original": "Adds new device to teleport in sight. Good to use with zoom mod - you'll see further and jump further as well."
+}

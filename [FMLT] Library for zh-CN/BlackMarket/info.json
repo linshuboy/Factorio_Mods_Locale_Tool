@@ -1,13 +1,13 @@
 {
 	"name": "BlackMarket",
-	"version": "1.0.13",
-	"title": "BlackMarket (sell and buy on the market)",
-	"title_original": "BlackMarket (sell and buy on the market)",
+	"version": "1.0.27",
+	"title": "黑市 (在黑市中出售和购买)",
+	"title_original": "Black Market (sell and buy on the market)",
 	"author": "BinbinHfr",
-	"description": "Sell and buy items on the universal black market using trading chests, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy items that you don't want to craft by yourself. You can also use these chests as a paying shipment system.",
-	"description_original": "Sell and buy items on the universal black market using trading chests, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy items that you don't want to craft by yourself. You can also use these chests as a paying shipment system.",
+	"description": "出售和购买 物品/液体/能源 在大宇宙黑市环境下 using trading chests/tanks/accumulators, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy things that you don't want to craft by yourself. You can also use these trading units as a paying shipment system.",
+	"description_original": "Sell and buy items/fluids/energy on the universal black market using trading chests/tanks/accumulators, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy things that you don't want to craft by yourself. You can also use these trading units as a paying shipment system.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30889",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
 	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.14", "? FreeTools"]
+	"dependencies": ["base >= 0.13.13", "? FreeTools"]
 }

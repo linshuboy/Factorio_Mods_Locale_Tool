@@ -1,9 +1,9 @@
 {
 	"name": "Bottleneck",
 	"author": "Troels Bjerre Lund",
-	"version": "0.2.1",
+	"version": "0.2.4",
 	"factorio_version": "0.13",
-	"title": "Bottleneck",
+	"title": "生产瓶颈分析",
 	"title_original": "Bottleneck",
 	"homepage": "https://github.com/troelsbjerre/Bottleneck",
 	"description": "A tool for locating input starved machines.",
