@@ -1,13 +1,13 @@
 {
 	"name": "bobelectronics",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之电子工业",
 	"title_original": "Bob's Electronics",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
-	"homepage": "http://www.destructivality.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "增加了一些新的电子产业链.",
 	"description_original": "Adds a whole new electronics production chain.",
-	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobplates >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobplates >= 0.14.0"]
 }

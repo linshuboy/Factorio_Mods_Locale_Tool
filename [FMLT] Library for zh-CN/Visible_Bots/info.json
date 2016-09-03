@@ -1,0 +1,12 @@
+{
+	"name": "Visible_Bots",
+	"author": "keyboardhack",
+	"version": "0.4.0",
+	"title": "Visible Bots",
+	"title_original": "Visible Bots",
+	"homepage": "NaN",
+	"description": "makes bots visible",
+	"description_original": "makes bots visible",
+	"dependencies": ["base >= 0.13.00"],
+	"factorio_version": "0.13"
+}

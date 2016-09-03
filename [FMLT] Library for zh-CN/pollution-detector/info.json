@@ -1,10 +1,10 @@
 {
 	"name": "pollution-detector",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"title": "Pollution detector",
 	"title_original": "Pollution detector",
 	"author": "Schorty",
 	"description": "Adds a new entity for detecting pollution",
 	"description_original": "Adds a new entity for detecting pollution",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

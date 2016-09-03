@@ -1,6 +1,6 @@
 {
 	"name": "flamenades",
-	"version": "0.13.1",
+	"version": "0.14.1",
 	"title": "Flame Grenades",
 	"title_original": "Flame Grenades",
 	"author": "DaCyclops",
@@ -8,6 +8,6 @@
 	"contact": "dacyclops@dacyclops.com",
 	"description": "Adds a Flame Grenade",
 	"description_original": "Adds a Flame Grenade",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

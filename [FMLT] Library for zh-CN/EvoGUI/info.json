@@ -1,6 +1,7 @@
 {
 	"name": "EvoGUI",
-	"version": "0.4.107",
+	"version": "0.4.108",
+	"factorio_version": "0.14",
 	"title": "进化因子指示器",
 	"title_original": "EvoGUI - Evolution Factor Indicator and more",
 	"author": "Octav \"narc\" Sandulescu",
@@ -8,6 +9,5 @@
 	"homepage": "https://github.com/narc0tiq/evoGUI/",
 	"description": "左上角UI指示器告诉你当前的虫族进化几率，它也告诉你玩了多久。",
 	"description_original": "Places some indicators on your UI for various little statistics that are nice to have.",
-	"dependencies": ["base >= 0.13.0", "? moweather"],
-	"factorio_version": "0.13"
+	"dependencies": ["base >= 0.13.0", "? moweather"]
 }

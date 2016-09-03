@@ -1,12 +1,12 @@
 {
 	"name": "TheFatController",
-	"version": "0.4.20",
+	"version": "1.0.0",
 	"author": "JamesOFarrell, Choumiko",
-	"factorio_version": "0.13",
+	"factorio_version": "0.14",
 	"title": "The Fat Controller",
 	"title_original": "The Fat Controller",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=4504",
 	"description": "A conductor of trains.",
 	"description_original": "A conductor of trains.",
-	"dependencies": ["base >= 0.13.0", "? Logistics Railway >= 1.0.5"]
+	"dependencies": ["? ChoumikoTest", "? Logistics Railway >= 1.0.5"]
 }

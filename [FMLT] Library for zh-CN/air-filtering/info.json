@@ -1,10 +1,10 @@
 {
 	"name": "air-filtering",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"title": "Air filtering",
 	"title_original": "Air filtering",
 	"author": "Schorty",
 	"description": "Adding machines to reduce pollution",
 	"description_original": "Adding machines to reduce pollution",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

@@ -1,12 +1,12 @@
 {
 	"name": "Laser_Beam_Turrets",
 	"author": "Klonan",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"title": "Laser beam turrets",
 	"title_original": "Laser beam turrets",
 	"homepage": "",
 	"description": "Makes laser turrets shoot beams",
 	"description_original": "Makes laser turrets shoot beams",
 	"dependencies": ["base", "? bobwarfare >= 0.13.0"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

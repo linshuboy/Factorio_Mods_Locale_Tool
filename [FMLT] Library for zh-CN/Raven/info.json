@@ -1,12 +1,12 @@
 {
 	"name": "Raven",
-	"version": "0.0.3",
-	"date": "2016-07-06",
+	"version": "0.0.4",
+	"date": "2016-08-27",
 	"title": "Raven",
 	"title_original": "Raven",
 	"author": "maroder",
 	"dependencies": ["base"],
 	"description": "Flying vecicle like airplane. You need to achieve a certain speed for take off.",
 	"description_original": "Flying vecicle like airplane. You need to achieve a certain speed for take off.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

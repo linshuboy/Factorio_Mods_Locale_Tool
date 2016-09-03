@@ -1,13 +1,13 @@
 {
 	"name": "GDIW",
-	"version": "0.13.2",
+	"version": "0.14.1",
 	"title": "GDIW",
-	"title_original": "GDIW",
+	"title_original": "GDIW - Gah! DarnItWater!",
 	"author": "DaCyclops",
 	"homepage": "",
 	"contact": "dacyclops@dacyclops.com",
 	"description": "Allows switching liquid recipie inputs and outputs.",
 	"description_original": "Allows switching liquid recipie inputs and outputs.",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0", "? bobplates >= 0.13.0"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0", "? bobplates >= 0.13.0"]
 }

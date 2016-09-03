@@ -1,0 +1,10 @@
+{
+	"name": "Orphan Finder",
+	"version": "1.0.3",
+	"title": "Orphan Finder",
+	"title_original": "Orphan Finder",
+	"author": "GotLag",
+	"description": "Adds a hotkey to highlight unconnected undergound pipes/belts near the player.",
+	"description_original": "Adds a hotkey to highlight unconnected undergound pipes/belts near the player.",
+	"factorio_version": "0.14"
+}

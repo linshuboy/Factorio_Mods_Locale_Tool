@@ -1,6 +1,6 @@
 {
 	"name": "RecycleRatio020",
-	"version": "0.13.1",
+	"version": "0.14.1",
 	"title": "20% Recycling Return",
 	"title_original": "20% Recycling Return",
 	"author": "DRY411S",
@@ -8,6 +8,6 @@
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=15698",
 	"description": "Adds the amount recovered from Recycling Machines by 20% of the original recipe ingredients",
 	"description_original": "Adds the amount recovered from Recycling Machines by 20% of the original recipe ingredients",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.1", "ZRecycling >= 0.13.1"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.1", "ZRecycling >= 0.14.01"]
 }

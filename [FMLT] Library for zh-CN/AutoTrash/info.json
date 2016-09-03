@@ -1,12 +1,11 @@
 {
 	"name": "AutoTrash",
-	"version": "0.1.7",
-	"factorio_version": "0.13",
+	"version": "1.0.0",
+	"factorio_version": "0.14",
 	"title": "Auto Trash",
 	"title_original": "Auto Trash",
 	"author": "Choumiko",
-	"homepage": "",
-	"dependencies": ["base >= 0.13.0"],
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=16016",
 	"description": "Keeps your inventory clean of certain items",
 	"description_original": "Keeps your inventory clean of certain items"
 }

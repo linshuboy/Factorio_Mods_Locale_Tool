@@ -1,0 +1,10 @@
+{
+	"name": "MinimalStart",
+	"version": "1.0.1",
+	"title": "Minimal Start",
+	"title_original": "Minimal Start",
+	"author": "nakran",
+	"description": "Empties inventories upon world creation or joining player",
+	"description_original": "Empties inventories upon world creation or joining player",
+	"factorio_version": "0.14"
+}

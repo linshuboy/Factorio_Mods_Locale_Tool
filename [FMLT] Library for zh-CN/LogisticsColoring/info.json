@@ -1,0 +1,12 @@
+{
+	"name": "LogisticsColoring",
+	"version": "0.0.4",
+	"title": "LogisticsColoring",
+	"title_original": "LogisticsColoring",
+	"author": "Kasper Kiiskinen",
+	"contact": "https://twitter.com/Kassu27",
+	"homepage": "http://github.com/kasperki/LogisticsUtility",
+	"description": "Color coded entities, to help keep logistics sorted out",
+	"description_original": "Color coded entities, to help keep logistics sorted out",
+	"factorio_version": "0.13"
+}

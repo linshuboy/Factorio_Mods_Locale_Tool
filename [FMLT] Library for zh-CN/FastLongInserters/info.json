@@ -1,0 +1,13 @@
+{
+	"name": "FastLongInserters",
+	"version": "1.0.0",
+	"title": "Fast Long Inserters",
+	"title_original": "Fast Long Inserters",
+	"author": "DerMistkaefer",
+	"contact": "http://www.dermistkaefer.com/contact",
+	"homepage": "http://www.dermistkaefer.com",
+	"description": "This Mod ads Long Fast Inserters.",
+	"description_original": "This Mod ads Long Fast Inserters.",
+	"factorio_version": "0.13",
+	"dependencies": ["base >= 0.13.0"]
+}

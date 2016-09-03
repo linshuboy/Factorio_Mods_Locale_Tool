@@ -1,12 +1,13 @@
 {
 	"name": "SuperTank",
 	"author": "BinbinHfr",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"title": "Super Tank",
 	"title_original": "Super Tank (a boosted red tank)",
 	"description": "A boosted customisable version of the original tank, with boosted ammos and a nice red color !",
 	"description_original": "A boosted customisable version of the original tank, with boosted ammos and a nice red color !",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=22809",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.8"]
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

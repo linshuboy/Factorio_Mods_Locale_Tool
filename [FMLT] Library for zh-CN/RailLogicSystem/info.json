@@ -1,6 +1,6 @@
 {
 	"name": "RailLogicSystem",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"title": "RailLogicSystem",
 	"title_original": "RailLogicSystem",
 	"author": "XCodersTeam",
@@ -8,5 +8,5 @@
 	"dependencies": ["base"],
 	"description": "Want to control railway by circuit network? Here we go!",
 	"description_original": "Want to control railway by circuit network? Here we go!",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

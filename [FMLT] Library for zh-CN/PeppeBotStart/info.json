@@ -1,7 +1,7 @@
 {
 	"name": "PeppeBotStart",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.1",
+	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.13"],
 	"title": "Peppe Bot Start",
 	"title_original": "Peppe Bot Start",

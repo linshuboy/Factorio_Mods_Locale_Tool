@@ -1,6 +1,6 @@
 {
 	"name": "ZRecycling",
-	"version": "0.13.20",
+	"version": "0.14.1",
 	"title": "Recycling Machines",
 	"title_original": "Recycling Machines",
 	"author": "DRY411S",
@@ -8,6 +8,6 @@
 	"homepage": "https://github.com/DRY411S/Recycling-Machines",
 	"description": "Recycling Machines that disassemble most items back into 100% of their recipe ingredients. Optionally, can be used with a Recycling Return trigger mod to reduce the percentage recycling return.",
 	"description_original": "Recycling Machines that disassemble most items back into 100% of their recipe ingredients. Optionally, can be used with a Recycling Return trigger mod to reduce the percentage recycling return.",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.9"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.1"]
 }

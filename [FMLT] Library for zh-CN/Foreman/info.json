@@ -1,11 +1,10 @@
 {
 	"name": "Foreman",
-	"version": "0.2.4",
+	"version": "1.0.0",
+	"factorio_version": "0.14",
 	"author": "Choumiko (originally: JamesOFarrell)",
 	"title": "Foreman",
 	"title_original": "Foreman",
 	"description": "For managing all your blueprint needs.",
-	"description_original": "For managing all your blueprint needs.",
-	"dependencies": ["base >= 0.13.0"],
-	"factorio_version": "0.13"
+	"description_original": "For managing all your blueprint needs."
 }

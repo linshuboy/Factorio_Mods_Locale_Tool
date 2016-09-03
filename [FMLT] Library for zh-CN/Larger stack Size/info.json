@@ -1,6 +1,6 @@
 {
 	"name": "Larger stack Size",
-	"version": "0.13.2",
+	"version": "0.14.0",
 	"title": "Larger stack Size",
 	"title_original": "Larger stack Size",
 	"author": "Andrew",
@@ -8,6 +8,6 @@
 	"homepage": "http://games-mods.weebly.com",
 	"description": "Adds Larger stack Size.",
 	"description_original": "Adds Larger stack Size.",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.0"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

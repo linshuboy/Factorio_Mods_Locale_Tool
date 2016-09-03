@@ -1,13 +1,13 @@
 {
 	"name": "bobconfig",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之配置文件",
 	"title_original": "Bob's Config mod",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
-	"homepage": "http://www.destructivality.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "这个模组允许你去设置bob的模组",
 	"description_original": "This mod allows you to change the settings of Bob's mods.",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0"]
 }

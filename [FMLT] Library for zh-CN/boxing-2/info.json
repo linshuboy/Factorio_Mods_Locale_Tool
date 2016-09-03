@@ -1,0 +1,11 @@
+{
+	"name": "boxing-2",
+	"version": "2.0.4",
+	"title": "Boxing 2",
+	"title_original": "Boxing 2",
+	"author": "AndrolGenhald",
+	"description": "Pack items into boxes to store more of them.",
+	"description_original": "Pack items into boxes to store more of them.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.13.0", "? bobassembly >= 0.13.0", "? bobconfig >= 0.13.0", "? bobelectronics >= 0.13.0", "? bobenemies >= 0.13.0", "? bobgreenhouse >= 0.13.0", "? bobinserters >= 0.13.0", "? boblibrary >= 0.13.0", "? boblogistics >= 0.13.0", "? bobmining >= 0.13.0", "? bobmodules >= 0.13.0", "? bobores >= 0.13.0", "? bobplates >= 0.13.0", "? bobpower >= 0.13.0", "? bobrevamp >= 0.13.0", "? bobtech >= 0.13.0", "? bobtechsave >= 0.13.0", "? bobwarfare >= 0.13.0", "? charcoal-preparate >= 0.0.2", "? Bio_Industries >= 1.4.0", "? Natural_Evolution_Buildings >= 6.3.0", "? StickyNotes >= 1.0.3"]
+}

@@ -1,12 +1,13 @@
 {
 	"name": "Megamind",
 	"author": "BinbinHfr",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"title": "Megamind",
 	"title_original": "Megamind (control alien brains)",
 	"description": "Now you can control alien brains ! And force them to fight for you ! Well at least some of them, and for a limited time...",
 	"description_original": "Now you can control alien brains ! And force them to fight for you ! Well at least some of them, and for a limited time...",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24833",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.8"]
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

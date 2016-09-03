@@ -1,0 +1,13 @@
+{
+	"name": "CircuitAlerter",
+	"version": "0.0.4",
+	"factorio_version": "0.14",
+	"title": "Circuit Alerter",
+	"title_original": "Circuit Alerter",
+	"author": "Nexela",
+	"contact": "",
+	"www": "",
+	"description": "Adds a message Alerter and Alert Hud.",
+	"description_original": "Adds a message Alerter and Alert Hud.",
+	"dependencies": ["base >= 0.13.10", "? color-picker >= 0.1.0"]
+}

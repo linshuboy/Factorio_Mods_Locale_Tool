@@ -1,12 +1,13 @@
 {
 	"name": "CargoRocket",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"title": "Cargo Rocket",
 	"title_original": "Cargo Rocket (deliver payloads fast and far)",
 	"author": "BinbinHfr",
 	"description": "Use your rockets as a cargo to quickly send a payload to a distant outpost.",
 	"description_original": "Use your rockets as a cargo to quickly send a payload to a distant outpost.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26794",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.8"]
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

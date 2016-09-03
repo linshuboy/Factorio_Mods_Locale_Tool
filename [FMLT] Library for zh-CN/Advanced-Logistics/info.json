@@ -1,11 +1,11 @@
 {
 	"name": "Advanced-Logistics",
 	"author": "Loren1350, yareczek, Neomore",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"title": "Advanced Logistics",
 	"title_original": "Advanced Logistics",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=27550&p=174324#p174324",
 	"description": "Adds upgraded transport belts and pipes, as well as easy belt laying.",
 	"description_original": "Adds upgraded transport belts and pipes, as well as easy belt laying.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

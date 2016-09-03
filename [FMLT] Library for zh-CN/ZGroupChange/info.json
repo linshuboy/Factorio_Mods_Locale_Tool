@@ -1,13 +1,13 @@
 {
 	"name": "ZGroupChange",
-	"version": "1.1.1",
+	"version": "1.2.5",
 	"title": "[Z] Group Change",
 	"title_original": "[Z] Group Change",
-	"factorio_version": "0.13.13",
+	"factorio_version": "0.14",
 	"author": "ZlovreD",
 	"contact": "Discussion page on mods.factorio.com",
 	"homepage": "https://mods.factorio.com/mods/Progsy/ZGroupChange",
 	"description": "Resort items and recipes for most biggest, poppular and usefull mods. List of supported mods: 5Dim, Bob's, Yuoki, Angel's and more. This mod oriented to work with all supported mods together at the same time.",
-	"description_original": "Resort items and recipes for most biggest, poppular and usefull mods. List of supported mods: 5Dim, Bob's, Yuoki, Angel's and more. This mod oriented to work with all supported mods together at the same time.",
-	"dependencies": ["base >= 0.13.0"]
+	"description_original": "Resort items and recipes for most biggest, poppular and usefull mods. List of supported mods: 5Dim, Bob's, Yuoki, Angel's, UraniumPower and more. This mod oriented to work with all supported mods together at the same time.",
+	"dependencies": ["base >= 0.14"]
 }

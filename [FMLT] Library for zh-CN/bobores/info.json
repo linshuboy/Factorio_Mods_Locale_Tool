@@ -1,13 +1,13 @@
 {
 	"name": "bobores",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之矿石",
 	"title_original": "Bob's Ores",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
-	"homepage": "http://www.destructivality.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "增加了不少有用的的矿石.",
 	"description_original": "Adds some useful ores.",
-	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0"]
 }

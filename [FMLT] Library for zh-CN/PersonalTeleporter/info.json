@@ -1,12 +1,12 @@
 {
 	"name": "PersonalTeleporter",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"title": "PersonalTeleporter",
 	"title_original": "PersonalTeleporter",
 	"author": "WhatheWorld",
 	"description": "This mod adds personal Teleaporter to the game. A lot of Thanks to iUltimateLP and his mod SimpleTeleporters for inspiration and for the use of His Code and graphics",
 	"description_original": "This mod adds personal Teleaporter to the game. A lot of Thanks to iUltimateLP and his mod SimpleTeleporters for inspiration and for the use of His Code and graphics",
-	"factorio_version": "0.13",
+	"factorio_version": "0.14",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=18918",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24157"
 }

@@ -1,0 +1,12 @@
+{
+	"name": "No-Belts-Challenge",
+	"version": "0.1.1",
+	"title": "No Belts Challenge",
+	"title_original": "No Belts Challenge",
+	"author": "LuziferSenpai",
+	"Licence": "MIT",
+	"description": "Adds the Achievement No Belt Challenge",
+	"description_original": "Adds the Achievement No Belt Challenge",
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14"
+}

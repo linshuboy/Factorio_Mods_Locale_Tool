@@ -1,11 +1,11 @@
 {
 	"name": "Biblemod",
-	"version": "1.6.0",
+	"version": "1.7.5",
 	"title": "Bible Mod",
 	"title_original": "Bible Mod",
 	"author": "Shadowcaster",
-	"factorio_version": "0.13",
+	"factorio_version": "0.14",
 	"description": "Increases speed and production capabilities of many assembling machines.",
 	"description_original": "Increases speed and production capabilities of many assembling machines.",
-	"dependencies": ["base >= 0.13.13"]
+	"dependencies": ["base"]
 }
