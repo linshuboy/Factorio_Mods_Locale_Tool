@@ -1,0 +1,12 @@
+{
+	"name": "FluxExpensiveTech",
+	"version": "0.0.4",
+	"title": "Make Technology More Expensive",
+	"title_original": "Make Technology More Expensive",
+	"author": "FluxFaraday",
+	"contact": "http://forums.factorio.com/memberlist.php?mode=viewprofile&u=1733",
+	"homepage": "http://forums.factorio.com/viewtopic.php?f=94&t=14816",
+	"description": "Slows down the headlong tech rush by making them more expensive.  New cost is based on the technologies depth in the tech tree.",
+	"description_original": "Slows down the headlong tech rush by making them more expensive.  New cost is based on the technologies depth in the tech tree.",
+	"factorio_version": "0.14"
+}

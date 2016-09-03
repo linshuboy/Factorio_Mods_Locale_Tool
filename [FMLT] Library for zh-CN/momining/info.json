@@ -1,6 +1,6 @@
 {
 	"name": "momining",
-	"version": "0.1.2",
+	"version": "0.1.21",
 	"title": "MoMining",
 	"title_original": "MoMining",
 	"author": "Ludsoe",
@@ -8,5 +8,5 @@
 	"description": "Adds more Mining Options to factorio.",
 	"description_original": "Adds more Mining Options to factorio.",
 	"dependencies": ["base"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

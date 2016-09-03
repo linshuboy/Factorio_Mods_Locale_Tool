@@ -1,7 +1,7 @@
 {
 	"name": "bobgreenhouse",
-	"version": "0.13.2",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之种树",
 	"title_original": "Bob's Greenhouse mod",
 	"author": "Bobingabout",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "这里是温室mod, 在这我们可以生产木头.",
 	"description_original": "It's a greenhouse, it makes wood.",
-	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobplates >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0", "? bobplates >= 0.14.0"]
 }

@@ -1,11 +1,11 @@
 {
 	"name": "cheaper_rail_and_concrete",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"title": "Cheaper rail and concrete",
 	"title_original": "Cheaper rail and concrete",
 	"author": "LCruel",
 	"homepage": "none",
 	"description": "Multiplies the production of rails by 5 and concrete by 10.",
 	"description_original": "Multiplies the production of rails by 5 and concrete by 10.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

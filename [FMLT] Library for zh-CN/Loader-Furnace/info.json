@@ -1,6 +1,6 @@
 {
 	"name": "Loader-Furnace",
-	"version": "1.0.3",
+	"version": "2.0.3",
 	"title": "Loader Furnace",
 	"title_original": "Loader Furnace",
 	"author": "darkfrei",
@@ -8,5 +8,5 @@
 	"homepage": "",
 	"description": "New furnaces, fitted for loaders using",
 	"description_original": "New furnaces, fitted for loaders using",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

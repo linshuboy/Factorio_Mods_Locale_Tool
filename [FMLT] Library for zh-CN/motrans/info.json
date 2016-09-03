@@ -1,6 +1,6 @@
 {
 	"name": "motrans",
-	"version": "0.2.1",
+	"version": "0.2.11",
 	"title": "MoTransportation",
 	"title_original": "MoTransportation",
 	"author": "Ludsoe",
@@ -9,5 +9,5 @@
 	"description": "Adds More Transportation Things to factorio.",
 	"description_original": "Adds More Transportation Things to factorio.",
 	"dependencies": ["base"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

@@ -1,13 +1,13 @@
 {
 	"name": "bobwarfare",
-	"version": "0.13.4",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob战争",
 	"title_original": "Bob's Warfare",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
-	"homepage": "http://www.destructivality.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "增加了一些为战争服务的东西.",
 	"description_original": "Make things for warfare.",
-	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobplates >= 0.13.0", "? boblogistics >= 0.13.0", "? bobconfig >= 0.13.0", "? bobenemies >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobplates >= 0.14.0", "? boblogistics >= 0.14.0", "? bobconfig >= 0.14.0", "? bobenemies >= 0.14.0"]
 }

@@ -1,13 +1,13 @@
 {
 	"name": "bobmining",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之采矿",
 	"title_original": "Bob's Mining",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
-	"homepage": "http://www.destructivality.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "增加了一些很好用的采矿工具和采矿机器.",
 	"description_original": "Adds some useful mining tools and entities.",
-	"dependencies": ["base >= 0.13.0", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobores >= 0.13.0", "? bobplates >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0", "? bobores >= 0.14.0", "? bobplates >= 0.14.0"]
 }

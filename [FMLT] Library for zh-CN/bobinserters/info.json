@@ -1,7 +1,7 @@
 {
 	"name": "bobinserters",
-	"version": "0.13.3",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之可调式机械臂",
 	"title_original": "Bob's Adjustable Inserters",
 	"author": "Bobingabout",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "可以使用一些热键来调控机械臂的抓取和放置位置.",
 	"description_original": "Adds hotkeys and a GUI to adjust inserter pickup and drop locations.",
-	"dependencies": ["base >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0"]
 }

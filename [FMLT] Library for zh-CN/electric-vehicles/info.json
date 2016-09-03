@@ -1,0 +1,13 @@
+{
+	"name": "electric-vehicles",
+	"version": "0.2.1",
+	"title": "Electric Vehicles",
+	"title_original": "Electric Vehicles",
+	"author": "mknejp",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=31911",
+	"description": "Adds electric vehicles that run on battery energy.",
+	"description_original": "Adds electric vehicles that run on battery energy.",
+	"factorio_version": "0.14.2",
+	"dependencies": ["base >= 0.14.2", "electric-vehicles-lib>=0.2.1"],
+	"license": "MIT"
+}

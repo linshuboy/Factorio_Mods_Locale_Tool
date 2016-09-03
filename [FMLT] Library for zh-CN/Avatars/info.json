@@ -1,6 +1,6 @@
 {
 	"name": "Avatars",
-	"version": "0.4.1",
+	"version": "0.4.2",
 	"title": "Avatars",
 	"title_original": "Avatars",
 	"author": "DedlySpyder",
@@ -8,6 +8,6 @@
 	"homepage": "",
 	"description": "This mod allows players to create and remotely control Avatars. Avatars act like players, with a few minor exceptions. The mod also includes a few custom entities to control and create the Avatars.",
 	"description_original": "This mod allows players to create and remotely control Avatars. Avatars act like players, with a few minor exceptions. The mod also includes a few custom entities to control and create the Avatars.",
-	"dependencies": ["base >= 0.13.0"],
-	"factorio_version": "0.13"
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14"
 }

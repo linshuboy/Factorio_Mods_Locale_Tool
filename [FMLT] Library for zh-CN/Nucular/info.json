@@ -1,12 +1,12 @@
 {
 	"name": "Nucular",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"title": "Nucular - Nuclear Power",
 	"title_original": "Nucular - Nuclear Power",
 	"author": "Simdezimon",
 	"homepage": "https://github.com/simdezimon/Nucular",
 	"dependencies": ["base"],
 	"description": "Nuclear power plants, bombs and science.",
-	"description_original": "Nuclear power plants, fusion reactors, atomic bombs and particle science.",
+	"description_original": "Nuclear power plants, atomic bombs and particle science.",
 	"factorio_version": "0.13"
 }

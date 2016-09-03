@@ -1,13 +1,13 @@
 {
 	"name": "steinios_research_sensor",
-	"version": "0.0.2",
+	"version": "0.14.1",
 	"title": "steinios research sensor",
 	"title_original": "steinios research sensor",
 	"author": "steinio",
 	"contact": "steinio @ https://forums.factorio.com/",
-	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=26034",
+	"homepage": "https://mods.factorio.com/mods/steinio",
 	"description": "Additional EvoGUI Sensor which shows the research progress",
 	"description_original": "Additional EvoGUI Sensor which shows the research progress",
-	"dependencies": ["base >= 0.12.11", "EvoGUI >= 0.4.16"],
-	"factorio_version": "0.13"
+	"dependencies": ["base >= 0.14", "EvoGUI >= 0.4.108"],
+	"factorio_version": "0.14"
 }

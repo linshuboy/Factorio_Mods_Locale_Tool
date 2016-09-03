@@ -1,0 +1,12 @@
+{
+	"name": "MAIN-DyTech-Metallurgy",
+	"author": "Dysoch",
+	"factorio_version": "0.14",
+	"version": "3.0.2",
+	"title": "MAIN-DyTech-Metallurgy_",
+	"title_original": "MAIN-DyTech-Metallurgy_",
+	"homepage": "http://www.factorioforums.com/forum/viewforum.php?f=43",
+	"description": "Ores, ore processing etc",
+	"description_original": "Ores, ore processing etc",
+	"dependencies": ["CORE-DyTech-Core >= 1.9.9"]
+}

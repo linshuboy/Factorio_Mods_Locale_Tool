@@ -1,12 +1,13 @@
 {
 	"name": "WaterWell",
 	"author": "BinbinHfr",
-	"version": "1.0.13",
+	"version": "1.0.15",
 	"title": "Water Well",
 	"title_original": "Water Well (pump free water from the ground)",
 	"description": "A water well pump, to pump water from the groundwater table.",
 	"description_original": "A water well pump, to pump water from the groundwater table.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=23297",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.8"]
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

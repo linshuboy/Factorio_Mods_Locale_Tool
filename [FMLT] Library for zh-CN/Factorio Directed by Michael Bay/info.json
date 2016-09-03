@@ -1,7 +1,7 @@
 {
 	"name": "Factorio Directed by Michael Bay",
-	"version": "0.2.1",
-	"factorio_version": "0.13",
+	"version": "0.3.0",
+	"factorio_version": "0.14",
 	"title": "Factorio, Directed by Michael Bay",
 	"title_original": "Factorio, Directed by Michael Bay",
 	"author": "Dr. Walrus",
@@ -9,5 +9,5 @@
 	"homepage": "http://www.transformersmovie.com/",
 	"dependencies": ["base"],
 	"description": "With the All Spark gone, we cannot return life to our planet. And fate has yielded its reward: a new world to call home. We live among its people now, hiding in plain sight, but watching over them in secret, waiting, protecting. I have witnessed their capacity for courage, and though we are worlds apart, like us, there's more to them than meets the eye. I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars. We are here. We are waiting.",
-	"description_original": "With the All Spark gone, we cannot return life to our planet. And fate has yielded its reward: a new world to call home. We live among its people now, hiding in plain sight, but watching over them in secret, waiting, protecting. I have witnessed their capacity for courage, and though we are worlds apart, like us, there's more to them than meets the eye. I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars. We are here. We are waiting."
+	"description_original": "You are extraordinary, my sons. Unlike anything the world has ever seen. Bowed in greatness, destined to protect the people of New York! A dark force is growing: a criminal organization known as the Foot Clan, so named because they step over the good people of this city with no regard. Their leader, Shredder, will come at you with ferocity. His Foot Clan will outnumber you! The people of New York will look upon you as their only hope. Eyes focused! Stance lowered! Be one with the blades!"
 }

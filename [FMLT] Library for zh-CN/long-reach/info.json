@@ -1,6 +1,6 @@
 {
 	"name": "long-reach",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"title": "Long Reach",
 	"title_original": "Long Reach",
 	"author": "James Aguilar",
@@ -8,6 +8,6 @@
 	"homepage": "http://github.com/jaguilar",
 	"description": "You can reach anything you can see. You can build anywhere you can see.",
 	"description_original": "You can reach anything you can see. You can build anywhere you can see.",
-	"factorio_version": "0.13",
+	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.13.0"]
 }

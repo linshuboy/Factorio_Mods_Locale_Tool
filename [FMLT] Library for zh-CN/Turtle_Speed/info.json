@@ -1,6 +1,6 @@
 {
 	"name": "Turtle_Speed",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"title": "Turtle Speed",
 	"title_original": "Turtle Speed",
 	"author": "DedlySpyder",
@@ -8,6 +8,6 @@
 	"homepage": "",
 	"description": "This mod allows the player to toggle exoskeletons on and off.",
 	"description_original": "This mod allows the player to toggle exoskeletons on and off.",
-	"dependencies": ["base >= 0.13.0"],
-	"factorio_version": "0.13"
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14"
 }

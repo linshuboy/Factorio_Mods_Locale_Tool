@@ -2,10 +2,10 @@
 	"name": "water-maze",
 	"version": "0.0.8",
 	"factorio_version": "0.13",
-	"title": "Water Maze",
+	"title": "水迷宫",
 	"title_original": "Water Maze",
 	"author": "Eric Stansifer",
-	"description": "Changes the initial land and water distribution",
+	"description": "改变最初的土地和水的分布",
 	"description_original": "Changes the initial land and water distribution",
 	"dependencies": ["base"]
 }

@@ -1,12 +1,12 @@
 {
 	"name": "SJT-DirtyOre",
-	"version": "0.5.2",
-	"factorio_version": "0.13",
+	"version": "0.7.3",
+	"factorio_version": "0.14",
 	"title": "SJT Dirty Ores",
 	"title_original": "SJT Dirty Ores",
 	"author": "SJT",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=30954",
 	"description": "Adds dynamically created contaminated ores. Ore processing. More chemical plants and refineries. Features can be toggled with config file. Should work with (almost) all mod ores, conditional recipes if bobmods is present.",
-	"description_original": "Adds dynamically created contaminated ores. Ore processing. More chemical plants and refineries. Features can be toggled with config file. Should work with (almost) all mod ores, conditional recipes if bobmods is present.",
+	"description_original": "Adds dynamically created contaminated ores, ore processing, more chemical plants and refineries. Features can be toggled with config file. Should work with (almost) all mod ores. Conditional recipes if bobmods is present. Feature complete 'release candidate'.",
 	"dependencies": ["base >= 0.13.0"]
 }

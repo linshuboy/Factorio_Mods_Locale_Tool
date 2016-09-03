@@ -1,12 +1,13 @@
 {
 	"name": "GroundPrinter",
 	"author": "BinbinHfr",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"title": "Ground Printer",
 	"title_original": "Ground Printer (display huge texts on the map)",
 	"description": "A printer to display larg texts and graphics on the ground. A handy way to personalize your map!",
 	"description_original": "A printer to display larg texts and graphics on the ground. A handy way to personalize your map!",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24355",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.8"]
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

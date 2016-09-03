@@ -1,12 +1,13 @@
 {
 	"name": "AutoPvP",
-	"version": "1.0.12",
+	"version": "1.0.14",
 	"title": "AutoPvP",
 	"title_original": "AutoPvP (automatic setup of PvP maps and fights)",
 	"author": "BinbinHfr",
 	"description": "Automatic PvP mod to help you setting up PvP maps and fights, with automatic force creation and settings, random player placement and resources allocation.",
-	"description_original": "Automatic PvP mod to help you setting up PvP maps and fights, with automatic force creation and settings, random player placement proposals, starting resources allocation and a special Rebirth Technology to spice up the game !",
+	"description_original": "Automatic PvP mod to help you setting up PvP maps and fights, with automatic force creation and settings, random player placement proposals, starting resources allocation and a special Rebirth Technology to spice up the game ! Can now also work in peace mode with your neighbours if you do not like PvP...",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=28413",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.8"]
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

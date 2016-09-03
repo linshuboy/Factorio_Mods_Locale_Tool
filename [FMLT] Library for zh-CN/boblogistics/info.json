@@ -1,7 +1,7 @@
 {
 	"name": "boblogistics",
-	"version": "0.13.9",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "Bob之物流",
 	"title_original": "Bob's Logistics mod",
 	"author": "Bobingabout",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "增加了一些和物流相关的东西.",
 	"description_original": "Adds logistic related things.",
-	"dependencies": ["base >= 0.13.12", "boblibrary >= 0.13.0", "? bobconfig >= 0.13.0", "? bobplates >= 0.13.0"]
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0", "? bobplates >= 0.14.0"]
 }

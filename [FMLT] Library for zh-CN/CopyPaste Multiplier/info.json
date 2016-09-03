@@ -1,0 +1,12 @@
+{
+	"name": "CopyPaste Multiplier",
+	"version": "0.1.0",
+	"title": "CopyPaste Multiplier",
+	"title_original": "CopyPaste Multiplier",
+	"author": "Apriori",
+	"description": "GUI for multiplying count of requested items in copy-pasted settings. Works only when copying settings to the requester chests.",
+	"description_original": "GUI for multiplying count of requested items in copy-pasted settings. Works only when copying settings to the requester chests.",
+	"factorio_version": "0.14",
+	"contact": "https://forums.factorio.com/ucp.php?i=pm&mode=compose&u=13866",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=144&t=32040"
+}

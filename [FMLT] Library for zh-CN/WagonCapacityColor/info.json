@@ -1,6 +1,6 @@
 {
 	"name": "WagonCapacityColor",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"title": "Wagon Capacity Color",
 	"title_original": "Wagon Capacity Color (colorize empty/filled/full)",
 	"author": "BinbinHfr",
@@ -8,6 +8,6 @@
 	"description_original": "Changes the color of any wagon, whether it's empty (green) or partially filled (yellow) or full (red).",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=27749",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.10"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
 }

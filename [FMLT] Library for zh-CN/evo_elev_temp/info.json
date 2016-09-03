@@ -1,12 +1,12 @@
 {
 	"name": "evo_elev_temp",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"title": "EvoGUI: Elevation and Temperature sensors",
-	"title_original": "EvoGUI: Elevation and Temperature sensors",
+	"title_original": "EvoGUI: Tile Information Sensors",
 	"author": "aubergine18",
-	"homepage": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=31015",
 	"description": "Adds elevation and temperature sensors to EvoGUI. Note: Temperature does not change with time of day.",
-	"description_original": "Adds elevation and temperature sensors to EvoGUI. Note: Temperature does not change with time of day.",
+	"description_original": "Tile info: Temperature, elevation, moisture, roughness, terrain, shrubs, trees...",
 	"dependencies": ["base >= 0.13.0", "EvoGUI >= 0.4.102"],
 	"factorio_version": "0.13"
 }

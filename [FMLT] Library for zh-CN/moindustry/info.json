@@ -1,6 +1,6 @@
 {
 	"name": "moindustry",
-	"version": "0.2.01",
+	"version": "0.2.02",
 	"title": "MoIndustry",
 	"title_original": "MoIndustry",
 	"author": "Ludsoe",
@@ -8,5 +8,5 @@
 	"description": "Adds more Industrial Options to factorio.",
 	"description_original": "Adds more Industrial Options to factorio.",
 	"dependencies": ["base", "? momining"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

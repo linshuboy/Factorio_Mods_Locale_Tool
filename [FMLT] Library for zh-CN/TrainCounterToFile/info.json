@@ -1,0 +1,13 @@
+{
+	"name": "TrainCounterToFile",
+	"version": "0.1.2",
+	"title": "Train Counter to File Mod",
+	"title_original": "Train Counter to File Mod",
+	"author": "Eastborn",
+	"contact": "eastborn@shadowimage.org",
+	"homepage": "",
+	"description": "Mod find trains by them starting or stopping and will write the amount of trains to a file ('%Factorio%/script-output/stream_data/train_amount.txt')",
+	"description_original": "Mod find trains by them starting or stopping and will write the amount of trains to a file ('%Factorio%/script-output/stream_data/train_amount.txt')",
+	"factorio_version": "0.14",
+	"dependencies": []
+}

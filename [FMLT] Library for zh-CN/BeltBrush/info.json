@@ -1,7 +1,7 @@
 {
 	"name": "BeltBrush",
-	"version": "13.0.1",
-	"factorio_version": "0.13",
+	"version": "14.0.1",
+	"factorio_version": "0.14",
 	"title": "Belt Brush",
 	"title_original": "Belt Brush",
 	"author": "Matjojo",
@@ -9,5 +9,5 @@
 	"homepage": "--",
 	"description": "Belt brush allows belts to be brushed, inspired by arumba07 on YT and Twitch",
 	"description_original": "Belt brush allows belts to be brushed, inspired by arumba07 on YT and Twitch",
-	"dependencies": ["base >= 0.13.10"]
+	"dependencies": ["base >= 0.14.1"]
 }

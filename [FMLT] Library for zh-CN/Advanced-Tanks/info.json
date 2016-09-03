@@ -1,11 +1,11 @@
 {
 	"name": "Advanced-Tanks",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"title": "Advanced Tanks",
 	"title_original": "Advanced Tanks",
 	"author": "KONAir, Maser, Neomore",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=27550",
 	"description": "Tanks! Adds additional tanks with various weapons and munitions! Also, a flamethrower car, but who cares?! We have tanks!",
 	"description_original": "Tanks! Adds additional tanks with various weapons and munitions! Also, a flamethrower car, but who cares?! We have tanks!",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

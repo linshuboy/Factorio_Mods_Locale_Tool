@@ -1,12 +1,12 @@
 {
 	"name": "00 Ghost Walking",
 	"version": "0.0.2",
-	"title": "00 Ghost Walking",
+	"title": "幽灵漫步",
 	"title_original": "00 Ghost Walking",
 	"author": "M",
 	"contact": "https://github.com/mophydeen",
 	"homepage": "https://github.com/mophydeen",
-	"description": "Walk everywhere even on water. Never be blocked again by a tree or a building.",
+	"description": "甚至在水上到处走。永远不要再被一棵树或建筑物挡住。",
 	"description_original": "Walk everywhere even on water. Never be blocked again by a tree or a building.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

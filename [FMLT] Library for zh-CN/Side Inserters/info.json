@@ -1,11 +1,11 @@
 {
 	"name": "Side Inserters",
-	"version": "2.2.1",
+	"version": "2.2.2",
 	"title": "Side Inserters",
 	"title_original": "Side Inserters",
 	"author": "GotLag",
 	"homepage": "https://mods.factorio.com/mods/GotLag/Side%20Inserters",
 	"description": "Adds left and right versions of each inserter.",
 	"description_original": "Adds hotkeys to adjust inserter pickup and drop locations.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

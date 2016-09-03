@@ -1,6 +1,6 @@
 {
 	"name": "mocombat",
-	"version": "0.6.0",
+	"version": "0.6.2",
 	"title": "MoCombat",
 	"title_original": "MoCombat",
 	"author": "Ludsoe",
@@ -8,6 +8,6 @@
 	"homepage": "",
 	"description": "Adds more to factorio's combat.",
 	"description_original": "Adds more to factorio's combat.",
-	"dependencies": ["base", "? mopower", "? motoolbar", "? CartmenCompleteOverhaul"],
-	"factorio_version": "0.13"
+	"dependencies": ["base", "? mopower", "? CartmenCompleteOverhaul"],
+	"factorio_version": "0.14"
 }
