@@ -27,11 +27,6 @@
 - 联系文本库管理员 Quiet95scholar(QQ-211398520, linshuboy@qq.com)，他会把你提交的汉化加入文本库。
 - 如果你会使用Git，也可以本项目的 develop 分支为基础，向其发起 Pull Request 。
 
-### 如何将git库变成汉化库？
-- 将[FMLT] Library for zh-CN文件夹以zip方式打包。
-- 修改代码CONST NAME_LIBRARY = "[FMLT] Library for zh-CN" ==>CONST NAME_LIBRARY = "[FMLT] Library for zh-CN.zip"
-- 是不是很方便
-
 ### 其它说明
 - 如有疑问，可在本项目中发起 Issue 或直接联系管理员。
 - 分支说明：`master`分支为阶段性发布分支，`develop`分支为汉化搜集分支。

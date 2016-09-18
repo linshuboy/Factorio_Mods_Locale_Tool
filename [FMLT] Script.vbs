@@ -4,7 +4,7 @@
 '********************************************************************************
 
 Option Explicit
-CONST SCRIPT_VERSION = 288  'Update date: 2016.07.31
+CONST SCRIPT_VERSION = 289  'Update date: 2016.09.18
 
 '----------------------------------- Options ------------------------------------
 
@@ -12,8 +12,9 @@ CONST SCRIPT_VERSION = 288  'Update date: 2016.07.31
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
 '    This is the name of locale library in the same directory as this script, 
-'which is either a zip file or a folder with valid library-info.json & 
-'script-echo.json inside.
+'which is either a folder or a zip file with valid library-info.json & 
+'script-echo.json inside. The folder with the same name has a priority to be 
+'recognized.
 
 CONST TEXT_PRIORITY = False
 '    This setting is used to toggle the priority of the text source to translate 
@@ -114,7 +115,11 @@ Class MODs_Translator
     Public Sub Load_Library(ByRef strPath_Folder, ByRef strName_Lib)
         Dim objFolder, arrFiles, objFile_Echo, dicEcho
         Set objFolder_Lib_Root = Nothing
-        If Not FZ.FolderExists(objFolder, strPath_Folder, strName_Lib, False) Then
+        If FZ.FolderExists(objFolder, strPath_Folder, strName_Lib, False) Then
+            '[skip line]
+        ElseIf FZ.FolderExists(objFolder, strPath_Folder, strName_Lib & ".zip", False) Then
+            '[skip line]
+        Else
             MsgBox Join(Array("The specified locale library does not exist: ", vbCrlf, _
                 vbCrlf, strPath_Folder, "\", strName_Lib), ""), 48, "Loading Error"
             WScript.Quit
