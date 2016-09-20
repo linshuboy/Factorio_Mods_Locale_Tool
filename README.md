@@ -1,4 +1,3 @@
-# Factorio Mods Locale Tool
 ## 异星工厂模组汉化工具
 - [异星工厂吧](http://tieba.baidu.com/f?kw=factorio)出品
 - 用搜集而来的文本库批量翻译异星工厂的模组，方便地共享模组汉化。
