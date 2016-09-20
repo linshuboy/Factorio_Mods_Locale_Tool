@@ -1,0 +1,692 @@
+* 00 Afraid In The Dark <=> 你恐惧黑暗吗?
+  减轻晚上的黑暗程度!!!
+
+* 00 Armor <=> 00 Armor
+  Adds a bigger armor and better equipment, crafted using multiple vanilla items.
+
+* 00 Ghost Walking <=> 幽灵漫步
+  甚至在水上到处走。永远不要再被一棵树或建筑物挡住。
+
+* 00 Water Pump <=> 00 Water Pump
+  Electric 1x1 water pump.
+
+* 20x20ArmorMK2 <=> 对动力装甲MK2 20×20插槽
+  这是一个动力装甲延伸MOD,使空间从10x10变成20x20.
+
+* 5dim_automatization <=> 5dim之自动化
+  这是5dim-MOD系列的自动化部分
+
+* 5dim_battlefield <=> 5dim's Mod - 战场
+  5dim之敌人
+
+* 5dim_core <=> 5dim's Mod - 引擎
+  驱动5dim的所有MOD
+
+* 5dim_decoration <=> 5dim's Mod - 装饰
+  5dim之装饰
+
+* 5dim_energy <=> 5dim's Mod - 能源
+  5dim之能源
+
+* 5dim_logistic <=> 5dim's Mod - 物流
+  5dim之矿产
+
+* 5dim_mining <=> 5dim's Mod - 矿产
+  5dim之矿产
+
+* 5dim_module <=> 5dim's Mod - 组件
+  5dim之组件
+
+* 5dim_ores <=> 5dim's Mod - 矿石
+  5dim之矿石
+
+* 5dim_resources <=> 5dim's Mod - 资源
+  5dim之资源
+
+* 5dim_transport <=> 5dim's Mod - 运输
+  5dim之运输
+
+* 5dim_vehicle <=> 5dim's Mod - 车辆
+  5dim之车辆
+
+* add-loader <=> add-loader
+  just add loader, fast loader, express loader.
+
+* AddAssemblerBatteries <=> 添加汇编电池
+  允许在组装机器以及化工厂制成的电池
+
+* Additional-Turret <=> Additional turrets
+  Adds two cannon and rocket turrets and small shells.
+
+* additionaloilrefineries <=> Additional Oil Refineries
+  Adds two upgraded Oil Refineries
+
+* Advanced-Drills <=> 先进的挖掘
+  增加了更多的更快的挖掘钻头。
+
+* Advanced-Electric <=> 先进的电
+  增加了更高层次的太阳能电池板和蓄电池。
+
+* Advanced-Logistics <=> Advanced Logistics
+  Adds upgraded transport belts and pipes, as well as easy belt laying.
+
+* advanced-logistics-system <=> Advanced Logistics System
+  Extended Logistics Network View and Monitoring
+
+* Advanced_Personal_Defense <=> 先进的个人防卫
+  增加了个人激光炮塔的Mk2以及使用的弹药，而不是能量的贴身防守炮塔。
+
+* AfraidOfTheDark <=> Afraid Of The Dark
+  Night is too dark for you ? Enforced flashlight and personal lights, powerful balloon lights or a pair of natural tinted night glasses could be the solution !
+
+* Agent Orange <=> Agent Orange
+  Adds a lesser poison capsule for tree removal.
+
+* air-filtering <=> Air filtering
+  Adding machines to reduce pollution
+
+* Aircraft <=> Aircraft
+  A recon and combat aircraft, along with a flying fortress and other aerocraft.
+
+* Algaculture <=> Algaculture
+  Adds an algae processing system as a new way of creating solid fuel.
+
+* Alien Oil <=> Alien Oil
+  This mod adds a method of moving crude oil deposits using alien technology.
+
+* Alien-Industry-Missile-Chariot <=> Alien Industry Missile Chariot
+  I want say, if description is to long, it will failed to upload to mod portal, so ffff you game maker
+
+* Alien-Industry-Overhaul <=> 异形产业
+  see mod page for more details
+
+* alien-science <=> Alien Science
+  Alternate crafting reciplie using Science Pack 1/2/3
+
+* AlienEggs <=> 异形蛋
+  发展你的异形蛋来获得想要的异形
+
+* AlienWall <=> Alien Walls
+  Humanity has made many great advances, but still looks to nature for inspiration. Thanks to users ThaPear, ratchetfreak, and Klonan for help on module healing.
+
+* Alternate Alien Science <=> Alternate Alien Science
+  Alternate crafting reciplie using alternate high end crafting matterials
+
+* AmmoBox <=> AmmoBox
+  Adds large ammo boxes, compacted ammo magazines for turrets, & Mk2 Gun Turret with logistics slots.
+
+* andrew-library <=> Andrew's Library
+  Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.
+
+* andrew-logistics <=> Andrew's Logistics
+  Adds construction robot, logistic robot and 4 types of pipes to the game. requires Andrew's Library to work.
+
+* andrew-modules <=> Andrew's Modules
+  Add 2 new types of Modules and more Modules from base game. requires Andrew's Library to work
+
+* andrew-power-armor <=> Andrew's power armor
+  Make armor items for warfare.
+
+* angelsinfiniteores <=> [AM] Angel's Infinite Ores
+  Adds infinite ores and base for AngelsMods, best used with RSO mod to have infinite ores in the core of regular resources patches.
+
+* angelsrefining <=> [AM] Angel's Refining
+  With AngelsInfiniteOres it adds ore refining to the game. Compound ores have to be refined before you are able to smelt and cast them into plates.
+
+* AquiferDrill <=> Drill to Aquifer
+  Adds a drill that draws up water from the underground.
+
+* Armageddon <=> Armageddon
+  Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, etc...)
+
+* Artillery <=> Artillery
+  Mod that adds an artillery piece to Factorio
+
+* AssemblyZero <=> Assembling Machine Zero
+  Mod that adds an Assembling Machine 0 to Factorio. An Assembling Machine 0 is smaller than an Assembling Machine 1 and uses less energy but can only craft recipes with 1 ingredient.
+
+* auto-research <=> Auto Research
+  Automatically start a new research when previous research is done. Enable/disable mod with Shift+T (customizable). Chooses research in the following order: Least different types of science packs, prioritized technologies (see config.lua), prerequisites for prioritized technologies, least effort technologies (effort = science packs * energy).
+
+* AutoPvP <=> AutoPvP
+  Automatic PvP mod to help you setting up PvP maps and fights, with automatic force creation and settings, random player placement and resources allocation.
+
+* BeltBrush <=> Belt Brush
+  Belt brush allows belts to be brushed, inspired by arumba07 on YT and Twitch
+
+* beltplanner <=> Automatic Belt Planner
+  Automatically places transport belt or pipe ghosts.
+
+* beltSorter <=> Belt sorter
+  Adds a new sorting entity which allows to sort items from belts to belts - recommended for the hardCrafting mod.
+
+* Bergius_Process <=> Bergius Process
+  Adds Bergius Process Oil production
+
+* Better_Reachdistance_and_Builddistance <=> Better Reachdistance and Builddistance
+  This Mod adds Technology for larger Reachdistance & Builddistance for Character.
+
+* Beyond <=> 卓越科技
+  融合的力量，小行星采矿、磁悬浮列车、轨道炮、锂离子电池、农场，塑料，化肥，更多的化学物质，现实的火箭推进剂和更多
+
+* BigBags <=> Big Bags
+  Big bags everywhere ! (inventory, toolbelt, logistic slots, stacks...)
+
+* BigDrill <=> Bucket Wheel Excavator
+  Adds a large Bucket Wheel Excavator, and a very fast ORE unloader.
+
+* BigWoodenPowerPole <=> BigWoodenPowerPole
+  Power Pole made of Wood
+
+* Big_Brother <=> Big Brother
+  Big Brother - Research radar upgrades in amplification, efficiency, and surveillance capabilities. Create the ultimate surveillance state.
+
+* BioTech <=> BioTech
+  Produce science packs and rocket parts using biological and renewable materials
+
+* Bio_Industries <=> Bio Industries
+  Bio Industries provides some useful buildings and items to the game. Bio Farm for growing trees. Bio-Garden to reduce pollution. New Wood Products. Bio Cannon to help with expansion. planting trees. fertilize terrain to help trees grow and more. You get additional functionality when you play with Natural Evolution Buildings. Please visit the homepage on the forums for more information and feedback.
+
+* BlackMarket <=> 黑市 (在黑市中出售和购买)
+  出售和购买 物品/液体/能源 在大宇宙黑市环境下 using trading chests/tanks/accumulators, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy things that you don't want to craft by yourself. You can also use these trading units as a paying shipment system.
+
+* blueprint-string <=> 蓝图代码 - 分享利器
+  能够把蓝图转换为代码，让蓝图可以方便地跨存档使用或分享给其它玩家。
+
+* bobassembly <=> Bob之装配机器
+  增加了装配机4,5和6
+
+* bobconfig <=> Bob之配置文件
+  这个模组允许你去设置bob的模组
+
+* bobelectronics <=> Bob之电子工业
+  增加了一些新的电子产业链.
+
+* bobenemies <=> Bob之敌人
+  只是增加了很少的一部分敌人（才怪！）.
+
+* bobgreenhouse <=> Bob之种树
+  这里是温室mod, 在这我们可以生产木头.
+
+* bobinserters <=> Bob之可调式机械臂
+  可以使用一些热键来调控机械臂的抓取和放置位置.
+
+* boblibrary <=> Bob之函数库
+  添加了一系列对bob的mod有用的函数. 它们也可以让其他mod更加简便.
+
+* boblocale <=> Bob之文本翻译
+  增加了一些来自社区的对bob的翻译.
+
+* boblogistics <=> Bob之物流
+  增加了一些和物流相关的东西.
+
+* bobmining <=> Bob之采矿
+  增加了一些很好用的采矿工具和采矿机器.
+
+* bobmodules <=> Bob之插件
+  拓展了原版的插件系统（很复杂，很强大）.
+
+* bobores <=> Bob之矿石
+  增加了不少有用的的矿石.
+
+* bobplates <=> Bob之金属加工、化工和中间产品
+  把额外的矿石冶炼成各种金属锭, 并且制造生产有用的中间产品.
+
+* bobpower <=> Bob之能源
+  新添了一些能源设备.
+
+* bobrevamp <=> Bob之翻新
+  科技和配方的重组.
+
+* bobtech <=> Bob之科学
+  增加了很有用的一些研究.
+
+* bobtechsave <=> Bob之研究进度保存
+  跟踪部分研究的一个模组.
+
+* bobwarfare <=> Bob战争
+  增加了一些为战争服务的东西.
+
+* Bottleneck <=> 生产瓶颈分析
+  A tool for locating input starved machines.
+
+* BreakReminder <=> 休息提醒
+  一个简单的模型，将提醒你休息后，设置一个时间，你可以指定加载一个保存。
+
+* BukketMod <=> BukketMod
+  A small attempt at grand things. Adds a bit of everything.
+
+* bulldozer <=> Bulldozer
+  Bulldozer for tearing up your base
+
+* Burner-Filter-Inserter <=> Burner-Filter-Inserter
+  Adds burner filter inserters with 1 filter from the start of the game.
+
+* CargoRocket <=> Cargo Rocket
+  Use your rockets as a cargo to quickly send a payload to a distant outpost.
+
+* Challenge <=> Challenge
+  Define a challenge on a chosen map and try to complete it as fast as you can, or in a limited time. Publish it on the factorio forum (section Maps and Scenarios) to challenge other players, and see if someone can beat your personal record...
+
+* CharcoalBurner <=> Charcoal Burner
+  Adds a way to turn your useless excess wood into charcoal
+
+* cheat <=> Cheat Box
+  Create raw resources. Produces all items without materials. Disposal items. Long distance (build, reach, pickup). New items
+
+* CMHMod <=> CMHMod - Rebalancing Bob's Mods
+  Making use of the highest tiers of Bob's mods right to the end game. Introduces more 'advanced recipes' for the classic choice between higher production yields vs simplicity. Please report any bugs to forums.factorio.com and search for CMHMod (any CMHMod thread will do).
+
+* CoalToHeavy <=> Crack Coal to Heavy
+  Adds a recipe that can crack Coal into Heavy Oil at a Chemical Plant.
+
+* color-picker <=> Color Picker
+  Adds a color picker GUI that can be used by other mods. But this mod itself doesn't do anything alone.
+
+* Combat_Units <=> Combat Units
+  Lets you craft combat units, they will automatically launch, defend your base and attack enemy units. They are not intelligent, but they are powerful.
+
+* Compression Chests <=> Compression Chests
+  Store massive amounts of one item type in a single chest.
+
+* Concrete_Lamppost <=> Concrete Lamppost
+  Adds a Lamppost made of Concrete
+
+* CopyPaste Multiplier <=> CopyPaste Multiplier
+  GUI for multiplying count of requested items in copy-pasted settings. Works only when copying settings to the requester chests.
+
+* CopySettingsTool <=> Copy Settings Tool (area selection tool for copy-once/paste-multiple)
+  This area selection tool is an extension of the classical copy-paste settings feature, that allows multiple paste on a group of objects.
+
+* CORE-DyTech-Core <=> CORE-DyTech-Core
+  1 Core to rule them all!
+
+* Crafted Artifacts <=> Crafted Artifacts
+  Provides resources and recipes for crafting alien artifacts.
+
+* creative-mode <=> Creative Mode
+  Based on the amazing mod created by Y.Petremann, then patched by Pac0master, now updated by me (Mooncat). This mod adds entities that can generate unlimited items or fluid, or nullify them. Perfect for testing purpose or making initial setup for games. The item recipes are disabled by default. Type /c remote.call("creative-mode", "enable") to enable them.
+
+* CurvedRail <=> Curved Rail
+  Adds the curved rail item back into the crafting menu.
+
+* dark-matter-replicators <=> Dark Matter Replicators
+  Adds replicators which can produce items using only electricity.  The existence of this version of Replicators is not meant to be disrespectful in any way to darkshadow1809 or Doublespin.  Back when the replicators mod was first abandoned I made my own version based on my own preferences, and seeing what darkshadow1809 and Doublespin have done with the mod inspired me to make even more changes.
+
+* DayNightExtender <=> DayNightExtender
+  Increase the length of day and night cycle. Vanilla length is around 7 mins. The extender multiplies this by x4 to 28 mins. This multiplier is customizable in config.lua.
+
+* DeathChest <=> DeathChest
+  Spawn a chest upon death containing all your stuff
+
+* DistancePlus <=> DistancePlus
+  The Mod adds longer distance versions of belts, pipes and electric poles.
+
+* DrillingPumpjack <=> The Drilling Pumpjack
+  A pumpjack which extract oil from the depths of the planet, made from the BinbinHfr mod : https://mods.factorio.com/mods/binbinhfr/WaterWell
+
+* Drones <=> Drones
+  Eyes in the sky ! Monitor and pilot your factory with your smartphone.
+
+* dynamic-train-stop <=> Dynamic Train Stops
+  Train stop that renames itself based on circuit network input
+
+* EEMD <=> Epic electric mining drill mod
+  Adds a 'Epic electric mining drill' which basically is 7x7 electric mining drills condensed into one big.
+
+* EfficienSee <=> 产能分析 - 优化生产
+  优化大型工厂生产效率！检查每个产品和配方的产量，找出产能不足和产能过剩，列出每个配方的供需统计和工厂运转情况，让你轻松地发现整个生产链中的薄弱环节。
+
+* Electric Furnaces <=> Electric Furnaces
+  Adds electric versions of the stone and steel furnaces, and an upgraded electric furnace.
+
+* electric-vehicles <=> Electric Vehicles
+  Adds electric vehicles that run on battery energy.
+
+* ElectricVoid <=> Electric Void
+  Adds 3 objects, to test the capacity of your electrical network : a huge consumer, a huge producer and an equalizer.
+
+* EMP Biters <=> EMP Biters
+  Think the enemies are too easy? Well, now they can disable your defenses with an EMP blast!
+
+* Equalizer_Chests <=> 均衡箱
+  提供均衡箱，可以自动均衡相邻箱子中货物
+
+* EvenMoreLight <=> EvenMoreLight
+  Adds Cars, Trains and some other vehicles to MoreLight. Credits to JamesOFarrell, closteam and antisocialian.
+
+* EvoGUI <=> 进化因子指示器
+  左上角UI指示器告诉你当前的虫族进化几率，它也告诉你玩了多久。
+
+* evo_elev_temp <=> EvoGUI: Elevation and Temperature sensors
+  Adds elevation and temperature sensors to EvoGUI. Note: Temperature does not change with time of day.
+
+* exoman <=> ExoMan
+  Manage your armor
+
+* Expanded_Robot_Tech <=> Expanded Robot Technology
+  More technologies for the logistics system including robot speed, robot carrying capacity and character logistics slots.
+
+* Explosive Termites <=> Explosive Termites
+  Provides explosive termites for large scale deforestation.
+
+* Factorio Directed by Michael Bay <=> Factorio, Directed by Michael Bay
+  With the All Spark gone, we cannot return life to our planet. And fate has yielded its reward: a new world to call home. We live among its people now, hiding in plain sight, but watching over them in secret, waiting, protecting. I have witnessed their capacity for courage, and though we are worlds apart, like us, there's more to them than meets the eye. I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars. We are here. We are waiting.
+
+* Factorissimo <=> Factorissimo
+  I heard you like building factories. This mod adds a factory building you can walk into and build a part of your factory inside. You can move items and liquids in and out, processing them inside the building. You can pick up the entire building and set it down somewhere else, preserving its contents. You can even place factory buildings inside other factory buildings.
+
+* FARL <=> Fully Automated Rail Layer
+  Fully automated rail-layer
+
+* Fastforward-Start <=> 跳过第一个小时
+  I cant be bothered with the hand mining/crafting first hour  Increased starting equipment to remove hand mining stage of game and jump straight into using trains  Hopefully enough items to get a small factory and power station running.  Doesn't effect research, you will still need to do all of that.
+
+* FastLongInserters <=> Fast Long Inserters
+  This Mod ads Long Fast Inserters.
+
+* Fast_Long_Inserter <=> 又快又长的机械臂
+  添加一个加快加长机械臂在解锁物流2后.
+
+* Fire_Mine <=> 火矿Mod
+  You'll warm up to the idea
+
+* FixedLampTexture <=> Fixed Lamp Texture
+  The small lamp had received a new entity texture but the item texture remained the same as the old small lamp texture. This is a fix for that.
+
+* Flare <=> Flare
+  Adds a light generating capsule for nighttime use.
+
+* Flare Stack <=> Flare Stack
+  Adds a flare stack to dispose of unwanted petroleum products.
+
+* Flow Control <=> Flow Control
+  Adds pipes with restricted connections, non-return valve, and basic and improved pumps.
+
+* Fluid Void <=> Fluid Void
+  A pipe to void fluids.
+
+* Fluidizer <=> Fluidizer
+  Can turn all items (including mod items) into fluid and back again. Forked off of Swadius' mod PipeEverything.
+
+* FlyTox <=> FlyTox
+  A new technology with diffusers that continuously spray a modified solid insecticide that slowly kills aliens approaching it at long distance. Nice to have some of them close to your walls : it saves some laser energy...
+
+* Force Fields <=> Force Fields
+  Electric powered walls.
+
+* GDIW <=> GDIW
+  Allows switching liquid recipie inputs and outputs.
+
+* gimprovements <=> General Improvements
+  Adds many updates of various stuff, new turrets, equipment, ammo, thermal power station (energy source), transmitter of wireless electricity and more
+
+* gravestones <=> Hazzard's Gravestones
+  Saves your inventory items inside a gravestone when you die.
+
+* GroundPrinter <=> Ground Printer
+  A printer to display larg texts and graphics on the ground. A handy way to personalize your map!
+
+* HandCrankGenerator <=> Hand Crank Generator
+  You managed to salvage a manual emergency generator from your spacecraft.
+
+* HandyHands <=> HandyHands - Automatic handcrafting
+  Automatically start handcrafting an item that is quickbar filtered that you have less than 1 stack of whenever your crafting queue is empty. Prioritises items in your cursor. Change settings with hotkeys. Don't forget to automate production of everything!
+
+* hardcorio <=> Hardcorio:SC2
+  Stx3 version is hardcorio_2.2.8. Remake by maroder. Experimental version 11.07.2016
+
+* hardCrafting <=> Hard crafting
+  Modifies vanilla crafting and smelting to be much trickier, you will need better planning and more clever setup
+
+* helmod <=> Helmod: Assistant to plan its base.
+  Assistant to plan its base. calculates the needs, resources, factories, beacon or electric power.
+
+* Honk <=> Honk
+  Trains honk when stopping. And starting. And on command.
+
+* Hydraulic_Mining_Drill <=> Hydraulic Mining Drill
+  Adds a new type of mining drill that only uses water
+
+* Item Collectors <=> Item Collectors
+  A chest that picks up items on the ground.
+
+* KBlueprints <=> Killkrogs Blueprint Manager
+  Adds ways to import/export and flip blueprints.
+
+* KS_Power <=> KS Power
+  Adds a range of different power producing options
+
+* Landfill <=> Landfill
+  Use stone to reclaim land and explosions to remove it.
+
+* Laser_Beam_Turrets <=> Laser beam turrets
+  Makes laser turrets shoot beams
+
+* Lejv-armor <=> Lejv armor
+  Tired of not having room for anything you want in your armor? This 32x32 armor combined with the Lejv Fusion Reactor makes a must have lategame item, at a really high cost.
+
+* LogisticsMining <=> Logistics Mining
+  Logistics Mining
+
+* magnet <=> Magnet
+  Adds a magnet that increases pickup radius.
+
+* MagneticFloor <=> 磁悬浮地板
+  磁悬浮，像风一样自由的滑翔
+
+* Megamind <=> Megamind
+  Now you can control alien brains ! And force them to fight for you ! Well at least some of them, and for a limited time...
+
+* MiningTools <=> 采矿工具
+  Tools to speed up your mining (pneumatic drills & fast mining drills), provide new resources (with dynamite or massive water injection) and even erase resources (with dynamite).
+
+* Misanthrope <=> Misanthrope
+  Alters biter expansion mechanics, adds vastly improved biter AI behavior
+
+* Mk3 Armor <=> 动力装甲Mk3
+  增加了一个昂贵的MK3动力装甲和20x20模块网格。也许以后会有进一步的设备。
+
+* mocombat <=> MoCombat
+  Adds more to factorio's combat.
+
+* Modular-Armor <=> Modular Armor
+  Alters Modular Armor and adds new Modules
+
+* moindustry <=> MoIndustry
+  Adds more Industrial Options to factorio.
+
+* mopower <=> MoPower
+  Adds more power options to factorio.
+
+* more-bullet-upgrades <=> more bullet upgrades
+  Bullet upgrades mod addes upgrade levels 7 & 8 to bullet damage & speed, just to see if I can :)
+
+* More_Floors <=> More_Floors
+  Adds more floors to pretty up your factories
+
+* motrans <=> MoTransportation
+  Adds More Transportation Things to factorio.
+
+* Natural_Evolution_Buildings <=> Natural Evolution Buildings
+  Add some very useful buildings to combat the Enemy threat, as changed by N.E. Enemies and Expansion. Part of the N.E. Mods, but can be used as Standalone. Please visit home page for more details.
+
+* Natural_Evolution_Enemies <=> Natural Evolution Enemies
+  All things Alien! Adds new Enemies and updates to Biter/Spitters Spawners. If you want a more of a challenge than what Vinalla can offer you... Part of the N.E. Mods, but can be used as Standalone. Please visit home page for more details.
+
+* Natural_Evolution_Expansion <=> Natural_Evolution_Expansion
+  All things Alien! Manages Evolution & Expansion
+
+* Nucular <=> Nucular - Nuclear Power
+  Nuclear power plants, bombs and science.
+
+* Orbital Ion Cannon <=> Orbital Ion Cannon
+  When you need to call down the thunder to deal with those pesky biters, launch a rocket with an ion cannon into orbit and show the bugs who's boss.
+
+* peacemod <=> Peace Mod
+  Completely removes enemies and allows alien artifacts to be mined instead.
+
+* player-color <=> Player Color
+  When used together with Color Picker mod, this provides an easy and well visualised way to change your player color.
+
+* pollution-detector <=> Pollution detector
+  Adds a new entity for detecting pollution
+
+* Portal <=> 传送门
+  增加了新的设备传送的景象。很好用的缩放国防部-你会看到进一步，并进一步跳。
+
+* Powered_Entities <=> Powered  Entities
+  This mod will create power lines between most of the base game's entities that require power.
+
+* Pre-Fusion <=> 预聚集式太阳能板
+  增加太阳能电池板的输出。
+
+* ProgressiveRunning <=> Progressive Running
+  Accelerate progressively when starting running : useful when your max speed is high due to exoskeletons and concrete, and you want to position precisely your character.
+
+* RailLogicSystem <=> RailLogicSystem
+  Want to control railway by circuit network? Here we go!
+
+* RailTanker <=> Rail Tanker
+  Adds an rail tanker (rail tank car) for transporting liquids
+
+* recursive-blueprints <=> Recursive Blueprints
+  Recursive Blueprint deployment system
+
+* Red Alerts <=> Red Alerts
+  Adds some useful warnings such as Low Power and Structure Destroyed, announced either by the EVA voices from the Command and Conquer game series or with unvoiced soundsets.
+
+* Reinforced-Walls <=> Steel Reinforced Walls
+  Gives reinforced steel walls after researching Walls, Military 2, and Concrete
+
+* reverse-factory <=> Reverse Factory
+  Reverse Factory machine will uncraft nearly any item placed inside. Supports all modded items
+
+* ScoreExtended <=> Score Extended
+  Extension to original rocket score window. Display number of rockets and averages. Autohide the window after a delay. Autolaunch option.
+
+* security-camera <=> Security cameras
+  Adds a security camera for monitoring (very) small areas.
+
+* Sensor <=> Sensor
+  Adds a combinator that outputs all inventories of an adjacent currently not connectable entities to the circuit network.
+
+* Side Inserters <=> Side Inserters
+  Adds left and right versions of each inserter.
+
+* SJT-DirtyOre <=> SJT Dirty Ores
+  Adds dynamically created contaminated ores. Ore processing. More chemical plants and refineries. Features can be toggled with config file. Should work with (almost) all mod ores, conditional recipes if bobmods is present.
+
+* SmartDisplay <=> Smart Display
+  A combinator that displays a signal from the circuit network, with formating options.
+
+* SpaceBook <=> SpaceBook
+  Forces & players manager for multiplayer gaming and PvP.
+
+* spawn-belt <=> Spawn Belt
+  Create spawn & void belts to test throughput
+
+* spawn-pump <=> Spawn Pump
+  Create spawn & void pumps to test refinery setups
+
+* speed_machines <=> Speed Machines
+  This mod has machines that push the limits of speeds itself and also including 2 new fuels by compressing coal
+
+* Stainless Steel Wagon <=> Stainless Steel Wagon
+  A Stainless Steel wagon.
+
+* steinios_AnB_patch <=> steinios Angel's and Bob's ferric solution patch
+  Patch for Angel's with Bob's mod. Ferric solution needs iron powder instead of iron ore.
+
+* StickyNotes <=> Sticky Notes (notes and signs on the map)
+  Stick notes (or signs) on the map, as a reminder for yourself, or a message for other players.
+
+* Suit-Plug <=> Suit Plug
+  Mod that allows you to charge your power suit with your factory's power
+
+* SuperTank <=> Super Tank
+  A boosted customisable version of the original tank, with boosted ammos and a nice red color !
+
+* Surfaces <=> Surfaces
+  Reach up to the skies or dig deep below, expand your base vertically... If you're into that kind of thing.
+
+* Tank Gun <=> Tank Gun
+  Not a gun from a tank, nor a gun for shooting tanks. This is a gun that shoots tanks.
+
+* TimeTools <=> 时间工具 - 居家必备
+  游戏时钟 + 昼夜/极昼切换 + 游戏速度切换 + 时钟信号发生器
+
+* Torches <=> Torches
+  Illuminating Torches made of Wood and Coal
+
+* TrainSpeedLimit <=> Train Speed Limit
+  Introduces speed limit signs for trains.
+
+* Treefarm-Lite <=> Treefarm-Lite
+  This mod enables you to cultivate trees and/or other plants.Published under the GPLv3
+
+* TreeSeeds <=> JJtJJ's Tree Planting Mod
+  Mod that allows you to plant trees from seeds
+
+* Upgrade <=> Upgrade
+  Ever wanted to repurpose your unused burner drills and furnaces? Now you can with Upgrade!
+
+* upgrade-planner <=> Upgrade planner
+  Automatically upgrade buildings with construction robots.
+
+* UraniumPower <=> Uranium Power
+  Mod that adds Uranium Technologies to Factorio
+
+* usefulSpace <=> Useful Space Industry
+  Tired of sending rockets to space for no gain other than an increasing score!?
+
+* VersepellesDeepQuarry <=> Deep Quarry
+  Adds quarry buildings to the game, which mine ores without an ore patch.
+
+* VoidChestInstant <=> VoidChestInstant
+  Makes a chest for destroying unwanted items... instantly!
+
+* WagonCapacityColor <=> Wagon Capacity Color
+  Change the color of the wagon, whether it's empty (green) or partially filled (red).
+
+* Warehousing <=> Warehousing mod
+  Warehousing that allows you to have large storage buildings. Store all the things!
+
+* water-maze <=> 水迷宫
+  改变最初的土地和水的分布
+
+* Waterfill <=> Waterfill
+  Placable water
+
+* WaterWell <=> Water Well
+  A water well pump, to pump water from the groundwater table.
+
+* WideChests <=> Wide Chests
+  Enables merging of steel chests into up to 42 wide or 42 high chest.
+
+* YARM <=> Yet Another Resource Monitor Fork
+  This mod helps you to keep track of your mining sites.
+
+* yi_engines <=> Yuoki Industries - Engines (Addon)
+  additional/alternate power generation, MF, agriculture in a different way
+
+* yi_railway <=> Yuoki Industries - Railways
+  decorative railway mod
+
+* Yuoki <=> Yuoki Industries
+  adds more content like generators, ressource-transformations, machinery, turrets ...
+
+* ZGroupChange <=> [Z] Group Change
+  Resort items and recipes for most biggest, poppular and usefull mods. List of supported mods: 5Dim, Bob's, Yuoki, Angel's and more. This mod oriented to work with all supported mods together at the same time.
+
+* Zoom <=> Zoom
+  Just 2 buttons to zoom extra wide or close, further than actual gui limits !
+
+* ZRecycling <=> Recycling Machines
+  Recycling Machines that disassemble most items back into 100% of their recipe ingredients. Optionally, can be used with a Recycling Return trigger mod to reduce the percentage recycling return.
+
+* zythum <=> +zythum sorter
+  Simple, clean resorter mod for a clean crafting UI. This mod aims to support absolutely all Factorio mods, in order to provide any player with a perfectly clean crafting UI. Will also resort large mods like 5im's, andrew's, angel's and bob's mods.
+
+* _M_Armor <=> _M_ Armor
+  Adds a bigger armor and better equipment, crafted using multiple vanilla items.

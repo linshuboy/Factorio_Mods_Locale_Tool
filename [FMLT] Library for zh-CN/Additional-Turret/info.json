@@ -1,13 +1,13 @@
 {
 	"name": "Additional-Turret",
-	"version": "0.0.2",
+	"version": "0.0.6",
 	"title": "Additional turrets",
 	"title_original": "Additional turrets",
 	"author": "sore68",
 	"contributors": "",
 	"homepage": "",
 	"description": "Adds two cannon and rocket turrets and small shells.",
-	"description_original": "Adds two cannon and rocket turrets and small shells.",
+	"description_original": "Adds  cannon and rocket turrets and small shells.",
 	"contact": "song45033@gmail.com",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14.0"]

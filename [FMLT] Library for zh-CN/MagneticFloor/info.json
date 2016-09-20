@@ -1,13 +1,13 @@
 {
 	"name": "MagneticFloor",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"title": "磁悬浮地板",
 	"title_original": "MagneticFloor",
 	"author": "kiba",
 	"contact": "hackerkiba@gmail.com",
 	"homepage": "https://github.com/kiba/Factorio-MagneticFloor",
 	"description": "磁悬浮，像风一样自由的滑翔",
-	"description_original": "Go faster, with magnetic floors.",
-	"dependencies": ["base >= 0.13.0"],
-	"factorio_version": "0.13.0"
+	"description_original": "Automated movement system.",
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14.1"
 }

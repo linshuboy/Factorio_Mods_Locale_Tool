@@ -1,6 +1,6 @@
 {
 	"name": "Fluid Void",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"title": "Fluid Void",
 	"title_original": "Fluid Void",
 	"author": "Rseding91",
@@ -8,5 +8,5 @@
 	"dependencies": ["base"],
 	"description": "A pipe to void fluids.",
 	"description_original": "A pipe to void fluids.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

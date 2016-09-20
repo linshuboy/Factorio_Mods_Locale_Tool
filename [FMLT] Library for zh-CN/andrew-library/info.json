@@ -1,6 +1,6 @@
 {
 	"name": "andrew-library",
-	"version": "0.14.1",
+	"version": "0.14.4",
 	"title": "Andrew's Library",
 	"title_original": "Andrew's Library",
 	"author": "Andrew",
@@ -9,5 +9,5 @@
 	"description": "Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.",
 	"description_original": "Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.",
 	"factorio_version": "0.14",
-	"dependencies": ["base >= 0.14.0", "? Factorissimo >= 0.2.0"]
+	"dependencies": ["base >= 0.14.0", "? Factorissimo >= 0.2.0", "? FARL >= 0.6.0", "? RailTanker >= 1.4.0"]
 }

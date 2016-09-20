@@ -1,6 +1,6 @@
 {
 	"name": "AddAssemblerBatteries",
-	"version": "0.14.1",
+	"version": "0.14.2",
 	"title": "添加汇编电池",
 	"title_original": "Add Assembler Batteries",
 	"author": "DRY411S",
@@ -9,5 +9,5 @@
 	"description": "允许在组装机器以及化工厂制成的电池",
 	"description_original": "Allows batteries to be made in assembling machines, as well as in chemical plants.",
 	"factorio_version": "0.14",
-	"dependencies": ["base >= 0.14.1"]
+	"dependencies": ["base >= 0.14.3"]
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Force Fields",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"title": "Force Fields",
 	"title_original": "Force Fields",
 	"author": "Rseding91",
@@ -8,5 +8,5 @@
 	"dependencies": ["base >= 0.12"],
 	"description": "Electric powered walls.",
 	"description_original": "Electric powered walls.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

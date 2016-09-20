@@ -1,6 +1,6 @@
 {
 	"name": "Suit-Plug",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"title": "Suit Plug",
 	"title_original": "Suit Plug",
 	"author": "SirIntellegence",
@@ -8,6 +8,6 @@
 	"homepage": "https://bitbucket.org/sirintellegence/factorio-suit-plug",
 	"description": "Mod that allows you to charge your power suit with your factory's power",
 	"description_original": "Mod that allows you to charge your power suit with your factory's power",
-	"factorio_version": "0.13",
+	"factorio_version": "0.14",
 	"dependencies": ["base"]
 }

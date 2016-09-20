@@ -3,31 +3,8 @@
 '                   Coded by Mr.Jos   Email: sd7056333@163.com
 '********************************************************************************
 
-'---------------------------- The MIT License (MIT) -----------------------------
-
-'Copyright (c) 2016 Mr.Jos
-
-'Permission is hereby granted, free of charge, to any person obtaining a copy of 
-'this software and associated documentation files (the "Software"), to deal in 
-'the Software without restriction, including without limitation the rights to 
-'use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
-'of the Software, and to permit persons to whom the Software is furnished to do 
-'so, subject to the following conditions:
-
-'The above copyright notice and this permission notice shall be included in all 
-'copies or substantial portions of the Software.
-
-'THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-'IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
-'FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
-'COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
-'IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
-'CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-'--------------------------------------------------------------------------------
-
 Option Explicit
-CONST SCRIPT_VERSION = 288  'Update date: 2016.07.31
+CONST SCRIPT_VERSION = 290  'Update date: 2016.09.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -35,8 +12,9 @@ CONST SCRIPT_VERSION = 288  'Update date: 2016.07.31
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
 '    This is the name of locale library in the same directory as this script, 
-'which is either a zip file or a folder with valid library-info.json & 
-'script-echo.json inside.
+'which is either a folder or a zip file with valid library-info.json & 
+'script-echo.json inside. The folder with the same name has a priority to be 
+'recognized.
 
 CONST TEXT_PRIORITY = False
 '    This setting is used to toggle the priority of the text source to translate 
@@ -52,6 +30,7 @@ CONST UPDATE_LIBRARY = False
 'loaded library after translation.
 '    If True, the newly-generated locale files will be copied back to library, 
 'which is usually applied to auto-collect translations in a large number of mods.
+'The mods of 0 translation rate will be removed from library after translating.
 '    If False (default), the library will keep locked.
 
 '--------------------------------------------------------------------------------
@@ -137,7 +116,11 @@ Class MODs_Translator
     Public Sub Load_Library(ByRef strPath_Folder, ByRef strName_Lib)
         Dim objFolder, arrFiles, objFile_Echo, dicEcho
         Set objFolder_Lib_Root = Nothing
-        If Not FZ.FolderExists(objFolder, strPath_Folder, strName_Lib, False) Then
+        If FZ.FolderExists(objFolder, strPath_Folder, strName_Lib, False) Then
+            '[skip line]
+        ElseIf FZ.FolderExists(objFolder, strPath_Folder, strName_Lib & ".zip", False) Then
+            '[skip line]
+        Else
             MsgBox Join(Array("The specified locale library does not exist: ", vbCrlf, _
                 vbCrlf, strPath_Folder, "\", strName_Lib), ""), 48, "Loading Error"
             WScript.Quit
@@ -259,6 +242,7 @@ Class MODs_Translator
             objFolder_Lib, arrOptions)
         Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, _
             objFolder_Lib, arrOptions)
+        If arrOptions(1) And arrCount(1) = 0 Then Call FZ.Delete(objFolder_Lib)
         If arrCount(0) = 0 Then
             ML.Print 3, ML.Echo("trans_none", Array(Int2Str(0, 3), Int2Str(0, 3)))
         Else

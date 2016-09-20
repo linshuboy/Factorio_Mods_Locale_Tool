@@ -1,9 +1,12 @@
 {
 	"name": "advanced-logistics-system",
-	"version": "0.2.13",
+	"version": "0.4.0",
+	"factorio_version": "0.14",
 	"title": "Advanced Logistics System",
+	"title_original": "Advanced Logistics System",
 	"author": "anoutsider",
 	"description": "Extended Logistics Network View and Monitoring",
+	"description_original": "Extended Logistics Network View and Monitoring",
 	"homepage": "https://github.com/anoutsider/advanced-logistics-system",
-	"dependencies": ["base >= 0.12.12"]
+	"dependencies": ["base >= 0.14.0"]
 }

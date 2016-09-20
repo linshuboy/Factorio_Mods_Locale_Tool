@@ -1,12 +1,12 @@
 {
 	"name": "creative-mode",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"title": "Creative Mode",
 	"title_original": "Creative Mode",
 	"author": "Y.Petremann, Pac0master, Mooncat",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=28005",
 	"description": "Based on the amazing mod created by Y.Petremann, then patched by Pac0master, now updated by me (Mooncat). This mod adds entities that can generate unlimited items or fluid, or nullify them. Perfect for testing purpose or making initial setup for games. The item recipes are disabled by default. Type /c remote.call(\"creative-mode\", \"enable\") to enable them.",
 	"description_original": "Based on the amazing mod created by Y.Petremann, then patched by Pac0master, now updated by me (Mooncat). This mod adds entities that can generate unlimited items or fluid, or nullify them. Perfect for testing purpose or making initial setup for games. The item recipes are disabled by default. Either use the one-time enabler popup, or type /c remote.call(\"creative-mode\", \"enable\") to enable them.",
-	"factorio_version": "0.13",
-	"dependencies": ["base >= 0.13.17"]
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.4"]
 }

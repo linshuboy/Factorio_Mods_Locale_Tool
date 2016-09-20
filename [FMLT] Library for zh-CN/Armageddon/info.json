@@ -1,11 +1,11 @@
 {
 	"name": "Armageddon",
 	"author": "BinbinHfr",
-	"version": "1.0.11",
+	"version": "1.0.13",
 	"title": "Armageddon",
 	"title_original": "Armageddon (nice little disasters)",
 	"description": "Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, etc...)",
-	"description_original": "Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, etc...)",
+	"description_original": "Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, frenzy, etc...)",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26910",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
 	"factorio_version": "0.14",

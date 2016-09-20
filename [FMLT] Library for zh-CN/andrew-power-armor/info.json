@@ -1,6 +1,6 @@
 {
 	"name": "andrew-power-armor",
-	"version": "0.14.0",
+	"version": "0.14.2",
 	"title": "Andrew's power armor",
 	"title_original": "Andrew's power armor",
 	"author": "Andrew",
@@ -9,5 +9,5 @@
 	"description": "Make armor items for warfare.",
 	"description_original": "Make armor items for warfare.",
 	"factorio_version": "0.14",
-	"dependencies": ["base >= 0.14.0", "andrew-library >= 0.14.0", "? andrew-modules >= 0.14.0", "? andrew-ore >= 0.14.0"]
+	"dependencies": ["base >= 0.14.0", "andrew-library >= 0.14.3", "? andrew-modules >= 0.14.2", "? andrew-ore >= 0.14.2"]
 }

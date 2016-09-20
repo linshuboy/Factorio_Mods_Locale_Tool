@@ -1,12 +1,12 @@
 {
 	"name": "Alien Oil",
 	"author": "Rseding91",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"title": "Alien Oil",
 	"title_original": "Alien Oil",
 	"homepage": "",
 	"description": "This mod adds a method of moving crude oil deposits using alien technology.",
 	"description_original": "This mod adds a method of moving crude oil deposits using alien technology.",
 	"dependencies": ["base"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

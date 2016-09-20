@@ -1,6 +1,6 @@
 {
 	"name": "Landfill",
-	"version": "2.1.10",
+	"version": "2.1.11",
 	"title": "Landfill",
 	"title_original": "Landfill",
 	"author": "Rseding91",
@@ -8,5 +8,5 @@
 	"dependencies": ["base"],
 	"description": "Use stone to reclaim land and explosions to remove it.",
 	"description_original": "Use stone to reclaim land and explosions to remove it.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }
