@@ -4,7 +4,7 @@
 '********************************************************************************
 
 Option Explicit
-CONST SCRIPT_VERSION = 289  'Update date: 2016.09.18
+CONST SCRIPT_VERSION = 290  'Update date: 2016.09.20
 
 '----------------------------------- Options ------------------------------------
 
@@ -30,6 +30,7 @@ CONST UPDATE_LIBRARY = False
 'loaded library after translation.
 '    If True, the newly-generated locale files will be copied back to library, 
 'which is usually applied to auto-collect translations in a large number of mods.
+'The mods of 0 translation rate will be removed from library after translating.
 '    If False (default), the library will keep locked.
 
 '--------------------------------------------------------------------------------
@@ -241,6 +242,7 @@ Class MODs_Translator
             objFolder_Lib, arrOptions)
         Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, _
             objFolder_Lib, arrOptions)
+        If arrOptions(1) And arrCount(1) = 0 Then Call FZ.Delete(objFolder_Lib)
         If arrCount(0) = 0 Then
             ML.Print 3, ML.Echo("trans_none", Array(Int2Str(0, 3), Int2Str(0, 3)))
         Else
