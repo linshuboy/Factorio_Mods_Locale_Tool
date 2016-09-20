@@ -1,11 +1,11 @@
 {
 	"name": "Beyond",
-	"version": "0.1.2",
+	"version": "0.2.0",
 	"title": "卓越科技",
 	"title_original": "Beyond",
 	"author": "Simdezimon",
 	"dependencies": ["base", "Nucular"],
 	"description": "融合的力量，小行星采矿、磁悬浮列车、轨道炮、锂离子电池、农场，塑料，化肥，更多的化学物质，现实的火箭推进剂和更多",
 	"description_original": "Fusion power, asteroid mining, maglevs, railguns, lithium-ion batteries, farms, bioplastic, fertilizer, more chemicals, realistic rocket propellants and more",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

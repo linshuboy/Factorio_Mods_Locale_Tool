@@ -1,6 +1,6 @@
 {
 	"name": "Pre-Fusion",
-	"version": "0.0.3",
+	"version": "14.0.3",
 	"title": "预聚集式太阳能板",
 	"title_original": "Pre-Fusion",
 	"author": "Ranakastrasz",
@@ -9,5 +9,5 @@
 	"description": "增加太阳能电池板的输出。",
 	"description_original": "Increases Solar Panel Output.",
 	"dependencies": ["base"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

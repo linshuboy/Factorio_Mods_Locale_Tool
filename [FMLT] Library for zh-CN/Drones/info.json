@@ -1,6 +1,6 @@
 {
 	"name": "Drones",
-	"version": "1.0.22",
+	"version": "1.0.23",
 	"title": "Drones",
 	"title_original": "Drones (remote monitor your factory from drones)",
 	"author": "BinbinHfr",
@@ -8,5 +8,6 @@
 	"description_original": "Eyes in the sky ! Monitor and pilot your factory with your smartphone. (or a way to have several cameras all around the map to give you alternate views and control on your factory)",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=25026",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
-	"factorio_version": "0.14"
+	"factorio_version": "0.14",
+	"dependencies": ["? boblibrary >= 0.14.2"]
 }

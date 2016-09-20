@@ -1,13 +1,13 @@
 {
 	"name": "Flare",
-	"version": "0.0.2",
+	"version": "14.0.3",
 	"title": "Flare",
 	"title_original": "Flare",
 	"author": "Ranakastrasz",
 	"contact": "~",
-	"homepage": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26682",
 	"description": "Adds a light generating capsule for nighttime use.",
 	"description_original": "Adds a light generating capsule for nighttime use.",
 	"dependencies": ["base"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

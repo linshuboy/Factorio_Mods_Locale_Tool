@@ -1,7 +1,7 @@
 {
 	"name": "MiningTools",
 	"author": "BinbinHfr",
-	"version": "1.0.28",
+	"version": "1.0.31",
 	"title": "采矿工具",
 	"title_original": "Mining Tools (+dynamites to provide new resources)",
 	"description": "Tools to speed up your mining (pneumatic drills & fast mining drills), provide new resources (with dynamite or massive water injection) and even erase resources (with dynamite).",

@@ -1,13 +1,13 @@
 {
 	"name": "WideChests",
-	"version": "0.1.0",
-	"factorio_version": "0.13",
+	"version": "1.1.0",
+	"factorio_version": "0.14",
 	"title": "Wide Chests",
-	"title_original": "Wide Chests",
-	"author": "Atria, Hurricane",
-	"contact": "",
+	"title_original": "Merging Chests",
+	"author": "Atria",
+	"contact": "tomas.chmelik2@gmail.com",
 	"homepage": "",
-	"description": "",
-	"description_original": "",
-	"dependencies": ["base >= 0.13.0"]
+	"description": "Enables merging of steel chests into up to 42 wide or 42 high chest.",
+	"description_original": "Enables merging of steel chests into up to 42 wide or 42 high chest.",
+	"dependencies": ["base >= 0.14.7"]
 }

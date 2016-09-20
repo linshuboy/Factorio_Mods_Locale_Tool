@@ -1,6 +1,6 @@
 {
 	"name": "Compression Chests",
-	"version": "1.3.11",
+	"version": "1.3.12",
 	"title": "Compression Chests",
 	"title_original": "Compression Chests",
 	"author": "Rseding91",
@@ -8,5 +8,5 @@
 	"dependencies": ["base"],
 	"description": "Store massive amounts of one item type in a single chest.",
 	"description_original": "Store massive amounts of one item type in a single chest.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

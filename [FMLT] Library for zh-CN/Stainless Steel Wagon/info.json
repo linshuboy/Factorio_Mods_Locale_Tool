@@ -1,6 +1,6 @@
 {
 	"name": "Stainless Steel Wagon",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"title": "Stainless Steel Wagon",
 	"title_original": "Stainless Steel Wagon",
 	"author": "Rseding91",
@@ -8,5 +8,5 @@
 	"dependencies": ["base"],
 	"description": "A Stainless Steel wagon.",
 	"description_original": "A Stainless Steel wagon.",
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }

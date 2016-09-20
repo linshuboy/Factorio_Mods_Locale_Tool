@@ -1,6 +1,6 @@
 {
 	"name": "Explosive Termites",
-	"version": "1.1.8",
+	"version": "1.1.9",
 	"title": "Explosive Termites",
 	"title_original": "Explosive Termites",
 	"author": "Rseding91",
@@ -9,5 +9,5 @@
 	"description": "Provides explosive termites for large scale deforestation.",
 	"description_original": "Provides explosive termites for large scale deforestation.",
 	"dependencies": ["base"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }
