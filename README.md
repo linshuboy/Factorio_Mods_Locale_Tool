@@ -3,7 +3,8 @@
 - 用搜集而来的文本库批量翻译异星工厂的模组，方便地共享模组汉化。
 
 ### 如何下载本工具？
-在本项目的附件中下载本工具的最新发布版本。
+- 正式发布版本可在[百度网盘](http://pan.baidu.com/s/1pJ1MEVL)下载。
+- 也可以登录后直接下载本项目文件。
 
 ### 如何使用本工具？
 首先把脚本`[FMLT] Script.vbs`和文本库`[FMLT] Library for zh-CN`解压到异星工厂[用户数据目录](https://wiki.factorio.com/index.php?title=Application_directory/zh)下。
@@ -17,8 +18,8 @@
 
 1. 用文本编辑器（不要用记事本，推荐Notepad++）打开翻译文件，编辑后以`UTF-8 without BOM`编码保存。
 2. 每个模组可翻译的部分包括：
-- `\info.json` 其中的 "title"(MOD名) 和 "description"(简介) 
-- `\locale\zh-CN\*.cfg` 
+> `\info.json` 其中的 "title"(MOD名) 和 "description"(简介) 
+> `\locale\zh-CN\*.cfg` 
 
 ### 如何分享自己的汉化？
 辛辛苦苦自己汉化的MOD当然不希望独享，这个工具就是帮你干这个事的。
