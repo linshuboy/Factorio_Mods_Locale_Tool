@@ -18,8 +18,9 @@
 
 1. 用文本编辑器（不要用记事本，推荐Notepad++）打开翻译文件，编辑后以`UTF-8 without BOM`编码保存。
 2. 每个模组可翻译的部分包括：
-> `\info.json` 其中的 "title"(MOD名) 和 "description"(简介) 
-> `\locale\zh-CN\*.cfg` 
+
+- `\info.json` 其中的 "title"(MOD名) 和 "description"(简介) 
+- `\locale\zh-CN\*.cfg` 
 
 ### 如何分享自己的汉化？
 辛辛苦苦自己汉化的MOD当然不希望独享，这个工具就是帮你干这个事的。
