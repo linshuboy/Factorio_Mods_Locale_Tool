@@ -1,10 +1,10 @@
 {
 	"name": "BlackMarket",
 	"version": "1.0.29",
-	"title": "黑市 (在黑市中出售和购买)",
+	"title": "黑市",
 	"title_original": "Black Market (sell and buy on the market)",
 	"author": "BinbinHfr",
-	"description": "出售和购买 物品/液体/能源 在大宇宙黑市环境下 using trading chests/tanks/accumulators, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy things that you don't want to craft by yourself. You can also use these trading units as a paying shipment system.",
+	"description": "通过 贸易箱/贸易罐/贸易蓄电池 在宇宙黑市中买卖 物品/液体/能源，可以设置交易频率和相关费用，这样你就可以出售过剩物品和购买你不想生产的物品了。",
 	"description_original": "Sell and buy items/fluids/energy on the universal black market using trading chests/tanks/accumulators, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy things that you don't want to craft by yourself. You can also use these trading units as a paying shipment system.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30889",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",

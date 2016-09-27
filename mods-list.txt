@@ -127,31 +127,28 @@
 * Artillery <=> 火炮
   新增火炮。
 
-* beltSorter <=> Belt sorter
-  Adds a new sorting entity which allows to sort items from belts to belts - recommended for the hardCrafting mod.
+* Bergius_Process <=> 贝吉乌斯处理
+  增加贝吉乌斯处理，可用水煤制油
 
-* Bergius_Process <=> Bergius Process
-  Adds Bergius Process Oil production
-
-* Better_Reachdistance_and_Builddistance <=> Better Reachdistance and Builddistance
-  This Mod adds Technology for larger Reachdistance & Builddistance for Character.
+* Better_Reachdistance_and_Builddistance <=> 更广的够及距离与建设距离
+  增加相关科技，可提高玩家的够及距离与建设距离。
 
 * Beyond <=> 卓越科技
   融合的力量，小行星采矿、磁悬浮列车、轨道炮、锂离子电池、农场，塑料，化肥，更多的化学物质，现实的火箭推进剂和更多
 
-* BigDrill <=> Bucket Wheel Excavator
-  Adds a large Bucket Wheel Excavator, and a very fast ORE unloader.
+* BigDrill <=> 轮斗式挖掘机
+  新增大型轮斗式挖掘机以及非常快的矿石装卸机。
 
-* BigWoodenPowerPole <=> BigWoodenPowerPole
-  Power Pole made of Wood
+* BigWoodenPowerPole <=> 木制大型输电塔
+  木制大型输电塔
 
-* Big_Brother <=> Big Brother
-  Big Brother - Research radar upgrades in amplification, efficiency, and surveillance capabilities. Create the ultimate surveillance state.
+* Big_Brother <=> 雷达升级
+  提供雷达研究，提升其功率、效率及监控能力，构建终极监控状态。
 
-* BlackMarket <=> 黑市 (在黑市中出售和购买)
-  出售和购买 物品/液体/能源 在大宇宙黑市环境下 using trading chests/tanks/accumulators, choosing the frequency of exchanges and related fees. You can now sell your overproduction and buy things that you don't want to craft by yourself. You can also use these trading units as a paying shipment system.
+* BlackMarket <=> 黑市
+  通过 贸易箱/贸易罐/贸易蓄电池 在宇宙黑市中买卖 物品/液体/能源，可以设置交易频率和相关费用，这样你就可以出售过剩物品和购买你不想生产的物品了。
 
-* blueprint-string <=> 蓝图代码 - 分享利器
+* blueprint-string <=> 蓝图代码
   能够把蓝图转换为代码，让蓝图可以方便地跨存档使用或分享给其它玩家。
 
 * bobassembly <=> Bob之装配机器
