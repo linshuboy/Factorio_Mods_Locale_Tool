@@ -7,7 +7,7 @@
 	"author": "5Dim",
 	"contact": "mcguten.videos@gmail.com",
 	"homepage": "http://www.5dim.es",
-	"description": "这是5dim-MOD系列的自动化部分",
+	"description": "5dim之自动化",
 	"description_original": "Automatization for 5dim's mod",
 	"dependencies": ["5dim_core >= 0.13.0"]
 }

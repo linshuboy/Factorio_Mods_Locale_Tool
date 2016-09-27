@@ -1,12 +1,12 @@
 {
 	"name": "Advanced-Drills",
 	"version": "0.1.8",
-	"title": "先进的挖掘",
+	"title": "高级采矿机",
 	"title_original": "Advanced Drills",
 	"author": "cj89898 & Neomore",
 	"contact": "",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=27550&p=174324#p174324",
-	"description": "增加了更多的更快的挖掘钻头。",
+	"description": "增加了几种更快的采矿机。",
 	"description_original": "This mod adds more drills for faster mining.",
 	"factorio_version": "0.14"
 }

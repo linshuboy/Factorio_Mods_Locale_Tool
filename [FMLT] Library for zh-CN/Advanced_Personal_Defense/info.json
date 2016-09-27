@@ -1,12 +1,12 @@
 {
 	"name": "Advanced_Personal_Defense",
 	"version": "0.1.3",
-	"title": "先进的个人防卫",
+	"title": "高级防御模块",
 	"title_original": "Advanced Personal Defense",
 	"author": "David McDonough and Adil",
 	"contact": "dave.m.mcdonough@gmail.com",
 	"homepage": "",
-	"description": "增加了个人激光炮塔的Mk2以及使用的弹药，而不是能量的贴身防守炮塔。",
+	"description": "新增激光防御模块MK2，以及用弹药的机枪防御模块。",
 	"description_original": "Adds personal laser turret Mk2 and a personal defense turret which uses ammo instead of energy.",
 	"factorio_version": "0.14",
 	"dependencies": ["base"]

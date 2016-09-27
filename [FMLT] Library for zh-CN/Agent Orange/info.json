@@ -1,12 +1,12 @@
 {
 	"name": "Agent Orange",
 	"version": "14.0.6",
-	"title": "Agent Orange",
+	"title": "落叶剂",
 	"title_original": "Agent Orange",
 	"author": "Ranakastrasz",
 	"contact": "~",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=15990",
-	"description": "Adds a lesser poison capsule for tree removal.",
+	"description": "增加一种用于清除树木的低毒胶囊。",
 	"description_original": "Adds a lesser poison capsule for tree removal.",
 	"dependencies": ["base"],
 	"factorio_version": "0.14"
