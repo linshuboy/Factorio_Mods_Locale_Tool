@@ -2,11 +2,11 @@
 	"name": "AquiferDrill",
 	"version": "1.2.0",
 	"factorio_version": "0.13",
-	"title": "Drill to Aquifer",
+	"title": "开采地下水",
 	"title_original": "Drill to Aquifer",
 	"author": "Align",
 	"contact": "axelandren@gmail.com",
 	"homepage": "https://github.com/Alignn/FactorioMod-AquiferDrill",
-	"description": "Adds a drill that draws up water from the underground.",
+	"description": "增加钻井抽水机，可抽取地下水。",
 	"description_original": "Adds a drill that draws up water from the underground."
 }

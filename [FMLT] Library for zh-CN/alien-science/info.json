@@ -1,10 +1,10 @@
 {
 	"name": "alien-science",
 	"version": "0.1.1",
-	"title": "Alien Science",
+	"title": "异星科技",
 	"title_original": "Alien Science",
 	"author": "Delois",
 	"factorio_version": "0.13",
-	"description": "Alternate crafting reciplie using Science Pack 1/2/3",
+	"description": "允许使用其他科技包制造虫巢核心",
 	"description_original": "Alternate crafting reciplie using Science Pack 1/2/3"
 }

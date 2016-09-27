@@ -2,12 +2,12 @@
 	"name": "AmmoBox",
 	"version": "1.0.2",
 	"factorio_version": "0.14",
-	"title": "AmmoBox",
+	"title": "弹药箱",
 	"title_original": "AmmoBox",
 	"author": "Afforess",
 	"contributors": "Adil",
 	"homepage": "http://afforess.com",
-	"description": "Adds large ammo boxes, compacted ammo magazines for turrets, & Mk2 Gun Turret with logistics slots.",
+	"description": "增加大型弹药箱，可为炮塔打包弹匣；增加有物流系统槽位的机枪炮塔MK2。",
 	"description_original": "Adds large ammo boxes, compacted ammo magazines for turrets, & Mk2 Gun Turret with logistics slots.",
 	"dependencies": ["base >= 0.14.0"]
 }

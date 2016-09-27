@@ -1,134 +1,131 @@
-* 00 Afraid In The Dark <=> 你恐惧黑暗吗?
-  减轻晚上的黑暗程度!!!
-
-* 00 Armor <=> 00 Armor
-  Adds a bigger armor and better equipment, crafted using multiple vanilla items.
+* 00 Armor <=> 装甲扩展
+  添加一种更大的装甲和更高级的装甲模块，只需几种普通原料就能制造。
 
 * 00 Ghost Walking <=> 幽灵漫步
   甚至在水上到处走。永远不要再被一棵树或建筑物挡住。
 
-* 00 Water Pump <=> 00 Water Pump
-  Electric 1x1 water pump.
+* 00 Water Pump <=> 地下水泵
+  1x1的电力驱动地下水泵。
 
-* 20x20ArmorMK2 <=> 对动力装甲MK2 20×20插槽
-  这是一个动力装甲延伸MOD,使空间从10x10变成20x20.
+* 20x20ArmorMK2 <=> 20x20格的能量装甲MK2
+  加强能量装甲MK2，使其插槽大小从10x10升级为20x20。
 
 * 5dim_automatization <=> 5dim之自动化
-  这是5dim-MOD系列的自动化部分
+  5dim之自动化
 
-* 5dim_battlefield <=> 5dim's Mod - 战场
-  5dim之敌人
+* 5dim_battlefield <=> 5dim之战地
+  5dim之战地
 
-* 5dim_core <=> 5dim's Mod - 引擎
+* 5dim_core <=> 5dim系列内核
   驱动5dim的所有MOD
 
-* 5dim_decoration <=> 5dim's Mod - 装饰
+* 5dim_decoration <=> 5dim之装饰
   5dim之装饰
 
-* 5dim_energy <=> 5dim's Mod - 能源
+* 5dim_energy <=> 5dim之能源
   5dim之能源
 
-* 5dim_logistic <=> 5dim's Mod - 物流
+* 5dim_logistic <=> 5dim之物流
+  5dim之物流
+
+* 5dim_mining <=> 5dim之矿产
   5dim之矿产
 
-* 5dim_mining <=> 5dim's Mod - 矿产
-  5dim之矿产
+* 5dim_module <=> 5dim之插件
+  5dim之插件
 
-* 5dim_module <=> 5dim's Mod - 组件
-  5dim之组件
-
-* 5dim_ores <=> 5dim's Mod - 矿石
+* 5dim_ores <=> 5dim之矿石
   5dim之矿石
 
-* 5dim_resources <=> 5dim's Mod - 资源
+* 5dim_resources <=> 5dim之资源
   5dim之资源
 
-* 5dim_transport <=> 5dim's Mod - 运输
+* 5dim_transport <=> 5dim之运输
   5dim之运输
 
-* 5dim_vehicle <=> 5dim's Mod - 车辆
+* 5dim_vehicle <=> 5dim之车辆
   5dim之车辆
 
-* AddAssemblerBatteries <=> 添加汇编电池
-  允许在组装机器以及化工厂制成的电池
+* AddAssemblerBatteries <=> 组装机生产电池
+  可以用组装机生产电池，就像用化工厂生产一样。
 
-* Additional-Turret <=> Additional turrets
-  Adds two cannon and rocket turrets and small shells.
+* Additional-Turret <=> 新增的炮塔
+  新增加农炮塔和火箭炮塔，以及相应弹药。
 
-* additionaloilrefineries <=> Additional Oil Refineries
-  Adds two upgraded Oil Refineries
+* additionaloilrefineries <=> 新增的石油精炼厂
+  增加两种高级石油精炼厂
 
-* Advanced-Drills <=> 先进的挖掘
-  增加了更多的更快的挖掘钻头。
+* Advanced-Drills <=> 高级采矿机
+  增加了几种更快的采矿机。
 
-* Advanced-Electric <=> 先进的电
-  增加了更高层次的太阳能电池板和蓄电池。
+* Advanced-Electric <=> 高级发电
+  增加了更高级的太阳能板和蓄电池。
 
-* advanced-logistics-system <=> Advanced Logistics System
-  Extended Logistics Network View and Monitoring
+* advanced-logistics-system <=> 高级物流系统
+  扩展了物流系统的查看和监视
 
-* Advanced_Personal_Defense <=> 先进的个人防卫
-  增加了个人激光炮塔的Mk2以及使用的弹药，而不是能量的贴身防守炮塔。
+* Advanced_Personal_Defense <=> 高级防御模块
+  新增激光防御模块MK2，以及用弹药的机枪防御模块。
 
-* AfraidOfTheDark <=> Afraid Of The Dark
-  Night is too dark for you ? Enforced flashlight and personal lights, powerful balloon lights or a pair of natural tinted night glasses could be the solution !
+* AfraidOfTheDark <=> 无惧黑暗
+  夜晚对你来说太黑了？强力气球灯和彩色夜望镜是很好的解决方案！
 
-* Agent Orange <=> Agent Orange
-  Adds a lesser poison capsule for tree removal.
+* Agent Orange <=> 落叶剂
+  增加一种用于清除树木的低毒胶囊。
 
-* air-filtering <=> Air filtering
-  Adding machines to reduce pollution
+* air-filtering <=> 空气过滤器
+  新增可以减轻污染的机器
 
-* Aircraft <=> Aircraft
-  A recon and combat aircraft, along with a flying fortress and other aerocraft.
+* Aircraft <=> 飞机
+  新增侦查作战飞机、空中堡垒等飞行器。
 
-* Alien Oil <=> Alien Oil
-  This mod adds a method of moving crude oil deposits using alien technology.
+* Alien Oil <=> 异星油田
+  可运用异星科技移动油田。
 
-* Alien-Industry-Missile-Chariot <=> Alien Industry Missile Chariot
-  I want say, if description is to long, it will failed to upload to mod portal, so ffff you game maker
+* Alien-Industry-Missile-Chariot <=> 外星人工业集团之导弹战车
+  导弹拥有非常高伤害/射程和爆炸范围的重型武器
 
-* Alien-Industry-Overhaul <=> 异形产业
-  see mod page for more details
+* Alien-Industry-Overhaul <=> 外星人工业集团之调整
+  调整细节详见模组页面
 
-* alien-science <=> Alien Science
-  Alternate crafting reciplie using Science Pack 1/2/3
+* alien-science <=> 异星科技
+  允许使用其他科技包制造虫巢核心
 
 * AlienEggs <=> 异形蛋
   发展你的异形蛋来获得想要的异形
 
-* AlienWall <=> Alien Walls
-  Humanity has made many great advances, but still looks to nature for inspiration. Thanks to users ThaPear, ratchetfreak, and Klonan for help on module healing.
+* AlienWall <=> 异星墙
+  人类做出了很多成就，但仍要从大自然寻求灵感。
 
-* Alternate Alien Science <=> Alternate Alien Science
-  Alternate crafting reciplie using alternate high end crafting matterials
+* Alternate Alien Science <=> 异星科技(另一套)
+  允许使用一些更高级的原料生产虫巢核心。
 
-* AmmoBox <=> AmmoBox
-  Adds large ammo boxes, compacted ammo magazines for turrets, & Mk2 Gun Turret with logistics slots.
+* AmmoBox <=> 弹药箱
+  增加大型弹药箱，可为炮塔打包弹匣；增加有物流系统槽位的机枪炮塔MK2。
 
-* andrew-library <=> Andrew's Library
-  Adds new items to the game. They are used by many of my mods, and can easily be used by other mods too.
+* andrew-library <=> Andrew之物品库
+  增加了一些新物品，为Andrew系列模组所用。
 
-* andrew-logistics <=> Andrew's Logistics
-  Adds construction robot, logistic robot and 4 types of pipes to the game. requires Andrew's Library to work.
+* andrew-logistics <=> Andrew之物流
+  增加更高级的建设机器人、物流机器人和4种管道。
 
-* andrew-modules <=> Andrew's Modules
-  Add 2 new types of Modules and more Modules from base game. requires Andrew's Library to work
+* andrew-modules <=> Andrew之插件
+  新增污染清理插件和上帝插件，以及原插件的加强版。
 
-* andrew-power-armor <=> Andrew's power armor
-  Make armor items for warfare.
+* andrew-power-armor <=> Andrew之能量装甲
+  增加装甲模块的强化版。
 
-* angelsinfiniteores <=> [AM] Angel's Infinite Ores
-  Adds infinite ores and base for AngelsMods, best used with RSO mod to have infinite ores in the core of regular resources patches.
+* angelsinfiniteores <=> Angel之无限矿
+  为Angel系列及其它众多模组添加无限资源，可通过配置文件修改参数。
 
-* AquiferDrill <=> Drill to Aquifer
-  Adds a drill that draws up water from the underground.
+* AquiferDrill <=> 开采地下水
+  增加钻井抽水机，可抽取地下水。
 
 * Armageddon <=> Armageddon
-  Adds catastrophic events and other disasters to the game! (underground alien invasion, Biterzilla, etc...)
+  增加灾难事件（地下入侵、虫斯拉、狂暴入侵等）！
 
-* Artillery <=> Artillery
-  Mod that adds an artillery piece to Factorio
+* Artillery <=> 火炮
+  新增火炮。
 
 * beltSorter <=> Belt sorter
   Adds a new sorting entity which allows to sort items from belts to belts - recommended for the hardCrafting mod.
@@ -489,6 +486,3 @@
 
 * Yuoki <=> Yuoki Industries
   adds more content like generators, ressource-transformations, machinery, turrets ...
-
-* _M_Armor <=> _M_ Armor
-  Adds a bigger armor and better equipment, crafted using multiple vanilla items.
