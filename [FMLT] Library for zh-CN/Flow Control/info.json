@@ -1,11 +1,11 @@
 {
 	"name": "Flow Control",
 	"version": "2.1.1",
-	"title": "Flow Control",
+	"title": "流动控制",
 	"title_original": "Flow Control",
 	"author": "GotLag",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=20645",
-	"description": "Adds pipes with restricted connections, non-return valve, and basic and improved pumps.",
+	"description": "增加连接受限的管道、止回阀及高速泵。",
 	"description_original": "Adds pipes with restricted connections, non-return valve, and basic and improved pumps.",
 	"factorio_version": "0.14"
 }

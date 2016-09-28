@@ -2,7 +2,7 @@
   添加一种更大的装甲和更高级的装甲模块，只需几种普通原料就能制造。
 
 * 00 Ghost Walking <=> 幽灵漫步
-  甚至在水上到处走。永远不要再被一棵树或建筑物挡住。
+  可以随便行走，即便在水上也一样，也不会再被树木或建筑阻挡。
 
 * 00 Water Pump <=> 地下水泵
   1x1的电力驱动地下水泵。
@@ -17,7 +17,7 @@
   5dim之战地
 
 * 5dim_core <=> 5dim系列内核
-  驱动5dim的所有MOD
+  5dim系列模组所必需的内核
 
 * 5dim_decoration <=> 5dim之装饰
   5dim之装饰
@@ -83,16 +83,16 @@
   可运用异星科技移动油田。
 
 * Alien-Industry-Missile-Chariot <=> 外星人工业集团之导弹战车
-  导弹拥有非常高伤害/射程和爆炸范围的重型武器
+  导弹拥有非常高伤害/射程和爆炸范围的重型武器。
 
 * Alien-Industry-Overhaul <=> 外星人工业集团之调整
-  调整细节详见模组页面
+  调整细节详见模组页面。
 
 * alien-science <=> 异星科技
-  允许使用其他科技包制造虫巢核心
+  允许使用其他科技包制造虫巢核心。
 
-* AlienEggs <=> 异形蛋
-  发展你的异形蛋来获得想要的异形
+* AlienEggs <=> 异星虫卵
+  培养你自己的异星虫卵，让它在你希望的地方生虫子。
 
 * AlienWall <=> 异星墙
   人类做出了很多成就，但仍要从大自然寻求灵感。
@@ -121,7 +121,7 @@
 * AquiferDrill <=> 开采地下水
   增加钻井抽水机，可抽取地下水。
 
-* Armageddon <=> Armageddon
+* Armageddon <=> 世界末日
   增加灾难事件（地下入侵、虫斯拉、狂暴入侵等）！
 
 * Artillery <=> 火炮
@@ -226,17 +226,14 @@
 * color-picker <=> Color Picker
   为其它模组提供颜色选取界面。单独启用本模组无任何效果。
 
-* Combat_Units <=> Combat Units
-  Lets you craft combat units, they will automatically launch, defend your base and attack enemy units. They are not intelligent, but they are powerful.
-
 * Compression Chests <=> 压缩箱
   可在一个箱子里储存超大量的某一种物品。
 
 * Concrete_Lamppost <=> 混凝土路灯
   增加混凝土制的路灯。
 
-* CORE-DyTech-Core <=> DyTech系列核心
-  DyTech系列核心
+* CORE-DyTech-Core <=> DyTech系列内核
+  DyTech系列模组所必需的内核
 
 * Crafted Artifacts <=> 异星制品
   增加可生产异星制品的的资源和配方。
@@ -259,62 +256,59 @@
 * Drones <=> 无人机
   通过你的智能终端监视并操控你的工厂。（也可以设置多个无人机来为你提供不同视野并加以操控）
 
-* EEMD <=> Epic electric mining drill mod
-  Adds a 'Epic electric mining drill' which basically is 7x7 electric mining drills condensed into one big.
+* EEMD <=> 史诗级电力采掘机
+  增加史诗级电力采掘机，这是 7x7 个普通电力采掘机的集合体。
 
-* EfficienSee <=> 产能分析 - 优化生产
+* EfficienSee <=> 产能分析
   优化大型工厂生产效率！检查每个产品和配方的产量，找出产能不足和产能过剩，列出每个配方的供需统计和工厂运转情况，让你轻松地发现整个生产链中的薄弱环节。
 
-* Electric Furnaces <=> Electric Furnaces
-  Adds electric versions of the stone and steel furnaces, and an upgraded electric furnace.
+* Electric Furnaces <=> 电力冶炼炉
+  增加使用电力的石炉和钢炉，以及两个电炉的升级版。
 
-* electric-vehicles <=> 电力 交通工具
-  Adds electric vehicles that run on battery energy.
+* electric-vehicles <=> 电力车辆
+  增加几种靠电池供应能量的电力车辆。
 
 * Equalizer_Chests <=> 均衡箱
-  提供均衡箱，可以自动均衡相邻箱子中货物
+  能够自动与直接相邻的箱子均分所储物品。
 
 * EvoGUI <=> 进化因子指示器
   左上角UI指示器告诉你当前的虫族进化几率，它也告诉你玩了多久。
 
-* Explosive Termites <=> Explosive Termites
-  Provides explosive termites for large scale deforestation.
+* Explosive Termites <=> 爆炸白蚁
+  增加用于大规模清除森林的爆炸白蚁。
 
-* Factorissimo <=> Factorissimo
-  I heard you like building factories. This mod adds a factory building you can walk into and build a part of your factory inside. You can move items and liquids in and out, processing them inside the building. You can pick up the entire building and set it down somewhere else, preserving its contents. You can even place factory buildings inside other factory buildings.
+* Factorissimo <=> 工厂厂房
+  增加厂房，让你可以走进去把流水线建在里面。
 
-* FARL <=> Fully Automated Rail Layer
-  Fully automated rail-layer
+* FARL <=> 全自动铺轨机
+  全自动铺轨机
 
-* Fastforward-Start <=> 跳过第一个小时
-  I cant be bothered with the hand mining/crafting first hour  Increased starting equipment to remove hand mining stage of game and jump straight into using trains  Hopefully enough items to get a small factory and power station running.  Doesn't effect research, you will still need to do all of that.
+* Fast_Long_Inserter <=> 高速加长机械臂
+  研发物流学2后解锁高速加长机械臂。
 
-* Fast_Long_Inserter <=> 又快又长的机械臂
-  添加一个加快加长机械臂在解锁物流2后.
+* Fire_Mine <=> 火矿
+  你会从火矿获得热量的。
 
-* Fire_Mine <=> 火矿Mod
-  You'll warm up to the idea
+* Flare <=> 闪光弹
+  增加一种可在夜晚发光的闪光弹。
 
-* Flare <=> Flare
-  Adds a light generating capsule for nighttime use.
+* Flare Stack <=> 火炬塔
+  增加火炬塔，用于处理不想要的石油制品。
 
-* Flare Stack <=> Flare Stack
-  Adds a flare stack to dispose of unwanted petroleum products.
+* Flow Control <=> 流动控制
+  增加连接受限的管道、止回阀及高速泵。
 
-* Flow Control <=> Flow Control
-  Adds pipes with restricted connections, non-return valve, and basic and improved pumps.
+* Fluid Void <=> 下水道
+  增加一种可以让流入液体消失的管道。
 
-* Fluid Void <=> Fluid Void
-  A pipe to void fluids.
+* Fluidizer <=> 流体化
+  能把所有物品（包括模组物品）转化为流体，而且还能转化回来。
 
-* Fluidizer <=> Fluidizer
-  Can turn all items (including mod items) into fluid and back again. Forked off of Swadius' mod PipeEverything.
+* Force Fields <=> 能量力场
+  电力驱动的墙壁。
 
-* Force Fields <=> Force Fields
-  Electric powered walls.
-
-* gravestones <=> Hazzard's Gravestones
-  Saves your inventory items inside a gravestone when you die.
+* gravestones <=> 墓碑
+  能够在你死了以后把背包里的物品都存入墓碑。
 
 * HandCrankGenerator <=> Hand Crank Generator
   You managed to salvage a manual emergency generator from your spacecraft.

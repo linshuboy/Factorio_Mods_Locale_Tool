@@ -1,12 +1,12 @@
 {
 	"name": "Flare",
 	"version": "14.0.3",
-	"title": "Flare",
+	"title": "闪光弹",
 	"title_original": "Flare",
 	"author": "Ranakastrasz",
 	"contact": "~",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=26682",
-	"description": "Adds a light generating capsule for nighttime use.",
+	"description": "增加一种可在夜晚发光的闪光弹。",
 	"description_original": "Adds a light generating capsule for nighttime use.",
 	"dependencies": ["base"],
 	"factorio_version": "0.14"

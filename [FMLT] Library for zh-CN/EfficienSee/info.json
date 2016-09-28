@@ -1,7 +1,7 @@
 {
 	"name": "EfficienSee",
 	"version": "1.0.47",
-	"title": "产能分析 - 优化生产",
+	"title": "产能分析",
 	"title_original": "EfficienSee (optimise your factory !)",
 	"author": "BinbinHfr",
 	"description": "优化大型工厂生产效率！检查每个产品和配方的产量，找出产能不足和产能过剩，列出每个配方的供需统计和工厂运转情况，让你轻松地发现整个生产链中的薄弱环节。",

@@ -1,12 +1,12 @@
 {
 	"name": "Fluid Void",
 	"version": "1.0.4",
-	"title": "Fluid Void",
+	"title": "下水道",
 	"title_original": "Fluid Void",
 	"author": "Rseding91",
 	"homepage": "",
 	"dependencies": ["base"],
-	"description": "A pipe to void fluids.",
+	"description": "增加一种可以让流入液体消失的管道。",
 	"description_original": "A pipe to void fluids.",
 	"factorio_version": "0.14"
 }

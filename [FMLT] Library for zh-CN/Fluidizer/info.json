@@ -1,11 +1,11 @@
 {
 	"name": "Fluidizer",
 	"version": "1.0.0",
-	"title": "Fluidizer",
+	"title": "流体化",
 	"title_original": "Fluidizer",
 	"author": "Xylius9",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"],
-	"description": "Can turn all items (including mod items) into fluid and back again. Forked off of Swadius' mod PipeEverything.",
+	"description": "能把所有物品（包括模组物品）转化为流体，而且还能转化回来。",
 	"description_original": "Can turn all items (including mod items) into fluid and back again. Forked off of Swadius' mod PipeEverything."
 }

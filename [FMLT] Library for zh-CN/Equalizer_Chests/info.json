@@ -6,7 +6,7 @@
 	"author": "Boogieman14",
 	"contact": "Boogieman14 on the Factorio forums",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=6537",
-	"description": "提供均衡箱，可以自动均衡相邻箱子中货物",
+	"description": "能够自动与直接相邻的箱子均分所储物品。",
 	"description_original": "Provides chests that will equalize their contents between direct neightbours.",
 	"dependencies": ["base >= 0.14.0"],
 	"factorio_version": "0.14"

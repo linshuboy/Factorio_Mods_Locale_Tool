@@ -1,11 +1,11 @@
 {
 	"name": "Electric Furnaces",
 	"version": "2.1.2",
-	"title": "Electric Furnaces",
+	"title": "电力冶炼炉",
 	"title_original": "Electric Furnaces",
 	"author": "GotLag",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=13528",
-	"description": "Adds electric versions of the stone and steel furnaces, and an upgraded electric furnace.",
+	"description": "增加使用电力的石炉和钢炉，以及两个电炉的升级版。",
 	"description_original": "Adds electric versions of the stone and steel furnaces, and two upgrades of the electric furnace.",
 	"factorio_version": "0.14"
 }
