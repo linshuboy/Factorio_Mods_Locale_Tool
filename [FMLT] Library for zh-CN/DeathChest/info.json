@@ -2,11 +2,11 @@
 	"name": "DeathChest",
 	"version": "0.13.2",
 	"factorio_version": "0.13",
-	"title": "DeathChest",
+	"title": "死亡箱",
 	"title_original": "DeathChest",
 	"author": "Zinal",
 	"contact": "",
 	"homepage": "",
-	"description": "Spawn a chest upon death containing all your stuff",
+	"description": "在你挂掉的地方生成一个箱子，里面装着你死前身上的东西。",
 	"description_original": "Spawn a chest upon death containing all your stuff"
 }
