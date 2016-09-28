@@ -7,7 +7,7 @@
 	"author": "5Dim",
 	"contact": "mcguten.videos@gmail.com",
 	"homepage": "http://www.5dim.es",
-	"description": "驱动5dim的所有MOD",
+	"description": "5dim系列模组所必需的内核",
 	"description_original": "Core of all 5dim's mod",
 	"dependencies": ["base >= 0.13.0"]
 }

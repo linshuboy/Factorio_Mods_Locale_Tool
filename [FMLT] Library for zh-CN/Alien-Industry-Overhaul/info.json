@@ -6,7 +6,7 @@
 	"author": "Alien Industry",
 	"homepage": "QQGroup:416177412",
 	"contact": "SteamID dive1oong, 1330700011@qq.com",
-	"description": "调整细节详见模组页面",
+	"description": "调整细节详见模组页面。",
 	"description_original": "see mod page for more details",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]
