@@ -2,12 +2,12 @@
 	"name": "bobenemies",
 	"version": "0.14.0",
 	"factorio_version": "0.14",
-	"title": "Bob之敌人",
+	"title": "Bob之虫子",
 	"title_original": "Bob's Enemies",
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
-	"description": "只是增加了很少的一部分敌人（才怪！）.",
+	"description": "增加稍微困难点的虫子。",
 	"description_original": "Adds a few harder enemies.",
 	"dependencies": ["base >= 0.14.0", "? bobconfig >= 0.14.0"]
 }

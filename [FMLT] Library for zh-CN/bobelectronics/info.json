@@ -7,7 +7,7 @@
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
-	"description": "增加了一些新的电子产业链.",
+	"description": "增加一整套新的电子产业链。",
 	"description_original": "Adds a whole new electronics production chain.",
 	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobplates >= 0.14.0"]
 }

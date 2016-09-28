@@ -7,7 +7,7 @@
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
-	"description": "增加了不少有用的的矿石.",
+	"description": "增加不少有用的的矿石。",
 	"description_original": "Adds some useful ores.",
 	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0"]
 }

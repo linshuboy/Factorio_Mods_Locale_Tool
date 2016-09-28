@@ -7,7 +7,7 @@
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
-	"description": "拓展了原版的插件系统（很复杂，很强大）.",
+	"description": "拓展原版的插件系统（很复杂，很强大）。",
 	"description_original": "Expansion to the Modules system.",
 	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0", "? bobplates >= 0.14.0", "? bobelectronics >= 0.14.0"]
 }

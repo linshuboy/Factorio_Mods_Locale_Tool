@@ -1,11 +1,11 @@
 {
 	"name": "Concrete_Lamppost",
 	"version": "0.1.1",
-	"title": "Concrete Lamppost",
+	"title": "混凝土路灯",
 	"title_original": "Concrete Lamppost",
 	"author": "Klonan",
 	"homepage": "",
-	"description": "Adds a Lamppost made of Concrete",
+	"description": "增加混凝土制的路灯。",
 	"description_original": "Adds a Lamppost made of Concrete",
 	"factorio_version": "0.13"
 }

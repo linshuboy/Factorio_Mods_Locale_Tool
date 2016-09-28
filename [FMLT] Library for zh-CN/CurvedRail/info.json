@@ -1,11 +1,11 @@
 {
 	"name": "CurvedRail",
 	"version": "1.0.0",
-	"title": "Curved Rail",
+	"title": "曲线铁轨",
 	"title_original": "Curved Rail",
 	"author": "daniel34",
 	"dependencies": ["base >= 0.13"],
 	"factorio_version": "0.13",
-	"description": "Adds the curved rail item back into the crafting menu.",
+	"description": "把弃用的曲线铁轨找回来。",
 	"description_original": "Adds the curved rail item back into the crafting menu."
 }

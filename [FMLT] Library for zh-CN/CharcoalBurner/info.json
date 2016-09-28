@@ -2,11 +2,11 @@
 	"name": "CharcoalBurner",
 	"version": "0.0.3",
 	"factorio_version": "0.14",
-	"title": "Charcoal Burner",
+	"title": "烧炭",
 	"title_original": "Charcoal Burner",
 	"author": "Corvus Corax",
 	"contact": "",
 	"homepage": "",
-	"description": "Adds a way to turn your useless excess wood into charcoal",
+	"description": "把没啥卵用的多余木头转化为木炭。",
 	"description_original": "Adds a way to turn your useless excess wood into charcoal"
 }

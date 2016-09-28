@@ -1,11 +1,11 @@
 {
 	"name": "bulldozer",
 	"version": "1.2.6",
-	"title": "Bulldozer",
+	"title": "推土机",
 	"title_original": "Bulldozer",
 	"author": "Cheata, hassad the hittite. Updated by ckhawks.",
 	"contact": "",
-	"description": "Bulldozer for tearing up your base",
+	"description": "用于基地拆迁的推土机。",
 	"description_original": "Bulldozer for tearing up your base",
 	"dependencies": ["base >= 0.13", "? roadtrain >=1.0.0"],
 	"factorio_version": "0.13"

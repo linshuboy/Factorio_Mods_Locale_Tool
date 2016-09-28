@@ -5,7 +5,7 @@
 	"title_original": "Color Picker",
 	"author": "Mooncat",
 	"homepage": "",
-	"description": "Adds a color picker GUI that can be used by other mods. But this mod itself doesn't do anything alone.",
+	"description": "为其它模组提供颜色选取界面。单独启用本模组无任何效果。",
 	"description_original": "Adds a color picker GUI that can be used by other mods. But this mod itself doesn't do anything alone.",
 	"factorio_version": "0.14",
 	"dependencies": []

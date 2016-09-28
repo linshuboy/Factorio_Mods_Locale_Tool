@@ -151,104 +151,101 @@
 * blueprint-string <=> 蓝图代码
   能够把蓝图转换为代码，让蓝图可以方便地跨存档使用或分享给其它玩家。
 
-* bobassembly <=> Bob之装配机器
-  增加了装配机4,5和6
+* bobassembly <=> Bob之组装机
+  增加组装机4/5/6以及其它机器。
 
-* bobconfig <=> Bob之配置文件
-  这个模组允许你去设置bob的模组
+* bobconfig <=> Bob系列配置
+  用于设置Bob系列模组。
 
 * bobelectronics <=> Bob之电子工业
-  增加了一些新的电子产业链.
+  增加一整套新的电子产业链。
 
-* bobenemies <=> Bob之敌人
-  只是增加了很少的一部分敌人（才怪！）.
+* bobenemies <=> Bob之虫子
+  增加稍微困难点的虫子。
 
-* bobgreenhouse <=> Bob之种树
-  这里是温室mod, 在这我们可以生产木头.
+* bobgreenhouse <=> Bob之温室
+  用温室生产木头。
 
 * bobinserters <=> Bob之可调式机械臂
-  可以使用一些热键来调控机械臂的抓取和放置位置.
+  可以通过按键和界面来调整机械臂的抓取和放置位置。
 
-* boblibrary <=> Bob之函数库
-  添加了一系列对bob的mod有用的函数. 它们也可以让其他mod更加简便.
+* boblibrary <=> Bob系列函数库
+  Bob系列模组所需的一系列函数，也可以被其它模组使用。
 
-* boblocale <=> Bob之文本翻译
-  增加了一些来自社区的对bob的翻译.
+* boblocale <=> Bob系列翻译
+  官方论坛搜集到的一些Bob系列多语言翻译。
 
 * boblogistics <=> Bob之物流
-  增加了一些和物流相关的东西.
+  增加一些物流相关设备。
 
 * bobmining <=> Bob之采矿
-  增加了一些很好用的采矿工具和采矿机器.
+  增加一些很好用的采矿工具和采矿机器。
 
 * bobmodules <=> Bob之插件
-  拓展了原版的插件系统（很复杂，很强大）.
+  拓展原版的插件系统（很复杂，很强大）。
 
 * bobores <=> Bob之矿石
-  增加了不少有用的的矿石.
+  增加不少有用的的矿石。
 
-* bobplates <=> Bob之金属加工、化工和中间产品
-  把额外的矿石冶炼成各种金属锭, 并且制造生产有用的中间产品.
+* bobplates <=> Bob之冶金、化工及中间产品
+  把额外的矿石冶炼成各种金属锭, 并且生产有用的中间产品。
 
 * bobpower <=> Bob之能源
-  新添了一些能源设备.
+  新增一些能源设备。
 
-* bobrevamp <=> Bob之翻新
-  科技和配方的重组.
+* bobrevamp <=> Bob之改进
+  科技和配方的重组。
 
-* bobtech <=> Bob之科学
-  增加了很有用的一些研究.
+* bobtech <=> Bob之科技
+  增加一些很有用的研究。
 
 * bobtechsave <=> Bob之研究进度保存
-  跟踪部分研究的一个模组.
+  可保存未完成科技的研究进度。
 
-* bobwarfare <=> Bob战争
-  增加了一些为战争服务的东西.
+* bobwarfare <=> Bob之战争
+  增加一些战争用品。
 
 * Bottleneck <=> 生产瓶颈分析
-  A tool for locating input starved machines.
+  用于找出原料供应不足的机器。
 
 * BreakReminder <=> 休息提醒
-  一个简单的模型，将提醒你休息后，设置一个时间，你可以指定加载一个保存。
+  载入存档时会让你设置一个游戏时间，到时候会提醒你休息。
 
-* bulldozer <=> Bulldozer
-  Bulldozer for tearing up your base
+* bulldozer <=> 推土机
+  用于基地拆迁的推土机。
 
-* Burner-Filter-Inserter <=> Burner-Filter-Inserter
-  Adds burner filter inserters with 1 filter from the start of the game.
+* Burner-Filter-Inserter <=> 热能筛选机械臂
+  在游戏刚开始增加一种有1个筛选格的热能筛选机械臂。
 
-* Challenge <=> Challenge
-  Define a challenge on a chosen map and try to complete it as fast as you can, or in a limited time. Publish it on the factorio forum (section Maps and Scenarios) to challenge other players, and see if someone can beat your personal record...
+* CharcoalBurner <=> 烧炭
+  把没啥卵用的多余木头转化为木炭。
 
-* CharcoalBurner <=> Charcoal Burner
-  Adds a way to turn your useless excess wood into charcoal
-
-* CoalToHeavy <=> Crack Coal to Heavy
-  Adds a recipe that can crack Coal into Heavy Oil at a Chemical Plant.
+* CoalToHeavy <=> 裂解煤炭为重油
+  可在化工厂把煤炭裂解为重油。
 
 * color-picker <=> Color Picker
-  Adds a color picker GUI that can be used by other mods. But this mod itself doesn't do anything alone.
+  为其它模组提供颜色选取界面。单独启用本模组无任何效果。
 
 * Combat_Units <=> Combat Units
   Lets you craft combat units, they will automatically launch, defend your base and attack enemy units. They are not intelligent, but they are powerful.
 
-* Compression Chests <=> Compression Chests
-  Store massive amounts of one item type in a single chest.
+* Compression Chests <=> 压缩箱
+  可在一个箱子里储存超大量的某一种物品。
 
-* Concrete_Lamppost <=> Concrete Lamppost
-  Adds a Lamppost made of Concrete
+* Concrete_Lamppost <=> 混凝土路灯
+  增加混凝土制的路灯。
 
-* CORE-DyTech-Core <=> CORE-DyTech-Core
-  1 Core to rule them all!
+* CORE-DyTech-Core <=> DyTech系列核心
+  DyTech系列核心
 
-* Crafted Artifacts <=> Crafted Artifacts
-  Provides resources and recipes for crafting alien artifacts.
+* Crafted Artifacts <=> 异星制品
+  增加可生产异星制品的的资源和配方。
 
-* creative-mode <=> Creative Mode
-  Based on the amazing mod created by Y.Petremann, then patched by Pac0master, now updated by me (Mooncat). This mod adds entities that can generate unlimited items or fluid, or nullify them. Perfect for testing purpose or making initial setup for games. The item recipes are disabled by default. Type /c remote.call("creative-mode", "enable") to enable them.
+* creative-mode <=> 创造模式
+  增加可产出无限物品和液体的设施，以及让其消失的设施。仅用于测试目的，默认关闭，需执行命令以开启： remote.call("creative-mode", "enable")
 
-* CurvedRail <=> Curved Rail
-  Adds the curved rail item back into the crafting menu.
+* CurvedRail <=> 曲线铁轨
+  把弃用的曲线铁轨找回来。
 
 * dark-matter-replicators <=> Dark Matter Replicators
   Adds replicators which can produce items using only electricity.  The existence of this version of Replicators is not meant to be disrespectful in any way to darkshadow1809 or Doublespin.  Back when the replicators mod was first abandoned I made my own version based on my own preferences, and seeing what darkshadow1809 and Doublespin have done with the mod inspired me to make even more changes.
