@@ -3,11 +3,11 @@
 	"version": "1.0.1",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13"],
-	"title": "VoidChestInstant",
+	"title": "虚空箱",
 	"title_original": "VoidChestInstant",
 	"author": "Buggi",
 	"contact": "",
 	"homepage": "https://www.youtube.com/channel/UChtObaxXd1H-8yeR9ABFvIw",
-	"description": "Makes a chest for destroying unwanted items... instantly!",
+	"description": "可立即销毁无用物品的箱子。",
 	"description_original": "Makes a chest for destroying unwanted items... instantly!"
 }

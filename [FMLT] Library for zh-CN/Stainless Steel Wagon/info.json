@@ -2,11 +2,11 @@
 	"name": "Stainless Steel Wagon",
 	"version": "1.0.2",
 	"title": "Stainless Steel Wagon",
-	"title_original": "Stainless Steel Wagon",
+	"title_original": "不锈钢货运车厢",
 	"author": "Rseding91",
 	"homepage": "",
 	"dependencies": ["base"],
-	"description": "A Stainless Steel wagon.",
+	"description": "添加不锈钢货运车厢。",
 	"description_original": "A Stainless Steel wagon.",
 	"factorio_version": "0.14"
 }

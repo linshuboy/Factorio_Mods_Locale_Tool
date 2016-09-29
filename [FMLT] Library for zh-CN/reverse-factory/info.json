@@ -2,10 +2,10 @@
 	"name": "reverse-factory",
 	"version": "3.0.0",
 	"factorio_version": "0.14",
-	"title": "Reverse Factory",
+	"title": "拆解工厂",
 	"title_original": "Reverse Factory",
 	"author": "Victor Ros, Kryzeth",
-	"description": "Reverse Factory machine will uncraft nearly any item placed inside. Supports all modded items",
+	"description": "拆解工厂可以拆解几乎所有的工业品并回收原料，包括模组物品。",
 	"description_original": "Reverse Factory machine will uncraft nearly any item placed inside. Supports all modded items",
 	"dependencies": ["base >= 0.14"]
 }

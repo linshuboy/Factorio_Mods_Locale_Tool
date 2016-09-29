@@ -1,12 +1,12 @@
 {
 	"name": "LogisticsMining",
 	"version": "1.0.7",
-	"title": "Logistics Mining",
+	"title": "物流采矿",
 	"title_original": "Logistics Mining",
 	"factorio_version": "0.14",
 	"author": "Afforess",
 	"homepage": "http://afforess.com",
-	"description": "Logistics Mining",
+	"description": "让机器人通过物流采掘机自动进行采矿作业。",
 	"description_original": "Logistics Mining",
 	"dependencies": ["base >= 0.14.0"]
 }

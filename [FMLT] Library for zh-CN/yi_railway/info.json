@@ -1,12 +1,12 @@
 {
 	"name": "yi_railway",
-	"title": "Yuoki Industries - Railways",
+	"title": "Yuoki工业之铁路",
 	"title_original": "Yuoki Industries - Railways",
 	"version": "0.4.13",
 	"date": "2016-09-11",
 	"author": "Yuoki Tani",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14"],
-	"description": "decorative railway mod",
+	"description": "装饰铁路。",
 	"description_original": "decorative railway mod"
 }

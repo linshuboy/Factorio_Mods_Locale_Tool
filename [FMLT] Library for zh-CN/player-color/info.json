@@ -1,11 +1,11 @@
 {
 	"name": "player-color",
 	"version": "0.1.1",
-	"title": "Player Color",
+	"title": "玩家变色",
 	"title_original": "Player Color",
 	"author": "Mooncat",
 	"homepage": "",
-	"description": "When used together with Color Picker mod, this provides an easy and well visualised way to change your player color.",
+	"description": "为你提供简单可视的方式改变玩家颜色。",
 	"description_original": "When used together with Color Picker mod, this provides an easy and well visualised way to change your player color.",
 	"factorio_version": "0.14",
 	"dependencies": ["color-picker >= 0.1.1"]
