@@ -1,8 +1,8 @@
 {
 	"name": "Stainless Steel Wagon",
 	"version": "1.0.2",
-	"title": "Stainless Steel Wagon",
-	"title_original": "不锈钢货运车厢",
+	"title": "不锈钢货运车厢",
+	"title_original": "Stainless Steel Wagon",
 	"author": "Rseding91",
 	"homepage": "",
 	"dependencies": ["base"],
