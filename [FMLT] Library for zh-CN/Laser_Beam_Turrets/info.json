@@ -2,10 +2,10 @@
 	"name": "Laser_Beam_Turrets",
 	"author": "Klonan",
 	"version": "0.1.8",
-	"title": "Laser beam turrets",
+	"title": "激光束炮塔",
 	"title_original": "Laser beam turrets",
 	"homepage": "",
-	"description": "Makes laser turrets shoot beams",
+	"description": "让激光炮塔发射激光束。",
 	"description_original": "Makes laser turrets shoot beams",
 	"dependencies": ["base", "? bobwarfare >= 0.13.0"],
 	"factorio_version": "0.14"

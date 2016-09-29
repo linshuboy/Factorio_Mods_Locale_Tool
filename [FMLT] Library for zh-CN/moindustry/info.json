@@ -1,11 +1,11 @@
 {
 	"name": "moindustry",
 	"version": "0.2.02",
-	"title": "MoIndustry",
+	"title": "Mo之工业扩展",
 	"title_original": "MoIndustry",
 	"author": "Ludsoe",
 	"homepage": "",
-	"description": "Adds more Industrial Options to factorio.",
+	"description": "增加更多的工业内容。",
 	"description_original": "Adds more Industrial Options to factorio.",
 	"dependencies": ["base", "? momining"],
 	"factorio_version": "0.14"

@@ -1,10 +1,10 @@
 {
 	"name": "hardCrafting",
 	"version": "0.5.0",
-	"title": "Hard crafting",
+	"title": "复杂制造工艺",
 	"title_original": "Hard crafting",
 	"author": "judos",
-	"description": "Modifies vanilla crafting and smelting to be much trickier, you will need better planning and more clever setup",
+	"description": "让普通的制造和冶炼工艺变得更加复杂，这样你就必须要用更合理的规划和布置。",
 	"description_original": "Modifies vanilla crafting and smelting to be much trickier, you will need better planning and more clever setup",
 	"dependencies": ["base >= 0.14.0", "? fluid-barrel >= 1.0.0", "? marathon >= 0.5.4", "? angelsinfiniteores >= 0.1.2", "? SmartTrains"],
 	"homepage": "https://github.com/judos/hardCrafting",

@@ -1,11 +1,11 @@
 {
 	"name": "KS_Power",
 	"version": "0.1.5",
-	"title": "KS Power",
+	"title": "发电扩展",
 	"title_original": "KS Power",
 	"author": "Klonan",
 	"homepage": "",
-	"description": "Adds a range of different power producing options",
+	"description": "增加几种不同的发电方式。",
 	"description_original": "Adds a range of different power producing options",
 	"factorio_version": "0.13"
 }

@@ -310,74 +310,65 @@
 * gravestones <=> 墓碑
   能够在你死了以后把背包里的物品都存入墓碑。
 
-* HandCrankGenerator <=> Hand Crank Generator
-  You managed to salvage a manual emergency generator from your spacecraft.
+* hardcorio <=> 作死历程:SC2
+  通过全面替换敌人和战斗机制，并添加生命保障机制，把异星工厂完全转变为生存游戏。
 
-* HandyHands <=> HandyHands - Automatic handcrafting
-  Automatically start handcrafting an item that is quickbar filtered that you have less than 1 stack of whenever your crafting queue is empty. Prioritises items in your cursor. Change settings with hotkeys. Don't forget to automate production of everything!
+* hardCrafting <=> 复杂制造工艺
+  让普通的制造和冶炼工艺变得更加复杂，这样你就必须要用更合理的规划和布置。
 
-* hardcorio <=> Hardcorio:SC2
-  Stx3 version is hardcorio_2.2.8. Remake by maroder. Experimental version 11.07.2016
+* Honk <=> 火车汽笛
+  火车会在停车时、发车时和获得指令时鸣汽笛。
 
-* hardCrafting <=> Hard crafting
-  Modifies vanilla crafting and smelting to be much trickier, you will need better planning and more clever setup
+* Hydraulic_Mining_Drill <=> 水力采矿机
+  增加一种仅需水力的采矿机。
 
-* Honk <=> Honk
-  Trains honk when stopping. And starting. And on command.
+* Item Collectors <=> 物品收集器
+  可收集地面上物品的箱子。
 
-* Hydraulic_Mining_Drill <=> Hydraulic Mining Drill
-  Adds a new type of mining drill that only uses water
+* KS_Power <=> 发电扩展
+  增加几种不同的发电方式。
 
-* Item Collectors <=> Item Collectors
-  A chest that picks up items on the ground.
+* Landfill <=> 填海造陆
+  用石头填海造陆，用炸药炸陆造海。
 
-* KS_Power <=> KS Power
-  Adds a range of different power producing options
-
-* Landfill <=> Landfill
-  Use stone to reclaim land and explosions to remove it.
-
-* Laser_Beam_Turrets <=> Laser beam turrets
-  Makes laser turrets shoot beams
+* Laser_Beam_Turrets <=> 激光束炮塔
+  让激光炮塔发射激光束。
 
 * LogisticsMining <=> Logistics Mining
   Logistics Mining
 
-* magnet <=> Magnet
-  Adds a magnet that increases pickup radius.
+* magnet <=> 磁铁
+  增加磁铁，可提高拾取半径。
 
 * MagneticFloor <=> 磁悬浮地板
   磁悬浮，像风一样自由的滑翔
 
 * MiningTools <=> 采矿工具
-  Tools to speed up your mining (pneumatic drills & fast mining drills), provide new resources (with dynamite or massive water injection) and even erase resources (with dynamite).
+  加速采矿（气动凿岩机 & 快速挖掘电钻），新增资源（通过爆破或高压水喷射），清除资源（通过爆破）。
 
-* Misanthrope <=> Misanthrope
-  Alters biter expansion mechanics, adds vastly improved biter AI behavior
+* Misanthrope <=> 排外的虫子
+  大幅提升虫子AI，并调整了虫子的扩张机制。
 
-* Mk3 Armor <=> 动力装甲Mk3
-  增加了一个昂贵的MK3动力装甲和20x20模块网格。也许以后会有进一步的设备。
+* Mk3 Armor <=> 能量装甲Mk3
+  增加一个昂贵的具有20x20格的能量装甲MK3。
 
-* mocombat <=> MoCombat
-  Adds more to factorio's combat.
+* mocombat <=> Mo之战斗扩展
+  增加更多的战斗内容。
 
-* Modular-Armor <=> Modular Armor
-  Alters Modular Armor and adds new Modules
+* moindustry <=> Mo之工业扩展
+  增加更多的工业内容。
 
-* moindustry <=> MoIndustry
-  Adds more Industrial Options to factorio.
+* mopower <=> Mo之能源扩展
+  增加更多的能源内容。
 
-* mopower <=> MoPower
-  Adds more power options to factorio.
+* More_Floors <=> 地面扩展
+  为你的工厂增加多种地面。
 
-* More_Floors <=> More_Floors
-  Adds more floors to pretty up your factories
+* motrans <=> Mo之运输扩展
+  增加更多的运输内容。
 
-* motrans <=> MoTransportation
-  Adds More Transportation Things to factorio.
-
-* Orbital Ion Cannon <=> Orbital Ion Cannon
-  When you need to call down the thunder to deal with those pesky biters, launch a rocket with an ion cannon into orbit and show the bugs who's boss.
+* Orbital Ion Cannon <=> 卫星轨道炮
+  面对虫群如何应对？那就用火箭把卫星轨道炮送入异星轨道，让这些小兔崽子清楚谁才是老大！
 
 * peacemod <=> Peace Mod
   Completely removes enemies and allows alien artifacts to be mined instead.

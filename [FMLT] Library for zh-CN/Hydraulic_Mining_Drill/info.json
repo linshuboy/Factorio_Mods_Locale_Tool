@@ -2,11 +2,11 @@
 	"name": "Hydraulic_Mining_Drill",
 	"version": "1.0.0",
 	"factorio_version": "0.13.13",
-	"title": "Hydraulic Mining Drill",
+	"title": "水力采矿机",
 	"title_original": "Hydraulic Mining Drill",
 	"author": "AnonymoScoot",
 	"homepage": "https://github.com/AnonymoScoot/Hydraulic_Mining_Drill",
-	"description": "Adds a new type of mining drill that only uses water",
+	"description": "增加一种仅需水力的采矿机。",
 	"description_original": "Adds a new type of mining drill that only uses water",
 	"dependencies": ["base >= 0.13.13"]
 }

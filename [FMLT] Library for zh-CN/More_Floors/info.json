@@ -2,10 +2,10 @@
 	"name": "More_Floors",
 	"author": "Tone, PeteTheLich",
 	"version": "1.0.4",
-	"title": "More_Floors",
+	"title": "地面扩展",
 	"title_original": "More_Floors",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=30515",
-	"description": "Adds more floors to pretty up your factories",
+	"description": "为你的工厂增加多种地面。",
 	"description_original": "Adds more floors to pretty up your factories",
 	"dependencies": ["base >= 0.14.00"],
 	"factorio_version": "0.14"

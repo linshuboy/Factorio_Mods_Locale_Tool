@@ -1,12 +1,12 @@
 {
 	"name": "motrans",
 	"version": "0.2.11",
-	"title": "MoTransportation",
+	"title": "Mo之运输扩展",
 	"title_original": "MoTransportation",
 	"author": "Ludsoe",
 	"contact": "",
 	"homepage": "",
-	"description": "Adds More Transportation Things to factorio.",
+	"description": "增加更多的运输内容。",
 	"description_original": "Adds More Transportation Things to factorio.",
 	"dependencies": ["base"],
 	"factorio_version": "0.14"

@@ -1,11 +1,11 @@
 {
 	"name": "Honk",
 	"version": "2.1.2",
-	"title": "Honk",
+	"title": "火车汽笛",
 	"title_original": "Honk",
 	"author": "GotLag",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=21623",
-	"description": "Trains honk when stopping. And starting. And on command.",
+	"description": "火车会在停车时、发车时和获得指令时鸣汽笛。",
 	"description_original": "Trains honk when stopping. And starting. And on command.",
 	"factorio_version": "0.14"
 }
