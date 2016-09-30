@@ -7,7 +7,7 @@
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
-	"description": "可以使用一些热键来调控机械臂的抓取和放置位置.",
+	"description": "可以通过按键和界面来调整机械臂的抓取和放置位置。",
 	"description_original": "Adds hotkeys and a GUI to adjust inserter pickup and drop locations.",
 	"dependencies": ["base >= 0.14.0"]
 }

@@ -3,10 +3,10 @@
 	"author": "Vedrit and Carrotcake94",
 	"version": "0.4.3",
 	"factorio_version": "0.13",
-	"title": "Alien Walls",
+	"title": "异星墙",
 	"title_original": "Alien Walls",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=32&t=12840",
-	"description": "Humanity has made many great advances, but still looks to nature for inspiration. Thanks to users ThaPear, ratchetfreak, and Klonan for help on module healing.",
+	"description": "人类做出了很多成就，但仍要从大自然寻求灵感。",
 	"description_original": "Humanity has made many great advances, but still looks to nature for inspiration. Thanks to users ThaPear, ratchetfreak, and Klonan for help on module healing.",
 	"dependencies": ["base >= 0.13"]
 }

@@ -6,7 +6,7 @@
 	"author": "M",
 	"contact": "https://github.com/mophydeen",
 	"homepage": "https://github.com/mophydeen",
-	"description": "甚至在水上到处走。永远不要再被一棵树或建筑物挡住。",
+	"description": "可以随便行走，即便在水上也一样，也不会再被树木或建筑阻挡。",
 	"description_original": "Walk everywhere even on water. Never be blocked again by a tree or a building.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

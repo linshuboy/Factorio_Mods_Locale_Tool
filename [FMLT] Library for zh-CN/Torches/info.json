@@ -1,12 +1,12 @@
 {
 	"name": "Torches",
 	"version": "0.2.3",
-	"title": "Torches",
+	"title": "火炬",
 	"title_original": "Torches",
 	"author": "Klonan",
 	"contact": "",
 	"homepage": "",
-	"description": "Illuminating Torches made of Wood and Coal",
+	"description": "用木头和煤做的照明火炬。",
 	"description_original": "Illuminating Torches made of Wood and Coal",
 	"factorio_version": "0.13"
 }

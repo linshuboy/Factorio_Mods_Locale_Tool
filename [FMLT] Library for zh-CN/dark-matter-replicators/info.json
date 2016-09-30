@@ -2,11 +2,11 @@
 	"name": "dark-matter-replicators",
 	"version": "0.6.3",
 	"factorio_version": "0.14",
-	"title": "Dark Matter Replicators",
+	"title": "暗物质复制",
 	"title_original": "Dark Matter Replicators",
 	"author": "TempiDrachen (earlier versions by jamupsi)",
 	"homepage": "https://mods.factorio.com/mods/TempiDrachen/dark-matter-replicators/discussion",
-	"description": "Adds replicators which can produce items using only electricity.  The existence of this version of Replicators is not meant to be disrespectful in any way to darkshadow1809 or Doublespin.  Back when the replicators mod was first abandoned I made my own version based on my own preferences, and seeing what darkshadow1809 and Doublespin have done with the mod inspired me to make even more changes.",
+	"description": "增加无需资源仅用电力就可生产物品的复制机。低级复制机是最节能的，可以把荒地转化为资源地；高级复制机能简化生产线，甚至直接生产最终产品。简单复制机可直接替换采空的采掘机，让你不再为需求而扩张，而是为增长而扩张。",
 	"description_original": "This mod adds replicators, machines which can produce items using nothing but electricity. Lower tiers of replicators are the most energy efficient and can essentially transform depleted, empty land into a resource. Higher tier replicators can simplify production lines or otherwise act as a convenience. Tier 1 replicators can replace depleted mining drills, allowing your expansion to be for growth rather than necessity.",
 	"dependencies": ["? bobores >= 0.13.1", "? bobplates >= 0.13.2", "? bobelectronics >= 0.13.1", "? bobmodules >= 0.13.0", "? CORE-DyTech-Core >= 1.2.0", "? MAIN-DyTech-Machine >= 1.1.0", "? Yuoki >= 0.3.52", "? mopower >= 0.5.2", "? Treefarm-Lite >= 0.5.1", "? Treefarm-AC >= 0.2.3"]
 }

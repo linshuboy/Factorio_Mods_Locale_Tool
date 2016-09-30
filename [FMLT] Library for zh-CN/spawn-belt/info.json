@@ -2,11 +2,11 @@
 	"name": "spawn-belt",
 	"version": "1.0.2",
 	"factorio_version": "0.13.11",
-	"title": "Spawn Belt",
+	"title": "再生传送带",
 	"title_original": "Spawn Belt",
 	"author": "Barry",
 	"homepage": "https://github.com/MakuraYami/spawn-belt",
-	"description": "Create spawn & void belts to test throughput",
+	"description": "（作弊性质）添加再生传送带和虚空传送带，用于测试生产能力。",
 	"description_original": "Create spawn & void belts to test throughput",
 	"dependencies": ["base >= 0.13.11"]
 }

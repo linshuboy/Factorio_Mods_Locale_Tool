@@ -1,12 +1,12 @@
 {
 	"name": "mocombat",
 	"version": "0.6.21",
-	"title": "MoCombat",
+	"title": "Mo之战斗扩展",
 	"title_original": "MoCombat",
 	"author": "Ludsoe",
 	"contact": "",
 	"homepage": "",
-	"description": "Adds more to factorio's combat.",
+	"description": "增加更多的战斗内容。",
 	"description_original": "Adds more to factorio's combat.",
 	"dependencies": ["base", "? mopower", "? CartmenCompleteOverhaul"],
 	"factorio_version": "0.14"

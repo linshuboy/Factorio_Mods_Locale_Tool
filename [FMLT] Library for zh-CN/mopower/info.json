@@ -1,12 +1,12 @@
 {
 	"name": "mopower",
 	"version": "0.5.21",
-	"title": "MoPower",
+	"title": "Mo之能源扩展",
 	"title_original": "MoPower",
 	"author": "Ludsoe",
 	"contact": "",
 	"homepage": "",
-	"description": "Adds more power options to factorio.",
+	"description": "增加更多的能源内容。",
 	"description_original": "Adds more power options to factorio.",
 	"dependencies": ["base", "? motrans", "? moweather", "? momining"],
 	"factorio_version": "0.14"

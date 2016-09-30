@@ -2,9 +2,9 @@
 	"name": "Mk3 Armor",
 	"author": "Natha",
 	"version": "1.0.1",
-	"title": "动力装甲Mk3",
+	"title": "能量装甲Mk3",
 	"title_original": "Power armor MK3",
 	"factorio_version": "0.13",
-	"description": "增加了一个昂贵的MK3动力装甲和20x20模块网格。也许以后会有进一步的设备。",
+	"description": "增加一个昂贵的具有20x20格的能量装甲MK3。",
 	"description_original": "Adds an expensive mk3 power armor with 20x20 module grid. Maybe there will be further equipment later."
 }

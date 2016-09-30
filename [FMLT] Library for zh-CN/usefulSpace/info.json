@@ -1,12 +1,12 @@
 {
 	"name": "usefulSpace",
 	"version": "0.2.4",
-	"title": "Useful Space Industry",
+	"title": "太空工业",
 	"title_original": "Useful Space Industry",
 	"author": "Jorgen Re",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=14701",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13",
-	"description": "Tired of sending rockets to space for no gain other than an increasing score!?",
+	"description": "让你可以从发射的卫星接收能量。",
 	"description_original": "Tired of sending rockets to space for no gain other than an increasing score!?"
 }

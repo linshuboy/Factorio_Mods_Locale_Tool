@@ -1,12 +1,12 @@
 {
 	"name": "andrew-power-armor",
 	"version": "0.14.2",
-	"title": "Andrew's power armor",
+	"title": "Andrew之能量装甲",
 	"title_original": "Andrew's power armor",
 	"author": "Andrew",
 	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
 	"homepage": "http://games-mods.weebly.com",
-	"description": "Make armor items for warfare.",
+	"description": "增加装甲模块的强化版。",
 	"description_original": "Make armor items for warfare.",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14.0", "andrew-library >= 0.14.3", "? andrew-modules >= 0.14.2", "? andrew-ore >= 0.14.2"]

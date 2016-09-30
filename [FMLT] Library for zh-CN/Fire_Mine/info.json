@@ -1,12 +1,12 @@
 {
 	"name": "Fire_Mine",
 	"version": "0.1.2",
-	"title": "火矿Mod",
+	"title": "火矿",
 	"title_original": "Fire Mine Mod",
 	"author": "jason03272002",
 	"contact": "jason03272002@hotmail.com",
 	"homepage": "N/A",
-	"description": "You'll warm up to the idea",
+	"description": "你会从火矿获得热量的。",
 	"description_original": "You'll warm up to the idea",
 	"factorio_version": "0.13"
 }

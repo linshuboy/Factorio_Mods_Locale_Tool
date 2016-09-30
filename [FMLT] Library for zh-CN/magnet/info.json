@@ -1,12 +1,12 @@
 {
 	"name": "magnet",
 	"version": "1.4.1",
-	"title": "Magnet",
+	"title": "磁铁",
 	"title_original": "Magnet",
 	"author": "Loren1350, updated by Rahjital",
 	"contact": "Schmendrick on the Factorio forums",
 	"homepage": "",
-	"description": "Adds a magnet that increases pickup radius.",
+	"description": "增加磁铁，可提高拾取半径。",
 	"description_original": "Adds a magnet that increases pickup radius.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.11"]

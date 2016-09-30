@@ -2,12 +2,12 @@
 	"name": "Red Alerts",
 	"version": "1.1.2",
 	"factorio_version": "0.14",
-	"title": "Red Alerts",
+	"title": "红色警戒",
 	"title_original": "Red Alerts",
 	"author": "Supercheese",
 	"contibutors": "daydev",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=92&t=19579",
 	"dependencies": ["base >= 0.14.0"],
-	"description": "Adds some useful warnings such as Low Power and Structure Destroyed, announced either by the EVA voices from the Command and Conquer game series or with unvoiced soundsets.",
+	"description": "为一些事件添加警报，如电力不足和设施被毁。",
 	"description_original": "Adds some useful warnings such as Low Power and Structure Destroyed, announced either by the EVA voices from the Command and Conquer game series or with unvoiced soundsets."
 }

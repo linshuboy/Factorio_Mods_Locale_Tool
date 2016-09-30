@@ -1,12 +1,12 @@
 {
 	"name": "Force Fields",
 	"version": "1.0.10",
-	"title": "Force Fields",
+	"title": "能量力场",
 	"title_original": "Force Fields",
 	"author": "Rseding91",
 	"homepage": "",
 	"dependencies": ["base >= 0.12"],
-	"description": "Electric powered walls.",
+	"description": "电力驱动的墙壁。",
 	"description_original": "Electric powered walls.",
 	"factorio_version": "0.14"
 }

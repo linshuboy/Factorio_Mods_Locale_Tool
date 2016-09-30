@@ -1,12 +1,12 @@
 {
 	"name": "Landfill",
 	"version": "2.1.11",
-	"title": "Landfill",
+	"title": "填海造陆",
 	"title_original": "Landfill",
 	"author": "Rseding91",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=4973",
 	"dependencies": ["base"],
-	"description": "Use stone to reclaim land and explosions to remove it.",
+	"description": "用石头填海造陆，用炸药炸陆造海。",
 	"description_original": "Use stone to reclaim land and explosions to remove it.",
 	"factorio_version": "0.14"
 }

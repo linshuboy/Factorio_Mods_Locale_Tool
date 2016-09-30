@@ -2,11 +2,11 @@
 	"name": "Burner-Filter-Inserter",
 	"version": "0.3.0",
 	"factorio_version": "0.13",
-	"title": "Burner-Filter-Inserter",
+	"title": "热能筛选机械臂",
 	"title_original": "Burner-Filter-Inserter",
 	"author": "V453000",
 	"contact": "",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=25851",
-	"description": "Adds burner filter inserters with 1 filter from the start of the game.",
+	"description": "在游戏刚开始增加一种有1个筛选格的热能筛选机械臂。",
 	"description_original": "Adds burner filter inserters with 1 filter from the start of the game."
 }

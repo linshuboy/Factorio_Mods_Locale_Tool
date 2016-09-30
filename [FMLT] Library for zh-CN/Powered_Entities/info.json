@@ -1,12 +1,12 @@
 {
 	"name": "Powered_Entities",
 	"version": "0.3.10",
-	"title": "Powered  Entities",
+	"title": "能源天线",
 	"title_original": "Powered  Entities",
 	"author": "DedlySpyder",
 	"contact": "DedlySpyder@gmail.com",
 	"homepage": "",
-	"description": "This mod will create power lines between most of the base game's entities that require power.",
+	"description": "为基础包的大多数设备添加了可接受能量的天线。",
 	"description_original": "This mod will create power lines between most of the base game's entities that require power.",
 	"dependencies": ["base >= 0.14.0"],
 	"factorio_version": "0.14"

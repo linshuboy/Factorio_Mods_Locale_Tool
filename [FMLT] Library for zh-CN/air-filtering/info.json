@@ -1,10 +1,10 @@
 {
 	"name": "air-filtering",
 	"version": "0.4.1",
-	"title": "Air filtering",
+	"title": "空气过滤器",
 	"title_original": "Air filtering",
 	"author": "Schorty",
-	"description": "Adding machines to reduce pollution",
+	"description": "新增可以减轻污染的机器",
 	"description_original": "Adding machines to reduce pollution",
 	"factorio_version": "0.14"
 }

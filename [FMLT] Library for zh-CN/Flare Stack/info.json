@@ -1,11 +1,11 @@
 {
 	"name": "Flare Stack",
 	"version": "2.0.1",
-	"title": "Flare Stack",
+	"title": "火炬塔",
 	"title_original": "Flare Stack",
 	"author": "GotLag",
 	"homepage": "",
-	"description": "Adds a flare stack to dispose of unwanted petroleum products.",
+	"description": "增加火炬塔，用于处理不想要的石油制品。",
 	"description_original": "Adds a flare stack to dispose of unwanted petroleum products.",
 	"factorio_version": "0.14"
 }

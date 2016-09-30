@@ -2,11 +2,11 @@
 	"name": "Aircraft",
 	"version": "1.0.7",
 	"factorio_version": "0.13",
-	"title": "Aircraft",
+	"title": "飞机",
 	"title_original": "Aircraft",
 	"author": "Eldwen (Updated by SuicidalKid)",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=120&t=18714",
 	"dependencies": ["base >= 0.13.0"],
-	"description": "A recon and combat aircraft, along with a flying fortress and other aerocraft.",
+	"description": "新增侦查作战飞机、空中堡垒等飞行器。",
 	"description_original": "A recon and combat aircraft, along with a flying fortress and other aerocraft."
 }

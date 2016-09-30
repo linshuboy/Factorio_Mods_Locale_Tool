@@ -2,11 +2,11 @@
 	"name": "Better_Reachdistance_and_Builddistance",
 	"version": "0.0.4",
 	"factorio_version": "0.13",
-	"title": "Better Reachdistance and Builddistance",
+	"title": "更广的够及距离与建设距离",
 	"title_original": "Better Reachdistance and Builddistance",
 	"author": "Sebmium",
 	"homepage": "",
 	"dependencies": ["base >= 0.13.0"],
-	"description": "This Mod adds Technology for larger Reachdistance & Builddistance for Character.",
+	"description": "增加相关科技，可提高玩家的够及距离与建设距离。",
 	"description_original": "This Mod adds Technology for larger Reachdistance & Builddistance for Character."
 }

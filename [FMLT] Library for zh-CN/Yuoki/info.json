@@ -2,11 +2,11 @@
 	"name": "Yuoki",
 	"version": "0.4.59",
 	"date": "2016-08-27",
-	"title": "Yuoki Industries",
+	"title": "Yuoki工业",
 	"title_original": "Yuoki Industries",
 	"author": "Yuoki Tani",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14"],
-	"description": "adds more content like generators, ressource-transformations, machinery, turrets ...",
+	"description": "增加发电机、资源转换器、机械、炮塔等内容。",
 	"description_original": "adds more content like generators, ressource-transformations, machinery, turrets ..."
 }

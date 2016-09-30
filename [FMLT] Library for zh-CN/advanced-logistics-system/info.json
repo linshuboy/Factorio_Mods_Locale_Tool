@@ -2,10 +2,10 @@
 	"name": "advanced-logistics-system",
 	"version": "0.4.0",
 	"factorio_version": "0.14",
-	"title": "Advanced Logistics System",
+	"title": "高级物流系统",
 	"title_original": "Advanced Logistics System",
 	"author": "anoutsider",
-	"description": "Extended Logistics Network View and Monitoring",
+	"description": "扩展了物流系统的查看和监视",
 	"description_original": "Extended Logistics Network View and Monitoring",
 	"homepage": "https://github.com/anoutsider/advanced-logistics-system",
 	"dependencies": ["base >= 0.14.0"]

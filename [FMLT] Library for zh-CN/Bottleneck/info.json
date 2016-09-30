@@ -6,7 +6,7 @@
 	"title": "生产瓶颈分析",
 	"title_original": "Bottleneck",
 	"homepage": "https://github.com/troelsbjerre/Bottleneck",
-	"description": "A tool for locating input starved machines.",
+	"description": "用于找出原料供应不足的机器。",
 	"description_original": "A tool for locating input starved machines.",
 	"dependencies": ["base >= 0.14.0"]
 }

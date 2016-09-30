@@ -2,11 +2,11 @@
 	"name": "Waterfill",
 	"version": "0.1.0",
 	"factorio_version": "0.13",
-	"title": "Waterfill",
+	"title": "抽水机",
 	"title_original": "Waterfill",
 	"author": "Master Riley",
 	"homepage": "http://masterriley.com",
-	"description": "Placable water",
+	"description": "移动水域。",
 	"description_original": "Placable water",
 	"dependencies": []
 }

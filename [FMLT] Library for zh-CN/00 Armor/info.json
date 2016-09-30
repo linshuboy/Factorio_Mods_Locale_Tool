@@ -1,12 +1,12 @@
 {
 	"name": "00 Armor",
 	"version": "0.0.5",
-	"title": "00 Armor",
+	"title": "装甲扩展",
 	"title_original": "00 Armor",
 	"author": "M",
 	"contact": "https://github.com/mophydeen",
 	"homepage": "https://github.com/mophydeen",
-	"description": "Adds a bigger armor and better equipment, crafted using multiple vanilla items.",
+	"description": "添加一种更大的装甲和更高级的装甲模块，只需几种普通原料就能制造。",
 	"description_original": "Adds a bigger armor and better equipment, crafted using multiple vanilla items.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

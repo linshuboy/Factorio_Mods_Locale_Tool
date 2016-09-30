@@ -7,7 +7,7 @@
 	"author": "Bobingabout",
 	"contact": "robertagius@hotmail.com",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
-	"description": "跟踪部分研究的一个模组.",
+	"description": "可保存未完成科技的研究进度。",
 	"description_original": "A mod to keep track of partially researched technologies.",
 	"dependencies": ["base >= 0.14.0"]
 }

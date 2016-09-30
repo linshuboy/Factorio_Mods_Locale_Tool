@@ -2,12 +2,12 @@
 	"name": "Warehousing",
 	"version": "0.0.11",
 	"factorio_version": "0.14",
-	"title": "Warehousing mod",
+	"title": "仓库",
 	"title_original": "Warehousing Mod",
 	"author": "Anoyomouse",
 	"contact": "PM on the Factorio Forums",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=17295",
-	"description": "Warehousing that allows you to have large storage buildings. Store all the things!",
+	"description": "仓库是能为你储存所有物品的大容量建筑。",
 	"description_original": "Warehousing that allows you to have large storage buildings. Store all the things! Storehouses by Hanniballo",
 	"dependencies": ["base >= 0.13.0"]
 }

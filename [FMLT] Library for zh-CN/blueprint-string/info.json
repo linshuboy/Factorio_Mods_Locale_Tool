@@ -1,7 +1,7 @@
 {
 	"name": "blueprint-string",
 	"version": "4.0.0",
-	"title": "蓝图代码 - 分享利器",
+	"title": "蓝图代码",
 	"title_original": "Blueprint String",
 	"author": "DaveMcW",
 	"description": "能够把蓝图转换为代码，让蓝图可以方便地跨存档使用或分享给其它玩家。",

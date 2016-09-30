@@ -1,12 +1,12 @@
 {
 	"name": "andrew-logistics",
 	"version": "0.14.4",
-	"title": "Andrew's Logistics",
+	"title": "Andrew之物流",
 	"title_original": "Andrew's Logistics",
 	"author": "andrew",
 	"contact": "http://games-mods.weebly.com/questions-and-comments.html",
 	"homepage": "http://games-mods.weebly.com",
-	"description": "Adds construction robot, logistic robot and 4 types of pipes to the game. requires Andrew's Library to work.",
+	"description": "增加更高级的建设机器人、物流机器人和4种管道。",
 	"description_original": "Adds construction robot, logistic robot and 4 types of pipes to the game. requires Andrew's Library to work.",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14.0", "andrew-library >= 0.14.4", "? andrew-ore >= 0.14.1"]

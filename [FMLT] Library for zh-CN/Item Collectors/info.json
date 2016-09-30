@@ -1,12 +1,12 @@
 {
 	"name": "Item Collectors",
 	"version": "1.1.8",
-	"title": "Item Collectors",
+	"title": "物品收集器",
 	"title_original": "Item Collectors",
 	"author": "Rseding91",
 	"homepage": "",
 	"dependencies": ["base >= 0.13"],
-	"description": "A chest that picks up items on the ground.",
+	"description": "可收集地面上物品的箱子。",
 	"description_original": "A chest that picks up items on the ground.",
 	"factorio_version": "0.14"
 }

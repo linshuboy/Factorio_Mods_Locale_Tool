@@ -1,11 +1,11 @@
 {
 	"name": "VersepellesDeepQuarry",
 	"version": "1.2.2",
-	"title": "Deep Quarry",
+	"title": "深层矿场",
 	"title_original": "Deep Quarry",
 	"author": "Versepelles",
 	"contact": "stevenbrelsford@gmail.com",
-	"description": "Adds quarry buildings to the game, which mine ores without an ore patch.",
+	"description": "增加矿场设施，可以不在矿区直接从地下采矿。",
 	"description_original": "Adds quarry buildings to the game, which mine ores without an ore patch.",
 	"factorio_version": "0.13",
 	"dependencies": ["base >= 0.13.0"]

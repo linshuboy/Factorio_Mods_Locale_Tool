@@ -1,12 +1,12 @@
 {
 	"name": "BigDrill",
 	"version": "0.3.5",
-	"title": "Bucket Wheel Excavator",
+	"title": "轮斗式挖掘机",
 	"title_original": "Bucket Wheel Excavator",
 	"author": "Jorgen Re",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=12898",
 	"dependencies": ["base >= 0.13.0"],
 	"factorio_version": "0.13",
-	"description": "Adds a large Bucket Wheel Excavator, and a very fast ORE unloader.",
+	"description": "新增大型轮斗式挖掘机以及非常快的矿石装卸机。",
 	"description_original": "Adds a large Bucket Wheel Excavator, and a very fast ORE unloader."
 }
