@@ -1,13 +1,13 @@
 {
 	"name": "UraniumPower",
 	"version": "0.6.5",
-	"title": "核电",
+	"title": "铀能源",
 	"title_original": "Uranium Power",
 	"author": "Fatmice(current), anshuy(current), Liquius(originator)",
 	"contact": "Fatmice",
 	"dependencies": ["base >= 0.13"],
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=64&t=9502",
-	"description": "增加铀处理和发电科技。",
+	"description": "增加铀处理科技。",
 	"description_original": "Mod that adds Uranium Technologies to Factorio",
 	"factorio_version": "0.13"
 }

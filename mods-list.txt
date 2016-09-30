@@ -427,8 +427,8 @@
 * [TreeSeeds] 树木种植
   让你可以用种子种树。
 
-* [UraniumPower] 核电
-  增加铀处理和发电科技。
+* [UraniumPower] 铀能源
+  增加铀处理科技。
 
 * [usefulSpace] 太空工业
   让你可以从发射的卫星接收能量。
