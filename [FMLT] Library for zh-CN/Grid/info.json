@@ -1,0 +1,10 @@
+{
+	"name": "Grid",
+	"version": "0.0.1",
+	"title": "车辆模块插槽",
+	"title_original": "Grid",
+	"author": "Lejving",
+	"description": "启用火车,汽车,坦克和车厢的模块插槽!",
+	"description_original": "Add grids for trains, wagon, tank and car!",
+	"factorio_version": "0.14"
+}
