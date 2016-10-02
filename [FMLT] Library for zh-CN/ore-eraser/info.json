@@ -1,0 +1,11 @@
+{
+	"name": "ore-eraser",
+	"version": "1.3.1",
+	"factorio_version": "0.14",
+	"title": "移除地图资源",
+	"title_original": "Ore Eraser",
+	"author": "Tergiver",
+	"contact": "tergiver@msn.com",
+	"description": "增加了一个移除矿石的物品.",
+	"description_original": "Adds the Ore Eraser item which allows you to erase ore from the map."
+}
