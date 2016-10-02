@@ -9,5 +9,5 @@
 	"description": "增加两种高级石油精炼厂",
 	"description_original": "Adds two upgraded Oil Refineries",
 	"dependencies": ["base >= 0.13", "? bobconfig >= 0.13", "? bobelectronics >= 0.13", "? boblibrary >= 0.13", "? bobmodules >= 0.13", "? bobplates >= 0.13", "? bobtech >= 0.13", "? marathon >= 1.1.1"],
-	"factorio_version": "0.13"
+	"factorio_version": "0.14"
 }
