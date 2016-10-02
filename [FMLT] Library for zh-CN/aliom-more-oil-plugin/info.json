@@ -1,0 +1,13 @@
+{
+	"name": "aliom-more-oil-plugin",
+	"version": "0.1.0",
+	"factorio_version": "0.14",
+	"title": "Aliom 插件: 油井调整 ",
+	"title_original": "Aliom plugin: Rich oil fields ",
+	"author": "Mr Doomah",
+	"contact": "",
+	"homepage": "",
+	"description": "一个aliom插件:有几率让油井最低0.25油/s代替最低0.1油/s",
+	"description_original": "A plugin to aliom that gives oil fiels a chance to become rich oil fields who give 0.25 oil/s instead of 0.1 oil/s",
+	"dependencies": ["base", "aliom >= 0.1.2"]
+}
