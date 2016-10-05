@@ -1,0 +1,13 @@
+{
+	"name": "Bio_Industries",
+	"version": "1.4.5",
+	"title": "生物工业",
+	"title_original": "Bio Industries",
+	"author": "TheSAguy",
+	"contact": "vvwmisc@hotmail.com",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=17548",
+	"description": "生物工业将给游戏增加一些有用的建筑和物品：生物农场种植树木；生物园林减少污染；新的木制产品；生物大炮用于扩张；使用肥料让树木生长得更为茂盛。如果你安装了自然演化建筑Mod( Natural Evolution Buildings ) 还将得到附加功能。请访问网站或论坛了解更多信息。",
+	"description_original": "Bio Industries provides some useful buildings and items to the game. Bio Farm for growing trees. Bio-Garden to reduce pollution. New Wood Products. Bio Cannon to help with expansion. planting trees. fertilize terrain to help trees grow and more. You get additional functionality when you play with Natural Evolution Buildings. Please visit the homepage on the forums for more information and feedback.",
+	"dependencies": ["base >= 0.14", "? bobgreenhouse"],
+	"factorio_version": "0.14"
+}
