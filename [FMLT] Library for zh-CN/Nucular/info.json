@@ -1,0 +1,12 @@
+{
+	"name": "Nucular",
+	"version": "1.0.4",
+	"title": "使用核能量",
+	"title_original": "Nucular - Nuclear Power",
+	"author": "Simdezimon",
+	"homepage": "https://github.com/simdezimon/Nucular",
+	"dependencies": ["base"],
+	"description": "核能量工厂，原子弹和原子实验室.",
+	"description_original": "Nuclear power plants, atomic bombs and particle science.",
+	"factorio_version": "0.14"
+}
