@@ -1,0 +1,12 @@
+{
+	"name": "MoreLight",
+	"version": "1.1.1",
+	"factorio_version": "0.13",
+	"title": "要有光",
+	"title_original": "MoreLight",
+	"author": "James O'Farrell",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "玩家可以反射更多的光，夜里看的更清楚.(临时上传版)",
+	"description_original": "Gives the player more light.(uploaded temporarily until original mod author uploads)"
+}

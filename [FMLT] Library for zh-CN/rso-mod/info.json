@@ -1,0 +1,13 @@
+{
+	"name": "rso-mod",
+	"version": "2.2.3",
+	"factorio_version": "0.14",
+	"title": "无尽资源",
+	"title_original": "Resource Spawner Overhaul",
+	"author": "Dark, orzelek",
+	"contact": "Message me on forums or use discussion board on mod portal",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=79",
+	"description": "修正了系统的资源生成方式。",
+	"description_original": "Overhauls resource spawning system.",
+	"dependencies": ["? MAIN-DyTech-Machine", "? CORE-DyTech-Core", "? bobenemies>=0.13.1", "? bobores", "? 5dim_ores"]
+}

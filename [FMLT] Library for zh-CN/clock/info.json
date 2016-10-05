@@ -1,0 +1,13 @@
+{
+	"name": "clock",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
+	"title": "时钟",
+	"title_original": "Clock",
+	"author": "Dentatus and Bobingabout",
+	"contact": "Private",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
+	"description": "增加一个时钟",
+	"description_original": "Adds a clock",
+	"dependencies": ["base >= 0.14.0"]
+}

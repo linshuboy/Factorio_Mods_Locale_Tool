@@ -1,0 +1,12 @@
+{
+	"name": "Squeak Through",
+	"version": "1.1.4",
+	"factorio_version": "0.14",
+	"title": "随意通行",
+	"title_original": "Squeak Through",
+	"author": "Nommy, Lupin, & Supercheese",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=91&t=16476",
+	"dependencies": ["base"],
+	"description": "允许你直接穿过障碍物，比如太阳能板，管道，蒸汽机，钻头等。妈妈再也不用担心我在基地里卡住啦！",
+	"description_original": "Allows you to walk between what used to be obstacles such as directly adjacent solar panels, pipes, steam engines, mining drills, and chests. No more frustration when walking about your base!"
+}
