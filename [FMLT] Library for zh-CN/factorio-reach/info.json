@@ -1,0 +1,13 @@
+{
+	"name": "factorio-reach",
+	"version": "2.1.1",
+	"title": "一步到位",
+	"title_original": "Factorio Reach",
+	"author": "Sam Hissaund",
+	"contact": "cplsyx@gmail.com",
+	"homepage": "http://github.com/cplsyx",
+	"description": "你的手臂无限长，挖矿开树再也不用动啦！",
+	"description_original": "Provides the player with a long reach for complete access to items, ores and trees across the entire visible play area.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}

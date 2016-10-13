@@ -1,0 +1,13 @@
+{
+	"name": "bobinsertermigrate",
+	"version": "0.13.0",
+	"factorio_version": "0.13",
+	"title": "Bob机械臂版本转换（已经没用了，不用装）",
+	"title_original": "Bob's Inserters migration mod.",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
+	"description": "使用介绍: 安装 Bob之物流 0.13.4 或更早的版本, 安装本MOD, 载入游戏, 保存游戏. 将逻辑MOD更新至 0.13.5 并且完成升级过程，之后即可正常游戏。 在本MOD安装时保存一次游戏，即可删除本MOD.",
+	"description_original": "Instructions: With Logistics mod version 0.13.4 or older installed, install this mod, load the game, then save. Then upgrade the logistics mod to version 0.13.5 to complete the migration and continue as normal. Once you have saved the game with this mod installed, it is save to remove it.",
+	"dependencies": ["base >= 0.13.0"]
+}

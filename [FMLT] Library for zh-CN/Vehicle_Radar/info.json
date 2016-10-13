@@ -1,0 +1,12 @@
+{
+	"name": "Vehicle_Radar",
+	"version": "0.2.0",
+	"title": "车辆雷达",
+	"title_original": "Vehicle Radar",
+	"author": "Optera",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=21729",
+	"homepage": "",
+	"description": "让雷达可以追踪到列车和其它车辆。",
+	"description_original": "Radar revealing trains and other vehicles",
+	"factorio_version": "0.14"
+}

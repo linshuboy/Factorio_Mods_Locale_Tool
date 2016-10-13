@@ -1,0 +1,13 @@
+{
+	"name": "helmod",
+	"version": "0.2.13",
+	"title": "基地规划助理: Helmod",
+	"title_original": "Helmod: Assistant to plan its base.",
+	"author": "Helfima",
+	"contact": "Helfima",
+	"homepage": "https://github.com/Helfima/helmod/wiki",
+	"description": "帮你规划基地，计算需求、资源、工厂、插件和电力。",
+	"description_original": "Assistant to plan its base. calculates the needs, resources, factories, beacon or electric power.",
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14"
+}

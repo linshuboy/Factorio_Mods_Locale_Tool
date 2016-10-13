@@ -1,0 +1,13 @@
+{
+	"name": "Expanded_Robot_Tech",
+	"author": "Natfrac42",
+	"version": "0.4.2",
+	"contact": "natfrac42@gmail.com",
+	"title": "机器人研究扩展",
+	"title_original": "Expanded Robot Technology",
+	"homepage": "",
+	"description": "增加更多两种机器人的研究。包括机器人速度，玩家的物流包大小，机器人载货量以及玩家回收包大小等。",
+	"description_original": "Adds in more technologies for worker and construction robots including robot speed, robot carrying capacity, character trash slots and character logistics slots.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}

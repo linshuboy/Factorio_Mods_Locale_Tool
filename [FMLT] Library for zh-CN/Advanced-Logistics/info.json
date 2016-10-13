@@ -1,0 +1,11 @@
+{
+	"name": "Advanced-Logistics",
+	"author": "Zetsubo, yareczek, Neomore",
+	"version": "0.1.3",
+	"title": "地下物流拓展",
+	"title_original": "Advanced Logistics",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=27550&p=174324#p174324",
+	"description": "拓展了地下传送带、地下管道、机器人指令平台。",
+	"description_original": "Adds upgraded transport belts and pipes",
+	"factorio_version": "0.14"
+}

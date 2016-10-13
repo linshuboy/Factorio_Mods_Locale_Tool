@@ -1,0 +1,13 @@
+{
+	"name": "aliom",
+	"version": "0.1.2",
+	"factorio_version": "0.14",
+	"title": "随机无限矿点",
+	"title_original": "A limited infinite ore mod",
+	"author": "Mr Doomah",
+	"contact": "",
+	"homepage": "",
+	"description": "让每个矿点有1/5的概率转变为无限矿点，模组自定义矿点亦有效。",
+	"description_original": "Adds infinite ore patches to some but not all ore fields.",
+	"dependencies": ["base"]
+}

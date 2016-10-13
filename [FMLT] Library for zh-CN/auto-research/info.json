@@ -1,0 +1,12 @@
+{
+	"name": "auto-research",
+	"version": "2.1.0",
+	"factorio_version": "0.14",
+	"title": "自动研究",
+	"title_original": "Auto Research",
+	"author": "canidae",
+	"contact": "canidae@exent.net",
+	"homepage": "http://exent.net",
+	"description": "按 shift+T 显示界面，可按以下优先级自动研究科技：最少科技包种类的科技（可禁用），优先研究的科技，优先研究科技的前置科技，最少消耗的科技（消耗 = 科技包数 * 能量）。",
+	"description_original": "Automates research. Show GUI with Shift+T (customizable). Chooses research in the following order: Fewest types of science packs (can be disabled), prioritized technologies, prerequisites for prioritized technologies, least effort technologies (effort = science packs * energy)."
+}

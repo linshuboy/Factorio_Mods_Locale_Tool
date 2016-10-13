@@ -1,0 +1,12 @@
+{
+	"name": "tree_collision",
+	"version": "0.4.0",
+	"factorio_version": "0.14.0",
+	"title": "减小树碰撞体积",
+	"title_original": "Tree Collision",
+	"author": "skomick",
+	"contact": "www.factorioforums.com",
+	"homepage": "",
+	"description": "减小树的碰撞体积",
+	"description_original": "Makes tree collision box very small"
+}

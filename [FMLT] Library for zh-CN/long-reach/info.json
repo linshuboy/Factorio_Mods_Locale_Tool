@@ -1,0 +1,13 @@
+{
+	"name": "long-reach",
+	"version": "0.0.6",
+	"title": "缩地成寸",
+	"title_original": "Long Reach",
+	"author": "James Aguilar",
+	"contact": "aguilar.james@gmail.com",
+	"homepage": "http://github.com/jaguilar",
+	"description": "目视之处便是落脚之地，视线所在便是建筑范围。",
+	"description_original": "You can reach anything you can see. You can build anywhere you can see.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.13.0"]
+}

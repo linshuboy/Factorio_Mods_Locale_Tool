@@ -1,0 +1,12 @@
+{
+	"name": "Power Armor MK3",
+	"author": "jimmy_1283",
+	"version": "0.0.4",
+	"title": "能量装甲MK3",
+	"title_original": "Power Armor MK3",
+	"description": "更高级的能量装甲，具有更大的模块插槽(20x20)和更多的背包容量加成(+50)。",
+	"description_original": "Bigger, better power armor; with a bigger grid (20x20) and larger inventory bonus (+50).",
+	"homepage": "nope",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}

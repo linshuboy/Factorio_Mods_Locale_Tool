@@ -1,0 +1,13 @@
+{
+	"name": "bobvehicleequipment",
+	"version": "0.14.1",
+	"factorio_version": "0.14",
+	"title": "Bob之车载模块",
+	"title_original": "Bob's Vehicle Equipment",
+	"author": "Bobingabout",
+	"contact": "robertagius@hotmail.com",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
+	"description": "为Bob系列车辆添加了一系列车载模块。",
+	"description_original": "A range of equipment for use in vehicles of Bob's Mods.",
+	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0"]
+}
