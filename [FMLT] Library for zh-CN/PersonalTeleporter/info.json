@@ -1,0 +1,12 @@
+{
+	"name": "PersonalTeleporter",
+	"version": "0.1.6",
+	"title": "个人传送器",
+	"title_original": "PersonalTeleporter",
+	"author": "WhatheWorld",
+	"description": "这个mod给游戏添加了个人传送器. 多谢iUltimateLP和他的简易传送装置启发了我并且感谢使用了他的代码和贴图。汉化By贴吧zh657415571",
+	"description_original": "This mod adds personal Teleaporter to the game. A lot of Thanks to iUltimateLP and his mod SimpleTeleporters for inspiration and for the use of His Code and graphics",
+	"factorio_version": "0.13",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=18918",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24157"
+}
