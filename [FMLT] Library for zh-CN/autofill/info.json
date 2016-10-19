@@ -1,0 +1,14 @@
+{
+	"name": "autofill",
+	"version": "1.4.4",
+	"factorio_version": "0.14",
+	"title": "自动填充",
+	"title_original": "Autofill",
+	"author": "rk84, Nexela",
+	"contact": "www.factorioforums.com",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=1612",
+	"description": "当在世界中放置装置时自动填充它的可填充物（弹药、燃料等）.",
+	"description_original": "Autofill inserts items (ammo,fuel,etc) inside entities when placing them in the world.",
+	"dependencies": ["base >= 0.13.9"],
+	"license": "MIT"
+}
