@@ -1,0 +1,12 @@
+{
+	"name": "Crafting_Speed_Research",
+	"version": "0.1.3",
+	"title": "手工制作速度研究",
+	"title_original": "Crafting Speed Research",
+	"author": "Klonan",
+	"contact": "",
+	"homepage": "",
+	"description": "这个mod添加了一个科技以提高玩家的手工制作速度",
+	"description_original": "This mod adds research to increase the player crafting speed",
+	"factorio_version": "0.13"
+}
