@@ -1,0 +1,13 @@
+{
+	"name": "InterfaceChest",
+	"version": "1.14.2",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.13"],
+	"title": "接口箱",
+	"title_original": "Interface Chest",
+	"author": "Peppe",
+	"contact": "",
+	"homepage": "https://github.com/Peppe-KSP/InterfaceChest",
+	"description": "气流箱可以在传送带上推/拉物品。箱子连接到相邻的库存:可以从相邻的库存和传送带上拉取或推送货物。",
+	"description_original": "Slipstream chests to push/pull items to belts.  Chest connects to adjacent inventories to: Pull from adjacent inventory and push to belt or Pull from belt and push to adjacent inventory."
+}
