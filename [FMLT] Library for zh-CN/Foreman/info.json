@@ -1,0 +1,10 @@
+{
+	"name": "Foreman",
+	"version": "1.0.0",
+	"factorio_version": "0.14",
+	"author": "Choumiko (originally: JamesOFarrell)",
+	"title": "蓝图管理者",
+	"title_original": "Foreman",
+	"description": "管理你所有的蓝图需求。",
+	"description_original": "For managing all your blueprint needs."
+}
