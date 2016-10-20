@@ -1,0 +1,11 @@
+{
+	"name": "AutoTrash",
+	"version": "1.0.0",
+	"factorio_version": "0.14",
+	"title": "自动清理",
+	"title_original": "Auto Trash",
+	"author": "Choumiko",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=16016",
+	"description": "清理你背包里的某些物品",
+	"description_original": "Keeps your inventory clean of certain items"
+}
