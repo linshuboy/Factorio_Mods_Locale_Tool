@@ -1,7 +1,7 @@
 {
 	"name": "5dim_decoration",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "5dim之装饰",
 	"title_original": "5dim's Mod - Decoration",
 	"author": "5Dim",
@@ -9,5 +9,5 @@
 	"homepage": "http://www.5dim.es",
 	"description": "5dim之装饰",
 	"description_original": "Decoration for 5dim's mod",
-	"dependencies": ["5dim_core >= 0.13.0"]
+	"dependencies": ["5dim_core >= 0.14.0"]
 }

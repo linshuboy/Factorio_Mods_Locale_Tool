@@ -1,7 +1,7 @@
 {
 	"name": "research-queue",
-	"version": "1.3.0",
-	"factorio_version": "0.13",
+	"version": "1.4.1",
+	"factorio_version": "0.14",
 	"title": "研究队列",
 	"title_original": "Research queue",
 	"author": "Mr Doomah updated by Doomquill",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=17219",
 	"description": "允许玩家将科技研究加入队列，也可以按需要的科技包查看研究，会自动放置前置科技。",
 	"description_original": "Allows players to queue research, view research by required science packs, and automatically queue prerequisites for desired tech.",
-	"dependencies": ["base >= 0.13", "? bobmodules >= 0.13", "? bobenemies >= 0.13"]
+	"dependencies": ["base >= 0.14", "? bobmodules >= 0.14", "? bobenemies >= 0.14"]
 }

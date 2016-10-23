@@ -5,6 +5,7 @@
 	"title": "采矿工具",
 	"title_original": "Mining Tools (+dynamites to provide new resources)",
 	"description": "加速采矿（气动凿岩机 & 快速挖掘电钻），新增资源（通过爆破或高压水喷射），清除资源（通过爆破）。",
+	"description_original": "Tools to speed up your mining (pneumatic drills & fast mining drills), provide new resources (with dynamite or massive water injection) and even erase resources (with dynamite).",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=23849",
 	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
 	"factorio_version": "0.14",

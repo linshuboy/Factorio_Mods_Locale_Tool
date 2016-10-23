@@ -1,7 +1,7 @@
 {
 	"name": "5dim_vehicle",
-	"version": "0.13.1",
-	"factorio_version": "0.13",
+	"version": "0.14.0",
+	"factorio_version": "0.14",
 	"title": "5dim之车辆",
 	"title_original": "5dim's Mod - Vehicle",
 	"author": "5Dim",
@@ -9,5 +9,5 @@
 	"homepage": "http://www.5dim.es",
 	"description": "5dim之车辆",
 	"description_original": "Vehicles for 5dim's mod",
-	"dependencies": ["5dim_core >= 0.13.0"]
+	"dependencies": ["5dim_core >= 0.14.0"]
 }
