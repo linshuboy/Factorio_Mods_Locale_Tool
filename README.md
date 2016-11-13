@@ -35,6 +35,7 @@
 - 分支说明：`master`分支为阶段性发布分支，`develop`分支为汉化搜集分支。
 
 #### 伟大的参与者们(排名不分先后)
+
 - fubixingwzy
 - 好人Ⅲ(DEMO)
 - BlueSky234
