@@ -1,0 +1,12 @@
+{
+	"name": "add-loader",
+	"version": "0.0.8",
+	"factorio_version": "0.14",
+	"title": "装卸机",
+	"title_original": "add-loader",
+	"author": "kij336",
+	"contact": "kij336@naver.com",
+	"description": "添加基础装卸机，高速装卸机，极速装卸机。并添加更快的结合Bobmod的装卸机。现在可以工作于货运车厢（火车）",
+	"description_original": "add loader, fast loader, express loader. and add more fast loaders conjunction with bobsmod. now work with cargo-wagons(train)",
+	"dependencies": ["base >= 0.14.0", "? boblogistics >= 0.14.2"]
+}
