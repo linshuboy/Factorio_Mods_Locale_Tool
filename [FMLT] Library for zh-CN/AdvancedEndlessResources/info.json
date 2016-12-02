@@ -1,0 +1,11 @@
+{
+	"name": "AdvancedEndlessResources",
+	"version": "1.1.1",
+	"title": "高级无尽资源",
+	"title_original": "Advanced Endless Resources",
+	"author": "_ImPat",
+	"description": "现在所有的资源都会改变为无限的。即使原来游戏世界中资源含量已经低于50%。这个MOD的更多信息请访问mods.factorio.com",
+	"description_original": "All Resources now have yields. Compatible with old worlds where ammount is already below 50. For more info and credit visit this mod on mods.factorio.com",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.13"]
+}
