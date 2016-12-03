@@ -1,0 +1,13 @@
+{
+	"name": "Zoom",
+	"version": "1.0.6",
+	"title": "超远视角（2个按钮和热键变换视角距离）",
+	"title_original": "Zoom (2 buttons and hotkey to wide zoom)",
+	"author": "BinbinHfr",
+	"description": "仅仅用2个按钮来拉近或拉远视角，可以突破原来游戏的限制从超远视角鸟瞰！热键ALT-Z , 可以直接缩小回原始视角。",
+	"description_original": "Just 2 buttons to zoom extra wide or close, further than actual gui limits ! And a ALT-Z hotkey to direct zoom out.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=28639",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}
