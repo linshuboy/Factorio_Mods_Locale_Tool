@@ -1,0 +1,14 @@
+{
+	"name": "FactorioMaps",
+	"version": "0.7.2",
+	"title": "Factorio版Google地图",
+	"title_original": "Google Maps Factorio style",
+	"author": "jeroon, credomane",
+	"contact": "https://github.com/credomane/",
+	"homepage": "https://github.com/credomane/FactorioMods_FactorioMaps",
+	"description": "导出一个像Google地图的Factorio游戏地图",
+	"description_original": "Create a Google Maps-like map of your Factorio game",
+	"license": "Free for all",
+	"factorio_version": "0.14",
+	"dependencies": []
+}
