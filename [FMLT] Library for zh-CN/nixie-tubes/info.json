@@ -1,0 +1,11 @@
+{
+	"name": "nixie-tubes",
+	"version": "0.3.10",
+	"factorio_version": "0.14",
+	"title": "Nixie Tubes",
+	"title_original": "Nixie Tubes",
+	"author": "GopherAtl, justarandomgeek",
+	"description": "添加数码管，用于显示来自电路网络的信号。",
+	"description_original": "Adds nixie tubes, for displaying values from a connected circuit network.",
+	"dependencies": ["base >= 0.13.0"]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "eco-trees",
+	"version": "0.0.7",
+	"factorio_version": "0.14",
+	"title": "生态树",
+	"title_original": "Eco Trees",
+	"author": "Laige",
+	"dependencies": ["base >= 0.14.0", "? Any Tree Mod"],
+	"description": "树木将吸收更多（10倍）的污染。",
+	"description_original": "Trees will absoreb 10x more Pollution."
+}
