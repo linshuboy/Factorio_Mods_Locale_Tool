@@ -1,0 +1,12 @@
+{
+	"name": "HandyHands",
+	"version": "1.4.0",
+	"title": "麒麟臂",
+	"title_original": "HandyHands - Automatic handcrafting",
+	"author": "Qon",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=16047",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=30529",
+	"factorio_version": "0.14",
+	"description": "当你的手搓队列为空时，自动开始手搓物品。这个物品是在你的快捷栏里用过虑器锁定的。你的光标指向的物品优先考虑。可以使用热键更改设置。别忘了自动化生产一切！",
+	"description_original": "Automatically start handcrafting an item that is quickbar filtered that you don't have enough of whenever your crafting queue is empty. Prioritises items in your cursor. Change settings with hotkeys. Don't forget to automate production of everything!"
+}

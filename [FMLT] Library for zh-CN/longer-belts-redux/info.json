@@ -1,0 +1,13 @@
+{
+	"name": "longer-belts-redux",
+	"version": "0.14.2",
+	"title": "更长的地下传送带（对齐）",
+	"title_original": "Longer Underground Belt (Aligned) ",
+	"author": "Peppe",
+	"contact": "",
+	"homepage": "https://www.reddit.com/r/factorio/comments/53wjk1/the_longer_underground_belt_mod_that_gets_it_right/",
+	"description": "基于地下传送带的速度延长其距离。修复支持Bob的物流。感谢Schmendrick, Loren1350为之前的版本作出的贡献。",
+	"description_original": "Extends underground belt distance based on their speed.  Fixed optional mod bob's logistics.  Credit Schmendrick, Loren1350, for past versions",
+	"dependencies": ["base", "? boblogistics >= 0.14.2"],
+	"factorio_version": "0.14"
+}
