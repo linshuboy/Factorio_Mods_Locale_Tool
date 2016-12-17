@@ -1,0 +1,13 @@
+{
+	"name": "NPUtils",
+	"version": "0.1.15",
+	"factorio_version": "0.14",
+	"title": "NP科技和NP战争",
+	"title_original": "NPUtils",
+	"author": "kaueNP",
+	"contact": "kaue.np@gmail.com",
+	"homepage": "",
+	"description": "31新机器，6炮塔，自定义汽车，许多项目，液体和弹药丰富您的Factorio与发电，矿石加工，丰富燃料，生物燃料，外国农场和交换东西在NPSpace市场。",
+	"description_original": "31 New machines,6 turrets,Custom Car,many items,liquids and ammo to enrich your Factorio with power gen,ore process,enrich fuel,bio fuel,alien farm and exchange stuffs in NPSpace Market.",
+	"dependencies": ["base >= 0.14.0"]
+}

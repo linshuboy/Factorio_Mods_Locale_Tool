@@ -1,13 +1,13 @@
 {
 	"name": "angelsinfiniteores",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"factorio_version": "0.14",
-	"title": "Angel之无限矿",
+	"title": "天使无限矿物",
 	"title_original": "Angel's Infinite Ores",
 	"author": "Arch666Angel",
 	"contact": "",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=185",
-	"description": "为Angel系列及其它众多模组添加无限资源，可通过配置文件修改参数。",
+	"description": "为天使mod及其它众多模组添加无限资源，可通过配置文件修改参数。",
 	"description_original": "Adds infinite ores for the base game, Bobmods, Yuoki Industries, Uranium Power, Nucular, Dark Matter Replicators and the base ores for AngelsRefining. Best used with RSO mod to have infinite ores in the core of regular resource patches. Has config options to change the yield for all infinite resources including oil",
 	"dependencies": ["base >= 0.14.0", "? angelsrefining >= 0.3.0", "? angelspetrochem >= 0.1.0", "? bobores >= 0.14.0", "? bobplates >= 0.14.0", "? Yuoki >= 0.4.0", "? UraniumPower >= 0.6.3", "? Nucular >= 0.2.0", "? dark-matter-replicators >= 0.6.1", "? angelstrigger-infiniteores-disableinfiniteores >= 0.1.2", "? angelstrigger-infiniteores-disablersomode >= 0.1.2"]
 }

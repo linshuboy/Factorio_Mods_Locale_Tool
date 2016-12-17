@@ -1,0 +1,13 @@
+{
+	"name": "RoboCharge",
+	"version": "0.0.8",
+	"title": "机器人充电站",
+	"title_original": "Robot Charging Station",
+	"author": "Braddock (Graphics by Bobingabout) (Edited by Hertizch)",
+	"contact": "",
+	"homepage": "https://github.com/Hertizch/RoboCharge",
+	"description": "Mod增加了一个新的小塔，可以给机器人充电，虽然它们不能停靠。",
+	"description_original": "Mod that adds a new small tower that can recharge robots, though they can't dock with it.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.13.0"]
+}

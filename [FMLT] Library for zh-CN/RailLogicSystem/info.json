@@ -1,0 +1,12 @@
+{
+	"name": "RailLogicSystem",
+	"version": "1.2.0",
+	"title": "铁路逻辑系统",
+	"title_original": "RailLogicSystem",
+	"author": "XCodersTeam",
+	"homepage": "",
+	"dependencies": ["base"],
+	"description": "想通过电路网络控制铁路？开始了！",
+	"description_original": "Want to control railway by circuit network? Here we go!",
+	"factorio_version": "0.14"
+}

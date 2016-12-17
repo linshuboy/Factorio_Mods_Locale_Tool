@@ -1,0 +1,12 @@
+{
+	"name": "SmartDisplay",
+	"version": "1.0.17",
+	"title": "智能显示器（在地图上显示电路网络信号）",
+	"title_original": "Smart Display (circuit network signal display on map)",
+	"author": "BinbinHfr",
+	"description": "智能显示器，显示来自电路网络的信号，具有显示选项。",
+	"description_original": "A combinator that displays a signal from the circuit network, with formating options.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=24720",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=14267",
+	"factorio_version": "0.14"
+}

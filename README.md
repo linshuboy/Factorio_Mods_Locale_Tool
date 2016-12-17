@@ -25,7 +25,7 @@
 ### 如何分享自己的汉化？
 辛辛苦苦自己汉化的MOD当然不希望独享，这个工具就是帮你干这个事的。
 
-- 联系文本库管理员 Quiet95scholar(QQ-211398520, linshuboy@qq.com)，他会把你提交的汉化加入文本库。
+- 联系文本库管理员 Quiet95scholar(QQ:211398520, linshuboy@qq.com)，他会把你提交的汉化加入文本库。
 - 最有效的提交方式，将汉化完成的整个MOD作为附件发给文本库管理员 Quiet95scholar(linshuboy@qq.com)。
 - 在联系管理员之前，我倡议你为你汉化的MOD准备一个更新信息，并且在自己的贡献署名。
 - 如果你会使用Git，也可以本项目的 develop 分支为基础，向其发起 Pull Request 。
@@ -35,6 +35,8 @@
 - 分支说明：`master`分支为阶段性发布分支，`develop`分支为汉化搜集分支。
 
 #### 伟大的参与者们(排名不分先后)
+
+- 磷雅
 - fubixingwzy
 - 好人Ⅲ(DEMO)
 - BlueSky234
