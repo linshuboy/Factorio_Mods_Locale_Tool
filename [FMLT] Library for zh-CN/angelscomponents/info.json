@@ -1,0 +1,17 @@
+{
+  "name": "angelscomponents",
+  "version": "0.1.0",
+  "factorio_version": "0.14",
+  "title": "Angel-组件及科技[BETA]",
+  "title_original": "Angel's Components and Tech [BETA]",
+  "author": "Arch666Angel",
+  "contact": "",
+  "homepage": "",
+  "description": "为其他Angel添加各种组件，装备以及科研改革中心[BETA]",
+  "description_original": "Adds components, equipment and tech overhaul as a base for other Angelsmods. [BETA]",
+  "dependencies": [
+    "base >= 0.14.0",
+    "angelsrefining >= 0.6.0",
+    "bobplates >= 0.14.0"
+  ]
+}

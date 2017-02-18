@@ -1,0 +1,16 @@
+{
+  "name": "pycoalprocessing",
+  "version": "0.1.2",
+  "factorio_version": "0.14",
+  "title": "Pyanodons的煤炭加工",
+  "title_original": "Pyanodons Coal Processing",
+  "author": "Pyanodon",
+  "licence": "CC BY-NC-ND 4.0",
+  "contact": "smylodon@gmail.com",
+  "homepage": "",
+  "description": "添加一条煤炭加工生产线",
+  "description_original": "Adds coal processing lines to the game.",
+  "dependencies": [
+    "base >= 0.14.0"
+  ]
+}

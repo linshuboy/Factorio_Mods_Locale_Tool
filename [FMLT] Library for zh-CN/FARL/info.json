@@ -1,6 +1,6 @@
 {
 	"name": "FARL",
-	"version": "0.6.0",
+  "version": "0.7.4",
 	"factorio_version": "0.14",
 	"title": "全自动铺轨机",
 	"title_original": "Fully Automated Rail Layer",
@@ -8,5 +8,9 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=61",
 	"description": "全自动铺轨机",
 	"description_original": "Fully automated rail-layer",
-	"dependencies": ["? 5dim_trains", "? TheFatController"]
+  "dependencies": [
+    "? VehiclesEquipement",
+    "? 5dim_trains",
+    "? TheFatController"
+  ]
 }

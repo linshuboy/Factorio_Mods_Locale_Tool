@@ -1,0 +1,16 @@
+{
+  "name": "aai-programmable-structures",
+  "version": "0.2.2",
+  "title": "AAI-可编程建筑",
+  "title_original": "AAI Programmable Structures",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 0.14.0",
+    "aai-signals >= 0.1.3",
+    "aai-zones >= 0.1.3"
+  ],
+  "description": "基于已安装的其他AAI系列mod添加具有扫描和控制能力的建筑物。包括一个默认的区格扫描器能够扫描区格的内容。搭配AAI-区域MOD能够扫描并设置区域。搭配AAI-可编程载具MOD能够扫描和控制可编程载具。",
+  "description_original": "Adds scanning and control structures based on other mods installed. Includes a Tile Scanner by default that can the contents of tiles. Can scan and place Zones with AAI Zones mod. Can scan and control vehicles and their data with AAI Programmable Vehicles mod.",
+  "factorio_version": "0.14",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=38473"
+}

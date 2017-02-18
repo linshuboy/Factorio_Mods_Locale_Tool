@@ -1,0 +1,26 @@
+{
+  "name": "aai-programmable-vehicles",
+  "version": "0.2.4",
+  "title": "AAI-可编程载具",
+  "title_original": "AAI Programmable Vehicles",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 0.14.21",
+    "data-raw-prototypes >= 0.1.3",
+    "aai-programmable-structures >= 0.2.2",
+    "aai-zones >= 0.1.3",
+    "detached-gun-sounds >= 0.1.1",
+    "off-grid-effects >= 0.1.1",
+    "aai-signals >= 0.1.3",
+    "aai-vehicles-miner >= 0.1.7",
+    "aai-vehicles-hauler >= 0.1.1",
+    "?aai-vehicles-chaingunner >= 0.1.3",
+    "?aai-vehicles-flame-tumbler >= 0.1.5",
+    "?aai-vehicles-laser-tank >= 0.1.4",
+    "?bullet-trails >= 0.1.1"
+  ],
+  "description": "利用遥控器、电路或AAI区域编程和控制自动化载具。用于应付基地袭击，巡逻及基于采矿车的采矿等等。适用于原版及MOD的载具",
+  "description_original": "Program and control autonomous vehicles using a remote control handset, or circuit conditions and zones. Can be used for base enemy base assault, patrols, friendly base navigation, vehicle-based mining, and more advanced applications. Works with vanilla and modded vehicles.",
+  "factorio_version": "0.14",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=38475"
+}

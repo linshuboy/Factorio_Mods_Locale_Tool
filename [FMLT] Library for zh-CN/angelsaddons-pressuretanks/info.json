@@ -1,0 +1,16 @@
+{
+  "name": "angelsaddons-pressuretanks",
+  "version": "0.1.1",
+  "factorio_version": "0.14",
+  "title": "Angel-附属-压力液槽",
+  "title_original": "Angel's Addons - Pressure Tanks",
+  "author": "Arch666Angel",
+  "contact": "",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=30962",
+  "description": "添加一个压力液槽(容量极大).",
+  "description_original": "Adds pressure tanks (extremly large tanks).",
+  "dependencies": [
+    "base >= 0.14.0",
+    "angelspetrochem >= 0.1.15"
+  ]
+}

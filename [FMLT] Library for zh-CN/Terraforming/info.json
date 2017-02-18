@@ -1,0 +1,15 @@
+{
+  "name": "Terraforming",
+  "factorio_version": "0.14",
+  "version": "0.14.2",
+  "title": "MudRaker的地形改造",
+  "title_original": "MudRaker's Terraforming",
+  "author": "MudRaker",
+  "contact": "http://www.factorioforums.com/forum/",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=34957",
+  "description": "添加地形改造设备——架桥机，护城河挖掘机及吊桥",
+  "description_original": "Mod that adds terraforming equipment - bridge builders, moat diggers and drawbridges",
+  "dependencies": [
+    "base >= 0.14.0"
+  ]
+}

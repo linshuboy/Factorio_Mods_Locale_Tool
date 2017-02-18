@@ -1,0 +1,16 @@
+{
+  "name": "angelsaddons-oresilos",
+  "version": "0.2.2",
+  "factorio_version": "0.14",
+  "title": "Angel-附属-矿物筒仓",
+  "title_original": "Angel's Addons - Ore Silos",
+  "author": "Arch666Angel",
+  "contact": "",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=30962",
+  "description": "为Angel-精炼mod带来的大量矿物添加的筒仓，能储存大量物品。",
+  "description_original": "Adds ore silos for Angels Refining.",
+  "dependencies": [
+    "base >= 0.14.0",
+    "angelsrefining >= 0.3.0"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "aai-vehicles-flame-tumbler",
+  "version": "0.1.5",
+  "title": "AAI-载具-火焰突击车",
+  "title_original": "AAI Vehicles: Flame Tumbler",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 0.14.0"
+  ],
+  "description": "对撞击伤害有高抗性的高速度突击车，配备火焰喷射器。非常适合突击，野外探索以及hit-and-run战术。搭配AAI-可编程载具MOD可以自动运行。",
+  "description_original": "A very high speed ramming vehicle hardened against collision damage and armed with a flamethrower. Suitable for rapid base assault, wilderness exploration, and hit-and-run engagements. Can be automated with AAI Programmable Vehicles mod.",
+  "factorio_version": "0.14"
+}

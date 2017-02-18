@@ -1,0 +1,16 @@
+{
+  "name": "Natural_Evolution_Enemies",
+  "version": "6.4.0",
+  "title": "自然演化-敌人",
+  "title_original": "Natural Evolution Enemies",
+  "author": "TheSAguy",
+  "contact": "vvwmisc@hotmail.com",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=91&t=13562&p",
+  "description": "All things Alien! 添加新的敌人、增强食人虫及喷吐虫巢穴。给需要更多挑战的你。该Mod是自然演化mod的其中之一，不过也能单独使用。访问主页以了解更多信息。",
+  "description_original": "All things Alien! Adds new Enemies and updates to Biter/Spitters Spawners. If you want a more of a challenge than what Vinalla can offer you... Part of the N.E. Mods, but can be used as Standalone. Please visit home page for more details.",
+  "dependencies": [
+    "base >= 0.14",
+    "? bobenemies"
+  ],
+  "factorio_version": "0.14"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "aai-zones",
+  "version": "0.1.5",
+  "title": "AAI-区域",
+  "title_original": "AAI Zones",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 0.14.0"
+  ],
+  "description": "添加“AAI区域”到游戏中。 AAI区域是用AAI区域规划工具标记的高亮区域。搭配AAI-可编程建筑MOD，你能够通过信号自动扫描并设置AAI区域。搭配AAI-可编程载具mod，AAI区域将变得更加强大————能够控制运行的载具。",
+  "description_original": "Adds 'Zones' to the game. Zones are highlighted regions that can be placed with the Zone Planning Tool. With AAI Programmable Structures mod you can place and scan zones automatically using Signals. Zones become even more powerful with AAI Programmable Vehicles mod where they can be used to control automated vehicles.",
+  "factorio_version": "0.14"
+}

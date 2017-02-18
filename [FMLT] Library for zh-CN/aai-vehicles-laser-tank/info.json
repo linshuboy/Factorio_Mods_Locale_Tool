@@ -1,0 +1,13 @@
+{
+  "name": "aai-vehicles-laser-tank",
+  "version": "0.1.4",
+  "title": "AAI-载具-光棱坦克",
+  "title_original": "AAI Vehicles: Laser Tank",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 0.14.0"
+  ],
+  "description": "配置重型装甲的高伤害光棱坦克，用AAI-可编程载具MOD编程后能够自动运行。",
+  "description_original": "A high-damage laser tank with heavy armour. Can be automated with AAI Programmable Vehicles mod.",
+  "factorio_version": "0.14"
+}

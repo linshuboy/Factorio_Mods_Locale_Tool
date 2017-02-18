@@ -1,0 +1,18 @@
+{
+  "name": "angelslogistics",
+  "version": "0.1.1",
+  "factorio_version": "0.14",
+  "title": "Angel-物流",
+  "title_original": "Angel's Logistics",
+  "author": "Arch666Angel",
+  "contact": "",
+  "homepage": "",
+  "description": "添加物流方面的物品，如运输机器人及供需货箱",
+  "description_original": "Adds logistic things like cargo bots and chest variants",
+  "dependencies": [
+    "base >= 0.14.0",
+    "angelscomponents >= 0.1.0",
+    "? boblibrary >= 0.14.0",
+    "? boblogistics >= 0.14.0"
+  ]
+}

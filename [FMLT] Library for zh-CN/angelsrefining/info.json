@@ -1,13 +1,21 @@
 {
 	"name": "angelsrefining",
-	"version": "0.4.5",
+  "version": "0.6.5",
 	"factorio_version": "0.14",
-	"title": "天使精炼",
+  "title": "Angel-精炼",
 	"title_original": "Angel's Refining",
 	"author": "Arch666Angel",
 	"contact": "",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=185",
-	"description": "添加额外的矿物精炼系统，请配合天使无限矿物使用。在能够熔炼单种矿物之前，你必须精炼他们以获得原矿。和BOBmod配合最完美，并且支持其他mod，如YI，核能等",
+  "description": "添加额外的矿物精炼系统，请配合Angel-无限矿物使用。在能够熔炼单种矿物之前，你必须精炼他们以获得原矿。和BOBmod配合最完美，并且支持其他mod，如YI，核能等",
 	"description_original": "With AngelsInfiniteOres it adds ore refining to the game. Compound ores have to be refined before you are able to smelt and cast them into plates. Works best in conjunction with Bobmods and supports additional mods like Yuoki Industries, Uranium Power and Nucular.",
-	"dependencies": ["base >= 0.14.0", "? bobplates >= 0.14.0", "? bobconfig >= 0.14.0", "? bobores >= 0.14.0", "? Yuoki >= 0.4.0", "? UraniumPower >= 0.6.4", "? Nucular >= 0.2.0", "? angelstrigger-refining-enableproductivity >= 0.1.1", "? angelstrigger-refining-enablefurnace >= 0.1.1"]
+  "dependencies": [
+    "base >= 0.14.0",
+    "? bobplates >= 0.14.0",
+    "? Yuoki >= 0.4.0",
+    "? UraniumPower >= 0.6.4",
+    "? Nucular >= 0.2.0",
+    "? angelstrigger-refining-enableproductivity >= 0.1.1",
+    "? angelstrigger-refining-enablefurnace >= 0.1.1"
+  ]
 }

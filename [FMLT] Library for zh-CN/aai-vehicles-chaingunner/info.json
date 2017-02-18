@@ -1,0 +1,13 @@
+{
+  "name": "aai-vehicles-chaingunner",
+  "version": "0.1.3",
+  "title": "AAI-载具-链枪战斗车",
+  "title_original": "AAI Vehicles: Chaingunner",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 0.14.0"
+  ],
+  "description": "链枪战斗车实质上就是配备履带的炮塔，搭配AAI-可编程载具MOD能够自动运行。",
+  "description_original": "The Chaingunner vehicle is essentially a Gun Turret on tracks. Turret creep has never been easier. Can be automated with the Programmable Vehicles mod.",
+  "factorio_version": "0.14"
+}

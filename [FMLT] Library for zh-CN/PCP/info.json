@@ -1,0 +1,14 @@
+{
+  "name": "PCP",
+  "version": "0.0.4",
+  "factorio_version": "0.14",
+  "title": "Angel-第三方附属-PCP",
+  "title_original": "PetrochemPlus",
+  "author": "kinnom",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=40273",
+  "description": "添加更多化学物质，让你的石化工业更加困难",
+  "description_original": "More chemicals to make angel's petrochem even more of a hell.",
+  "dependencies": [
+    "angelspetrochem >= 0.3.4"
+  ]
+}

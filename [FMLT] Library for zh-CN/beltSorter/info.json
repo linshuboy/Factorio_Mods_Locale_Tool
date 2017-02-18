@@ -1,10 +1,10 @@
 {
 	"name": "beltSorter",
-	"version": "0.3.3",
-	"title": "Belt sorter",
+  "version": "0.3.5",
+  "title": "传送带过滤器",
 	"title_original": "Belt sorter",
 	"author": "judos",
-	"description": "Adds a new sorting entity which allows to sort items from belts to belts - recommended for the hardCrafting mod.",
+  "description": "添加传送带过滤器，能够在传送带上将物品分类（推荐使用困难制造模式）",
 	"description_original": "Adds a new sorting entity which allows to sort items from belts to belts - recommended for the hardCrafting mod.",
 	"dependencies": ["base >= 0.14.0"],
 	"homepage": "https://github.com/judos/beltSorter",
