@@ -1,18 +1,13 @@
 {
-  "name": "angelssmelting",
-  "version": "0.1.3",
-  "factorio_version": "0.14",
-  "title": "Angel-冶金",
-  "title_original": "Angel's Smelting (Beta)",
-  "author": "Arch666Angel",
-  "contact": "",
-  "homepage": "https://forums.factorio.com/viewforum.php?f=185",
-  "description": "Angel-冶金mod让你可以花费能量和空间进行矿物的增产和金属板的制造。",
-  "description_original": "Angel's Smelting provides alternative ways to produce plate and increase ore yield at the expense of space and energy",
-  "dependencies": [
-    "base >= 0.14.0",
-    "bobplates >= 0.13.0",
-    "angelspetrochem >= 0.1.10",
-    "angelsrefining >= 0.3.0"
-  ]
+	"name": "angelssmelting",
+	"version": "0.1.3",
+	"factorio_version": "0.14",
+	"title": "天使熔炼 (Beta)",
+	"title_original": "Angel's Smelting (Beta)",
+	"author": "Arch666Angel",
+	"contact": "",
+	"homepage": "https://forums.factorio.com/viewforum.php?f=185",
+	"description": "天使熔炼提供新的板的制作方法，并通过消耗时间和空间来提高矿物的产量",
+	"description_original": "Angel's Smelting provides alternative ways to produce plate and increase ore yield at the expense of space and energy",
+	"dependencies": ["base >= 0.14.0", "bobplates >= 0.13.0", "angelspetrochem >= 0.1.10", "angelsrefining >= 0.3.0"]
 }

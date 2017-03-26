@@ -1,20 +1,13 @@
 {
 	"name": "angelspetrochem",
-  "version": "0.4.1",
+	"version": "0.3.4",
 	"factorio_version": "0.14",
-  "title": "Angel-石油化工",
+	"title": "天使石化",
 	"title_original": "Angel's Petro Chemical Processing",
 	"author": "Arch666Angel",
-  "contact": "",
+	"contact": "",
 	"homepage": "https://forums.factorio.com/viewforum.php?f=185",
-  "description": "超详细的还原现实的石油化工。 依赖: 完整的bob mod,Angel-精炼mod和Angel-无限矿物mod",
+	"description": "超详细的还原现实的石油化工。 依赖: 完整的bob mod,天使精炼和天使无限矿物",
 	"description_original": "PetroChems changes and adds Oil and Gas processing to a bobmods game, as well as a more complex web of chemical producation. Includes overrides and tie ins to bobs technologies and recipes. Depedencies: Full Bobs, Angels Refining and InfiniteOres",
-  "dependencies": [
-    "base >= 0.14.0",
-    "angelsrefining >= 0.6.0",
-    "? bobplates >= 0.14.0",
-    "? bobassembly >= 0.14.0",
-    "? angelstrigger-petrochem-showconverterrecipe >= 0.1.1",
-    "? angelstrigger-petrochem-disableacidoverride >= 0.1.1"
-  ]
+	"dependencies": ["base >= 0.14.0", "bobplates >= 0.14.0", "bobelectronics >= 0.14.0", "? bobgreenhouse >= 0.14.0", "? Bio_Industries >= 1.4.5", "? marathon >= 1.1.5", "? angelstrigger-petrochem-showconverterrecipe >= 0.1.1", "? angelstrigger-petrochem-disableacidoverride >= 0.1.1"]
 }
