@@ -1,0 +1,12 @@
+{
+	"name": "IronMan",
+	"version": "1.0.0",
+	"title": "钢铁侠",
+	"title_original": "IronMan",
+	"author": "Hellfire0332",
+	"contact": "Hellfire0332",
+	"homepage": "www.factorio.com",
+	"description": "增加史塔克工业的钢铁侠战甲",
+	"description_original": "Enhanced Player Equipment",
+	"factorio_version": "0.14"
+}
