@@ -1,12 +1,12 @@
 {
 	"name": "YARM",
-	"version": "0.7.107",
+	"version": "0.7.108",
 	"factorio_version": "0.14",
-	"title": "资源监控（另）",
-	"title_original": "Yet Another Resource Monitor Fork",
-	"author": "Octav 'narc' Sandulescu, based on work by drs, jorgenRe, and L0771",
+	"title": "资源工具-资源监控器",
+	"title_original": "资源工具-资源监控器",
+	"author": "Octav 'narc' Sandulescu, based on work by drs, jorgenRe, and L0771 汉化：Jim",
 	"homepage": "https://github.com/narc0tiq/YARM",
 	"dependencies": ["base >= 0.13.0"],
-	"description": "帮你监控各个采矿点。",
-	"description_original": "This mod helps you to keep track of your mining sites."
+	"description": "添加新科技，可以监测资源使用情况",
+	"description_original": "添加新科技，可以监测资源使用情况"
 }

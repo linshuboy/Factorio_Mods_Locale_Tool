@@ -1,0 +1,12 @@
+{
+	"name": "SmartSplitters",
+	"author": "EurypteriD 汉化：Jim",
+	"version": "1.0.1",
+	"title": "物流工具-筛选分离器",
+	"title_original": "物流工具-筛选分离器",
+	"homepage": "https://mods.factorio.com/mods/EurypteriD/SmartSplitters",
+	"description": "有筛选槽的分离器，可以同一方向并排串联筛选，增加多个相同筛选项可以增加吞吐量。",
+	"description_original": "有筛选槽的分离器，可以同一方向并排串联筛选，增加多个相同筛选项可以增加吞吐量。",
+	"dependencies": ["base"],
+	"factorio_version": "0.14"
+}

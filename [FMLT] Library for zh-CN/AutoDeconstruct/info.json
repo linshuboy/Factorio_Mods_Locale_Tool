@@ -1,11 +1,11 @@
 {
 	"name": "AutoDeconstruct",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"factorio_version": "0.14",
-	"title": "资源警报器",
-	"title_original": "Auto Deconstruct",
-	"author": "mindmix",
+	"title": "辅助工具-自动回收采矿机",
+	"title_original": "辅助工具-自动回收采矿机",
+	"author": "mindmix 汉化：Jim",
 	"homepage": "",
-	"description": "当采矿机范围内无可采集资源时，采矿机显示红色【X】警示",
-	"description_original": "This mod marks drills that have no more resources to mine for deconstruction."
+	"description": "当采矿机挖完矿后自动打个小红叉，让机器人回收，如果你是用箱子收集的矿石，也会自动回收。",
+	"description_original": "当采矿机挖完矿后自动打个小红叉，让机器人回收，如果你是用箱子收集的矿石，也会自动回收。"
 }

@@ -1,14 +1,12 @@
 {
 	"name": "Additional-Turret",
-	"version": "0.0.10",
-	"title": "新增的炮塔",
-	"title_original": "Additional turrets",
-	"author": "sore68",
-	"contributors": "",
-	"homepage": "",
-	"description": "新增加农炮塔和火箭炮塔，以及相应弹药。",
-	"description_original": "Adds  cannon and rocket turrets and small shells.",
-	"contact": "song45033@gmail.com",
+	"version": "0.1.4",
 	"factorio_version": "0.14",
-	"dependencies": ["base >= 0.14.0"]
+	"title": "武器设备-真·军械库",
+	"title_original": "武器设备-真·军械库",
+	"author": "sore68 汉化：Jim",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=30865",
+	"description": "添加大量的军械炮塔，蛮不错的。",
+	"description_original": "添加大量的军械炮塔，蛮不错的。",
+	"dependencies": ["base >= 0.14.0", "? Macromanaged_Turrets", "? bobplates", "? bobwarfare", "? angelspetrochem"]
 }

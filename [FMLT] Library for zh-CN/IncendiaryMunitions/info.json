@@ -1,0 +1,11 @@
+{
+	"name": "IncendiaryMunitions",
+	"version": "0.2.1",
+	"factorio_version": "0.14",
+	"title": "武器工具-燃烧弹匣",
+	"title_original": "武器工具-燃烧弹匣",
+	"author": "daydev 汉化：Jim",
+	"description": "新添加科技，另一种弹匣，可以燃烧。",
+	"description_original": "新添加科技，另一种弹匣，可以燃烧。",
+	"dependencies": ["? AmmoBox >= 1.0.0"]
+}

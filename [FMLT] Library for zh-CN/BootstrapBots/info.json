@@ -1,0 +1,12 @@
+{
+	"name": "BootstrapBots",
+	"version": "0.1.1",
+	"title": "开局工具-蓝图机器人",
+	"title_original": "开局工具-蓝图机器人",
+	"author": "stolksdorf 汉化：Jim",
+	"contact": "",
+	"homepage": "",
+	"description": "游戏开始时提供一些蓝图和机器人。",
+	"description_original": "游戏开始时提供一些蓝图和机器人。",
+	"factorio_version": "0.14.0"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Liftoff",
+	"version": "0.1.10",
+	"title": "辅助工具-起飞模拟",
+	"title_original": "辅助工具-起飞模拟",
+	"author": "Adil 汉化：Jim",
+	"contact": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=31563",
+	"description": "针对Mod Aircraft模拟飞机起飞，或许你需要一个飞机跑道提高加速才能飞起来。",
+	"description_original": "针对Mod Aircraft模拟飞机起飞，或许你需要一个飞机跑道提高加速才能飞起来。",
+	"factorio_version": "0.14",
+	"dependencies": ["base", "Aircraft >= 1.0.7"]
+}

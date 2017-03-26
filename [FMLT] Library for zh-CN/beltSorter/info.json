@@ -1,11 +1,11 @@
 {
 	"name": "beltSorter",
-  "version": "0.3.5",
-  "title": "传送带过滤器",
-	"title_original": "Belt sorter",
-	"author": "judos",
-  "description": "添加传送带过滤器，能够在传送带上将物品分类（推荐使用困难制造模式）",
-	"description_original": "Adds a new sorting entity which allows to sort items from belts to belts - recommended for the hardCrafting mod.",
+	"version": "0.3.5",
+	"title": "物流工具-传送带分拣器",
+	"title_original": "物流工具-传送带分拣器",
+	"author": "judos 汉化：Jim",
+	"description": "只需要一个这样的分拣器，就可以把物品按照设定上下左右传送，高级一点的分拣器还可以指定到传送带的两侧。",
+	"description_original": "只需要一个这样的分拣器，就可以把物品按照设定上下左右传送，高级一点的分拣器还可以指定到传送带的两侧。",
 	"dependencies": ["base >= 0.14.0"],
 	"homepage": "https://github.com/judos/beltSorter",
 	"factorio_version": "0.14"

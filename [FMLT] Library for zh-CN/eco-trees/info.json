@@ -1,11 +1,11 @@
 {
 	"name": "eco-trees",
-	"version": "0.0.7",
+	"version": "0.0.6",
 	"factorio_version": "0.14",
-	"title": "生态树",
+	"title": "杈呭姪宸ュ叿-缁胯尩鐜粫",
 	"title_original": "Eco Trees",
-	"author": "Laige",
-	"dependencies": ["base >= 0.14.0", "? Any Tree Mod"],
-	"description": "树木将吸收更多（10倍）的污染。",
+	"author": "Laige 姹夊寲锛欽im",
+	"dependencies": ["base >= 0.14.0", "? Treefarm-Lite", "? Treefarm-Caffeine-Addon", "? AlienPlant", "? CORE-DyTech-Core", "? Cursed-Exp", "? Treesaplings", "? Treeseeds"],
+	"description": "鎻愰珮鏍戞湪瀵规薄鏌撶殑鍚告敹閲忥紝鍦╟onfig.lua鍙互璋冭妭閫夐」",
 	"description_original": "Trees will absoreb 10x more Pollution."
 }

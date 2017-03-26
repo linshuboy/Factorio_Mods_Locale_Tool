@@ -1,0 +1,12 @@
+{
+	"name": "Plasma Shotgun Shells",
+	"author": "Rseding91 汉化：Jim",
+	"version": "1.0.3",
+	"title": "武器工具-等离子霰弹",
+	"title_original": "武器工具-等离子霰弹",
+	"homepage": "",
+	"description": "添加了科技，威力很强的霰弹。",
+	"description_original": "添加了科技，威力很强的霰弹。",
+	"dependencies": ["base"],
+	"factorio_version": "0.14"
+}
