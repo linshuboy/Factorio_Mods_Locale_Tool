@@ -1,0 +1,11 @@
+{
+	"name": "Free_Real_Estate",
+	"version": "1.0.7",
+	"title": "免费地产",
+	"title_original": "Free Real Estate",
+	"author": "Sirenfal",
+	"description": "MOD添加36X36“厂房”，比factorissimo优化更好。（翻译：贴吧amch970507）",
+	"description_original": "A mod that adds 36x36 \"factory buildings\" that you can enter and build inside of. A heavily optimized from-scratch replacement for Factorissimo.",
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14.0"
+}

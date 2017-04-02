@@ -4,7 +4,7 @@
 '********************************************************************************
 
 Option Explicit
-CONST SCRIPT_VERSION = 290  'Update date: 2016.09.20
+CONST SCRIPT_VERSION = 292  'Update date: 2017.04.02
 
 '----------------------------------- Options ------------------------------------
 
@@ -238,10 +238,12 @@ Class MODs_Translator
                 dicInfo("name"), arrOptions(1))
         Add_Arr arrCount, Translate_Info(objFile_Info.Parent, _
             objFolder_Lib, arrOptions, dicInfo)
-        Add_Arr arrCount, Translate_Locale(objFile_Info.Parent, _
-            objFolder_Lib, arrOptions)
-        Add_Arr arrCount, Translate_Script_Locale(objFile_Info.Parent, _
-            objFolder_Lib, arrOptions)
+        Add_Arr arrCount, Translate_Locale_A(objFile_Info.Parent, _
+            objFolder_Lib, "locale", arrOptions)
+        Add_Arr arrCount, Translate_Locale_B(objFile_Info.Parent, _
+            objFolder_Lib, "locale", arrOptions)
+        Add_Arr arrCount, Translate_Locale_B(objFile_Info.Parent, _
+            objFolder_Lib, "script-locale", arrOptions)
         If arrOptions(1) And arrCount(1) = 0 Then Call FZ.Delete(objFolder_Lib)
         If arrCount(0) = 0 Then
             ML.Print 3, ML.Echo("trans_none", Array(Int2Str(0, 3), Int2Str(0, 3)))
@@ -295,11 +297,12 @@ Class MODs_Translator
         Translate_Info = arrCount
     End Function
 
-    Private Function Translate_Locale(ByRef objFolder_Mod_Root, ByRef objFolder_Lib, _
-            ByRef arrOptions)
+    Private Function Translate_Locale_A(ByRef objFolder_Mod_Root, ByRef objFolder_Lib, _
+            ByRef strName_TargetFolder, ByRef arrOptions)
         Dim objFolder, objFolder_en, objFolder_Loc, objFile_en, objFile
         Dim strName, dicItems, arrResult, arrCount(1)
-        If Not FZ.FolderExists(objFolder, objFolder_Mod_Root, "locale", False) Then
+        If Not FZ.FolderExists(objFolder, objFolder_Mod_Root, _
+                strName_TargetFolder, False) Then
             '[skip line]
         ElseIf Not FZ.FolderExists(objFolder_en, objFolder, "en", False) Then
             '[skip line]
@@ -325,19 +328,19 @@ Class MODs_Translator
                     End If
                     ML.Print 3, ML.Echo("trans_file", Array(_
                         Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
-                        "\locale\" & strLocale & "\" & strName))
+                        Join(Array("", strName_TargetFolder, strLocale, strName), "\")))
                     Add_Arr arrCount, arrResult
                 End If
             Next
         End If
-        Translate_Locale = arrCount
+        Translate_Locale_A = arrCount
     End Function
 
-    Private Function Translate_Script_Locale(ByRef objFolder_Mod_Root, _
-            ByRef objFolder_Lib, ByRef arrOptions)
+    Private Function Translate_Locale_B(ByRef objFolder_Mod_Root, _
+            ByRef objFolder_Lib, ByRef strName_TargetFolder, ByRef arrOptions)
         Dim objFolder_Loc, objFile, dicItems, strName, arrResult, arrCount(1)
         If Not FZ.FolderExists(objFolder_Loc, objFolder_Mod_Root, _
-                "script-locale", False) Then
+                strName_TargetFolder, False) Then
             '[skip line]
         ElseIf Not FZ.FileExists(objFile, objFolder_Loc, "en.cfg") Then
             '[skip line]
@@ -358,10 +361,10 @@ Class MODs_Translator
             End If
             ML.Print 3, ML.Echo("trans_file", Array(_
                 Int2Str(arrResult(1), 3), Int2Str(arrResult(0), 3), _
-                "\script-locale\" & strName))
+                Join(Array("", strName_TargetFolder, strName), "\")))
             Add_Arr arrCount, arrResult
         End If
-        Translate_Script_Locale = arrCount
+        Translate_Locale_B = arrCount
     End Function
 
     Private Function Load_Items(ByRef objFile_Target)
