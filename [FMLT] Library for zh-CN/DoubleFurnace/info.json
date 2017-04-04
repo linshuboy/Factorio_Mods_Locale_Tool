@@ -1,0 +1,13 @@
+{
+	"name": "DoubleFurnace",
+	"version": "0.1.6",
+	"title": "双缸电炉",
+	"title_original": "Double Furnace",
+	"author": "raid",
+	"contact": "mod@hackmate.de",
+	"homepage": "https://mods.factorio.com/mods/raid/DoubleFurnace",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"],
+	"description": "增加了双重熔炼技术，解锁双缸电炉，可以直接把铁矿熔炼成钢",
+	"description_original": "Mod that adds a Double Furnace to Factorio. A double furnace smelts iron ore directly to steel plates."
+}
