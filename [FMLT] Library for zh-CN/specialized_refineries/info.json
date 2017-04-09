@@ -1,0 +1,13 @@
+{
+	"name": "specialized_refineries",
+	"version": "1.2.0",
+	"factorio_version": "0.14",
+	"title": "专业炼油厂",
+	"title_original": "Specialized Oil Refineries",
+	"author": "Walter, Exclusive-IT.nl",
+	"contact": "https://mods.factorio.com/mods/walter/specialized_refineries",
+	"homepage": "https://mods.factorio.com/mods/walter/specialized_refineries",
+	"description": "在专业炼油厂将原油加工成一个单一的产品。",
+	"description_original": "Process crude oil into a single product in specialized refineries.",
+	"dependencies": ["base >= 0.14"]
+}
