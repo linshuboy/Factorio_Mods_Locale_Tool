@@ -1,0 +1,12 @@
+{
+	"name": "AnonyMods",
+	"version": "0.2.4",
+	"factorio_version": "0.14.0",
+	"title": "AnonyMods",
+	"title_original": "AnonyMods",
+	"author": "AnonymoScoot",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=95&t=38927",
+	"description": "一个大型MOD，添加了新的研究，配方，物品，原料。可以在Config.lua中配置，以禁用/启用该MOD的任何部分。",
+	"description_original": "一个大型MOD，添加了新的研究，配方，物品，原料。可以在Config.lua中配置，以禁用/启用该MOD的任何部分。",
+	"dependencies": ["base >= 0.14.0"]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "GCore",
+	"version": "1.0.7",
+	"factorio_version": "0.14",
+	"title": "G-核心",
+	"title_original": "G-Core",
+	"author": "Aidan647",
+	"contact": "kirillkotka@gmail.com",
+	"homepage": "https://mods.factorio.com/mods/Aidan647",
+	"description": "G系列MOD的核心.",
+	"description_original": "G-config.",
+	"dependencies": ["base >= 0.14.0"]
+}

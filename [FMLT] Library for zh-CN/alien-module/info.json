@@ -1,0 +1,13 @@
+{
+	"name": "alien-module",
+	"title": "异星经济",
+	"title_original": "异星经济",
+	"version": "0.2.7",
+	"author": "sensenmann",
+	"contact": "berndnewsreader@gmail.com",
+	"homepage": "https://github.com/renoth/factorio-alien-module",
+	"description": "虫子现在会掉落异星矿石，可以加工成一些新产品.",
+	"description_original": "虫子现在会掉落异星矿石，可以加工成一些新产品.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}

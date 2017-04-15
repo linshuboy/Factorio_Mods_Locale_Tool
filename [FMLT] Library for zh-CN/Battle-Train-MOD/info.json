@@ -1,0 +1,12 @@
+{
+	"name": "Battle-Train-MOD",
+	"version": "0.1.3",
+	"title": "战斗列车!",
+	"title_original": "战斗列车!",
+	"author": "LuziferSenpai",
+	"Licence": "MIT",
+	"description": "增加了战斗列车，可以加装武器!",
+	"description_original": "增加了战斗列车，可以加装武器!",
+	"dependencies": ["base >= 0.14.0"],
+	"factorio_version": "0.14"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "GLiquid",
+	"version": "1.0.4",
+	"factorio_version": "0.14",
+	"title": "G-流体",
+	"title_original": "G-Liquid",
+	"author": "Aidan647",
+	"contact": "kirillkotka@gmail.com",
+	"homepage": "https://mods.factorio.com/mods/Aidan647",
+	"description": "为你的工厂增加一些流体处理设施.",
+	"description_original": "Add more liquids to Factorio.",
+	"dependencies": ["base >= 0.14.0", "GCore >= 1.0.7"]
+}
