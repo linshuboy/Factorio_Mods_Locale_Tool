@@ -5,7 +5,7 @@
 	"title_original": "Wireless Charging",
 	"author": "mknejp",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=31910",
-	"description": "添加允许为车辆和装甲上的电池无线充电的感应站和设备.",
+	"description": "通过添加的感应平台和设备为车辆和装甲上的电池无线充电.",
 	"description_original": "Induction stations and equipment allowing wireless charging of batteries in vehicles and armor.",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14.2", "wireless-charging-lib>=0.2.5"],

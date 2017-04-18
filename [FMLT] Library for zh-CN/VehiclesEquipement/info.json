@@ -1,0 +1,12 @@
+{
+	"name": "VehiclesEquipement",
+	"version": "0.0.2",
+	"title": "车辆模块",
+	"title_original": "VehiclesEquipement",
+	"author": "Y.Petremann",
+	"license": "MIT License",
+	"description": "为车辆增加同装甲一样的模块网格.",
+	"description_original": "This mod add equipements grid to vehicles.",
+	"dependencies": [],
+	"factorio_version": "0.14"
+}

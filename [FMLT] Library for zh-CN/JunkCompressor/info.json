@@ -1,0 +1,10 @@
+{
+	"name": "JunkCompressor",
+	"version": "0.0.2",
+	"title": "废品拆解机",
+	"title_original": "Junk Compressor",
+	"author": "PythonProtocol",
+	"description": "回收废品垃圾, 拆解成配方材料或基础原材料,不必麻烦的设置配方",
+	"description_original": "Recycle random junk without all the hassle of setting recipes",
+	"factorio_version": "0.14"
+}

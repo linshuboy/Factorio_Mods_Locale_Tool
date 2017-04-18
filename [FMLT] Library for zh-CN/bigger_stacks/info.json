@@ -1,0 +1,13 @@
+{
+	"name": "bigger_stacks",
+	"version": "0.1.1",
+	"factorio_version": "0.14",
+	"title": "更大的堆叠",
+	"title_original": "Bigger Stacks",
+	"author": "Worstcase",
+	"contact": "",
+	"homepage": "",
+	"description": "更大的物品堆叠",
+	"description_original": "Bigger item stacks",
+	"dependencies": ["base >= 0.14.0"]
+}

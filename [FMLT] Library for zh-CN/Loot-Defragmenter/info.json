@@ -1,0 +1,11 @@
+{
+	"name": "Loot-Defragmenter",
+	"version": "0.0.1",
+	"title": "收集地面物品",
+	"title_original": "Loot Defragmenter",
+	"author": "sore68",
+	"description": "在建设机器人工作范围内收集地面物品.",
+	"description_original": "Collection items on the ground in Roboport Construction Radius.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}

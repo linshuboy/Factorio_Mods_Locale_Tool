@@ -1,0 +1,12 @@
+{
+	"name": "OilSynthesizer",
+	"version": "1.0.5",
+	"factorio_version": "0.14",
+	"title": "铁矿转原油",
+	"title_original": "Oil Synthesizer",
+	"author": "Jan Schwien",
+	"contact": "-",
+	"homepage": "-",
+	"description": "在游戏中添加高级铁矿处理和原油生产, 这将不利于在合成油生产链上生产原油.",
+	"description_original": "This mod adds Advanced Iron Processing and Synthetic Oil Processing to the game which will alow to produce Crude Oil over an Synthetic Oil production chain."
+}

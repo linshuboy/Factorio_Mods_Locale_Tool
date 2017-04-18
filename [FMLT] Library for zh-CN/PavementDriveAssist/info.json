@@ -1,0 +1,11 @@
+{
+	"name": "PavementDriveAssist",
+	"version": "2.0.3",
+	"title": "车辆驾驶辅助",
+	"title_original": "Pavement Drive Assist",
+	"author": "Arcitos, based on work of sillyfly",
+	"homepage": "",
+	"description": "添加一个驾驶辅助科技，让车辆遵循铺设的道路行驶，还可以设定巡航速度.",
+	"description_original": "Introduces a driver assistance system that autonomously follows paved roads, while maintaining a preset cruise speed if desired.",
+	"factorio_version": "0.14"
+}

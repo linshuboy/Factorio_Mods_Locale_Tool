@@ -1,12 +1,12 @@
 {
 	"name": "aai-vehicles-miner",
-	"version": "0.1.7",
+	"version": "0.1.10",
 	"title": "AAI系列-采矿车",
-	"title_original": "AAI系列-采矿车",
-	"author": "Earendel 汉化、修改：Jim",
+	"title_original": "AAI Vehicles: Miner",
+	"author": "Earendel",
 	"dependencies": ["base >= 0.14.0"],
-	"description": "可以驾驶的采矿车，还可以砍树、挖岩石。",
-	"description_original": "可以驾驶的采矿车，还可以砍树、挖岩石。",
+	"description": "可以驾驶的采矿车，还可以砍树、挖岩石。搭配AAI-可编程载具MOD可以自动运行。",
+	"description_original": "A set of mining and excavation vehicles that can quickly mine solid resources such as coal, stone, ores, etc. They also harvest any trees in their path (and can consume the wood as fuel). The miners can be used standalone, or and can act autonomously if programmed with the AAI Programmable Vehicles mod.",
 	"factorio_version": "0.14",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=38471"
 }

@@ -1,0 +1,12 @@
+{
+	"name": "More-Locomotives",
+	"version": "0.3.2",
+	"title": "更多机车",
+	"title_original": "More Locomotives",
+	"author": "Optera",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=21729",
+	"homepage": "",
+	"description": "添加2台机车，专门从事提速和快速运输.",
+	"description_original": "Adds 2 locomotives, specializing in traction or speed.",
+	"factorio_version": "0.14"
+}
