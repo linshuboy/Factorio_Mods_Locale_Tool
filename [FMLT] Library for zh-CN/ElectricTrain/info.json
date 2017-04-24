@@ -1,0 +1,11 @@
+{
+	"name": "ElectricTrain",
+	"author": "magu5026",
+	"version": "0.1.0",
+	"title": "电力机车",
+	"title_original": "Electric Train",
+	"description": "添加3个等级的电力机车.",
+	"description_original": "Add Electric Trains.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}
