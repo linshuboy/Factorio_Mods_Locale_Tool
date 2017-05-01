@@ -1,0 +1,12 @@
+{
+	"name": "MK2-Mod",
+	"version": "1.0.4",
+	"factorio_version": "0.14",
+	"title": "MK2-Mod合集",
+	"title_original": "MK2 Mod",
+	"author": "Riley",
+	"homepage": "http://rileystech.com",
+	"description": "增加了一些模块和物品的MK2版本",
+	"description_original": "MK2 all the things",
+	"dependencies": ["base >= 0.13.0"]
+}

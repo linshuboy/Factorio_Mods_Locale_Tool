@@ -1,11 +1,11 @@
 {
 	"name": "electric-vehicles-lib",
 	"version": "0.2.8",
-	"title": "µçÁ¦³µÁ¾Lib",
+	"title": "ç”µåŠ›è½¦è¾† Lib",
 	"title_original": "Electric Vehicles Lib",
 	"author": "mknejp",
 	"homepage": "https://mods.factorio.com/mods/mknejp/electric-vehicles-lib",
-	"description": "°üº¬ËùÓÐÖ§³ÖµçÁ¦³µÁ¾ÔËÐÐ¼°³äµçµÄ´úÂë¡£",
+	"description": "ç”µåŠ¨è½¦è¾†åŠå…¶å……ç”µçš„æ”¯æŒä»£ç ã€‚",
 	"description_original": "Contains all the support code that allows for electric vehicles and their recharging. Powers the the Electric Vehicles mod.",
 	"factorio_version": "0.14",
 	"dependencies": ["base >= 0.14.2"],

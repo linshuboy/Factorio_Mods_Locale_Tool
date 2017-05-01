@@ -1,0 +1,13 @@
+{
+	"name": "Blueprint_Flipper",
+	"version": "0.1.8",
+	"factorio_version": "0.14",
+	"title": "翻转蓝图",
+	"title_original": "Blueprint Flipper",
+	"author": "GopherAtl, Roktaal, Humpfry",
+	"homepage": "https://github.com/Humpfry/blueprint_flipper",
+	"contact": "Humpfry@gmail.com",
+	"description": "镜像/翻转手中的蓝图",
+	"description_original": "Mirrors/Flips a blueprint in hand",
+	"dependencies": ["base >= 0.14.0"]
+}

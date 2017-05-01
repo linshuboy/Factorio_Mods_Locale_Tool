@@ -1,0 +1,11 @@
+{
+	"name": "Wind_Turbine",
+	"version": "0.3.0",
+	"factorio_version": "0.14",
+	"title": "风力发电机",
+	"title_original": "Wind Turbine",
+	"author": "Lichtso",
+	"homepage": "",
+	"description": "在游戏中添加风力发电机",
+	"description_original": "Adds wind turbines to the game"
+}

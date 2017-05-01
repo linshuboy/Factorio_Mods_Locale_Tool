@@ -1,0 +1,11 @@
+{
+	"name": "TileReconverter",
+	"version": "1.0.0",
+	"title": "重建地砖",
+	"title_original": "Tile Reconverter",
+	"author": "Arcitos",
+	"homepage": "",
+	"description": "通过这个MOD可以将装饰砖再转换回其基础砖 (例如, 警戒混凝土回到普通混凝土) 来保持库存整齐. 按[J]来重新设置您当前光标持有的堆栈. 可以用于混凝土, 沥青路面MOD, More_Floors MOD等.",
+	"description_original": "This mod helps keeping your inventory tidy by allowing the reconversion of decorative tiles back to their base tile (e.g. hazard concrete back to plain concrete). Press [J] to reconvert the stack of tiles you are currently holding in your cursor. This works for vanilla concrete, AsphaltRoads, MoreFloors and others.",
+	"factorio_version": "0.14"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "fluid-temperature-combinator",
+	"version": "0.2.0",
+	"factorio_version": "0.14",
+	"title": "流体温度传感器",
+	"title_original": "Fluid Temperature Combinator",
+	"author": "theRustyKnife",
+	"description": "可以读取储水罐, 锅炉, 蒸汽发动机或管道中的流体温度.",
+	"description_original": "A combinator that can read the temperature of fluid in an adjacent tank, boiler, generator or pipe.",
+	"homepage": "https://mods.factorio.com/mods/theRustyKnife/fluid-temperature-combinator",
+	"date": "10.11.2016",
+	"dependencies": ["base"]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "crafting_combinator",
+	"version": "0.6.2",
+	"factorio_version": "0.14",
+	"title": "制作组合器",
+	"title_original": "Crafting Combinator",
+	"author": "LuziferSenpai and theRustyKnife",
+	"description": "Includes combinators that allow you to set or read the recipe of any crafting machine, get ingredients or products of a recipe and more!",
+	"description_original": "Includes combinators that allow you to set or read the recipe of any crafting machine, get ingredients or products of a recipe and more!",
+	"homepage": "https://mods.factorio.com/mods/theRustyKnife/crafting_combinator",
+	"date": "07.04.2017",
+	"dependencies": ["base", "?ZRecycling"]
+}

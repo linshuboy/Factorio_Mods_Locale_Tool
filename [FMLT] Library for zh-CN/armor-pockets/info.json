@@ -1,0 +1,11 @@
+{
+	"name": "armor-pockets",
+	"version": "1.0.1",
+	"title": "装甲背包模块",
+	"title_original": "Armor Pockets",
+	"author": "crono",
+	"dependencies": ["base >= 0.14.0"],
+	"description": "可增加2格额外库存容量的模块.",
+	"description_original": "Equipment that increases inventory size.",
+	"factorio_version": "0.14"
+}

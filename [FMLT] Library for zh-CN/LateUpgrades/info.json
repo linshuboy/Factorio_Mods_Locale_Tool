@@ -1,0 +1,13 @@
+{
+	"name": "LateUpgrades",
+	"version": "0.2.2",
+	"title": "后期升级",
+	"title_original": "Late Upgrades",
+	"author": "msakuta",
+	"contact": "masahiro.sakuta@gmail.com",
+	"homepage": "",
+	"description": "花费更多的资源来升级如子弹的伤害、物流机器人速度（或更多），升到25级。",
+	"description_original": "Having useless alien artifacts and redundant production lines after all researches are completed? This mod lets you spend excess resources to upgrades, such as bullet damage, logistic robot speed and inserter stack size (and many more), up to level 25. Now you have means to put your surplus goods away other than rockets! (And there will be benefit if you're patient enough!)",
+	"dependencies": ["base >= 0.14.0", "? boblogistics", "? bobtech", "? bobwarfare"],
+	"factorio_version": "0.14"
+}

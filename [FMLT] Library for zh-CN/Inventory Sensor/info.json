@@ -1,0 +1,12 @@
+{
+	"name": "Inventory Sensor",
+	"version": "1.3.0",
+	"title": "库存传感器",
+	"title_original": "Inventory Sensor",
+	"author": "Optera",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=21729",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=30454",
+	"description": "添加一个传感器,用于读取车厢,车辆,工厂等库存.",
+	"description_original": "Adds a combinator that reads inventories of wagons, cars, furnaces and more.",
+	"factorio_version": "0.14"
+}

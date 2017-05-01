@@ -1,0 +1,11 @@
+{
+	"name": "Factorissimo2",
+	"version": "2.0.0",
+	"title": "异星厂房2",
+	"title_original": "异星厂房2",
+	"author": "MagmaMcFry",
+	"description": "改进型的异星厂房，把你的工厂建在厂房里面吧！",
+	"description_original": "改进型的异星厂房，把你的工厂建在厂房里面吧！",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14.0"]
+}

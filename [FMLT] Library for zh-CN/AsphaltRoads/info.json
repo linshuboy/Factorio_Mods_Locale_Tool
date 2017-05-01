@@ -1,0 +1,11 @@
+{
+	"name": "AsphaltRoads",
+	"version": "1.0.3",
+	"title": "沥青(柏油路面)",
+	"title_original": "Asphalt Roads",
+	"author": "Arcitos",
+	"homepage": "",
+	"description": "添加沥青铺设柏油路面.还包括车道标记和危险区域的装饰路面.",
+	"description_original": "Asphalt pavement for increased vehicle speed. Also includes fitting tiles for lane marking and hazard areas.",
+	"factorio_version": "0.14"
+}

@@ -1,6 +1,6 @@
 {
 	"name": "electric-vehicles",
-	"version": "0.3.4",
+	"version": "0.3.5",
 	"title": "电力车辆",
 	"title_original": "Electric Vehicles",
 	"author": "mknejp",
@@ -8,6 +8,6 @@
 	"description": "增加几种靠电池供应能量的电力车辆。",
 	"description_original": "Electric vehicles running on battery energy.",
 	"factorio_version": "0.14",
-	"dependencies": ["base >= 0.14.2", "electric-vehicles-lib>=0.2.7"],
+	"dependencies": ["base >= 0.14.2", "electric-vehicles-lib>=0.2.8"],
 	"license": "MIT"
 }

@@ -1,0 +1,12 @@
+{
+	"name": "TarawindBeacons",
+	"version": "0.1.1",
+	"title": "彩虹分享塔",
+	"title_original": "Tarawind Beacons",
+	"author": "Kane.Nexus",
+	"contact": "",
+	"homepage": "",
+	"description": "mod添加了强大的彩虹分享塔，可以放产能插件",
+	"description_original": "This mod adds more tiers of beacons and a smaller footprint.",
+	"factorio_version": "0.14"
+}
