@@ -4,31 +4,31 @@
 '********************************************************************************
 
 Option Explicit
-CONST SCRIPT_VERSION = 292  'Update date: 2017.04.02
+CONST SCRIPT_VERSION = 293  'Update date: 2017.05.01
 
 '----------------------------------- Options ------------------------------------
 
 'WARNING: THE FOLLOWING OPTIONS ARE SET ONLY FOR LIBRARY ADMINISTRATORS!
 
 CONST NAME_LIBRARY = "[FMLT] Library for zh-CN"
-'    This is the name of locale library in the same directory as this script, 
-'which is either a folder or a zip file with valid library-info.json & 
-'script-echo.json inside. The folder with the same name has a priority to be 
+'    This is the name of locale library in the same directory as this script,
+'which is either a folder or a zip file with valid library-info.json &
+'script-echo.json inside. The folder with the same name has a priority to be
 'recognized.
 
 CONST TEXT_PRIORITY = False
-'    This setting is used to toggle the priority of the text source to translate 
-'each file in mods for some particular cases. The following uses zh-CN as an 
+'    This setting is used to toggle the priority of the text source to translate
+'each file in mods for some particular cases. The following uses zh-CN as an
 'example of the locale language.
-'    If True, the priority is [zh-CN in mod]>>[library]>>[en in mod]. In this 
-'case, only the untranslated items in mods will be rewrited and translated, which 
+'    If True, the priority is [zh-CN in mod]>>[library]>>[en in mod]. In this
+'case, only the untranslated items in mods will be rewrited and translated, which
 'is usually applied to auto-collect the translated texts in mods.
-'    If False (default), the priority is [library]>>[zh-CN in mod]>>[en in mod]. 
+'    If False (default), the priority is [library]>>[zh-CN in mod]>>[en in mod].
 
 CONST UPDATE_LIBRARY = False
-'    This setting is used to toggle whether to copy the locale files back to the 
+'    This setting is used to toggle whether to copy the locale files back to the
 'loaded library after translation.
-'    If True, the newly-generated locale files will be copied back to library, 
+'    If True, the newly-generated locale files will be copied back to library,
 'which is usually applied to auto-collect translations in a large number of mods.
 'The mods of 0 translation rate will be removed from library after translating.
 '    If False (default), the library will keep locked.
@@ -428,12 +428,12 @@ Class MODs_Translator
                     arrCount(0) = arrCount(0) + 1   'Amount of total items
                     arrText = dicItems(strGroup)(strKey)
                     If Len(arrText(1)) = 0 Then
-                        dicLines.Add dicLines.Count, strKey & " = " & arrText(0)
+                        dicLines.Add dicLines.Count, strKey & "=" & arrText(0)
                     ElseIf arrText(0) = arrText(1) Then
-                        dicLines.Add dicLines.Count, strKey & " = " & arrText(0)
+                        dicLines.Add dicLines.Count, strKey & "=" & arrText(0)
                     Else
                         arrCount(1) = arrCount(1) + 1   'Amount of translated items
-                        dicLines.Add dicLines.Count, strKey & " = " & arrText(1)
+                        dicLines.Add dicLines.Count, strKey & "=" & arrText(1)
                     End If
                 End If
             Next
@@ -518,7 +518,7 @@ Class MODs_Translator
 End Class
 
 Class Multilanguage_Echo
-    
+
     Private dicText, strLang(1), intWidth, objOutput
 
     Public Function Initialize(ByRef dicLocale, ByRef strPath, ByRef strName_Log)
@@ -627,14 +627,14 @@ Class FileSystem_throughZip
     'Author: Mr.Jos(sd7056333)
     'Date: 2016/07/13
     'Website: http://blog.csdn.net/sd7056333
-    'Description: 
-    '   This class offer some methods for file & folder operations which can 
+    'Description:
+    '   This class offer some methods for file & folder operations which can
     '   see the Zip files as common folders.
-    '   The variable types of the files & folders in this class are inherited 
-    '   from Windows Shell, which are indicated by the prefixes of variable 
-    '   names of those parameters in each functions. This also allows you to 
+    '   The variable types of the files & folders in this class are inherited
+    '   from Windows Shell, which are indicated by the prefixes of variable
+    '   names of those parameters in each functions. This also allows you to
     '   use the methods and properties offered by Windows Shell.
-    '   The following table shows which variable types the prefixes represent: 
+    '   The following table shows which variable types the prefixes represent:
     '   +-------------+------------------+---------------------+
     '   | Prefix      | Represent        | Variable Types      |
     '   +=============+==================+=====================+
@@ -837,7 +837,7 @@ Class FileSystem_throughZip
                 Name = FSO.GetFileName(varItem.Path)
             Case Else
                 Name = FSO.GetFileName(varItem)
-        End Select 
+        End Select
     End Function
 
     Private Function GetObject_FolderItem2(ByRef varItem)
@@ -926,8 +926,8 @@ Class Text_Encode
     'Author: Mr.Jos(sd7056333)
     'Date: 2016/07/24
     'Website: http://blog.csdn.net/sd7056333
-    'Description: 
-    '   This is a class for identifying/reading/writing text files of various 
+    'Description:
+    '   This is a class for identifying/reading/writing text files of various
     '   encoding character sets.
     '   The followling table shows the charsets that can be distinguished.
     '   +-----------------------+---------------------------------------+
@@ -947,10 +947,10 @@ Class Text_Encode
     '   http://demon.tw/programming/vbs-file-unicode.html
     '   http://demon.tw/programming/vbs-validate-utf8.html
     '   http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html
-    
+
     Private ADO_Bin, ADO_Text, Reg_UTF8
     Public ANSI_Charset
-    
+
     Private Sub Class_Initialize()
         Set ADO_Bin = CreateObject("ADODB.Stream")
         ADO_Bin.Mode = 3
@@ -976,7 +976,7 @@ Class Text_Encode
                 "|^[\x80-\xBF]"), "")
         ANSI_Charset = "GB2312"     'Default ANSI charset
     End Sub
-    
+
     Public Function IdentifyCharset(ByRef strPath)
         Dim bytTest, arrBin, i
         ADO_Bin.Open
@@ -1002,7 +1002,7 @@ Class Text_Encode
         End If
         ADO_Bin.Close
     End Function
-    
+
     Public Function ReadText(ByRef strPath, ByRef strCharset)
         If IsNull(strCharset) Then strCharset = IdentifyCharset(strPath)
         Select Case ModifyCharset(strCharset)
@@ -1020,7 +1020,7 @@ Class Text_Encode
         ReadText = ADO_Text.ReadText
         ADO_Text.Close
     End Function
-    
+
     Public Sub WriteText(ByRef strPath, ByRef strText, ByRef strCharset)
         Dim blnSkipCommonWrite
         Select Case ModifyCharset(strCharset)
@@ -1046,7 +1046,7 @@ Class Text_Encode
             ADO_Text.Close
         End If
     End Sub
-    
+
     Private Function ModifyCharset(strCharset)
         Select Case Trim(LCase(strCharset))
             Case "unicode little endian", "unicode le", "unicode", "utf-16le", "utf-16"
@@ -1063,7 +1063,7 @@ Class Text_Encode
                 ModifyCharset = strCharset
         End Select
     End Function
-    
+
     Private Sub WriteAsUTF8noBOM(ByRef strPath, ByRef strText)
         ADO_Bin.Open()
         With ADO_Text
@@ -1077,7 +1077,7 @@ Class Text_Encode
         ADO_Bin.SaveToFile strPath, 2
         ADO_Bin.Close
     End Sub
-    
+
     Private Sub WriteAsUnicodeBigEndian(ByRef strPath, ByRef strText)
         Dim i, bytTrans(1)
         ADO_Bin.Open()
@@ -1100,7 +1100,7 @@ Class Text_Encode
         ADO_Bin.SaveToFile strPath, 2
         ADO_Bin.Close
     End Sub
-    
+
     Private Function BinComp(ByRef strBin, ByRef arrHex)
         Dim i
         If LenB(strBin) >= UBound(arrHex) + 1 Then
@@ -1113,16 +1113,16 @@ Class Text_Encode
             Next
         End If
     End Function
-    
+
 End Class
 
 Class JSON_Advanced
     'Author: Mr.Jos(sd7056333)
     'Date: 2016/07/07
     'Website: http://blog.csdn.net/sd7056333
-    'Description: 
-    '   This is a class for transforming a representation of specified data between 
-    '   JSON string and VBScript structure. Here are the corresponding data types: 
+    'Description:
+    '   This is a class for transforming a representation of specified data between
+    '   JSON string and VBScript structure. Here are the corresponding data types:
     '       +-----------------+-----------------+
     '       | VBScript        | JSON            |
     '       +=================+=================+
@@ -1136,15 +1136,15 @@ Class JSON_Advanced
     '       +-----------------+-----------------+
     '       | True/False/Null | true/false/null |
     '       +-----------------+-----------------+
-    'Main references: 
+    'Main references:
     '   http://www.json.org/
     '   http://demon.tw/my-work/vbs-json.html
     '   http://www.ediy.co.nz/vbjson-json-parser-library-in-vb6-xidc55680.html
-    
+
     Public Strict_Standard  'False(Default)
         'Setting: Boolean, apply strict-JSON-standards or not. Details:
         '    For EncodeJSON, "/" --> "\/" ; Non-ASCII-Charactors(ASC>127) --> "\uXXXX"
-    
+
     Public Function EncodeJSON(ByRef varStruct, ByRef intFormat)
         'Function: VBScript structure -> JSON string
         '  [varStruct] Dictionary or Array, data of a VBScript structure.
@@ -1158,12 +1158,12 @@ Class JSON_Advanced
                 Err.Raise 8732,,"Invalid VBScript structure type"
         End Select
     End Function
-    
+
     Public Sub DecodeJSON(ByRef strText, ByRef varReturn)
         'Function: JSON string -> VBScript structure
         '  [strText] String, JSON text to be parsed.
         '  [varReturn] Return value, parsed VBScript structure.
-        'Identifiable violations: 
+        'Identifiable violations:
         '  Comments in the space ("// ...", "/* ... */"). --> SKIP
         '  "true", "false" and "null" with capital letters.
         '  Horizontal tabs (vbTab) in string.
@@ -1180,7 +1180,7 @@ Class JSON_Advanced
                 Call ErrRaise(arrPos, "No JSON structure has been found")
         End Select
     End Sub
-    
+
     Private Function EncodeVariant(ByRef varData, ByRef intFormat, ByRef intLayer)
         Select Case VarType(varData)
             Case vbNull
@@ -1202,7 +1202,7 @@ Class JSON_Advanced
                 EncodeVariant = """" & CStr(varData) & """"
         End Select
     End Function
-    
+
     Private Function EncodeObject(ByRef dicData, ByRef intFormat, ByRef intLayer)
         Dim arrText, i, varEle, strSep
         If TypeName(dicData) <> "Dictionary" Then Err.Raise 8732,,"Non-dictionary object"
@@ -1229,7 +1229,7 @@ Class JSON_Advanced
         End If
         EncodeObject = Join(arrText, "")
     End Function
-    
+
     Private Function EncodeArray(ByRef arrData, ByRef intFormat, ByRef intLayer)
         Dim arrText, i, varEle, strSep
         Redim arrText(0)
@@ -1255,7 +1255,7 @@ Class JSON_Advanced
         End If
         EncodeArray = Join(arrText, "")
     End Function
-    
+
     Private Function EncodeString(ByRef strValue)
         Dim arrText, i, intAsc
         Redim arrText(Len(strValue) + 1)
@@ -1286,7 +1286,7 @@ Class JSON_Advanced
         arrText(UBound(arrText)) = """"
         EncodeString = Join(arrText, "")
     End Function
-    
+
     Private Sub DecodeVariant(ByRef strText, ByRef arrPos, ByRef varData)
         varData = Empty
         Call SkipSpace(strText, arrPos)
@@ -1327,7 +1327,7 @@ Class JSON_Advanced
         End Select
         If IsEmpty(varData) Then Call ErrRaise(arrPos, "No JSON value has been parsed")
     End Sub
-    
+
     Private Function DecodeObject(ByRef strText, ByRef arrPos)
         Dim strKey, varValue
         Set DecodeObject = CreateObject("Scripting.Dictionary")
@@ -1365,7 +1365,7 @@ Class JSON_Advanced
         Loop
         arrPos(0) = arrPos(0) + 1
     End Function
-    
+
     Private Function DecodeArray(ByRef strText, ByRef arrPos)
         Dim dicArray, varValue
         Set dicArray = CreateObject("Scripting.Dictionary")
@@ -1388,7 +1388,7 @@ Class JSON_Advanced
         arrPos(0) = arrPos(0) + 1
         DecodeArray = dicArray.Items
     End Function
-    
+
     Private Function DecodeString(ByRef strText, ByRef arrPos)
         Dim dicString, strQuote, vbBack, strChar
         Set dicString = CreateObject("Scripting.Dictionary")
@@ -1439,13 +1439,13 @@ Class JSON_Advanced
         Loop
         DecodeString = Join(dicString.Items, "")
     End Function
-    
+
     Private Sub SkipSpace(ByRef strText, ByRef arrPos)
         Dim blnComment_Status, blnComment_Long
         Do While arrPos(0) <= Len(strText)
             Select Case Mid(strText, arrPos(0), 1)
                 Case vbTab, " ", "(", ")"
-                    
+
                 Case vbCr, vbLf
                     If blnComment_Status Then
                         If Not blnComment_Long Then blnComment_Status = False
@@ -1483,10 +1483,10 @@ Class JSON_Advanced
             arrPos(0) = arrPos(0) + 1
         Loop
     End Sub
-    
+
     Private Sub ErrRaise(ByRef arrPos, ByRef strDescription)
         Err.Raise 8732, "JSON Format Error", Join(Array(strDescription, _
             " at (", arrPos(2) + 1, ", ", arrPos(0) - arrPos(1), ")"), "")
     End Sub
-    
+
 End Class
