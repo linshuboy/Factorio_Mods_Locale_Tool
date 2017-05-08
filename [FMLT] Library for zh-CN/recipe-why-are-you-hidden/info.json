@@ -1,0 +1,13 @@
+{
+	"name": "recipe-why-are-you-hidden",
+	"version": "0.1.1",
+	"title": "配方，你为什么藏起来！",
+	"title_original": "Recipe, why are you hidden!",
+	"author": "quenenni",
+	"contact": "Via the homepage",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=91&t=45360",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.14"],
+	"description": "有了这个mod，你可以很容易地找到任何在使用过程中丢失的配方(更新后，它会发生)并激活它。还有一个按钮（shift+k），可以扫描并列出所有错误的食谱。这救了我的游戏。",
+	"description_original": "With this mod, you can easily find any recipe that is missing from crafting (after updates, it can happen) and activate it. There is also a button that can scan and list for you all the recipes that are wrongly unavailable. That saved my game."
+}
