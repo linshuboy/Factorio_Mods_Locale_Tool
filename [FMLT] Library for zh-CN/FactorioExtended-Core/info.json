@@ -1,0 +1,14 @@
+{
+	"name": "FactorioExtended-Core",
+	"version": "0.2.8",
+	"factorio_version": "0.15",
+	"date": "2017-05-10",
+	"title": "异星工厂扩展-前置",
+	"title_original": "FactorioExtended-Core",
+	"author": "Nath Gamer",
+	"contributers": "bNarFProfCrazy",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
+	"description": "异星工厂扩展。",
+	"description_original": "Extended Factorio",
+	"dependencies": ["base"]
+}
