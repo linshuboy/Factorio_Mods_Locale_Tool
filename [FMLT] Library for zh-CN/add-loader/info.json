@@ -1,0 +1,12 @@
+{
+	"name": "add-loader",
+	"version": "0.0.8",
+	"factorio_version": "0.15",
+	"title": "可用于火车的装载机",
+	"title_original": "可用于火车的装载机",
+	"author": "kij336",
+	"contact": "kij336@naver.com",
+	"description": "添加装载机，加速装载机，高速装载机。配合bobsmod增加更多的装载机。现在可以和火车一起工作",
+	"description_original": "添加装载机，加速装载机，高速装载机。配合bobsmod增加更多的装载机。现在可以和火车一起工作",
+	"dependencies": ["base >= 0.14.0", "? boblogistics >= 0.14.2"]
+}

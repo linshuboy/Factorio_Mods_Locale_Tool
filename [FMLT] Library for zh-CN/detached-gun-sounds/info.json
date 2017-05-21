@@ -1,0 +1,11 @@
+{
+	"name": "detached-gun-sounds",
+	"version": "0.2.1",
+	"title": "分开的枪声",
+	"title_original": "Detached Gun Sounds",
+	"author": "Earendel",
+	"dependencies": ["base >= 0.15.0"],
+	"description": "对游戏中连续的枪声进行修改,将循环的枪声分开,但用lua播放枪声的结果是爆炸的实体没有视觉组件.",
+	"description_original": "A modding utility that generates sound-only effects from any in-game gun entity types so that lua scripts can play gun sounds independently. The effects are explosion-type entities with no visual component. The naming convention is \"gunsound-\"..gun.name. Looping sounds are also supported but have a -begin_sound, -middle_sound, and -end_sound suffix.",
+	"factorio_version": "0.15"
+}

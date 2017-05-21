@@ -1,0 +1,13 @@
+{
+	"name": "only-smelting",
+	"version": "0.0.3",
+	"factorio_version": "0.15",
+	"title": "天使熔炼 补丁",
+	"title_original": "Angel's Smelting Patch",
+	"author": "Florian1024",
+	"contact": "",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=47545",
+	"description": "使天使的冶炼配方成为最好的选择，禁止直接用冶炼炉炼矿。它迫使你使用先进的冶金方案。需要 angel's smelting MOD（天使熔炼）.",
+	"description_original": "Make Angel's smelting recipes the best way by disabling direct ore smelting in furnaces. It forces you to go in the advanced metallurgy path. Need angel's smelting.",
+	"dependencies": ["base", "? bobplates >= 0.15.0", "? boblibrary >= 0.15.0", "angelssmelting >= 0.3.0", "? angelsrefining >= 0.7.0"]
+}

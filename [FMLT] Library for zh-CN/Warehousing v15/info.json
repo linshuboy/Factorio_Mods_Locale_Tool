@@ -1,0 +1,13 @@
+{
+	"name": "Warehousing v15",
+	"version": "0.0.13",
+	"factorio_version": "0.15",
+	"title": "物流仓储mod",
+	"title_original": "Warehousing Mod",
+	"author": "Anoyomouse",
+	"contact": "PM on the Factorio Forums",
+	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=17295",
+	"description": "仓储，让您有大型仓储建筑。储存所有的东西！（可与物流系统互动）",
+	"description_original": "Warehousing that allows you to have large storage buildings. Store all the things! Storehouses by Hanniballo",
+	"dependencies": ["base >= 0.13.0"]
+}

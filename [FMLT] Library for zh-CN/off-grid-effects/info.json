@@ -1,0 +1,11 @@
+{
+	"name": "off-grid-effects",
+	"version": "0.2.1",
+	"title": "方格外的特效",
+	"title_original": "Off Grid Effects",
+	"author": "Earendel",
+	"dependencies": ["base >= 0.15.0"],
+	"description": "使爆炸,烟雾,颗粒和其他特效可以被其他mod中的lua脚本基于游戏网格进行放置.",
+	"description_original": "A modding utility that sets the 'placeable-off-grid' flag for explosions, smoke, particles, and other effects so that they can be placed properly by other mods lua scripts.",
+	"factorio_version": "0.15"
+}

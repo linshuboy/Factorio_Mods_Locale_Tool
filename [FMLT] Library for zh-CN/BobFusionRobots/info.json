@@ -1,0 +1,12 @@
+{
+	"name": "BobFusionRobots",
+	"author": "nagapito",
+	"version": "0.0.4",
+	"factorio_version": "0.15",
+	"title": "Bob的复合机器人",
+	"title_original": "Bob的复合机器人",
+	"homepage": "",
+	"description": "昂贵的机器人，不需要充电，拓展了bob's MODS。",
+	"description_original": "昂贵的机器人，不需要充电，拓展了bob's MODS。",
+	"dependencies": ["base >= 0.15.0", "boblibrary >= 0.15.6", "boblogistics >= 0.15.5", "bobelectronics >= 0.15.0", "? bobplates >= 0.15.6"]
+}

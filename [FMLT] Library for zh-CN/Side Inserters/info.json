@@ -1,0 +1,11 @@
+{
+	"name": "Side Inserters",
+	"version": "2.3.1",
+	"title": "方向插件",
+	"title_original": "Side Inserters",
+	"author": "GotLag",
+	"homepage": "https://mods.factorio.com/mods/GotLag/Side%20Inserters",
+	"description": "加入热键来调整机械臂拿起和放下物品的方向 功能被bobinserters包含\n CONTROL+R:顺时针旋转拾取方向，跳过放下的方向\n CONTROL+SHIFT+R:逆时针旋转拾取方向\n CONTROL+F:将机械臂切换到运输带的近/远侧\n CONTROL+SHIFT+F:循环机械臂选择的方向,或直接移开传送带",
+	"description_original": "Adds hotkeys to adjust inserter pickup and drop locations.",
+	"factorio_version": "0.15"
+}

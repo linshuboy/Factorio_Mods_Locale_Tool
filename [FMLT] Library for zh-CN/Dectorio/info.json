@@ -1,0 +1,14 @@
+{
+	"name": "Dectorio",
+	"version": "0.5.7",
+	"title": "Dectorio",
+	"title_original": "Dectorio",
+	"author": "PantherX",
+	"contact": "",
+	"homepage": "https://github.com/jpanther/Dectorio",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15"],
+	"license": "GNU GPLv3",
+	"description": "增加装饰元素美化你的工厂.目前包括彩色信号,链条,石材,混凝土墙,木地板,以及可画的具体款式.",
+	"description_original": "增加装饰元素美化你的工厂.目前包括彩色信号,链条,石材,混凝土墙,木地板,以及可画的具体款式."
+}

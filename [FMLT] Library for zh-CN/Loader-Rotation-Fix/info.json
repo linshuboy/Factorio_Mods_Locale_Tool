@@ -1,0 +1,12 @@
+{
+	"version": "0.0.5",
+	"title": "装载机连接",
+	"title_original": "Loader Snapping",
+	"factorio_version": "0.15",
+	"description": "装载机将正确地在容器和传送带之间连接.",
+	"description_original": "Loaders will correctly snap to and from containers and belts.",
+	"author": "Articulating",
+	"name": "Loader-Rotation-Fix",
+	"homepage": "https://github.com/articulating/Loader-Rotation-Fix",
+	"contact": "http://www.3ragaming.com/discord"
+}
