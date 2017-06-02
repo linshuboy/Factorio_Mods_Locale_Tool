@@ -1,7 +1,7 @@
 {
 	"name": "Dectorio",
-	"version": "0.5.7",
-	"title": "Dectorio",
+	"version": "0.5.9",
+	"title": "装饰元素与彩灯",
 	"title_original": "Dectorio",
 	"author": "PantherX",
 	"contact": "",
@@ -10,5 +10,5 @@
 	"dependencies": ["base >= 0.15"],
 	"license": "GNU GPLv3",
 	"description": "增加装饰元素美化你的工厂.目前包括彩色信号,链条,石材,混凝土墙,木地板,以及可画的具体款式.",
-	"description_original": "增加装饰元素美化你的工厂.目前包括彩色信号,链条,石材,混凝土墙,木地板,以及可画的具体款式."
+	"description_original": "Adds decorative elements to beautify your factory. Currently includes coloured signals, wooden, chain-link, stone and concrete walls, wooden floorboards and painted concrete styles."
 }

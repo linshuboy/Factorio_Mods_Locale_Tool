@@ -1,6 +1,6 @@
 {
 	"name": "bobrevamp",
-	"version": "0.15.1",
+	"version": "0.15.4",
 	"factorio_version": "0.15",
 	"title": "Bob之改进",
 	"title_original": "Bob's Revamp mod",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "科技和配方的重组。",
 	"description_original": "Technology and Recipe restructuring.",
-	"dependencies": ["base >= 0.15.0", "boblibrary >= 0.15.0", "? bobplates >= 0.15.0"]
+	"dependencies": ["base >= 0.15.0", "boblibrary >= 0.15.7", "? bobplates >= 0.15.0"]
 }

@@ -1,12 +1,12 @@
 {
 	"name": "Orbital Ion Cannon",
-	"version": "1.4.5",
-	"factorio_version": "0.14",
+	"version": "1.5.1",
+	"factorio_version": "0.15",
 	"title": "卫星轨道炮",
 	"title_original": "Orbital Ion Cannon",
 	"author": "Supercheese",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=17910",
-	"dependencies": ["base >= 0.14.0", "? bobwarfare >= 0.12.0", "? bobpower >= 0.12.0", "? bobtech >= 0.12.0", "? bobelectronics >= 0.12.0"],
+	"dependencies": ["base >= 0.15.0", "? bobwarfare >= 0.15.0", "? bobpower >= 0.15.0", "? bobtech >= 0.15.0", "? bobelectronics >= 0.15.0"],
 	"description": "面对虫群如何应对？那就用火箭把卫星轨道炮送入异星轨道，让这些小兔崽子清楚谁才是老大！",
 	"description_original": "When you need to call down the thunder to deal with those pesky biters, launch a rocket with an ion cannon into orbit and show the bugs who's boss."
 }
