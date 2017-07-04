@@ -1,0 +1,13 @@
+{
+	"name": "ElectricVehicles",
+	"version": "0.4.0",
+	"title": "载具电驱动技术",
+	"title_original": "Electric Vehicles",
+	"author": "Semaphor",
+	"homepage": "",
+	"description": "让我们使用干净纯洁的电驱动技术驱动所有载具吧.",
+	"description_original": "Electric vehicles running on battery energy.",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15.2"],
+	"license": "MIT"
+}

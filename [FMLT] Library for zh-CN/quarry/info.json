@@ -1,0 +1,12 @@
+{
+	"name": "quarry",
+	"version": "1.6.5",
+	"title": "矿石开采场",
+	"title_original": "Quarry",
+	"author": "FuzzCat927, Optera",
+	"description": "增加一个不需要矿石的采矿场. 兼容任何其它MOD.",
+	"description_original": "Mine ores without an ore patch. Probably compatible with any mod.",
+	"homepage": "https://mods.factorio.com/mods/FuzzCat927/quarry",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15.5", "?angelsinfiniteores >= 0.5.4"]
+}

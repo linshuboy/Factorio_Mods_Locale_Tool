@@ -1,12 +1,12 @@
 {
 	"name": "Big_Brother",
-	"version": "0.3.3",
+	"version": "0.4.2",
 	"title": "雷达升级",
 	"title_original": "Big Brother",
 	"author": "Afforess",
 	"homepage": "http://afforess.com",
 	"description": "提供雷达研究，提升其功率、效率及监控能力，构建终极监控状态。",
 	"description_original": "Big Brother - Research radar upgrades in amplification, efficiency, and surveillance capabilities. Create the ultimate surveillance state.",
-	"factorio_version": "0.14",
-	"dependencies": ["base >= 0.14.0"]
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15.0"]
 }

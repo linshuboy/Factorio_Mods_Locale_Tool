@@ -1,6 +1,6 @@
 {
 	"name": "angelssmelting",
-	"version": "0.3.1",
+	"version": "0.3.3",
 	"factorio_version": "0.15",
 	"title": "天使熔炼 (Beta)",
 	"title_original": "Angel's Smelting (Beta)",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=185",
 	"description": "天使熔炼提供新的板的制作方法，并通过消耗时间和空间来提高矿物的产量",
 	"description_original": "Angel's Smelting provides alternative ways to produce plate and increase ore yield at the expense of space and energy.",
-	"dependencies": ["base >= 0.15.0", "angelspetrochem >= 0.5.0", "angelsrefining >= 0.7.0", "bobplates >= 0.15.0"]
+	"dependencies": ["base >= 0.15.0", "angelspetrochem >= 0.5.9", "angelsrefining >= 0.7.13", "bobplates >= 0.15.0"]
 }

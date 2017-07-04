@@ -1,0 +1,13 @@
+{
+	"name": "Fracking",
+	"version": "1.0.2",
+	"title": "水力压裂采油技术",
+	"title_original": "Fracking",
+	"author": "Mylon",
+	"contact": "forum PM",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=95&t=38757",
+	"description": "采用液压破碎法开采原油.",
+	"description_original": "Inject slurry into oil wells to get more oil out of them.",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.4.1"]
+}

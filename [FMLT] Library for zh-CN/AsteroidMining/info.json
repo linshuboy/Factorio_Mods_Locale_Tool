@@ -1,0 +1,9 @@
+{
+  "name": "AsteroidMining",
+  "version": "1.0.0",
+  "title": "小行星采矿",
+  "author": "CmdrVoid",
+  "description": "可以把有用的小行星矿从太空弄到地面来加工 ",
+  "factorio_version": "0.15",
+  "dependencies": ["base"]
+}

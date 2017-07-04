@@ -1,0 +1,11 @@
+{
+	"name": "Vehicle-turrets",
+	"version": "0.1.7",
+	"factorio_version": "0.15",
+	"title": "车载悬浮型炮塔",
+	"title_original": "Vehicle turrets",
+	"author": "Astrinaar",
+	"description": "添加两种可随车机动作战的炮塔",
+	"description_original": "Adds upgradeable vehicle gun and rocket turrets, for a fun alternative to turret creep",
+	"dependencies": ["? aai-programmable-vehicles >= 0.2.3"]
+}

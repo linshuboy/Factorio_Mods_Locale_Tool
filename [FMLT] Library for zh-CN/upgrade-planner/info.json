@@ -1,11 +1,11 @@
 {
 	"name": "upgrade-planner",
-	"version": "1.2.13",
+	"version": "1.2.16",
 	"title": "升级规划器",
-	"title_original": "Upgrade Builder and Planner",
+	"title_original": "升级规划器",
 	"author": "malk0lm & Klonan",
-	"description": "使用建设机器人或者手动升级建筑物。",
-	"description_original": "Automatically upgrade buildings by hand or with construction robots.",
+	"description": "使用建设机器人或者手动升级建筑物",
+	"description_original": "使用建设机器人或者手动升级建筑物",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=14781",
-	"factorio_version": "0.14"
+	"factorio_version": "0.15"
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Explosive Termites",
-	"version": "1.1.9",
+	"version": "1.1.10",
 	"title": "爆炸白蚁",
 	"title_original": "Explosive Termites",
 	"author": "Rseding91",
@@ -9,5 +9,5 @@
 	"description": "增加用于大规模清除森林的爆炸白蚁。",
 	"description_original": "Provides explosive termites for large scale deforestation.",
 	"dependencies": ["base"],
-	"factorio_version": "0.14"
+	"factorio_version": "0.15"
 }

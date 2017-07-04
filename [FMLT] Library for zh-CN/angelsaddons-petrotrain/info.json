@@ -1,0 +1,13 @@
+{
+	"name": "angelsaddons-petrotrain",
+	"version": "0.2.0",
+	"factorio_version": "0.15",
+	"title": "天使—拓展-石油火车",
+	"title_original": "Angel's Addons - Petrochem Train",
+	"author": "Arch666Angel",
+	"contact": "",
+	"homepage": "",
+	"description": "添加了一个石油火车",
+	"description_original": "Adds a Petrochem themed train",
+	"dependencies": ["base >= 0.15.0", "? angelscomponents >= 0.1.0"]
+}

@@ -1,7 +1,7 @@
 {
 	"name": "boblibrary",
-	"version": "0.14.2",
-	"factorio_version": "0.14",
+	"version": "0.15.6",
+	"factorio_version": "0.15",
 	"title": "Bob系列函数库",
 	"title_original": "Bob's Functions Library mod",
 	"author": "Bobingabout",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "Bob系列模组所需的一系列函数，也可以被其它模组使用。",
 	"description_original": "Adds a series of useful functions used by Bob's Mods. These can easilly be used by other mods too.",
-	"dependencies": ["base >= 0.14.0"]
+	"dependencies": ["base >= 0.15.0"]
 }

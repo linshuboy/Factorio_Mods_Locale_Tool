@@ -1,0 +1,12 @@
+{
+	"name": "angelsaddons-locales",
+	"version": "0.1.29",
+	"factorio_version": "0.15",
+	"title": "Angel's 拓展 - 语言",
+	"title_original": "Angel's Addons - Locales",
+	"author": "Arch666Angel, sore68, Damgam, Karosieben, IamIpanda, ToxaSTN",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=40579",
+	"description": "为来自社区的天使的mods添加翻译。(地点列表:ko，pl，de，zh-cn，ru)",
+	"description_original": "Adds translations for Angel's mods from the Community.(locales list : ko, pl, de, zh-CN, ru, )",
+	"dependencies": ["? angelsaddons-oresilos", "? angelsaddons-pressuretanks", "? angelsaddons-warehouses", "? angelsbioprocessing", "? angelscomponents", "? angelsexploration", "? angelsinfiniteores", "? angelslogistics", "? angelspetrochem", "? angelsrefining", "? angelssmelting", "? PCP", "? angelsaddons-oldunkle"]
+}

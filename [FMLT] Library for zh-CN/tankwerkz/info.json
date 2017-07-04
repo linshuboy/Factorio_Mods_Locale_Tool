@@ -1,0 +1,12 @@
+{
+  "author": "vlczero, thegreyman",
+  "dependencies": [
+    "base >= 0.15.0"
+  ],
+  "description": "添加更多坦克和坦克相关的弹药",
+  "factorio_version": "0.15",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=120&t=14269",
+  "name": "tankwerkz",
+  "title": "坦克工厂",
+  "version": "3.0.0"
+}

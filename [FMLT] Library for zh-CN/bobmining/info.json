@@ -1,7 +1,7 @@
 {
 	"name": "bobmining",
-	"version": "0.14.0",
-	"factorio_version": "0.14",
+	"version": "0.15.2",
+	"factorio_version": "0.15",
 	"title": "Bob之采矿",
 	"title_original": "Bob's Mining",
 	"author": "Bobingabout",
@@ -9,5 +9,5 @@
 	"homepage": "https://forums.factorio.com/viewforum.php?f=51",
 	"description": "增加一些很好用的采矿工具和采矿机器。",
 	"description_original": "Adds some useful mining tools and entities.",
-	"dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0", "? bobores >= 0.14.0", "? bobplates >= 0.14.0"]
+	"dependencies": ["base >= 0.15.0", "boblibrary >= 0.15.0", "? bobores >= 0.15.0", "? bobplates >= 0.15.0"]
 }

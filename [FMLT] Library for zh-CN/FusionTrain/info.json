@@ -1,0 +1,11 @@
+{
+	"name": "FusionTrain",
+	"author": "magu5026",
+	"version": "0.15.0",
+	"title": "核动力机车",
+	"title_original": "Fusion Train",
+	"description": "让机车能使用核动力这种高级能源.",
+	"description_original": "Add a train with fusion reactor.",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15.10"]
+}
