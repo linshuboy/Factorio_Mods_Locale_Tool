@@ -1,0 +1,12 @@
+{
+	"name": "Oil Patches Organizer",
+	"version": "0.0.8",
+	"title": "油田重新自定义位置",
+	"title_original": "Oil Patches Organizer",
+	"author": "Apriori",
+	"description": "重新自定义油田位置，方便建设，支持天使mod",
+	"description_original": "Use special blueprint-like item to relocate oil patches so that they are being placed in a custom-sized grid for handy pumping. Also oil patches in newly generated chunks are being reorganized automatically (adjustable through the mods settings menu)! Angel's fissure and natural gas are supported. Select an area with patches to snap them to a grid. Shift+select a point to set a custom grid center. Shift+select an area with patches to move them to the custom grid center.",
+	"factorio_version": "0.15",
+	"contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=13866",
+	"homepage": ""
+}
