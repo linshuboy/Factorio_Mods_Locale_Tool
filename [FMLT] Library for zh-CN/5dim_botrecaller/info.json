@@ -1,0 +1,10 @@
+{
+    "name": "5dim_botrecaller",
+    "version": "0.15.0",
+    "title": "5dim之机器人回收箱",
+    "author": "Original: Cpeosphoros and Update: McGuten",
+    "homepage": "https://forums.factorio.com/viewtopic.php?f=95&t=39035",
+    "description": "收集在机器人回收箱中的机器人。有助于升级机器人。.",
+    "factorio_version": "0.15",
+    "dependencies": ["base >= 0.15"]
+}

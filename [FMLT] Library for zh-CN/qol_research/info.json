@@ -1,0 +1,11 @@
+﻿{
+    "name": "qol_research",
+    "version": "0.1.0",
+    "title": "辅助研究",
+    "author": "Aidiakapi",
+    "contact": "aidiakapi@gmail.com",
+    "homepage": "https://forums.factorio.com/viewtopic.php?t=51002",
+    "description": "在游戏中添加一堆辅助研究。(手撸速度、背包容量、挖掘速度、移动速度、交互距离、工具腰带)",
+    "factorio_version": "0.15",
+    "dependencies": ["base >= 0.15.0"]
+}
