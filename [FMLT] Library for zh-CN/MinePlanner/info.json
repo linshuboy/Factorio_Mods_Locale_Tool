@@ -1,0 +1,9 @@
+{
+  "name": "MinePlanner",
+  "version": "0.1.1",
+  "title": "矿工计划",
+  "author": "bob809",
+  "description": "自动建立采矿哨所。",
+  "factorio_version": "0.15.0",
+  "dependencies": ["base >= 0.15.00"]
+}
