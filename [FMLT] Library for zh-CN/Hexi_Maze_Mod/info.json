@@ -1,0 +1,13 @@
+{
+	"name": "Hexi_Maze_Mod",
+	"version": "1.2.0",
+	"title": "Hexi的迷宫MOD",
+	"title_original": "Hexi的迷宫MOD",
+	"author": "Hexicube",
+	"contact": "",
+	"homepage": "",
+	"dependencies": ["base >= 0.15.0"],
+	"factorio_version": "0.15",
+	"description": "将地图变为一块块相连的迷宫。运输和布局都将成为极大地挑战。",
+	"description_original": "将地图变为一块块相连的迷宫。运输和布局都将成为极大地挑战。"
+}
