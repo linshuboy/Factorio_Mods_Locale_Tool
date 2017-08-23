@@ -1,13 +1,11 @@
 {
 	"name": "angelsaddons-warehouses",
-	"version": "0.2.1",
+  "version": "0.2.2",
 	"factorio_version": "0.15",
-	"title": "Angel-拓展-仓库",
-	"title_original": "Angel's Addons - Warehouses",
+  "title": "天使之仓库",
 	"author": "Arch666Angel",
 	"contact": "",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=185&t=30962",
 	"description": "添加数种仓库。",
-	"description_original": "Adds warehouses to the game.",
 	"dependencies": ["base >= 0.15.0", "? angelsrefining >= 0.3.0"]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "vtk-deep-core-mining",
+  "version": "1.2.0",
+  "factorio_version": "0.15",
+  "title": "深岩采矿",
+  "author": "VortiK",
+  "homepage": "",
+  "description": "当钻井资源耗尽时，将矿物资源增加到矿井，以提供昂贵而稳定的无限矿石来源。",
+  "dependencies": [
+    "base >= 0.15"
+  ]
+}

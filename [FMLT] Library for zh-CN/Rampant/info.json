@@ -1,12 +1,16 @@
 {
 	"name": "Rampant",
-	"factorio_version": "0.14",
-	"version": "0.14.9",
-	"title": "敌人工具-虫子Rampant AI",
-	"title_original": "敌人工具-虫子Rampant AI",
-	"author": "Veden 汉化：Jim",
+	"factorio_version": "0.15",
+	"version": "0.15.20",
+	"title": "猖獗的敌人",
+	"author": "Veden",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=31445",
 	"description": "提高了虫子的战术，结合你当前防御和污染等因素，进行探测，撤退，增援，反击和你对抗。",
-	"description_original": "提高了虫子的战术，结合你当前防御和污染等因素，进行探测，撤退，增援，反击和你对抗。",
-	"dependencies": ["base >= 0.13.17", "? bobenemies", "? Natural_Evolution_Enemies"]
+	"dependencies": [
+		"base >= 0.15.26",
+		"? bobenemies",
+		"? Natural_Evolution_Enemies",
+		"? DayNightExtender",
+		"? Orbital Ion Cannon"
+	]
 }
