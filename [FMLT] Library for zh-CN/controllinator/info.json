@@ -1,0 +1,13 @@
+{
+	"name": "controllinator",
+	"version": "0.1.1",
+	"title": "Controllinator (beta)",
+	"title_original": "Controllinator (beta)",
+	"author": "Aidiakapi",
+	"contact": "aidiakapi@gmail.com",
+	"homepage": "",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15.30"],
+	"description": "增加调试指令:步进,断点,暂停.",
+	"description_original": "Adds tools to debug combinator setups like pausing, stepping and breakpoints."
+}

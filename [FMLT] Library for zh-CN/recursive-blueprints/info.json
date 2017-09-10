@@ -1,0 +1,12 @@
+{
+	"name": "recursive-blueprints",
+	"author": "Doc, justarandomgeek, DaveMcW",
+	"version": "0.15.10",
+	"title": "Recursive Blueprints",
+	"title_original": "Recursive Blueprints",
+	"homepage": "",
+	"description": "自动规划蓝图和执行建设指令",
+	"description_original": "Automate blueprints and deconstruction orders",
+	"dependencies": ["base"],
+	"factorio_version": "0.15"
+}

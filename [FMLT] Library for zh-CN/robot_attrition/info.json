@@ -1,0 +1,11 @@
+{
+	"name": "robot_attrition",
+	"version": "0.1.1",
+	"title": "Robot Attrition",
+	"title_original": "Robot Attrition",
+	"author": "Earendel",
+	"dependencies": ["base >= 0.15.10"],
+	"description": "机器人工作寿命是有限的,偶尔就会坏掉几台. 更高速的机器人意味着更多工作量,这就注定了他们损坏几率的提升. 机器人损坏并不会丢失物品. 只有物流机器人会损坏. 损坏几率可自由调整.",
+	"description_original": "Robots do not fly perfectly forever. Very occasionally one will crash. Faster robots with more cargo are more likely to cause a crash. Carried items are not lost in a crash. Only logistic robots are affected. The crash rate is configurable.",
+	"factorio_version": "0.15"
+}

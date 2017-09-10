@@ -1,0 +1,13 @@
+{
+	"name": "WearAndTear",
+	"version": "1.3.6",
+	"factorio_version": "0.15",
+	"title": "Wear and Tear",
+	"title_original": "Wear and Tear",
+	"author": "withers",
+	"contributors": "None",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=41892",
+	"description": "为游戏中的机器加入了老化的特性,并增加一些修理机器的物品. ",
+	"description_original": "Adds wear and tear mechanics to the game, plus automated maintenance. ",
+	"dependencies": ["base >= 0.15.0", "? 10xHarder >= 1.0.0", "? UraniumPower >= 0.6.6", "? aai-industry >= 0.1.11"]
+}
