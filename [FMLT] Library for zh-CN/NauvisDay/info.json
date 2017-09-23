@@ -1,0 +1,12 @@
+{
+	"name": "NauvisDay",
+	"version": "1.0.36",
+	"title": "Nauvis Day",
+	"title_original": "Nauvis Day",
+	"author": "Reika",
+	"homepage": "",
+	"factorio_version": "0.15",
+	"dependencies": ["base"],
+	"description": "污染是一个大问题,不过你似乎已经找到了解决办法.",
+	"description_original": "Pollution is much more of a problem than before, but you do have increased flexibility with it."
+}
