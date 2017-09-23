@@ -1,0 +1,12 @@
+{
+	"name": "BottleneckLogistics",
+	"author": "Nexela",
+	"version": "1.2.1",
+	"factorio_version": "0.15",
+	"title": "Bottleneck Logistics",
+	"title_original": "Bottleneck Logistics",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=144&t=28817",
+	"description": "用来定位不在网络中的物流箱的工具.",
+	"description_original": "A tool for locating logistic chests not inside a network.",
+	"dependencies": ["base >= 0.14.0", "Bottleneck >= 0.8.0"]
+}
